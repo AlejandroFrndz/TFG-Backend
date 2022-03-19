@@ -1,6 +1,6 @@
 import express, { Application } from "express";
-import startApp from "./app/startApp";
-import { config } from "./app/config";
+import startApp from "src/app/startApp";
+import { config } from "src/app/config";
 
 const app: Application = express();
 
