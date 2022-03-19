@@ -5,9 +5,7 @@
     "main": "index.ts",
     "scripts": {
         "dev": "set NODE_ENV=dev&& ts-node src/index.ts",
-        "devUnix": "NODE_ENV=dev && ts-node src/index.ts",
-        "dev:watch": "nodemon --watch './' --ignore './tests' --ignore './build' --ignore './node_modules' --ext 'ts,json,js' --exec npm run dev",
-        "devUnix:watch": "nodemon --watch './' --ignore './tests' --ignore './build' --ignore './node_modules' --ext 'ts,json,js' --exec npm run devUnix",
+        "dev:watch": "nodemon --watch src -e ts --exec npm run dev",
         "docker:up": "docker-compose up -d",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
