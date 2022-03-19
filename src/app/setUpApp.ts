@@ -1,8 +1,8 @@
 import express, { Application } from "express";
 
-const startApp = (app: Application) => {
+const setUpApp = (app: Application) => {
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
 };
 
-export default startApp;
+export default setUpApp;

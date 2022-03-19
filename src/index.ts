@@ -1,11 +1,11 @@
 import express, { Application } from "express";
-import startApp from "src/app/startApp";
+import setUpApp from "src/app/setUpApp";
 import { config } from "src/app/config";
 
 const app: Application = express();
 
 try {
-    startApp(app);
+    setUpApp(app);
     app.listen(config.port, () =>
         console.log(`App listening on port ${config.port}`)
     );
