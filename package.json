@@ -7,6 +7,7 @@
         "dev": "set NODE_ENV=dev&& ts-node -r tsconfig-paths/register src/index.ts",
         "dev:watch": "nodemon --watch src -e ts --exec npm run dev",
         "docker:up": "docker-compose up -d",
+        "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "alexFrndz",
@@ -22,6 +23,9 @@
     },
     "dependencies": {
         "dotenv": "^16.0.0",
-        "express": "^4.17.3"
+        "express": "^4.17.3",
+        "pg": "^8.7.3",
+        "reflect-metadata": "^0.1.13",
+        "typeorm": "0.3.0"
     }
 }
