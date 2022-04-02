@@ -1,13 +1,12 @@
 import { typeORMUserRepository } from "#user/infra/postgres";
 import { Router } from "express";
+import { requireUser } from "src/core/surfaces/express/middleware/auth";
 import { UserController } from "./controller";
 
 const router = Router();
 
 const controller = UserController(typeORMUserRepository);
 
-router.get("/:id", controller.findById);
-
-router.post("/", controller.create);
+router.get("/:id", requireUser, controller.findById);
 
 export default router;
