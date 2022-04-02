@@ -31,5 +31,8 @@ export const config = {
         migrationsRun: process.env.TYPEORM_MIGRATIONS_RUN,
         logging: process.env.TYPEORM_LOGGING,
         syncronize: !isProdEnv
-    } as DataSourceOptions
+    } as DataSourceOptions,
+
+    //JWT
+    jwtSecret: process.env.JWT_SECRET || ""
 };
