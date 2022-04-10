@@ -7,11 +7,18 @@ import cors from "cors";
 const PREFIX = "/api/v1";
 
 const setUpApp = (app: Application) => {
+    // Body parsers
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
 
-    app.use(cors({ origin: ["http://localhost:3000"] }));
+    // Cors
+    app.use(
+        cors({
+            origin: [/^http:\/\/localhost:/, /^http:\/\/0.0.0.0:/]
+        })
+    );
 
+    // Custom Middleware
     app.use(parseToken);
 
     //Routes

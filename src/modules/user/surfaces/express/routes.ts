@@ -8,5 +8,6 @@ const router = Router();
 const controller = UserController(typeORMUserRepository);
 
 router.get("/:id", requireUser, controller.findById);
+router.get("/me", requireUser, controller.me);
 
 export default router;

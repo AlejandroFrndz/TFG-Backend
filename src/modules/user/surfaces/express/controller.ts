@@ -1,5 +1,5 @@
-import { IUserRepository } from "#user/domain";
-import { Response } from "express";
+import { IUserRepository, User } from "#user/domain";
+import { Request, Response } from "express";
 import { ExpressCreateUserRequest, ExpressFindUserByIdRequest } from "./types";
 
 const _findById =
@@ -19,6 +19,13 @@ const _findById =
         return res.status(200).json({ success: true, value: user.value });
     };
 
+const _me = () => async (req: Request, res: Response) => {
+    const user = req.user as User;
+
+    return res.status(200).json({ success: true, value: user });
+};
+
 export const UserController = (userRepo: IUserRepository) => ({
-    findById: _findById(userRepo)
+    findById: _findById(userRepo),
+    me: _me()
 });
