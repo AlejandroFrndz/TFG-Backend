@@ -5,7 +5,9 @@
     "main": "index.ts",
     "scripts": {
         "dev": "set NODE_ENV=dev&& ts-node -r tsconfig-paths/register src/index.ts",
+        "dev:unix": "NODE_ENV=dev ts-node -r tsconfig-paths/register src/index.ts",
         "dev:watch": "nodemon --watch src -e ts --exec npm run dev",
+        "dev:watch:unix": "nodemon --watch src -e ts --exec npm run dev:unix",
         "docker:up": "docker-compose up -d",
         "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js",
         "test": "echo \"Error: no test specified\" && exit 1"
