@@ -9,6 +9,7 @@ const _parseToken =
     (userRepo: IUserRepository) =>
     async (req: Request, res: Response, next: NextFunction) => {
         const header = req.header("Authorization");
+        console.log(header);
 
         if (!header) {
             req.user = null;

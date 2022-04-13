@@ -30,20 +30,15 @@ const _singup =
             });
         }
 
-        const user = await userRepo.create({ ...req.body, isAdmin: false });
+        const userResponse = await userRepo.create({
+            ...req.body,
+            isAdmin: false
+        });
 
-        return res
-            .status(StatusCodes.CREATED)
-            .json({
-                success: true,
-                value: _.pick(user.value, [
-                    "id",
-                    "username",
-                    "email",
-                    "isEmailVerfied",
-                    "isAdmin"
-                ])
-            });
+        return res.status(StatusCodes.CREATED).json({
+            success: true,
+            user: _.omit(userResponse.value, ["passwordHash", "code"])
+        });
     };
 
 const _singin =
@@ -56,7 +51,7 @@ const _singin =
         if (userResponse.isFailure()) {
             return res.status(StatusCodes.BAD_REQUEST).json({
                 success: false,
-                error: "Incorrect username or password"
+                error: "Incorrect email or password"
             });
         }
 
@@ -67,7 +62,7 @@ const _singin =
         if (!checkPassword) {
             return res.status(StatusCodes.BAD_REQUEST).json({
                 success: false,
-                error: "Incorrect username or password"
+                error: "Incorrect email or password"
             });
         }
 
