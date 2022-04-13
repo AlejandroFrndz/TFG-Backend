@@ -1,5 +1,7 @@
 import { IUserRepository, User } from "#user/domain";
 import { Request, Response } from "express";
+import { StatusCodes } from "http-status-codes";
+import _ from "lodash";
 import { ExpressCreateUserRequest, ExpressFindUserByIdRequest } from "./types";
 
 const _findById =
@@ -16,13 +18,18 @@ const _findById =
                 .json({ success: false, error: user.error.message });
         }
 
-        return res.status(200).json({ success: true, value: user.value });
+        return res
+            .status(StatusCodes.OK)
+            .json({ success: true, value: user.value });
     };
 
 const _me = () => async (req: Request, res: Response) => {
     const user = req.user as User;
 
-    return res.status(200).json({ success: true, value: user });
+    return res.status(StatusCodes.OK).json({
+        success: true,
+        user: _.omit(user, ["passwordHash", "code"])
+    });
 };
 
 export const UserController = (userRepo: IUserRepository) => ({
