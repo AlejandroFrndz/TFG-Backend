@@ -35,9 +35,14 @@ const _singup =
             isAdmin: false
         });
 
+        const token = jwt.sign(
+            { userId: userResponse.value.id },
+            config.jwtSecret
+        );
+
         return res.status(StatusCodes.CREATED).json({
             success: true,
-            user: _.omit(userResponse.value, ["passwordHash", "code"])
+            token
         });
     };
 
