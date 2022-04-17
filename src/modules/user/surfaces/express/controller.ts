@@ -9,18 +9,21 @@ const _findById =
     async (req: ExpressFindUserByIdRequest, res: Response) => {
         const { id } = req.query;
 
-        const user = await userRepo.findById(id);
+        const userResponse = await userRepo.findById(id);
 
-        if (user.isFailure()) {
-            const status = user.error.type === "NotFoundError" ? 404 : 500;
+        if (userResponse.isFailure()) {
+            const status =
+                userResponse.error.type === "NotFoundError"
+                    ? StatusCodes.NOT_FOUND
+                    : StatusCodes.INTERNAL_SERVER_ERROR;
             return res
                 .status(status)
-                .json({ success: false, error: user.error.message });
+                .json({ success: false, error: userResponse.error.message });
         }
 
         return res
             .status(StatusCodes.OK)
-            .json({ success: true, value: user.value });
+            .json({ success: true, user: userResponse.value });
     };
 
 const _me = () => async (req: Request, res: Response) => {
