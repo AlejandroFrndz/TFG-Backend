@@ -1,4 +1,4 @@
-import { IFolderRepository } from "#folder/domain";
+import { FolderResponse, IFolderRepository } from "#folder/domain";
 import { User } from "#user/domain";
 import { Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
@@ -86,23 +86,28 @@ const _updateParent =
                 .json({ success: false, error: childResponse.error.message });
         }
 
-        const newParentResponse = await folderRepo.findById(newParentId);
+        let newParentResponse: FolderResponse | null = null;
 
-        if (newParentResponse.isFailure()) {
-            const status =
-                newParentResponse.error.type === "NotFoundError"
-                    ? StatusCodes.NOT_FOUND
-                    : StatusCodes.INTERNAL_SERVER_ERROR;
+        if (newParentId) {
+            newParentResponse = await folderRepo.findById(newParentId);
 
-            return res.status(status).json({
-                success: false,
-                error: newParentResponse.error.message
-            });
+            if (newParentResponse.isFailure()) {
+                const status =
+                    newParentResponse.error.type === "NotFoundError"
+                        ? StatusCodes.NOT_FOUND
+                        : StatusCodes.INTERNAL_SERVER_ERROR;
+
+                return res.status(status).json({
+                    success: false,
+                    error: newParentResponse.error.message
+                });
+            }
         }
 
         if (
             childResponse.value.owner !== req.user?.id ||
-            newParentResponse.value.owner !== req.user?.id
+            (newParentResponse !== null &&
+                newParentResponse.value.owner !== req.user?.id)
         ) {
             return res.status(StatusCodes.FORBIDDEN).json({
                 success: false,

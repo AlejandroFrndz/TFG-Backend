@@ -61,7 +61,7 @@ export class TypeORMFolderRepository implements IFolderRepository {
 
     async updateParent(
         childId: string,
-        newParentId: string
+        newParentId: string | null
     ): Promise<FolderResponse> {
         try {
             const child = await this.repo.findOne({ where: { id: childId } });
@@ -74,19 +74,23 @@ export class TypeORMFolderRepository implements IFolderRepository {
                 );
             }
 
-            const newParent = await this.repo.findOne({
-                where: { id: newParentId }
-            });
+            let newParent: Folder | null = null;
 
-            if (!newParent) {
-                return failure(
-                    new NotFoundError(
-                        `Parent folder with id ${newParentId} not found`
-                    )
-                );
+            if (newParentId) {
+                newParent = await this.repo.findOne({
+                    where: { id: newParentId }
+                });
+
+                if (!newParent) {
+                    return failure(
+                        new NotFoundError(
+                            `Parent folder with id ${newParentId} not found`
+                        )
+                    );
+                }
             }
 
-            child.parent = newParent.id;
+            child.parent = newParent ? newParent.id : null;
 
             const savedChild = await this.repo.save(child);
 

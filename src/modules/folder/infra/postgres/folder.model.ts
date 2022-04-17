@@ -17,8 +17,8 @@ export class FolderEntity {
     @Column({ nullable: false })
     owner!: string;
 
-    @Column({ nullable: true })
-    parent!: string;
+    @Column({ type: String, nullable: true })
+    parent!: string | null;
 
     @CreateDateColumn({ type: "timestamptz" })
     createdAt!: Date;

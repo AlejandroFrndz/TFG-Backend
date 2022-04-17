@@ -23,5 +23,8 @@ export interface IFolderRepository {
     ): Promise<FolderResponse>;
     findById(id: string): Promise<FolderResponse>;
     findAllForUser(userId: string): Promise<FoldersResponse>;
-    updateParent(childId: string, newParentId: string): Promise<FolderResponse>;
+    updateParent(
+        childId: string,
+        newParentId: string | null
+    ): Promise<FolderResponse>;
 }

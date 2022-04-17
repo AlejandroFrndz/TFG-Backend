@@ -6,5 +6,5 @@ export type ExpressCreateFolderRequest = Request<{}, {}, CreateFolderParams>;
 export type ExpressUpdateParentRequest = Request<
     { folderId: string },
     {},
-    { newParentId: string }
+    { newParentId: string | null }
 >;
