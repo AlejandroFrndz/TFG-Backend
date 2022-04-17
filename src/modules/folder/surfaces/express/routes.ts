@@ -9,5 +9,6 @@ const controller = FolderController(typeORMFolderRepository);
 
 router.get("/", requireUser, controller.findAllForUser);
 router.post("/", requireUser, controller.create);
+router.post("/:folderId/updateParent", requireUser, controller.updateParent);
 
 export default router;

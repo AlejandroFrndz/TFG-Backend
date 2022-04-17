@@ -2,7 +2,10 @@ import { IFolderRepository } from "#folder/domain";
 import { User } from "#user/domain";
 import { Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
-import { ExpressCreateFolderRequest } from "./types";
+import {
+    ExpressCreateFolderRequest,
+    ExpressUpdateParentRequest
+} from "./types";
 
 const _create =
     (folderRepo: IFolderRepository) =>
@@ -64,7 +67,68 @@ const _findAllForUser =
             .json({ success: true, folders: foldersResponse.value });
     };
 
+const _updateParent =
+    (folderRepo: IFolderRepository) =>
+    async (req: ExpressUpdateParentRequest, res: Response) => {
+        const { newParentId } = req.body;
+        const { folderId } = req.params;
+
+        const childResponse = await folderRepo.findById(folderId);
+
+        if (childResponse.isFailure()) {
+            const status =
+                childResponse.error.type === "NotFoundError"
+                    ? StatusCodes.NOT_FOUND
+                    : StatusCodes.INTERNAL_SERVER_ERROR;
+
+            return res
+                .status(status)
+                .json({ success: false, error: childResponse.error.message });
+        }
+
+        const newParentResponse = await folderRepo.findById(newParentId);
+
+        if (newParentResponse.isFailure()) {
+            const status =
+                newParentResponse.error.type === "NotFoundError"
+                    ? StatusCodes.NOT_FOUND
+                    : StatusCodes.INTERNAL_SERVER_ERROR;
+
+            return res.status(status).json({
+                success: false,
+                error: newParentResponse.error.message
+            });
+        }
+
+        if (
+            childResponse.value.owner !== req.user?.id ||
+            newParentResponse.value.owner !== req.user?.id
+        ) {
+            return res.status(StatusCodes.FORBIDDEN).json({
+                success: false,
+                error: "You don't haver permission to udpate this folder"
+            });
+        }
+
+        const updatedFolderResponse = await folderRepo.updateParent(
+            folderId,
+            newParentId
+        );
+
+        if (updatedFolderResponse.isFailure()) {
+            return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
+                success: false,
+                error: updatedFolderResponse.error.message
+            });
+        }
+
+        return res
+            .status(StatusCodes.OK)
+            .json({ success: true, folder: updatedFolderResponse.value });
+    };
+
 export const FolderController = (folderRepo: IFolderRepository) => ({
     create: _create(folderRepo),
-    findAllForUser: _findAllForUser(folderRepo)
+    findAllForUser: _findAllForUser(folderRepo),
+    updateParent: _updateParent(folderRepo)
 });

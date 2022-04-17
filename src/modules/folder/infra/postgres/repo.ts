@@ -58,4 +58,41 @@ export class TypeORMFolderRepository implements IFolderRepository {
             return failure(new UnexpectedError(error));
         }
     }
+
+    async updateParent(
+        childId: string,
+        newParentId: string
+    ): Promise<FolderResponse> {
+        try {
+            const child = await this.repo.findOne({ where: { id: childId } });
+
+            if (!child) {
+                return failure(
+                    new NotFoundError(
+                        `Child folder with id ${childId} not found`
+                    )
+                );
+            }
+
+            const newParent = await this.repo.findOne({
+                where: { id: newParentId }
+            });
+
+            if (!newParent) {
+                return failure(
+                    new NotFoundError(
+                        `Parent folder with id ${newParentId} not found`
+                    )
+                );
+            }
+
+            child.parent = newParent.id;
+
+            const savedChild = await this.repo.save(child);
+
+            return success(this.mapper.toDomain(savedChild));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
 }
