@@ -1,3 +1,4 @@
+import { IFolderRepository } from "#folder/domain";
 import { IUserRepository, User } from "#user/domain";
 import { Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
@@ -26,16 +27,29 @@ const _findById =
             .json({ success: true, user: userResponse.value });
     };
 
-const _me = () => async (req: Request, res: Response) => {
-    const user = req.user as User;
+const _me =
+    (folderRepo: IFolderRepository) => async (req: Request, res: Response) => {
+        const user = req.user as User;
 
-    return res.status(StatusCodes.OK).json({
-        success: true,
-        user: _.omit(user, ["passwordHash", "code"])
-    });
-};
+        const foldersResponse = await folderRepo.findAllForUser(user.id);
 
-export const UserController = (userRepo: IUserRepository) => ({
+        if (foldersResponse.isFailure()) {
+            return res
+                .status(StatusCodes.INTERNAL_SERVER_ERROR)
+                .json({ success: false, error: foldersResponse.error.message });
+        }
+
+        return res.status(StatusCodes.OK).json({
+            success: true,
+            user: _.omit(user, ["passwordHash", "code"]),
+            folders: foldersResponse.value
+        });
+    };
+
+export const UserController = (
+    userRepo: IUserRepository,
+    folderRepo: IFolderRepository
+) => ({
     findById: _findById(userRepo),
-    me: _me()
+    me: _me(folderRepo)
 });

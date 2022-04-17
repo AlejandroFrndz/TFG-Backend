@@ -1,3 +1,4 @@
+import { typeORMFolderRepository } from "#folder/infra/postgres";
 import { typeORMUserRepository } from "#user/infra/postgres";
 import { Router } from "express";
 import { requireUser } from "src/core/surfaces/express/middleware/auth";
@@ -5,7 +6,10 @@ import { UserController } from "./controller";
 
 const router = Router();
 
-const controller = UserController(typeORMUserRepository);
+const controller = UserController(
+    typeORMUserRepository,
+    typeORMFolderRepository
+);
 
 //router.get("/:id", requireUser, controller.findById);
 router.get("/me", requireUser, controller.me);
