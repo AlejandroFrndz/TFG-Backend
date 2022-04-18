@@ -42,7 +42,13 @@ const _me =
         return res.status(StatusCodes.OK).json({
             success: true,
             user: _.omit(user, ["passwordHash", "code"]),
-            folders: foldersResponse.value
+            folders: foldersResponse.value.sort((folderA, folderB) =>
+                folderA.name.localeCompare(
+                    folderB.name,
+                    ["en", "es", "fr", "ge"],
+                    { ignorePunctuation: true }
+                )
+            )
         });
     };
 
