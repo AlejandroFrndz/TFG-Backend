@@ -8,3 +8,9 @@ export type ExpressUpdateParentRequest = Request<
     {},
     { newParentId: string | null }
 >;
+
+export type ExpressRenameFolderRequest = Request<
+    { folderId: string },
+    {},
+    { name: string }
+>;

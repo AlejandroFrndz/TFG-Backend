@@ -27,4 +27,5 @@ export interface IFolderRepository {
         childId: string,
         newParentId: string | null
     ): Promise<FolderResponse>;
+    rename(folderId: string, name: string): Promise<FolderResponse>;
 }

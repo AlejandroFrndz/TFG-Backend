@@ -99,4 +99,24 @@ export class TypeORMFolderRepository implements IFolderRepository {
             return failure(new UnexpectedError(error));
         }
     }
+
+    async rename(folderId: string, name: string): Promise<FolderResponse> {
+        try {
+            const folder = await this.repo.findOne({ where: { id: folderId } });
+
+            if (!folder) {
+                return failure(
+                    new NotFoundError(`Folder with id ${folderId} not found`)
+                );
+            }
+
+            folder.name = name;
+
+            const savedFolder = await this.repo.save(folder);
+
+            return success(this.mapper.toDomain(savedFolder));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
 }

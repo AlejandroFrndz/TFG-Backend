@@ -4,6 +4,7 @@ import { Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import {
     ExpressCreateFolderRequest,
+    ExpressRenameFolderRequest,
     ExpressUpdateParentRequest
 } from "./types";
 
@@ -111,7 +112,7 @@ const _updateParent =
         ) {
             return res.status(StatusCodes.FORBIDDEN).json({
                 success: false,
-                error: "You don't haver permission to udpate this folder"
+                error: "You don't haver permission to update this folder"
             });
         }
 
@@ -132,8 +133,48 @@ const _updateParent =
             .json({ success: true, folder: updatedFolderResponse.value });
     };
 
+const _rename =
+    (folderRepo: IFolderRepository) =>
+    async (req: ExpressRenameFolderRequest, res: Response) => {
+        const { folderId } = req.params;
+        const { name } = req.body;
+
+        const folderResponse = await folderRepo.findById(folderId);
+
+        if (folderResponse.isFailure()) {
+            const status =
+                folderResponse.error.type === "NotFoundError"
+                    ? StatusCodes.NOT_FOUND
+                    : StatusCodes.INTERNAL_SERVER_ERROR;
+            return res.status(status).json({
+                success: false,
+                error: folderResponse.error.message
+            });
+        }
+
+        if (folderResponse.value.owner !== req.user?.id) {
+            return res.status(StatusCodes.FORBIDDEN).json({
+                success: false,
+                error: "You don't haver permission to update this folder"
+            });
+        }
+
+        const updateResponse = await folderRepo.rename(folderId, name);
+
+        if (updateResponse.isFailure()) {
+            return res
+                .status(StatusCodes.INTERNAL_SERVER_ERROR)
+                .json({ success: false, error: updateResponse.error.message });
+        }
+
+        return res
+            .status(StatusCodes.OK)
+            .json({ success: true, folder: updateResponse.value });
+    };
+
 export const FolderController = (folderRepo: IFolderRepository) => ({
     create: _create(folderRepo),
     findAllForUser: _findAllForUser(folderRepo),
-    updateParent: _updateParent(folderRepo)
+    updateParent: _updateParent(folderRepo),
+    rename: _rename(folderRepo)
 });
