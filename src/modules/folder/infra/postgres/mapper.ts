@@ -8,7 +8,7 @@ export const FolderMapper: Mapper<Folder, FolderEntity> = {
             id: folder.id,
             name: folder.name,
             parent: folder.parent ? folder.parent.id : null,
-            owner: folder.owner
+            owner: folder.owner.id
         };
     }
 };

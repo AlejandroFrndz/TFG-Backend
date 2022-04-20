@@ -1,3 +1,4 @@
+import { UserEntity } from "#user/infra/postgres/user.model";
 import {
     Column,
     CreateDateColumn,
@@ -15,8 +16,8 @@ export class FolderEntity {
     @Column({ nullable: false })
     name!: string;
 
-    @Column({ nullable: false })
-    owner!: string;
+    @ManyToOne(() => UserEntity, { nullable: false })
+    owner!: UserEntity;
 
     @ManyToOne(() => FolderEntity, { nullable: true })
     parent!: FolderEntity | null;
