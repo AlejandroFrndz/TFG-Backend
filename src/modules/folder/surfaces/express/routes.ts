@@ -11,5 +11,6 @@ router.get("/", requireUser, controller.findAllForUser);
 router.post("/", requireUser, controller.create);
 router.patch("/:folderId/updateParent", requireUser, controller.updateParent);
 router.patch("/:folderId/rename", requireUser, controller.rename);
+router.delete("/:folderId", requireUser, controller.delete);
 
 export default router;

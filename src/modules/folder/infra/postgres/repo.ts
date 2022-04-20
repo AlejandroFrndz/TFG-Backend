@@ -7,7 +7,7 @@ import {
 } from "#folder/domain";
 import { UserEntity } from "#user/infra/postgres/user.model";
 import { Mapper } from "src/core/domain/mapper";
-import { failure, success } from "src/core/logic";
+import { failure, success, EmptyResponse } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
 import { Repository } from "typeorm";
 import { FolderEntity } from "./folder.model";
@@ -166,6 +166,24 @@ export class TypeORMFolderRepository implements IFolderRepository {
             const savedFolder = await this.repo.save(folder);
 
             return success(this.mapper.toDomain(savedFolder));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async delete(folderId: string): Promise<EmptyResponse> {
+        try {
+            const folder = await this.repo.findOne({ where: { id: folderId } });
+
+            if (!folder) {
+                return failure(
+                    new NotFoundError(`Folder with id ${folderId} not found`)
+                );
+            }
+
+            const deletedFolder = await this.repo.remove(folder);
+
+            return success(null);
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

@@ -14,3 +14,5 @@ export type ExpressRenameFolderRequest = Request<
     {},
     { name: string }
 >;
+
+export type ExpressDeleteFolderRequest = Request<{ folderId: string }>;

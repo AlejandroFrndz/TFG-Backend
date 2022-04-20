@@ -4,6 +4,7 @@ import { Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import {
     ExpressCreateFolderRequest,
+    ExpressDeleteFolderRequest,
     ExpressRenameFolderRequest,
     ExpressUpdateParentRequest
 } from "./types";
@@ -172,9 +173,47 @@ const _rename =
             .json({ success: true, folder: updateResponse.value });
     };
 
+const _delete =
+    (folderRepo: IFolderRepository) =>
+    async (req: ExpressDeleteFolderRequest, res: Response) => {
+        const { folderId } = req.params;
+
+        const folderResponse = await folderRepo.findById(folderId);
+
+        if (folderResponse.isFailure()) {
+            const status =
+                folderResponse.error.type === "NotFoundError"
+                    ? StatusCodes.NOT_FOUND
+                    : StatusCodes.INTERNAL_SERVER_ERROR;
+            return res.status(status).json({
+                success: false,
+                error: folderResponse.error.message
+            });
+        }
+
+        if (folderResponse.value.owner !== (req.user as User).id) {
+            return res.status(StatusCodes.FORBIDDEN).json({
+                success: false,
+                error: "You don't have permission to delete this resource"
+            });
+        }
+
+        const deleteResponse = await folderRepo.delete(folderId);
+
+        if (deleteResponse.isFailure()) {
+            return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
+                success: false,
+                error: deleteResponse.error.message
+            });
+        }
+
+        return res.status(StatusCodes.NO_CONTENT);
+    };
+
 export const FolderController = (folderRepo: IFolderRepository) => ({
     create: _create(folderRepo),
     findAllForUser: _findAllForUser(folderRepo),
     updateParent: _updateParent(folderRepo),
-    rename: _rename(folderRepo)
+    rename: _rename(folderRepo),
+    delete: _delete(folderRepo)
 });

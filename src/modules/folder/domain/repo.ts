@@ -1,4 +1,4 @@
-import { FailureOrSuccess } from "src/core/logic";
+import { FailureOrSuccess, EmptyResponse } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
 import { Folder } from "./Folder";
 
@@ -28,4 +28,5 @@ export interface IFolderRepository {
         newParentId: string | null
     ): Promise<FolderResponse>;
     rename(folderId: string, name: string): Promise<FolderResponse>;
+    delete(folderId: string): Promise<EmptyResponse>;
 }
