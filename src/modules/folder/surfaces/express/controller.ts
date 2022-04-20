@@ -207,7 +207,7 @@ const _delete =
             });
         }
 
-        return res.status(StatusCodes.NO_CONTENT);
+        return res.status(StatusCodes.NO_CONTENT).send();
     };
 
 export const FolderController = (folderRepo: IFolderRepository) => ({
