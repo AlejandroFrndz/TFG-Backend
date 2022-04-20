@@ -2,6 +2,7 @@ import {
     Column,
     CreateDateColumn,
     Entity,
+    ManyToOne,
     PrimaryGeneratedColumn,
     UpdateDateColumn
 } from "typeorm";
@@ -17,8 +18,8 @@ export class FolderEntity {
     @Column({ nullable: false })
     owner!: string;
 
-    @Column({ type: String, nullable: true })
-    parent!: string | null;
+    @ManyToOne(() => FolderEntity, { nullable: true })
+    parent!: FolderEntity | null;
 
     @CreateDateColumn({ type: "timestamptz" })
     createdAt!: Date;

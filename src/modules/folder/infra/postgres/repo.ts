@@ -21,7 +21,23 @@ export class TypeORMFolderRepository implements IFolderRepository {
         params: CreateFolderParams & { owner: string }
     ): Promise<FolderResponse> {
         try {
-            const folder = this.repo.create({ ...params });
+            const { parent: parentId } = params;
+
+            let parent: FolderEntity | null = null;
+
+            if (parentId) {
+                parent = await this.repo.findOne({ where: { id: parentId } });
+
+                if (!parent) {
+                    return failure(
+                        new NotFoundError(
+                            `Parent folder with id ${parentId} not found`
+                        )
+                    );
+                }
+            }
+
+            const folder = this.repo.create({ ...params, parent });
 
             const createdFolder = await this.repo.save(folder);
 
@@ -49,7 +65,10 @@ export class TypeORMFolderRepository implements IFolderRepository {
 
     async findAllForUser(userId: string): Promise<FoldersResponse> {
         try {
-            const folders = await this.repo.find({ where: { owner: userId } });
+            const folders = await this.repo.find({
+                where: { owner: userId },
+                relations: { parent: true }
+            });
 
             return success(
                 folders.map((folder) => this.mapper.toDomain(folder))
@@ -74,7 +93,7 @@ export class TypeORMFolderRepository implements IFolderRepository {
                 );
             }
 
-            let newParent: Folder | null = null;
+            let newParent: FolderEntity | null = null;
 
             if (newParentId) {
                 newParent = await this.repo.findOne({
@@ -90,7 +109,7 @@ export class TypeORMFolderRepository implements IFolderRepository {
                 }
             }
 
-            child.parent = newParent ? newParent.id : null;
+            child.parent = newParent;
 
             const savedChild = await this.repo.save(child);
 
