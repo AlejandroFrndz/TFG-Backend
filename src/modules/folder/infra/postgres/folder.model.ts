@@ -16,10 +16,10 @@ export class FolderEntity {
     @Column({ nullable: false })
     name!: string;
 
-    @ManyToOne(() => UserEntity, { nullable: false })
+    @ManyToOne(() => UserEntity, { nullable: false, onDelete: "CASCADE" })
     owner!: UserEntity;
 
-    @ManyToOne(() => FolderEntity, { nullable: true })
+    @ManyToOne(() => FolderEntity, { nullable: true, onDelete: "CASCADE" })
     parent!: FolderEntity | null;
 
     @CreateDateColumn({ type: "timestamptz" })
