@@ -1,7 +1,6 @@
 import { IUserRepository } from "#user/domain";
 import { typeORMUserRepository } from "#user/infra/postgres";
 import { NextFunction, Request, Response } from "express";
-import { StatusCodes } from "http-status-codes";
 import jwt from "jsonwebtoken";
 import { config } from "src/app/config";
 import { UnauthorizedError } from "src/core/logic/errors";
