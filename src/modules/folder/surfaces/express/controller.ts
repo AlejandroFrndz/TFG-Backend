@@ -1,7 +1,8 @@
 import { FolderResponse, IFolderRepository } from "#folder/domain";
 import { User } from "#user/domain";
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
+import { ForbiddenError } from "src/core/logic/errors";
 import {
     ExpressCreateFolderRequest,
     ExpressDeleteFolderRequest,
@@ -11,28 +12,26 @@ import {
 
 const _create =
     (folderRepo: IFolderRepository) =>
-    async (req: ExpressCreateFolderRequest, res: Response) => {
+    async (
+        req: ExpressCreateFolderRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
         const { parent } = req.body;
 
         if (parent) {
             const parentResponse = await folderRepo.findById(parent);
 
             if (parentResponse.isFailure()) {
-                const status =
-                    parentResponse.error.type === "NotFoundError"
-                        ? StatusCodes.NOT_FOUND
-                        : StatusCodes.INTERNAL_SERVER_ERROR;
-                return res.status(status).json({
-                    success: false,
-                    error: parentResponse.error.message
-                });
+                return next(parentResponse.error);
             }
 
             if (parentResponse.value.owner !== req.user?.id) {
-                return res.status(StatusCodes.FORBIDDEN).json({
-                    success: false,
-                    error: "You cannot crete items in a folder that doesn't belong to you"
-                });
+                return next(
+                    new ForbiddenError(
+                        "You cannot crete items in a folder that doesn't belong to you"
+                    )
+                );
             }
         }
 
@@ -42,9 +41,7 @@ const _create =
         });
 
         if (folderResponse.isFailure()) {
-            return res
-                .status(StatusCodes.INTERNAL_SERVER_ERROR)
-                .json({ success: false, error: folderResponse.error.message });
+            return next(folderResponse.error);
         }
 
         return res
@@ -53,15 +50,14 @@ const _create =
     };
 
 const _findAllForUser =
-    (folderRepo: IFolderRepository) => async (req: Request, res: Response) => {
+    (folderRepo: IFolderRepository) =>
+    async (req: Request, res: Response, next: NextFunction) => {
         const foldersResponse = await folderRepo.findAllForUser(
             (req.user as User).id
         );
 
         if (foldersResponse.isFailure()) {
-            return res
-                .status(StatusCodes.INTERNAL_SERVER_ERROR)
-                .json({ success: false, error: foldersResponse.error.message });
+            return next(foldersResponse.error);
         }
 
         return res
@@ -71,21 +67,18 @@ const _findAllForUser =
 
 const _updateParent =
     (folderRepo: IFolderRepository) =>
-    async (req: ExpressUpdateParentRequest, res: Response) => {
+    async (
+        req: ExpressUpdateParentRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
         const { newParentId } = req.body;
         const { folderId } = req.params;
 
         const childResponse = await folderRepo.findById(folderId);
 
         if (childResponse.isFailure()) {
-            const status =
-                childResponse.error.type === "NotFoundError"
-                    ? StatusCodes.NOT_FOUND
-                    : StatusCodes.INTERNAL_SERVER_ERROR;
-
-            return res
-                .status(status)
-                .json({ success: false, error: childResponse.error.message });
+            return next(childResponse.error);
         }
 
         let newParentResponse: FolderResponse | null = null;
@@ -94,15 +87,7 @@ const _updateParent =
             newParentResponse = await folderRepo.findById(newParentId);
 
             if (newParentResponse.isFailure()) {
-                const status =
-                    newParentResponse.error.type === "NotFoundError"
-                        ? StatusCodes.NOT_FOUND
-                        : StatusCodes.INTERNAL_SERVER_ERROR;
-
-                return res.status(status).json({
-                    success: false,
-                    error: newParentResponse.error.message
-                });
+                return next(newParentResponse.error);
             }
         }
 
@@ -111,10 +96,11 @@ const _updateParent =
             (newParentResponse !== null &&
                 newParentResponse.value.owner !== req.user?.id)
         ) {
-            return res.status(StatusCodes.FORBIDDEN).json({
-                success: false,
-                error: "You don't haver permission to update this folder"
-            });
+            return next(
+                new ForbiddenError(
+                    "You don't haver permission to update this folder"
+                )
+            );
         }
 
         const updatedFolderResponse = await folderRepo.updateParent(
@@ -123,10 +109,7 @@ const _updateParent =
         );
 
         if (updatedFolderResponse.isFailure()) {
-            return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
-                success: false,
-                error: updatedFolderResponse.error.message
-            });
+            return next(updatedFolderResponse);
         }
 
         return res
@@ -136,36 +119,32 @@ const _updateParent =
 
 const _rename =
     (folderRepo: IFolderRepository) =>
-    async (req: ExpressRenameFolderRequest, res: Response) => {
+    async (
+        req: ExpressRenameFolderRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
         const { folderId } = req.params;
         const { name } = req.body;
 
         const folderResponse = await folderRepo.findById(folderId);
 
         if (folderResponse.isFailure()) {
-            const status =
-                folderResponse.error.type === "NotFoundError"
-                    ? StatusCodes.NOT_FOUND
-                    : StatusCodes.INTERNAL_SERVER_ERROR;
-            return res.status(status).json({
-                success: false,
-                error: folderResponse.error.message
-            });
+            return next(folderResponse.error);
         }
 
         if (folderResponse.value.owner !== req.user?.id) {
-            return res.status(StatusCodes.FORBIDDEN).json({
-                success: false,
-                error: "You don't haver permission to update this folder"
-            });
+            return next(
+                new ForbiddenError(
+                    "You don't haver permission to update this folder"
+                )
+            );
         }
 
         const updateResponse = await folderRepo.rename(folderId, name);
 
         if (updateResponse.isFailure()) {
-            return res
-                .status(StatusCodes.INTERNAL_SERVER_ERROR)
-                .json({ success: false, error: updateResponse.error.message });
+            return next(updateResponse.error);
         }
 
         return res
@@ -175,36 +154,31 @@ const _rename =
 
 const _delete =
     (folderRepo: IFolderRepository) =>
-    async (req: ExpressDeleteFolderRequest, res: Response) => {
+    async (
+        req: ExpressDeleteFolderRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
         const { folderId } = req.params;
 
         const folderResponse = await folderRepo.findById(folderId);
 
         if (folderResponse.isFailure()) {
-            const status =
-                folderResponse.error.type === "NotFoundError"
-                    ? StatusCodes.NOT_FOUND
-                    : StatusCodes.INTERNAL_SERVER_ERROR;
-            return res.status(status).json({
-                success: false,
-                error: folderResponse.error.message
-            });
+            return next(folderResponse.error);
         }
 
         if (folderResponse.value.owner !== (req.user as User).id) {
-            return res.status(StatusCodes.FORBIDDEN).json({
-                success: false,
-                error: "You don't have permission to delete this resource"
-            });
+            return next(
+                new ForbiddenError(
+                    "You don't have permission to delete this resource"
+                )
+            );
         }
 
         const deleteResponse = await folderRepo.delete(folderId);
 
         if (deleteResponse.isFailure()) {
-            return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
-                success: false,
-                error: deleteResponse.error.message
-            });
+            return next(deleteResponse.error);
         }
 
         return res.status(StatusCodes.NO_CONTENT).send();

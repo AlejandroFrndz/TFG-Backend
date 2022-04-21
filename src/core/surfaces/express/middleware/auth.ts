@@ -1,5 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { StatusCodes, ReasonPhrases } from "http-status-codes";
+import { ForbiddenError, UnauthorizedError } from "src/core/logic/errors";
 
 export const requireUser = (
     req: Request,
@@ -7,9 +8,7 @@ export const requireUser = (
     next: NextFunction
 ) => {
     if (req.user === null) {
-        return res
-            .status(StatusCodes.UNAUTHORIZED)
-            .json({ success: false, error: ReasonPhrases.UNAUTHORIZED });
+        return next(new UnauthorizedError(ReasonPhrases.UNAUTHORIZED));
     }
 
     return next();
@@ -21,15 +20,11 @@ export const requireAdmin = (
     next: NextFunction
 ) => {
     if (req.user === null) {
-        return res
-            .status(StatusCodes.UNAUTHORIZED)
-            .json({ success: false, error: ReasonPhrases.UNAUTHORIZED });
+        return next(new UnauthorizedError(ReasonPhrases.UNAUTHORIZED));
     }
 
     if (!req.user.isAdmin) {
-        return res
-            .status(StatusCodes.FORBIDDEN)
-            .json({ success: false, error: ReasonPhrases.FORBIDDEN });
+        return next(new ForbiddenError(ReasonPhrases.FORBIDDEN));
     }
 
     return next();
