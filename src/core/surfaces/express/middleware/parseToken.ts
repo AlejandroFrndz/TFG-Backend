@@ -4,12 +4,12 @@ import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import jwt from "jsonwebtoken";
 import { config } from "src/app/config";
+import { UnauthorizedError } from "src/core/logic/errors";
 
 const _parseToken =
     (userRepo: IUserRepository) =>
-    async (req: Request, res: Response, next: NextFunction) => {
+    async (req: Request, _res: Response, next: NextFunction) => {
         const header = req.header("Authorization");
-        console.log(header);
 
         if (!header) {
             req.user = null;
@@ -19,10 +19,7 @@ const _parseToken =
         const splitHeader = header.split(" ");
 
         if (splitHeader.length !== 2) {
-            return res.status(StatusCodes.BAD_REQUEST).json({
-                success: false,
-                error: "Invalid authentication header"
-            });
+            return next(new UnauthorizedError("Invalid authentication header"));
         }
 
         const rawToken = splitHeader[1];
@@ -34,18 +31,15 @@ const _parseToken =
             const requestUserResponse = await userRepo.findById(token.userId);
 
             if (requestUserResponse.isFailure()) {
-                return res.status(StatusCodes.UNAUTHORIZED).json({
-                    success: false,
-                    error: "The provided user does not exist"
-                });
+                return next(
+                    new UnauthorizedError("The provided user does not exist")
+                );
             }
 
             req.user = requestUserResponse.value;
             return next();
         } catch (error) {
-            return res
-                .status(StatusCodes.UNAUTHORIZED)
-                .json({ success: false, error: "Invalid token" });
+            return next(new UnauthorizedError("Invalid token"));
         }
     };
 

@@ -3,7 +3,7 @@ import { Mapper } from "src/core/domain/mapper";
 import { UserEntity } from "./user.model";
 
 export const UserMapper: Mapper<User, UserEntity> = {
-    toDomain: (user: UserEntity): User => ({
+    toDomain: (user) => ({
         id: user.id,
         username: user.username,
         passwordHash: user.passwordHash,
