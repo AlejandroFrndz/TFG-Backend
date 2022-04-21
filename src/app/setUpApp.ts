@@ -1,13 +1,8 @@
-import express, {
-    Application,
-    ErrorRequestHandler,
-    NextFunction,
-    Request,
-    Response
-} from "express";
+import express, { Application, Request, Response } from "express";
 import userRouter from "#user/surfaces/express/routes";
 import authRouter from "src/core/surfaces/express/auth/routes";
 import folderRouter from "#folder/surfaces/express/routes";
+import fileRouter from "#file/surfaces/express/routes";
 import parseToken from "src/core/surfaces/express/middleware/parseToken";
 import cors from "cors";
 import { errorHandler } from "src/core/surfaces/express/middleware/errorHandler";
@@ -37,6 +32,7 @@ const setUpApp = (app: Application) => {
     app.use(`${PREFIX}/user`, userRouter);
     app.use(`${PREFIX}/auth`, authRouter);
     app.use(`${PREFIX}/folder`, folderRouter);
+    app.use(`${PREFIX}/file`, fileRouter);
 
     // Error middleware
     app.use(errorHandler);
