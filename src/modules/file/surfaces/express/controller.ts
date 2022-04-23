@@ -1,7 +1,7 @@
 import { IFileRepository } from "#file/domain";
 import { IFolderRepository } from "#folder/domain";
 import { User } from "#user/domain";
-import { NextFunction, Response } from "express";
+import { NextFunction, Response, Request } from "express";
 import { StatusCodes } from "http-status-codes";
 import { ForbiddenError } from "src/core/logic/errors";
 import { ExpressCreateFileRequest } from "./types";
@@ -45,9 +45,26 @@ const _create =
             .json({ success: true, folder: fileResponse.value });
     };
 
+const _findAllForUser =
+    (fileRepo: IFileRepository) =>
+    async (req: Request, res: Response, next: NextFunction) => {
+        const filesResponse = await fileRepo.findAllForUser(
+            (req.user as User).id
+        );
+
+        if (filesResponse.isFailure()) {
+            return next(filesResponse.error);
+        }
+
+        return res
+            .status(StatusCodes.OK)
+            .json({ success: true, files: filesResponse.value });
+    };
+
 export const FileController = (
     fileRepo: IFileRepository,
     folderRepo: IFolderRepository
 ) => ({
-    create: _create(fileRepo, folderRepo)
+    create: _create(fileRepo, folderRepo),
+    findAllForUser: _findAllForUser(fileRepo)
 });

@@ -22,4 +22,5 @@ export type CreateFileParams = {
 export interface IFileRepository {
     create(params: CreateFileParams): Promise<FileResponse>;
     findById(id: string): Promise<FileResponse>;
+    findAllForUser(userId: string): Promise<FilesResponse>;
 }

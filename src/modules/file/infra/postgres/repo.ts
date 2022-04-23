@@ -2,6 +2,7 @@ import {
     CreateFileParams,
     File,
     FileResponse,
+    FilesResponse,
     IFileRepository
 } from "#file/domain";
 import { FolderEntity } from "#folder/infra/postgres/folder.model";
@@ -81,6 +82,22 @@ export class TypeORMFileRepository implements IFileRepository {
             }
 
             return success(this.mapper.toDomain(file));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async findAllForUser(userId: string): Promise<FilesResponse> {
+        try {
+            const files = await this.repo.find({
+                where: { owner: { id: userId } },
+                relations: { owner: true, parent: true },
+                order: {
+                    name: "ASC"
+                }
+            });
+
+            return success(files.map((file) => this.mapper.toDomain(file)));
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

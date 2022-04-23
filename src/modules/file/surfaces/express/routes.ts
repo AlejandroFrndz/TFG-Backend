@@ -1,4 +1,4 @@
-import { typeORMFileRepository } from "#file/infra";
+import { typeORMFileRepository } from "#file/infra/postgres";
 import { typeORMFolderRepository } from "#folder/infra/postgres";
 import { Router } from "express";
 import { requireUser } from "src/core/surfaces/express/middleware/auth";
@@ -11,6 +11,7 @@ const controller = FileController(
     typeORMFolderRepository
 );
 
+router.get("/", requireUser, controller.findAllForUser);
 router.post("/", requireUser, controller.create);
 
 export default router;
