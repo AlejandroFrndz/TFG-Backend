@@ -86,4 +86,36 @@ export class TypeORMUserRepository implements IUserRepository {
             return failure(new UnexpectedError(error));
         }
     }
+
+    async update(
+        userId: string,
+        params: Partial<Omit<CreateUserParams, "isAdmin">>
+    ): Promise<UserResponse> {
+        try {
+            const user = await this.repo.findOne({ where: { id: userId } });
+
+            if (!user) {
+                return failure(
+                    new NotFoundError(`User with id ${userId} not found`)
+                );
+            }
+
+            const { username, email, password } = params;
+
+            user.username = username ?? user.username;
+            user.email = email ?? user.email;
+
+            if (password) {
+                const passwordHash = await bcrypt.hash(password, 10);
+
+                user.passwordHash = passwordHash;
+            }
+
+            const savedUser = await this.repo.save(user);
+
+            return success(this.mapper.toDomain(savedUser));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
 }

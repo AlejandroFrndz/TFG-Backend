@@ -24,4 +24,8 @@ export interface IUserRepository {
     findById(id: string): Promise<UserResponse>;
     findByUsername(username: string): Promise<UserResponse>;
     findByEmail(email: string): Promise<UserResponse>;
+    update(
+        userId: string,
+        params: Partial<CreateUserParams>
+    ): Promise<UserResponse>;
 }

@@ -4,7 +4,7 @@ import { IUserRepository, User } from "#user/domain";
 import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import _ from "lodash";
-import { ExpressFindUserByIdRequest } from "./types";
+import { ExpressFindUserByIdRequest, ExpressUpdateUserRequest } from "./types";
 
 const _findById =
     (userRepo: IUserRepository) =>
@@ -51,11 +51,33 @@ const _me =
         });
     };
 
+const _update =
+    (userRepo: IUserRepository) =>
+    async (
+        req: ExpressUpdateUserRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
+        const params = req.body;
+        const user = req.user as User;
+
+        const userResponse = await userRepo.update(user.id, params);
+
+        if (userResponse.isFailure()) {
+            return next(userResponse.error);
+        }
+
+        return res
+            .status(StatusCodes.OK)
+            .json({ success: true, user: userResponse.value });
+    };
+
 export const UserController = (
     userRepo: IUserRepository,
     folderRepo: IFolderRepository,
     fileRepo: IFileRepository
 ) => ({
     findById: _findById(userRepo),
-    me: _me(folderRepo, fileRepo)
+    me: _me(folderRepo, fileRepo),
+    update: _update(userRepo)
 });
