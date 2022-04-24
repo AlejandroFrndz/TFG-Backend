@@ -13,5 +13,8 @@ const controller = FileController(
 
 router.get("/", requireUser, controller.findAllForUser);
 router.post("/", requireUser, controller.create);
+router.patch("/:fileId/updateParent", requireUser, controller.updateParent);
+router.patch("/:fileId/rename", requireUser, controller.rename);
+router.delete("/:fileId", requireUser, controller.delete);
 
 export default router;
