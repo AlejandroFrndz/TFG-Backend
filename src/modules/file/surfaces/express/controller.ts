@@ -42,12 +42,13 @@ const _create =
         });
 
         if (fileResponse.isFailure()) {
+            console.error(fileResponse.error);
             return next(fileResponse.error);
         }
 
         return res
             .status(StatusCodes.CREATED)
-            .json({ success: true, folder: fileResponse.value });
+            .json({ success: true, file: fileResponse.value });
     };
 
 const _findAllForUser =
@@ -80,6 +81,7 @@ const _updateParent =
         const fileResponse = await fileRepo.findById(fileId);
 
         if (fileResponse.isFailure()) {
+            console.error(fileResponse.error);
             return next(fileResponse.error);
         }
 
@@ -97,6 +99,7 @@ const _updateParent =
             const parentResponse = await folderRepo.findById(parentId);
 
             if (parentResponse.isFailure()) {
+                console.error(parentResponse.error);
                 return next(parentResponse.error);
             }
 
@@ -117,6 +120,7 @@ const _updateParent =
         );
 
         if (updatedFileResponse.isFailure()) {
+            console.error(updatedFileResponse.error);
             return next(updatedFileResponse.error);
         }
 

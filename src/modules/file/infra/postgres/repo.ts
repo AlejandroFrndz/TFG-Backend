@@ -60,7 +60,7 @@ export class TypeORMFileRepository implements IFileRepository {
                 name,
                 parent,
                 owner,
-                project: projectId
+                project: projectId || "Dummy Project"
             });
 
             const createdFile = await this.repo.save(file);
