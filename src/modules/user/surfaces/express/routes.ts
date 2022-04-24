@@ -1,3 +1,4 @@
+import { typeORMFileRepository } from "#file/infra/postgres";
 import { typeORMFolderRepository } from "#folder/infra/postgres";
 import { typeORMUserRepository } from "#user/infra/postgres";
 import { Router } from "express";
@@ -8,7 +9,8 @@ const router = Router();
 
 const controller = UserController(
     typeORMUserRepository,
-    typeORMFolderRepository
+    typeORMFolderRepository,
+    typeORMFileRepository
 );
 
 //router.get("/:id", requireUser, controller.findById);

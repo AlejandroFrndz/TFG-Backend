@@ -29,7 +29,7 @@ const _create =
             if (parentResponse.value.owner !== req.user?.id) {
                 return next(
                     new ForbiddenError(
-                        "You cannot crete items in a folder that doesn't belong to you"
+                        "You cannot create items in a folder that doesn't belong to you"
                     )
                 );
             }
