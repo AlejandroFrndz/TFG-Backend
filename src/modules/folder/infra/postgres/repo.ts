@@ -184,7 +184,7 @@ export class TypeORMFolderRepository implements IFolderRepository {
                 );
             }
 
-            const deletedFolder = await this.repo.remove(folder);
+            await this.repo.remove(folder);
 
             return success(null);
         } catch (error) {

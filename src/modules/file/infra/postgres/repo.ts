@@ -8,7 +8,7 @@ import {
 import { FolderEntity } from "#folder/infra/postgres/folder.model";
 import { UserEntity } from "#user/infra/postgres/user.model";
 import { Mapper } from "src/core/domain/mapper";
-import { failure, success } from "src/core/logic";
+import { EmptyResponse, failure, success } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
 import { Repository } from "typeorm";
 import { FileEntity } from "./file.model";
@@ -98,6 +98,86 @@ export class TypeORMFileRepository implements IFileRepository {
             });
 
             return success(files.map((file) => this.mapper.toDomain(file)));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async updateParent(
+        fileId: string,
+        parentId: string | null
+    ): Promise<FileResponse> {
+        try {
+            const file = await this.repo.findOne({
+                where: { id: fileId },
+                relations: { parent: true }
+            });
+
+            if (!file) {
+                return failure(
+                    new NotFoundError(`File with id ${fileId} no found`)
+                );
+            }
+
+            let parent: FolderEntity | null = null;
+
+            if (parentId) {
+                parent = await this.folderRepo.findOne({
+                    where: { id: parentId }
+                });
+
+                if (!parent) {
+                    return failure(
+                        new NotFoundError(
+                            `Parent folder with id ${parentId} not found`
+                        )
+                    );
+                }
+            }
+
+            file.parent = parent;
+
+            const savedFile = await this.repo.save(file);
+
+            return success(this.mapper.toDomain(savedFile));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async rename(fileId: string, name: string): Promise<FileResponse> {
+        try {
+            const file = await this.repo.findOne({ where: { id: fileId } });
+
+            if (!file) {
+                return failure(
+                    new NotFoundError(`File with id ${fileId} no found`)
+                );
+            }
+
+            file.name = name;
+
+            const savedFile = await this.repo.save(file);
+
+            return success(this.mapper.toDomain(savedFile));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async delete(fileId: string): Promise<EmptyResponse> {
+        try {
+            const file = await this.repo.findOne({ where: { id: fileId } });
+
+            if (!file) {
+                return failure(
+                    new NotFoundError(`File with id ${fileId} no found`)
+                );
+            }
+
+            await this.repo.remove(file);
+
+            return success(null);
         } catch (error) {
             return failure(new UnexpectedError(error));
         }
