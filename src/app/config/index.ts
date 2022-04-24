@@ -29,7 +29,7 @@ export const config = {
         migrations: [process.env.TYPEORM_MIGRATIONS],
         migrationsDir: process.env.TYPEORM_MIGRATIONS_DIR,
         migrationsRun: process.env.TYPEORM_MIGRATIONS_RUN,
-        logging: process.env.TYPEORM_LOGGING,
+        logging: ["error"],
         syncronize: !isProdEnv
     } as DataSourceOptions,
 
