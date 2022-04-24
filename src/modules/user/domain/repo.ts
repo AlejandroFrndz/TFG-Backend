@@ -1,4 +1,4 @@
-import { FailureOrSuccess } from "src/core/logic";
+import { EmptyResponse, FailureOrSuccess } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
 import { User } from "./User";
 
@@ -28,4 +28,5 @@ export interface IUserRepository {
         userId: string,
         params: Partial<CreateUserParams>
     ): Promise<UserResponse>;
+    delete(userId: string): Promise<EmptyResponse>;
 }

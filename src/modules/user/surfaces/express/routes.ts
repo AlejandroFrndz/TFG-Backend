@@ -16,5 +16,6 @@ const controller = UserController(
 //router.get("/:id", requireUser, controller.findById);
 router.get("/me", requireUser, controller.me);
 router.patch("/", requireUser, controller.update);
+router.delete("/", requireUser, controller.delete);
 
 export default router;

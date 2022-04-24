@@ -7,7 +7,7 @@ import {
 import { Repository } from "typeorm";
 import { UserEntity } from "./user.model";
 import bcrypt from "bcrypt";
-import { failure, success } from "src/core/logic";
+import { EmptyResponse, failure, success } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
 import { randomAlphaNumericString } from "src/lib/utils/helpers";
 import { Mapper } from "src/core/domain/mapper";
@@ -114,6 +114,24 @@ export class TypeORMUserRepository implements IUserRepository {
             const savedUser = await this.repo.save(user);
 
             return success(this.mapper.toDomain(savedUser));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async delete(userId: string): Promise<EmptyResponse> {
+        try {
+            const user = await this.repo.findOne({ where: { id: userId } });
+
+            if (!user) {
+                return failure(
+                    new NotFoundError(`User with id ${userId} not found`)
+                );
+            }
+
+            await this.repo.remove(user);
+
+            return success(null);
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

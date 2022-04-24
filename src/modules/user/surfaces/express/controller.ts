@@ -110,6 +110,20 @@ const _update =
         });
     };
 
+const _delete =
+    (userRepo: IUserRepository) =>
+    async (req: Request, res: Response, next: NextFunction) => {
+        const user = req.user as User;
+
+        const deleteResponse = await userRepo.delete(user.id);
+
+        if (deleteResponse.isFailure()) {
+            return next(deleteResponse.error);
+        }
+
+        return res.status(StatusCodes.NO_CONTENT).send();
+    };
+
 export const UserController = (
     userRepo: IUserRepository,
     folderRepo: IFolderRepository,
@@ -117,5 +131,6 @@ export const UserController = (
 ) => ({
     findById: _findById(userRepo),
     me: _me(folderRepo, fileRepo),
-    update: _update(userRepo)
+    update: _update(userRepo),
+    delete: _delete(userRepo)
 });
