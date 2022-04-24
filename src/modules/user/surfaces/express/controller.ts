@@ -4,6 +4,7 @@ import { IUserRepository, User } from "#user/domain";
 import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import _ from "lodash";
+import { BadRequestError } from "src/core/logic/errors";
 import { ExpressFindUserByIdRequest, ExpressUpdateUserRequest } from "./types";
 
 const _findById =
@@ -61,15 +62,52 @@ const _update =
         const params = req.body;
         const user = req.user as User;
 
+        if (params.username) {
+            const usernameResponse = await userRepo.findByUsername(
+                params.username
+            );
+
+            if (usernameResponse.isSuccess()) {
+                return next(
+                    new BadRequestError("This username is already in use")
+                );
+            }
+
+            if (
+                usernameResponse.isFailure() &&
+                usernameResponse.error.type !== "NotFoundError"
+            ) {
+                return next(usernameResponse.error);
+            }
+        }
+
+        if (params.email) {
+            const emailResponse = await userRepo.findByEmail(params.email);
+
+            if (emailResponse.isSuccess()) {
+                return next(
+                    new BadRequestError("This email is already in use")
+                );
+            }
+
+            if (
+                emailResponse.isFailure() &&
+                emailResponse.error.type !== "NotFoundError"
+            ) {
+                return next(emailResponse.error);
+            }
+        }
+
         const userResponse = await userRepo.update(user.id, params);
 
         if (userResponse.isFailure()) {
             return next(userResponse.error);
         }
 
-        return res
-            .status(StatusCodes.OK)
-            .json({ success: true, user: userResponse.value });
+        return res.status(StatusCodes.OK).json({
+            success: true,
+            user: _.omit(userResponse.value, ["passwordHash", "code"])
+        });
     };
 
 export const UserController = (
