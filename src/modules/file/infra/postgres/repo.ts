@@ -73,7 +73,10 @@ export class TypeORMFileRepository implements IFileRepository {
 
     async findById(id: string): Promise<FileResponse> {
         try {
-            const file = await this.repo.findOne({ where: { id } });
+            const file = await this.repo.findOne({
+                where: { id },
+                relations: { owner: true, parent: true }
+            });
 
             if (!file) {
                 return failure(
@@ -110,7 +113,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const file = await this.repo.findOne({
                 where: { id: fileId },
-                relations: { parent: true }
+                relations: { owner: true, parent: true }
             });
 
             if (!file) {
@@ -147,7 +150,10 @@ export class TypeORMFileRepository implements IFileRepository {
 
     async rename(fileId: string, name: string): Promise<FileResponse> {
         try {
-            const file = await this.repo.findOne({ where: { id: fileId } });
+            const file = await this.repo.findOne({
+                where: { id: fileId },
+                relations: { owner: true, parent: true }
+            });
 
             if (!file) {
                 return failure(
@@ -167,7 +173,10 @@ export class TypeORMFileRepository implements IFileRepository {
 
     async delete(fileId: string): Promise<EmptyResponse> {
         try {
-            const file = await this.repo.findOne({ where: { id: fileId } });
+            const file = await this.repo.findOne({
+                where: { id: fileId },
+                relations: { owner: true, parent: true }
+            });
 
             if (!file) {
                 return failure(
