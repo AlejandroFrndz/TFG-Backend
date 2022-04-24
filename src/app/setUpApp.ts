@@ -5,6 +5,7 @@ import folderRouter from "#folder/surfaces/express/routes";
 import fileRouter from "#file/surfaces/express/routes";
 import parseToken from "src/core/surfaces/express/middleware/parseToken";
 import cors from "cors";
+import logger from "morgan";
 import { errorHandler } from "src/core/surfaces/express/middleware/errorHandler";
 
 const PREFIX = "/api/v1";
@@ -21,6 +22,9 @@ const setUpApp = (app: Application) => {
         })
     );
 
+    // Logger
+    app.use(logger("dev"));
+
     // Custom Middleware
     app.use(parseToken);
 
@@ -28,7 +32,6 @@ const setUpApp = (app: Application) => {
     app.get("/", (req: Request, res: Response) =>
         res.status(200).json({ success: true, message: "Server running" })
     );
-
     app.use(`${PREFIX}/user`, userRouter);
     app.use(`${PREFIX}/auth`, authRouter);
     app.use(`${PREFIX}/folder`, folderRouter);
