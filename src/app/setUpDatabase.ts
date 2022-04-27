@@ -5,9 +5,9 @@ import { config } from "src/app/config";
 const setUpDatabase = async () => {
     await dataSource.initialize();
 
-    if (!config.isProdEnv) {
-        await dataSource.synchronize();
-    }
+    //if (!config.isProdEnv) {
+    await dataSource.synchronize();
+    //}
 };
 
 export default setUpDatabase;

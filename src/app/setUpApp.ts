@@ -16,11 +16,7 @@ const setUpApp = (app: Application) => {
     app.use(express.urlencoded({ extended: true }));
 
     // Cors
-    app.use(
-        cors({
-            origin: [/^http:\/\/localhost:/, /^http:\/\/0.0.0.0:/]
-        })
-    );
+    app.use(cors());
 
     // Logger
     app.use(logger("dev"));

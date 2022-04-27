@@ -20,17 +20,17 @@ export const config = {
     //TypeORM
     typeORM: {
         type: process.env.TYPEORM_CONNECTION,
-        host: process.env.TYPEORM_HOST,
-        port: process.env.TYPEORM_PORT,
-        username: process.env.TYPEORM_USER,
-        password: process.env.TYPEORM_PASSWORD,
-        database: process.env.TYPEORM_DATABASE,
+        host: process.env.RDS_HOSTNAME || process.env.TYPEORM_HOST,
+        port: process.env.RDS_PORT || process.env.TYPEORM_PORT,
+        username: process.env.RDS_USERNAME || process.env.TYPEORM_USER,
+        password: process.env.RDS_PASSWORD || process.env.TYPEORM_PASSWORD,
+        database: process.env.RDS_DB_NAME || process.env.TYPEORM_DATABASE,
         entities: [process.env.TYPEORM_ENTITIES],
         migrations: [process.env.TYPEORM_MIGRATIONS],
         migrationsDir: process.env.TYPEORM_MIGRATIONS_DIR,
         migrationsRun: process.env.TYPEORM_MIGRATIONS_RUN,
-        logging: ["error"],
-        syncronize: !isProdEnv
+        logging: "all",
+        syncronize: true
     } as DataSourceOptions,
 
     //JWT
