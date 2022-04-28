@@ -1,34 +1,36 @@
-name: Deploy to AWS Elastic Beanstalk 
+name: Deploy to AWS Elastic Beanstalk
 on:
-  push:
-    branches:
-    - main
+    push:
+        branches:
+            - main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout source code
+              uses: actions/checkout@v2
 
-    - name: Checkout source code
-      uses: actions/checkout@v2
-      
-    - name: Build and compile code
-      run: npm install & npm run build
+            - name: Install Dependencies
+              run: npm install
 
-    - name: Generate deployment package
-      run: zip -r deploy.zip dist package.json
-      
-    - name: Get timestamp
-      uses: gerred/actions/current-time@master
-      id: current-time
+            - name: Build Code
+              run: npm run build
 
-    - name: Deploy to EB
-      uses: einaregilsson/beanstalk-deploy@v20
-      with:
-        aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: TFG-Backend
-        environment_name: Tfgbackend-env
-        version_label: "Sample Aplication-${{ steps.current-time.outputs.time }}"
-        region: us-west-3
-        deployment_package: deploy.zip
+            - name: Generate deployment package
+              run: zip -r deploy.zip dist package.json
+
+            - name: Get timestamp
+              uses: gerred/actions/current-time@master
+              id: current-time
+
+            - name: Deploy to EB
+              uses: einaregilsson/beanstalk-deploy@v20
+              with:
+                  aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+                  aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+                  application_name: TFG-Backend
+                  environment_name: Tfgbackend-env
+                  version_label: "Sample Aplication-${{ steps.current-time.outputs.time }}"
+                  region: us-west-3
+                  deployment_package: deploy.zip
