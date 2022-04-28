@@ -32,5 +32,5 @@ jobs:
                   application_name: TFG-Backend
                   environment_name: Tfgbackend-env
                   version_label: "Sample Aplication-${{ steps.current-time.outputs.time }}"
-                  region: us-west-3
+                  region: eu-west-3
                   deployment_package: deploy.zip
