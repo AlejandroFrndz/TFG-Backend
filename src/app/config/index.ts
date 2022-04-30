@@ -11,7 +11,7 @@ if (!isProdEnv) {
     dotenv.config({ path: "src/app/config/.env" });
 }
 
-export const config = {
+const config = {
     isDevEnv,
     isTestEnv,
     isProdEnv,
@@ -28,11 +28,14 @@ export const config = {
         entities: [process.env.TYPEORM_ENTITIES],
         migrations: [process.env.TYPEORM_MIGRATIONS],
         migrationsDir: process.env.TYPEORM_MIGRATIONS_DIR,
-        migrationsRun: process.env.TYPEORM_MIGRATIONS_RUN,
-        logging: "all",
-        syncronize: true
+        migrationsRun: true,
+        logging: "all"
     } as DataSourceOptions,
 
     //JWT
     jwtSecret: process.env.JWT_SECRET || ""
 };
+
+console.log(config);
+
+export { config };
