@@ -11,7 +11,7 @@ if (!isProdEnv) {
     dotenv.config({ path: "src/app/config/.env" });
 }
 
-const config = {
+export const config = {
     isDevEnv,
     isTestEnv,
     isProdEnv,
@@ -35,7 +35,3 @@ const config = {
     //JWT
     jwtSecret: process.env.JWT_SECRET || ""
 };
-
-console.log(config);
-
-export { config };
