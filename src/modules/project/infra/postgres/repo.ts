@@ -1,6 +1,5 @@
 import { Project } from "#project/domain";
 import { IProjectRepository, ProjectResponse } from "#project/domain/repo";
-import { UserEntity } from "#user/infra/postgres/user.model";
 import { Mapper } from "src/core/domain/mapper";
 import { failure, success } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
