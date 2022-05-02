@@ -20,7 +20,7 @@ export class ProjectEntity {
     @Column({ type: "enum", enum: Language, default: null })
     language!: Language | null;
 
-    @Column()
+    @Column({ type: "character varying" })
     domainName!: string | null;
 
     @Column({ nullable: false, default: false })
