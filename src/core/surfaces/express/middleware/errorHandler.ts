@@ -4,7 +4,7 @@ import { AnyError } from "src/core/logic/errors";
 
 export const errorHandler: ErrorRequestHandler = (
     err: AnyError,
-    _req: Request,
+    req: Request,
     res: Response,
     _next: NextFunction
 ) => {
@@ -23,6 +23,8 @@ export const errorHandler: ErrorRequestHandler = (
         default:
             status = StatusCodes.INTERNAL_SERVER_ERROR;
     }
+
+    console.error(req, err.message, err);
 
     return res.status(status).json({ successs: false, error: err.message });
 };
