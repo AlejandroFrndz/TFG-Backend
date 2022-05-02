@@ -99,7 +99,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const file = await this.repo.findOne({
                 where: { id },
-                relations: { owner: true, parent: true }
+                relations: { owner: true, parent: true, project: true }
             });
 
             if (!file) {
@@ -118,7 +118,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const files = await this.repo.find({
                 where: { owner: { id: userId } },
-                relations: { owner: true, parent: true },
+                relations: { owner: true, parent: true, project: true },
                 order: {
                     name: "ASC"
                 }
@@ -137,7 +137,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const file = await this.repo.findOne({
                 where: { id: fileId },
-                relations: { owner: true, parent: true }
+                relations: { owner: true, parent: true, project: true }
             });
 
             if (!file) {
@@ -176,7 +176,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const file = await this.repo.findOne({
                 where: { id: fileId },
-                relations: { owner: true, parent: true }
+                relations: { owner: true, parent: true, project: true }
             });
 
             if (!file) {
@@ -199,7 +199,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const file = await this.repo.findOne({
                 where: { id: fileId },
-                relations: { owner: true, parent: true }
+                relations: { owner: true, parent: true, project: true }
             });
 
             if (!file) {
