@@ -1,4 +1,4 @@
-import { Project } from "#projects/domain";
+import { Project } from "#project/domain";
 import { Mapper } from "src/core/domain/mapper";
 import { ProjectEntity } from "./project.model";
 

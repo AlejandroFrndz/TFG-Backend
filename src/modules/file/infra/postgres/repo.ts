@@ -6,7 +6,7 @@ import {
     IFileRepository
 } from "#file/domain";
 import { FolderEntity } from "#folder/infra/postgres/folder.model";
-import { ProjectEntity } from "#projects/infra/postgres/project.model";
+import { ProjectEntity } from "#project/infra/postgres/project.model";
 import { UserEntity } from "#user/infra/postgres/user.model";
 import { Mapper } from "src/core/domain/mapper";
 import { EmptyResponse, failure, success } from "src/core/logic";

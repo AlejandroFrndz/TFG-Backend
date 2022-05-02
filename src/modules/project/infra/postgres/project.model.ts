@@ -7,7 +7,7 @@ import {
     CreateDateColumn,
     UpdateDateColumn
 } from "typeorm";
-import { Language } from "#projects/domain";
+import { Language } from "#project/domain";
 
 @Entity({ name: "Project" })
 export class ProjectEntity {

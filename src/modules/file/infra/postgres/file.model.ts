@@ -1,5 +1,5 @@
 import { FolderEntity } from "#folder/infra/postgres/folder.model";
-import { ProjectEntity } from "#projects/infra/postgres/project.model";
+import { ProjectEntity } from "#project/infra/postgres/project.model";
 import { UserEntity } from "#user/infra/postgres/user.model";
 import {
     Column,
