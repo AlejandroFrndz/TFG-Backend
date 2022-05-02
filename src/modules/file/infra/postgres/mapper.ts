@@ -9,7 +9,7 @@ export const FileMapper: Mapper<File, FileEntity> = {
             name: file.name,
             parent: file.parent ? file.parent.id : null,
             owner: file.owner.id,
-            project: file.project
+            project: file.project.id
         };
     }
 };
