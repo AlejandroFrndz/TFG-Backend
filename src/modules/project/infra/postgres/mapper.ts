@@ -8,6 +8,7 @@ export const ProjectMapper: Mapper<Project, ProjectEntity> = {
         owner: project.owner.id,
         language: project.language,
         domainName: project.domainName,
-        isUsingSubdomains: project.isUsingSubdomains
+        isUsingSubdomains: project.isUsingSubdomains,
+        phase: project.phase
     })
 };

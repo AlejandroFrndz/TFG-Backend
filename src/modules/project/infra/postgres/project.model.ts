@@ -7,7 +7,7 @@ import {
     CreateDateColumn,
     UpdateDateColumn
 } from "typeorm";
-import { Language } from "#project/domain";
+import { Language, ProjectPhase } from "#project/domain";
 
 @Entity({ name: "Project" })
 export class ProjectEntity {
@@ -19,6 +19,14 @@ export class ProjectEntity {
 
     @Column({ type: "enum", enum: Language, default: null, nullable: true })
     language!: Language | null;
+
+    @Column({
+        type: "enum",
+        enum: ProjectPhase,
+        default: ProjectPhase.Creation,
+        nullable: false
+    })
+    phase!: ProjectPhase;
 
     @Column({ type: "character varying", default: null, nullable: true })
     domainName!: string | null;
