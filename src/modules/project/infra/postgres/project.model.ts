@@ -17,10 +17,10 @@ export class ProjectEntity {
     @ManyToOne(() => UserEntity, { nullable: false, onDelete: "CASCADE" })
     owner!: UserEntity;
 
-    @Column({ type: "enum", enum: Language, default: null })
+    @Column({ type: "enum", enum: Language, default: null, nullable: true })
     language!: Language | null;
 
-    @Column({ type: "character varying" })
+    @Column({ type: "character varying", default: null, nullable: true })
     domainName!: string | null;
 
     @Column({ nullable: false, default: false })
