@@ -8,5 +8,6 @@ const router = Router();
 const controller = ProjectController(typeORMProjectRepository);
 
 router.get("/:projectId", requireUser, controller.findById);
+router.patch("/:projectId", requireUser, controller.updateDetails);
 
 export default router;
