@@ -40,7 +40,10 @@ export class TypeORMProjectRepository implements IProjectRepository {
         projectDetails: ProjectDetails
     ): Promise<ProjectResponse> {
         try {
-            const project = await this.repo.findOne({ where: { id } });
+            const project = await this.repo.findOne({
+                where: { id },
+                relations: { owner: true }
+            });
 
             if (!project) {
                 return failure(

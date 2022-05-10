@@ -29,7 +29,7 @@ export const config = {
         migrations: [process.env.TYPEORM_MIGRATIONS],
         migrationsDir: process.env.TYPEORM_MIGRATIONS_DIR,
         migrationsRun: true,
-        logging: "all"
+        logging: ["error"]
     } as DataSourceOptions,
 
     //JWT
