@@ -11,6 +11,7 @@
         "dev:watch": "nodemon --watch src -e ts --exec npm run dev",
         "dev:watch:unix": "nodemon --watch src -e ts --exec npm run dev:unix",
         "docker:up": "docker-compose up -d",
+        "docker:up:linux": "docker-compose -f docker-compose-linux.yaml up -d",
         "typeorm": "node --require ts-node/register --require tsconfig-paths/register ./node_modules/typeorm/cli.js",
         "typeorm:migration:generate": "npm run typeorm -- migration:generate -d src/core/infra/typeORM/migrationsDataSource.ts src/core/infra/typeORM/migrations/migration",
         "test": "echo \"Error: no test specified\" && exit 1"
