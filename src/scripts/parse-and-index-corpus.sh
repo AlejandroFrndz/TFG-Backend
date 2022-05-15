@@ -76,3 +76,5 @@ ${MWETOOLKIT}/bin/index.py --attributes surface,lemma,pos,syn --from=CONLL -v \
 # echo "Distributional vectors created in \"${OUTFILE}.w2v.vec\""
                            
 gzip ${dest_folder}/corpus.parsed.conll                          
+
+rm -rf "./src/scripts/corpus_raw/${userId}"
