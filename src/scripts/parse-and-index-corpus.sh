@@ -22,10 +22,10 @@ if [ $lang = "EN" ]; then
   model=english-partut-ud-2.5-191206.udpipe
   splitter="en"
 elif [ $lang = "FR" ]; then
-  model=french-ud-2.0-170801.udpipe
+  model=french-partut-ud-2.5-191206.udpipe
   splitter="fr"
 elif [ $lang = "ES" ]; then
-  model=spanish-ud-2.0-170801.udpipe
+  model=spanish-ancora-ud-2.5-191206.udpipe
   splitter="es"
 else
   echo "Error: language not supported: ${lang}"
@@ -76,6 +76,3 @@ ${MWETOOLKIT}/bin/index.py --attributes surface,lemma,pos,syn --from=CONLL -v \
 # echo "Distributional vectors created in \"${OUTFILE}.w2v.vec\""
                            
 gzip ${dest_folder}/corpus.parsed.conll                          
-
-echo -e "> Corpus indexed. You can now run:\n./search-triples-ex.sh NOUN1 VERB NOUN2 ${lang}_${domain}"
-
