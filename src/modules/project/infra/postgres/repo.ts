@@ -1,4 +1,4 @@
-import { Project } from "#project/domain";
+import { Project, ProjectPhase } from "#project/domain";
 import {
     IProjectRepository,
     ProjectDetails,
@@ -54,6 +54,29 @@ export class TypeORMProjectRepository implements IProjectRepository {
             project.domainName = projectDetails.domainName;
             project.isUsingSubdomains = projectDetails.isUsingSubdomains;
             project.language = projectDetails.language;
+
+            const savedProject = await this.repo.save(project);
+
+            return success(this.mapper.toDomain(savedProject));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async finishCreation(id: string): Promise<ProjectResponse> {
+        try {
+            const project = await this.repo.findOne({
+                where: { id },
+                relations: { owner: true }
+            });
+
+            if (!project) {
+                return failure(
+                    new NotFoundError(`Project with id ${id} not found`)
+                );
+            }
+
+            project.phase = ProjectPhase.Analysis;
 
             const savedProject = await this.repo.save(project);
 

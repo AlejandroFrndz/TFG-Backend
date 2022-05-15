@@ -19,4 +19,5 @@ export interface IProjectRepository {
         id: string,
         projectDetails: ProjectDetails
     ): Promise<ProjectResponse>;
+    finishCreation(id: string): Promise<ProjectResponse>;
 }

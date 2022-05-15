@@ -94,7 +94,7 @@ const _handleCorpusUpload =
         const projectResponse = await projectRepo.findById(projectId);
 
         if (projectResponse.isFailure()) {
-            next(projectResponse.error);
+            return next(projectResponse.error);
         }
 
         const project = projectResponse.value;
@@ -108,7 +108,7 @@ const _handleCorpusUpload =
         );
 
         if (writeCorpusResponse.isFailure()) {
-            next(writeCorpusResponse.error);
+            return next(writeCorpusResponse.error);
         }
 
         const parseAndIndexResponse = await executeParseAndIndex(
@@ -118,10 +118,21 @@ const _handleCorpusUpload =
         );
 
         if (parseAndIndexResponse.isFailure()) {
-            next(parseAndIndexResponse.error);
+            return next(parseAndIndexResponse.error);
         }
 
-        res.sendStatus(StatusCodes.NO_CONTENT);
+        const updateProjectResponse = await projectRepo.finishCreation(
+            project.id
+        );
+
+        if (updateProjectResponse.isFailure()) {
+            return next(updateProjectResponse.error);
+        }
+
+        res.status(StatusCodes.OK).json({
+            success: true,
+            project: updateProjectResponse.value
+        });
     };
 
 export const ProjectController = (projectRepo: IProjectRepository) => ({
