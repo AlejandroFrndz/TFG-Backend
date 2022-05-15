@@ -2,3 +2,4 @@ node_modules
 postgres_data
 src/app/config/.env
 dist
+src/uploads

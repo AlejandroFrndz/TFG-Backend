@@ -7,3 +7,5 @@ export type ExpressUpdateProjectDetailsRequest = Request<
     { projectId: string },
     ProjectDetails
 >;
+
+export type ExpressUploadCorpusRequest = Request<{ projectId: string }>;

@@ -1,11 +1,13 @@
 import { IProjectRepository } from "#project/domain/repo";
+import { writeCorpusFiles } from "#project/services/fileSystem";
 import { User } from "#user/domain";
 import { NextFunction, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import { ForbiddenError } from "src/core/logic/errors";
 import {
     ExpressGetProjectRequest,
-    ExpressUpdateProjectDetailsRequest
+    ExpressUpdateProjectDetailsRequest,
+    ExpressUploadCorpusRequest
 } from "./types";
 
 const _findById =
@@ -74,7 +76,31 @@ const _updateDetails =
             .status(StatusCodes.OK)
             .json({ success: true, project: updateResponse.value });
     };
+
+const _handleCorpusUpload =
+    (projectRepo: IProjectRepository) =>
+    async (
+        req: ExpressUploadCorpusRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
+        const files = req.files as Express.Multer.File[];
+
+        const fsResponse = await writeCorpusFiles(
+            files,
+            (req.user as User).id,
+            req.params.projectId
+        );
+
+        if (fsResponse.isFailure()) {
+            next(fsResponse.error);
+        }
+
+        res.sendStatus(StatusCodes.NO_CONTENT);
+    };
+
 export const ProjectController = (projectRepo: IProjectRepository) => ({
     findById: _findById(projectRepo),
-    updateDetails: _updateDetails(projectRepo)
+    updateDetails: _updateDetails(projectRepo),
+    handleCorpusUpload: _handleCorpusUpload(projectRepo)
 });
