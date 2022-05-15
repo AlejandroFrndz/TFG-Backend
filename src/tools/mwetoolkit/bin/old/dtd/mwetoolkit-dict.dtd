@@ -1,0 +1,54 @@
+<!--
+################################################################################
+#
+# Copyright 2010 Carlos Ramisch
+#
+# mwetoolkit-dict.dtd is part of mwetoolkit
+#
+# mwetoolkit is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# mwetoolkit is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with mwetoolkit.  If not, see <http://www.gnu.org/licenses/>.
+#
+################################################################################
+-->
+<!ELEMENT dict (meta,entry*)>
+<!ELEMENT meta (corpussize*,metafeat*)>
+<!-- type of metafeat should be integer, real, string or an 
+enumeration of values between curly brackets, in the same style as
+WEKA's arff file format -->
+<!ELEMENT metafeat EMPTY>
+<!ATTLIST metafeat
+    name CDATA #REQUIRED
+    type CDATA #REQUIRED
+>
+<!ELEMENT entry (ngram,features?)>
+<!ATTLIST entry
+    entryid CDATA #IMPLIED
+>
+<!ELEMENT ngram (w+,freq*)>
+<!ELEMENT w (freq)*>
+<!ATTLIST w
+    surface CDATA #IMPLIED
+    lemma CDATA #IMPLIED
+    pos CDATA #IMPLIED
+> 
+<!ELEMENT freq EMPTY>
+<!ATTLIST freq
+    name CDATA #REQUIRED
+    value CDATA #REQUIRED
+>
+<!ELEMENT features (feat*)>
+<!ELEMENT feat EMPTY>
+<!ATTLIST feat
+    name CDATA #REQUIRED
+    value CDATA #REQUIRED
+>

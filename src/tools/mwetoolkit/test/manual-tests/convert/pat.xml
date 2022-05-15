@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <pat>
+        <w pos="V*"></w>
+    </pat>
+
+    <!-- matches all 1-skip bigrams -->
+    <pat>
+        <w />
+        <pat ignore="true"><w /></pat>
+        <w /> 
+        <what />
+
+        <what >
+            <aha />
+            <w lemma="hi"></w>
+        </what>
+
+        <w lemma="okay" id="the_ok"></w>
+        <w><neg lemma="hi" /></w>
+        <w lemma="reeee" regex="true"></w>
+        <w lemma="back:the_ok.lemma"></w>
+
+        <either>
+            <pat> <w surface="foo"></w> </pat>
+            <pat> <w surface="bar"></w> </pat>
+        </either>
+
+        <!-- comment -->
+        <what />
+    </pat> 
+</patterns>

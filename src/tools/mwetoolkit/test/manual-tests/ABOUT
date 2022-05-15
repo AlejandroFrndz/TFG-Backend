@@ -1,0 +1,2 @@
+This directory contains files that should be manually checked once in a while.
+(They contain tests that are supposed to fail, and we currently do not test this).

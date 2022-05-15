@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <pat><w /></pat> <!-- matches all words in the corpus -->
+</patterns>

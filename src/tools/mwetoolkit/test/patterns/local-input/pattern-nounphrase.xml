@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <!-- Pattern for matching a simple noun phrase. -->
+    <pat>
+        <pat repeat="?"><w pos="DET:*" /></pat>  <!-- an optional determiner (appearing 0 or 1 times) -->
+        <pat repeat="*"><w pos="ADJ" /></pat>    <!-- any number (including zero) of adjectives -->
+        <pat repeat="+"><w pos="NOM" /></pat>    <!-- one or more nouns -->
+    </pat>
+
+    <pat>
+        <pat repeat="{1,5}"><w pos="ADJ" /></pat>    <!-- 1 to 5 adjectives -->
+        <w pos="NOM" lemma="chose" />                  <!-- followed by the noun "chose" -->
+    </pat>
+    
+    <!-- A sequence of prepositonal phrases or adjectives headed by a noun -->
+    <pat>
+        <pat repeat="?"><w pos="DET:*" /></pat>  <!-- an optional determiner (appearing 0 or 1 times) -->    
+        <w pos="NOM"/>    
+        <pat repeat="*">
+        <either>
+            <pat>
+                <w pos="PRP*"/>
+                <pat repeat="?"><w pos="DET*"/></pat>
+                <w pos="NOM"/>
+            </pat>
+            <pat>
+                <w pos="ADJ"/>
+            </pat>
+        </either>
+        </pat>
+    </pat>
+</patterns>

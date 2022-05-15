@@ -1,5 +1,9 @@
+import { Language } from "#project/domain";
 import { IProjectRepository } from "#project/domain/repo";
-import { writeCorpusFiles } from "#project/services/fileSystem";
+import {
+    executeParseAndIndex,
+    writeCorpusFiles
+} from "#project/services/fileSystem";
 import { User } from "#user/domain";
 import { NextFunction, Response } from "express";
 import { StatusCodes } from "http-status-codes";
@@ -84,16 +88,37 @@ const _handleCorpusUpload =
         res: Response,
         next: NextFunction
     ) => {
+        const { projectId } = req.params;
+        const userId = (req.user as User).id;
+
+        const projectResponse = await projectRepo.findById(projectId);
+
+        if (projectResponse.isFailure()) {
+            next(projectResponse.error);
+        }
+
+        const project = projectResponse.value;
+
         const files = req.files as Express.Multer.File[];
 
-        const fsResponse = await writeCorpusFiles(
+        const writeCorpusResponse = await writeCorpusFiles(
             files,
-            (req.user as User).id,
-            req.params.projectId
+            userId,
+            projectId
         );
 
-        if (fsResponse.isFailure()) {
-            next(fsResponse.error);
+        if (writeCorpusResponse.isFailure()) {
+            next(writeCorpusResponse.error);
+        }
+
+        const parseAndIndexResponse = await executeParseAndIndex(
+            project.language as Language,
+            userId,
+            project.id
+        );
+
+        if (parseAndIndexResponse.isFailure()) {
+            next(parseAndIndexResponse.error);
         }
 
         res.sendStatus(StatusCodes.NO_CONTENT);

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE candidates SYSTEM "dtd/mwetoolkit-candidates.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<candidates >
+<meta>
+</meta>
+<cand candid="1">
+    <ngram><w lemma="group" /> <w lemma="a" /> </ngram>
+</cand>
+<cand candid="2">
+    <ngram><w lemma="rich" /> <w lemma="person" /> </ngram>
+</cand>
+<cand candid="3">
+    <ngram><w lemma="body" /> <w lemma="of" /> <w lemma="work" /> </ngram>
+</cand>
+<cand candid="4">
+    <ngram><w lemma="prison" /> <w lemma="term" /> </ngram>
+</cand>
+<cand candid="5">
+    <ngram><w lemma="trade" /> <w lemma="good" /> </ngram>
+</cand>
+<cand candid="6">
+    <ngram><w lemma="computer" /> <w lemma="science" /> </ngram>
+</cand>
+<cand candid="7">
+    <ngram><w lemma="snake_case" /> <w lemma="variable" /> </ngram>
+</cand>
+<cand candid="8">
+    <ngram><w lemma="selective" /> <w lemma="information" /> </ngram>
+</cand>
+<cand candid="9">
+    <ngram><w lemma="written" /> <w lemma="report" /> </ngram>
+</cand>
+<cand candid="10">
+    <ngram><w lemma="elbow" /> <w lemma="room" /> </ngram>
+</cand>
+<cand candid="11">
+    <ngram><w lemma="hashtag" /> <w lemma="#fail" /> </ngram>
+</cand>
+<cand candid="12">
+    <ngram><w lemma="inspection" /> <w lemma="and" /> <w lemma="repair" /> </ngram>
+</cand>
+<cand candid="13">
+    <ngram><w lemma="service" /> <w lemma="of" /> <w lemma="process" /> </ngram>
+</cand>
+<cand candid="14">
+    <ngram><w lemma="armed" /> <w lemma="service" /> </ngram>
+</cand>
+<cand candid="15">
+    <ngram><w lemma="military" /> <w lemma="service" /> </ngram>
+</cand>
+<cand candid="16">
+    <ngram><w lemma="divine" /> <w lemma="service" /> </ngram>
+</cand>
+<cand candid="17">
+    <ngram><w lemma="religious" /> <w lemma="service" /> </ngram>
+</cand>
+<cand candid="18">
+    <ngram><w lemma="first" /> <w lemma="gear" /> </ngram>
+</cand>
+<cand candid="19">
+    <ngram><w lemma="low" /> <w lemma="gear" /> </ngram>
+</cand>
+<cand candid="20">
+    <ngram><w lemma="business" /> <w lemma="enterprise" /> </ngram>
+</cand>
+<cand candid="21">
+    <ngram><w lemma="right" /> <w lemma="field" /> </ngram>
+</cand>
+<cand candid="22">
+    <ngram><w lemma="blank" /> <w lemma="space" /> </ngram>
+</cand>
+<cand candid="23">
+    <ngram><w lemma="record" /> <w lemma="book" /> </ngram>
+</cand>
+<cand candid="24">
+    <ngram><w lemma="guinea" /> <w lemma="pig" /> </ngram>
+</cand>
+<cand candid="25">
+    <ngram><w lemma="book" /> <w lemma="binding" /> </ngram>
+</cand>
+<cand candid="26">
+    <ngram><w lemma="chemical" /> <w lemma="group" /> </ngram>
+</cand>
+<cand candid="27">
+    <ngram><w lemma="surface" /> <w lemma="area" /> </ngram>
+</cand>
+<cand candid="28">
+    <ngram><w lemma="line" /> <w lemma="of" /> <w lemma="work" /> </ngram>
+</cand>
+<cand candid="29">
+    <ngram><w lemma="phone" /> <w lemma="number" /> </ngram>
+</cand>
+<cand candid="30">
+    <ngram><w lemma="telephone" /> <w lemma="number" /> </ngram>
+</cand>
+<cand candid="31">
+    <ngram><w lemma="monetary" /> <w lemma="value" /> </ngram>
+</cand>
+<cand candid="32">
+    <ngram><w lemma="facial" /> <w lemma="expression" /> </ngram>
+</cand>
+<cand candid="33">
+    <ngram><w lemma="theatrical" /> <w lemma="role" /> </ngram>
+</cand>
+<cand candid="34">
+    <ngram><w lemma="hoi" /> <w lemma="polloi" /> </ngram>
+</cand>
+<cand candid="35">
+    <ngram><w lemma="the" /> <w lemma="great" /> <w lemma="unwashed" /> </ngram>
+</cand>
+<cand candid="36">
+    <ngram><w lemma="great" /> <w lemma="britain" /> </ngram>
+</cand>
+<cand candid="37">
+    <ngram><w lemma="course" /> <w lemma="of" /> <w lemma="instruction" /> </ngram>
+</cand>
+<cand candid="38">
+    <ngram><w lemma="course" /> <w lemma="of" /> <w lemma="study" /> </ngram>
+</cand>
+<cand candid="39">
+    <ngram><w lemma="public" /> <w lemma="figure" /> </ngram>
+</cand>
+<cand candid="40">
+    <ngram><w lemma="stage" /> <w lemma="business" /> </ngram>
+</cand>
+<cand candid="41">
+    <ngram><w lemma="news" /> <w lemma="report" /> </ngram>
+</cand>
+<cand candid="42">
+    <ngram><w lemma="write" /> <w lemma="up" /> </ngram>
+</cand>
+<cand candid="43">
+    <ngram><w lemma="political" /> <w lemma="campaign" /> </ngram>
+</cand>
+<cand candid="44">
+    <ngram><w lemma="nursing" /> <w lemma="home" /> </ngram>
+</cand>
+<cand candid="45">
+    <ngram><w lemma="rest" /> <w lemma="home" /> </ngram>
+</cand>
+<cand candid="46">
+    <ngram><w lemma="insurance" /> <w lemma="policy" /> </ngram>
+</cand>
+<cand candid="47">
+    <ngram><w lemma="business" /> <w lemma="firm" /> </ngram>
+</cand>
+<cand candid="48">
+    <ngram><w lemma="government" /> <w lemma="issue" /> </ngram>
+</cand>
+<cand candid="49">
+    <ngram><w lemma="military" /> <w lemma="issue" /> </ngram>
+</cand>
+</candidates>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <pat>
+    <either>
+        <pat><w pos="ADJ"/></pat>
+        <pat><w pos="DET:ART"/></pat>
+        <pat><w pos="PRO:DEM" /></pat>
+        <pat><w pos="PRP" /></pat>
+    </either>
+    <w pos="NOM" />
+    </pat> <!-- matches all words in the corpus -->
+</patterns>

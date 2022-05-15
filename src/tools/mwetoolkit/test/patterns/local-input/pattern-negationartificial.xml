@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <pat>
+    <w lemma="la"/>
+    <pat repeat="+"><w><neg lemma="la"/></w></pat>
+    <w lemma="la" />
+    </pat> <!-- matches all words in the corpus -->
+</patterns>

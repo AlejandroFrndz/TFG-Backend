@@ -1,0 +1,2650 @@
+# MWETOOLKIT: filetype="DiMSUM"
+1	@JoJoLyrics	@USER	X	O	0			tweebank.298
+2	I	i	PRON	O	0			tweebank.298
+3	hear	hear	VERB	O	0		v.perception	tweebank.298
+4	enough	enough	ADV	O	0			tweebank.298
+5	talking	talk	VERB	O	0		v.communication	tweebank.298
+6	,	,	PUNCT	O	0			tweebank.298
+7	just	just	ADV	O	0			tweebank.298
+8	turn	turn	VERB	B	0		v.motion	tweebank.298
+9	round	round	ADV	I	8			tweebank.298
+10	keep	keep	VERB	O	0		v.stative	tweebank.298
+11	walking	walk	VERB	O	0		v.motion	tweebank.298
+12	haha	haha	INTJ	O	0			tweebank.298
+13	in	in	ADP	O	0			tweebank.298
+14	that	that	DET	O	0			tweebank.298
+15	part	part	NOUN	O	0		n.location	tweebank.298
+
+1	Photo	photo	NOUN	O	0		n.artifact	tweebank.33
+2	:	:	PUNCT	O	0			tweebank.33
+3	http://t.co/2zggP2a	URL	X	O	0			tweebank.33
+
+1	Ahh	ahh	INTJ	O	0			tweebank.343
+2	.	.	PUNCT	O	0			tweebank.343
+3	Flutes	flute	NOUN	O	0		n.artifact	tweebank.343
+4	sound	sound	VERB	O	0		v.perception	tweebank.343
+5	really	really	ADV	O	0			tweebank.343
+6	bad	bad	ADJ	O	0			tweebank.343
+7	with	with	ADP	O	0			tweebank.343
+8	cheap	cheap	ADJ	O	0			tweebank.343
+9	mics	mics	NOUN	O	0		n.artifact	tweebank.343
+10	.	.	PUNCT	O	0			tweebank.343
+11	Writing	write	VERB	O	0		v.creation	tweebank.343
+12	a	a	DET	O	0			tweebank.343
+13	song	song	NOUN	O	0		n.communication	tweebank.343
+14	now	now	ADV	O	0			tweebank.343
+15	,	,	PUNCT	O	0			tweebank.343
+16	just	just	ADV	O	0			tweebank.343
+17	need	need	VERB	O	0		v.stative	tweebank.343
+18	chords	chord	NOUN	O	0		n.relation	tweebank.343
+19	and	and	CONJ	O	0			tweebank.343
+20	I'll	i'll	VERB	O	0		v.stative	tweebank.343
+21	be	be	AUX	O	0			tweebank.343
+22	good	good	ADJ	O	0			tweebank.343
+23	.	.	PUNCT	O	0			tweebank.343
+24	Bye	bye	INTJ	O	0			tweebank.343
+25	:D	EMOTICON	X	O	0			tweebank.343
+
+1	We	we	PRON	O	0			trustpilot-210
+2	called	call	VERB	O	0		v.communication	trustpilot-210
+3	the	the	DET	O	0			trustpilot-210
+4	number	number	NOUN	O	0		n.attribute	trustpilot-210
+5	which	which	PRON	O	0			trustpilot-210
+6	promised	promise	VERB	O	0		v.communication	trustpilot-210
+7	an	an	DET	O	0			trustpilot-210
+8	English	english	NOUN	B	0			trustpilot-210
+9	speaking	speaking	ADJ	I	8			trustpilot-210
+10	advisor	advisor	NOUN	O	0		n.person	trustpilot-210
+11	,	,	PUNCT	O	0			trustpilot-210
+12	instead	instead	ADV	O	0			trustpilot-210
+13	we	we	PRON	O	0			trustpilot-210
+14	got	get	VERB	O	0		v.stative	trustpilot-210
+15	a	a	DET	O	0			trustpilot-210
+16	Spanish	spanish	ADJ	O	0			trustpilot-210
+17	one	one	PRON	O	0			trustpilot-210
+18	.	.	PUNCT	O	0			trustpilot-210
+
+1	And	and	CONJ	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+2	I	i	PRON	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+3	would	would	AUX	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+4	like	like	VERB	O	0		v.emotion	ted.naist.004-YvesBehar_2009.iwslt.552.2
+5	to	to	PART	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+6	share	share	VERB	O	0		v.social	ted.naist.004-YvesBehar_2009.iwslt.552.2
+7	with	with	ADP	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+8	you	you	PRON	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+9	some	some	DET	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+10	of	of	ADP	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+11	the	the	DET	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+12	bits	bit	NOUN	O	0		n.quantity	ted.naist.004-YvesBehar_2009.iwslt.552.2
+13	of	of	ADP	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+14	the	the	DET	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+15	conversation	conversation	NOUN	O	0		n.communication	ted.naist.004-YvesBehar_2009.iwslt.552.2
+16	that	that	DET	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+17	we	we	PRON	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+18	started	start	VERB	O	0		v.change	ted.naist.004-YvesBehar_2009.iwslt.552.2
+19	with	with	ADP	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+20	.	.	PUNCT	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.2
+
+1	@asya269	@USER	X	O	0			tweebank.51
+2	Follow	follow	VERB	O	0		v.social	tweebank.51
+3	@hardiksco	@USER	X	O	0			tweebank.51
+4	..	..	PUNCT	O	0			tweebank.51
+5	He	he	PRON	O	0			tweebank.51
+6	has	have	VERB	O	0		v.stative	tweebank.51
+7	awesome	awesome	ADJ	O	0			tweebank.51
+8	quotes	quote	NOUN	O	0		n.communication	tweebank.51
+9	and	and	CONJ	O	0			tweebank.51
+10	Your	your	PRON	O	0			tweebank.51
+11	end	end	NOUN	B	0			tweebank.51
+12	up	up	ADP	I	11			tweebank.51
+13	with	with	ADP	O	0			tweebank.51
+14	wow	wow	INTJ	O	0			tweebank.51
+15	..	..	PUNCT	O	0			tweebank.51
+16	:-)	EMOTICON	X	O	0			tweebank.51
+17	Follow	follow	VERB	O	0		v.social	tweebank.51
+18	him	him	PRON	O	0			tweebank.51
+19	if	if	SCONJ	O	0			tweebank.51
+20	you	you	PRON	O	0			tweebank.51
+21	like	like	VERB	O	0		v.emotion	tweebank.51
+22	his	his	PRON	O	0			tweebank.51
+23	tweets	tweet	NOUN	O	0		n.communication	tweebank.51
+24	..	..	PUNCT	O	0			tweebank.51
+
+1	1-4-3	NUMBER	NUM	O	0			tweebank.165
+2	happy	happy	ADJ	B	0			tweebank.165
+3	VaLentine	valentine	PROPN	I	2			tweebank.165
+4	s	s	PART	I	3			tweebank.165
+5	Day	day	NOUN	I	4			tweebank.165
+6	!	!	PUNCT	O	0			tweebank.165
+7	:)	EMOTICON	X	O	0			tweebank.165
+8	<3	EMOTICON	X	O	0			tweebank.165
+9	http://Zipz.it/Songcardmb	URL	X	O	0			tweebank.165
+
+1	Products	product	NOUN	O	0		n.artifact	trustpilot-150
+2	are	be	VERB	O	0		v.stative	trustpilot-150
+3	of	of	ADP	O	0			trustpilot-150
+4	a	a	DET	O	0			trustpilot-150
+5	high	high	ADJ	O	0			trustpilot-150
+6	standard	standard	NOUN	O	0		n.attribute	trustpilot-150
+7	,	,	PUNCT	O	0			trustpilot-150
+8	quick	quick	ADJ	O	0			trustpilot-150
+9	delivery	delivery	NOUN	O	0		n.act	trustpilot-150
+10	and	and	CONJ	O	0			trustpilot-150
+11	should	should	AUX	O	0			trustpilot-150
+12	you	you	PRON	O	0			trustpilot-150
+13	have	have	VERB	O	0		v.stative	trustpilot-150
+14	a	a	DET	O	0			trustpilot-150
+15	problem	problem	NOUN	O	0		n.state	trustpilot-150
+16	it	it	PRON	O	0			trustpilot-150
+17	is	be	AUX	O	0			trustpilot-150
+18	sorted	sort	VERB	O	0		v.change	trustpilot-150
+19	straight	straight	ADV	B	0			trustpilot-150
+20	away	away	ADV	I	19			trustpilot-150
+21	by	by	ADP	O	0			trustpilot-150
+22	a	a	DET	O	0			trustpilot-150
+23	friendly	friendly	ADJ	O	0			trustpilot-150
+24	person	person	NOUN	O	0		n.person	trustpilot-150
+25	on	on	ADP	O	0			trustpilot-150
+26	the	the	DET	O	0			trustpilot-150
+27	phone	phone	NOUN	O	0		n.artifact	trustpilot-150
+28	.	.	PUNCT	O	0			trustpilot-150
+
+1	I	i	PRON	O	0			trustpilot-281
+2	picked	pick	VERB	O	0		v.cognition	trustpilot-281
+3	a	a	DET	O	0			trustpilot-281
+4	more	more	ADV	O	0			trustpilot-281
+5	expensive	expensive	ADJ	O	0			trustpilot-281
+6	item	item	NOUN	O	0		n.artifact	trustpilot-281
+7	and	and	CONJ	O	0			trustpilot-281
+8	they	they	PRON	O	0			trustpilot-281
+9	gave	give	VERB	O	0		v.change	trustpilot-281
+10	me	me	PRON	O	0			trustpilot-281
+11	an	an	DET	O	0			trustpilot-281
+12	unasked	unasked	ADJ	O	0			trustpilot-281
+13	for	for	PART	O	0			trustpilot-281
+14	discount	discount	NOUN	O	0		n.possession	trustpilot-281
+15	!	!	PUNCT	O	0			trustpilot-281
+
+1	So	so	ADV	O	0			ted.iwslt.1353.7
+2	to	to	ADP	O	0			ted.iwslt.1353.7
+3	me	me	PRON	O	0			ted.iwslt.1353.7
+4	it	it	PRON	O	0			ted.iwslt.1353.7
+5	felt	felt	VERB	O	0		v.cognition	ted.iwslt.1353.7
+6	like	like	SCONJ	O	0			ted.iwslt.1353.7
+7	photography	photography	NOUN	O	0		n.act	ted.iwslt.1353.7
+8	was	be	VERB	O	0		v.stative	ted.iwslt.1353.7
+9	more	more	ADJ	O	0			ted.iwslt.1353.7
+10	about	about	SCONJ	O	0			ted.iwslt.1353.7
+11	being	be	VERB	O	0		v.stative	ted.iwslt.1353.7
+12	at	at	ADP	O	0			ted.iwslt.1353.7
+13	the	the	DET	O	0			ted.iwslt.1353.7
+14	right	right	ADJ	B	0		n.location	ted.iwslt.1353.7
+15	place	place	NOUN	I	14			ted.iwslt.1353.7
+16	and	and	CONJ	O	0			ted.iwslt.1353.7
+17	the	the	DET	O	0			ted.iwslt.1353.7
+18	right	right	ADJ	B	0		n.time	ted.iwslt.1353.7
+19	time	time	NOUN	I	18			ted.iwslt.1353.7
+20	.	.	PUNCT	O	0			ted.iwslt.1353.7
+
+1	Super	super	PROPN	B	0		n.event	tweebank.324
+2	Bowl	bowl	PROPN	I	1			tweebank.324
+3	Countdown	countdown	NOUN	O	0		n.act	tweebank.324
+4	:	:	PUNCT	O	0			tweebank.324
+5	http://t.co/ZuVEYdYm	URL	X	O	0			tweebank.324
+
+1	That	that	DET	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.5
+2	was	be	VERB	O	0		v.stative	ted.naist.009-AnthonyAtala_2009P.iwslt.744.5
+3	back	back	ADV	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.5
+4	in	in	ADP	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.5
+5	1954	NUMBER	NUM	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.5
+6	,	,	PUNCT	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.5
+7	55	NUMBER	NUM	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.5
+8	years	years	NOUN	O	0		n.time	ted.naist.009-AnthonyAtala_2009P.iwslt.744.5
+9	ago	ago	ADV	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.5
+10	.	.	PUNCT	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.5
+
+1	In	in	ADP	O	0			ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+2	my	my	PRON	O	0			ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+3	mother	mother	NOUN	O	0		n.person	ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+4	's	's	PART	O	0			ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+5	day	day	NOUN	O	0		n.time	ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+6	,	,	PUNCT	O	0			ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+7	she	she	PRON	O	0			ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+8	did	do	AUX	O	0			ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+9	n't	n't	PART	O	0			ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+10	go	go	VERB	O	0		v.motion	ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+11	to	to	PART	O	0			ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+12	college	college	NOUN	O	0		n.act	ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+13	.	.	PUNCT	O	0			ted.naist.006-HannaRosin_2010W.iwslt.1033.2
+
+1	Most	most	ADJ	O	0			ted.iwslt.129.4
+2	of	of	ADP	O	0			ted.iwslt.129.4
+3	them	them	PRON	O	0			ted.iwslt.129.4
+4	are	be	VERB	O	0		v.stative	ted.iwslt.129.4
+5	ordinary	ordinary	ADJ	O	0			ted.iwslt.129.4
+6	digital	digital	ADJ	B	0		n.artifact	ted.iwslt.129.4
+7	camera	camera	NOUN	I	6			ted.iwslt.129.4
+8	photos	photo	NOUN	I	7			ted.iwslt.129.4
+9	,	,	PUNCT	O	0			ted.iwslt.129.4
+10	but	but	CONJ	O	0			ted.iwslt.129.4
+11	this	this	DET	O	0			ted.iwslt.129.4
+12	one	one	NOUN	O	0			ted.iwslt.129.4
+13	,	,	PUNCT	O	0			ted.iwslt.129.4
+14	for	for	ADP	O	0			ted.iwslt.129.4
+15	example	example	NOUN	O	0		n.cognition	ted.iwslt.129.4
+16	,	,	PUNCT	O	0			ted.iwslt.129.4
+17	is	be	VERB	O	0		v.stative	ted.iwslt.129.4
+18	a	a	DET	O	0			ted.iwslt.129.4
+19	scan	scan	NOUN	O	0		n.artifact	ted.iwslt.129.4
+20	from	from	ADP	O	0			ted.iwslt.129.4
+21	the	the	DET	B	0		n.group	ted.iwslt.129.4
+22	Library	library	NOUN	I	21			ted.iwslt.129.4
+23	of	of	ADP	I	22			ted.iwslt.129.4
+24	Congress	congress	PROPN	I	23			ted.iwslt.129.4
+25	,	,	PUNCT	O	0			ted.iwslt.129.4
+26	and	and	CONJ	O	0			ted.iwslt.129.4
+27	it	it	PRON	O	0			ted.iwslt.129.4
+28	's	's	VERB	O	0		v.stative	ted.iwslt.129.4
+29	in	in	ADP	O	0			ted.iwslt.129.4
+30	the	the	DET	O	0			ted.iwslt.129.4
+31	300	300	NUM	B	0		n.quantity	ted.iwslt.129.4
+32	megapixel	megapixel	NOUN	I	31			ted.iwslt.129.4
+33	range	range	NOUN	O	0		n.attribute	ted.iwslt.129.4
+34	.	.	PUNCT	O	0			ted.iwslt.129.4
+
+1	...	...	X	O	0			tweebank.393
+2	..	..	X	O	0			tweebank.393
+3	think	think	VERB	O	0		v.cognition	tweebank.393
+4	I	i	PRON	O	0			tweebank.393
+5	might	might	AUX	O	0			tweebank.393
+6	move	move	VERB	O	0		v.motion	tweebank.393
+7	to	to	ADP	O	0			tweebank.393
+8	Raleigh	raleigh	PROPN	O	0		n.group	tweebank.393
+9	.	.	PUNCT	O	0			tweebank.393
+10	NCSU	ncsu	PROPN	O	0		n.group	tweebank.393
+11	giving	give	VERB	B	0		v.change	tweebank.393
+12	up	up	ADP	I	11			tweebank.393
+13	any	any	DET	O	0			tweebank.393
+14	money	money	NOUN	O	0		n.possession	tweebank.393
+15	??	??	PUNCT	O	0			tweebank.393
+
+1	The	the	DET	O	0			trustpilot-213
+2	Asda	asda	PROPN	B	0		n.communication	trustpilot-213
+3	site	site	NOUN	I	2			trustpilot-213
+4	is	be	VERB	O	0		v.stative	trustpilot-213
+5	easy	easy	ADV	O	0			trustpilot-213
+6	to	to	PART	O	0			trustpilot-213
+7	use	use	VERB	O	0		v.cognition	trustpilot-213
+8	-	-	PUNCT	O	0			trustpilot-213
+9	however	however	ADV	O	0			trustpilot-213
+10	unlike	unlike	ADV	O	0			trustpilot-213
+11	rival	rival	ADJ	O	0			trustpilot-213
+12	sites	site	NOUN	O	0		n.communication	trustpilot-213
+13	it	it	PRON	O	0			trustpilot-213
+14	doesn	doesn	VERB	O	0			trustpilot-213
+15	'	'	PART	O	0			trustpilot-213
+16	t	t	PART	O	0			trustpilot-213
+17	store	store	VERB	O	0		v.stative	trustpilot-213
+18	your	your	DET	O	0			trustpilot-213
+19	instore	instore	ADJ	O	0			trustpilot-213
+20	shopping	shopping	NOUN	O	0		n.act	trustpilot-213
+21	.	.	PUNCT	O	0			trustpilot-213
+
+1	They	they	PRON	O	0			trustpilot-307
+2	found	found	VERB	O	0		v.cognition	trustpilot-307
+3	that	that	CONJ	O	0			trustpilot-307
+4	Apple	apple	NOUN	O	0		n.group	trustpilot-307
+5	hasn	hasn	VERB	O	0			trustpilot-307
+6	'	'	PART	O	0			trustpilot-307
+7	t	t	PART	O	0			trustpilot-307
+8	even	even	ADV	O	0			trustpilot-307
+9	activated	activate	VERB	O	0		v.change	trustpilot-307
+10	the	the	DET	O	0			trustpilot-307
+11	0G	0g	ADJ	B	0		n.communication	trustpilot-307
+12	network	network	NOUN	I	11			trustpilot-307
+13	and	and	CONJ	O	0			trustpilot-307
+14	told	tell	VERB	O	0		v.communication	trustpilot-307
+15	me	me	PRON	O	0			trustpilot-307
+16	to	to	PART	O	0			trustpilot-307
+17	call	call	VERB	O	0		v.communication	trustpilot-307
+18	O0	o0	PROPN	O	0		n.group	trustpilot-307
+19	.	.	PUNCT	O	0			trustpilot-307
+
+1	Pet	pet	NOUN	B	0		n.group	trustpilot-259
+2	Supermarket	supermarket	NOUN	I	1			trustpilot-259
+3	is	be	VERB	O	0		v.stative	trustpilot-259
+4	an	an	DET	O	0			trustpilot-259
+5	excellent	excellent	ADJ	O	0			trustpilot-259
+6	choice	choice	NOUN	O	0		n.cognition	trustpilot-259
+7	for	for	ADP	O	0			trustpilot-259
+8	all	all	DET	O	0			trustpilot-259
+9	pet	pet	NOUN	B	0		n.person	trustpilot-259
+10	owners	owner	NOUN	I	9			trustpilot-259
+11	and	and	CONJ	O	0			trustpilot-259
+12	I	i	PRON	O	0			trustpilot-259
+13	can	can	AUX	O	0			trustpilot-259
+14	highly	highly	ADV	O	0			trustpilot-259
+15	recommend	recommend	VERB	O	0		v.communication	trustpilot-259
+16	this	this	DET	O	0			trustpilot-259
+17	company	company	NOUN	O	0		n.group	trustpilot-259
+18	for	for	ADP	O	0			trustpilot-259
+19	their	their	DET	O	0			trustpilot-259
+20	quality	quality	NOUN	O	0			trustpilot-259
+21	goods	good	NOUN	O	0		n.artifact	trustpilot-259
+22	,	,	PUNCT	O	0			trustpilot-259
+23	selection	selection	NOUN	O	0		n.attribute	trustpilot-259
+24	,	,	PUNCT	O	0			trustpilot-259
+25	promptness	promptness	NOUN	O	0		n.attribute	trustpilot-259
+26	,	,	PUNCT	O	0			trustpilot-259
+27	and	and	CONJ	O	0			trustpilot-259
+28	after	after	ADP	B	0		n.act	trustpilot-259
+29	sales	sales	NOUN	I	28			trustpilot-259
+30	service	service	NOUN	I	29			trustpilot-259
+31	with	with	ADP	O	0			trustpilot-259
+32	a	a	DET	O	0			trustpilot-259
+33	good	good	ADJ	O	0			trustpilot-259
+34	returns	return	NOUN	B	0		n.communication	trustpilot-259
+35	policy	policy	NOUN	I	34			trustpilot-259
+36	.	.	PUNCT	O	0			trustpilot-259
+
+1	RT	rt	X	O	0			tweebank.430
+2	@Pretty_Girl1908	@USER	X	O	0			tweebank.430
+3	Where	where	ADV	O	0			tweebank.430
+4	is	be	VERB	O	0		v.stative	tweebank.430
+5	punk	punk	NOUN	B	0		n.person	tweebank.430
+6	ass	ass	NOUN	I	5			tweebank.430
+7	,	,	PUNCT	O	0			tweebank.430
+8	@ShaineO_Mac	@USER	X	O	0			tweebank.430
+9	Tonite	tonite	ADV	O	0			tweebank.430
+10	!!!	!!!	PUNCT	O	0			tweebank.430
+11	<	<	X	O	0			tweebank.430
+12	Honestly	honestly	ADV	O	0			tweebank.430
+13	who	who	PRON	O	0			tweebank.430
+14	cares	care	VERB	O	0		v.emotion	tweebank.430
+15	??	??	PUNCT	O	0			tweebank.430
+16	:-P	EMOTICON	X	O	0			tweebank.430
+
+1	Handwritten	handwritten	ADJ	O	0			trustpilot-237
+2	card	card	NOUN	O	0		n.communication	trustpilot-237
+3	very	very	ADV	O	0			trustpilot-237
+4	personal	personal	ADJ	B	0		n.feeling	trustpilot-237
+5	touch	touch	NOUN	I	4			trustpilot-237
+6	.	.	PUNCT	O	0			trustpilot-237
+
+1	DAMMIT	dammit	INTJ	O	0			tweebank.371
+2	TENTEN	tenten	PROPN	O	0		n.person	tweebank.371
+3	!!!	!!!	PUNCT	O	0			tweebank.371
+4	Ca	ca	AUX	B	0			tweebank.371
+5	n't	n't	PART	I	4			tweebank.371
+6	you	you	PRON	I	5			tweebank.371
+7	just	just	ADV	I	6			tweebank.371
+8	let	let	VERB	O	0		v.social	tweebank.371
+9	a	a	DET	O	0			tweebank.371
+10	ninja	ninja	NOUN	O	0		n.person	tweebank.371
+11	pee	pee	VERB	O	0		v.body	tweebank.371
+12	in	in	ADP	B	0			tweebank.371
+13	peace	peace	NOUN	I	12			tweebank.371
+14	??!!?!?!?!?	??!!?!?!?!?	PUNCT	O	0			tweebank.371
+15	http://t.co/lz8Y9iUv	URL	X	O	0			tweebank.371
+
+1	Thank	thank	VERB	O	0		v.communication	trustpilot-180
+2	you	you	PRON	O	0			trustpilot-180
+3	for	for	ADP	O	0			trustpilot-180
+4	the	the	DET	O	0			trustpilot-180
+5	replacement	replacement	NOUN	O	0		n.artifact	trustpilot-180
+6	as	as	CONJ	O	0			trustpilot-180
+7	promised	promise	VERB	O	0		v.communication	trustpilot-180
+8	.	.	PUNCT	O	0			trustpilot-180
+
+1	RT	rt	X	O	0			tweebank.130
+2	@colindobson	@USER	X	O	0			tweebank.130
+3	:	:	X	O	0			tweebank.130
+4	Check	check	VERB	B	0		v.cognition	tweebank.130
+5	out	out	ADP	I	4			tweebank.130
+6	http://bit.ly/e5hSx0	URL	X	O	0			tweebank.130
+7	.	.	PUNCT	O	0			tweebank.130
+8	Freezing	freeze	VERB	O	0		v.change	tweebank.130
+9	my	my	PRON	O	0			tweebank.130
+10	nads	nad	NOUN	O	0		n.body	tweebank.130
+11	in	in	ADP	O	0			tweebank.130
+12	the	the	DET	O	0			tweebank.130
+13	snow	snow	NOUN	O	0		n.phenomenon	tweebank.130
+14	,	,	PUNCT	O	0			tweebank.130
+15	naked	naked	ADJ	O	0			tweebank.130
+16	for	for	ADP	O	0			tweebank.130
+17	#MND	#mnd	PROPN	B	0		n.group	tweebank.130
+18	Charity	charity	NOUN	I	17			tweebank.130
+19	.	.	PUNCT	O	0			tweebank.130
+20	£4.5	NUMBER	NUM	O	0			tweebank.130
+21	k	k	NOUN	O	0		n.quantity	tweebank.130
+22	raised	raise	VERB	O	0		v.change	tweebank.130
+23	so	so	ADV	B	0			tweebank.130
+24	far	far	ADV	I	23			tweebank.130
+25	.	.	PUNCT	O	0			tweebank.130
+26	Please	please	VERB	O	0		v.emotion	tweebank.130
+27	RT	rt	VERB	O	0		v.communication	tweebank.130
+28	!	!	PUNCT	O	0			tweebank.130
+29	Thx	thx	NOUN	O	0			tweebank.130
+30	.	.	PUNCT	O	0			tweebank.130
+
+1	I	i	PRON	O	0			trustpilot-169
+2	'	'	PART	O	0			trustpilot-169
+3	ve	ve	VERB	O	0			trustpilot-169
+4	relied	rely	VERB	O	0		v.cognition	trustpilot-169
+5	on	on	ADP	O	0			trustpilot-169
+6	Vodafone	vodafone	PROPN	O	0		n.group	trustpilot-169
+7	since	since	ADP	O	0			trustpilot-169
+8	mobile	mobile	ADJ	B	0		n.artifact	trustpilot-169
+9	phones	phone	NOUN	I	8			trustpilot-169
+10	were	be	VERB	O	0		v.stative	trustpilot-169
+11	the	the	DET	O	0			trustpilot-169
+12	size	size	NOUN	O	0		n.attribute	trustpilot-169
+13	and	and	CONJ	O	0			trustpilot-169
+14	weight	weight	NOUN	O	0		n.attribute	trustpilot-169
+15	of	of	ADP	O	0			trustpilot-169
+16	bricks	brick	NOUN	O	0		n.artifact	trustpilot-169
+17	and	and	CONJ	O	0			trustpilot-169
+18	have	have	AUX	O	0			trustpilot-169
+19	never	never	ADV	O	0			trustpilot-169
+20	had	have	VERB	O	0		v.stative	trustpilot-169
+21	any	any	DET	O	0			trustpilot-169
+22	problems	problem	NOUN	O	0		n.state	trustpilot-169
+23	with	with	ADP	O	0			trustpilot-169
+24	their	their	DET	O	0			trustpilot-169
+25	service	service	NOUN	O	0		n.act	trustpilot-169
+26	or	or	CONJ	O	0			trustpilot-169
+27	products	product	NOUN	O	0		n.artifact	trustpilot-169
+28	.	.	PUNCT	O	0			trustpilot-169
+
+1	The	the	DET	O	0			trustpilot-34
+2	information	information	NOUN	O	0		n.communication	trustpilot-34
+3	provided	provided	ADJ	O	0			trustpilot-34
+4	on	on	ADP	O	0			trustpilot-34
+5	the	the	DET	O	0			trustpilot-34
+6	website	website	NOUN	O	0		n.communication	trustpilot-34
+7	during	during	ADP	O	0			trustpilot-34
+8	the	the	DET	O	0			trustpilot-34
+9	build	build	NOUN	B	0		n.process	trustpilot-34
+10	process	process	NOUN	I	9			trustpilot-34
+11	,	,	PUNCT	O	0			trustpilot-34
+12	the	the	DET	O	0			trustpilot-34
+13	quality	quality	NOUN	O	0		n.attribute	trustpilot-34
+14	of	of	ADP	O	0			trustpilot-34
+15	the	the	DET	O	0			trustpilot-34
+16	e	e	NOUN	B	0		n.communication	trustpilot-34
+17	-	-	PUNCT	I	16			trustpilot-34
+18	mail	mail	NOUN	I	17			trustpilot-34
+19	communication	communication	NOUN	I	18			trustpilot-34
+20	and	and	CONJ	O	0			trustpilot-34
+21	the	the	DET	O	0			trustpilot-34
+22	speedy	speedy	ADJ	O	0			trustpilot-34
+23	and	and	CONJ	O	0			trustpilot-34
+24	accurate	accurate	ADJ	O	0			trustpilot-34
+25	delivery	delivery	NOUN	O	0		n.act	trustpilot-34
+26	have	have	AUX	O	0			trustpilot-34
+27	all	all	PRON	O	0			trustpilot-34
+28	been	be	VERB	O	0		v.stative	trustpilot-34
+29	first	first	ADJ	B	0		n.attribute	trustpilot-34
+30	class	class	NOUN	I	29			trustpilot-34
+31	.	.	PUNCT	O	0			trustpilot-34
+
+1	It	it	PRON	O	0			trustpilot-132
+2	was	be	VERB	O	0		v.stative	trustpilot-132
+3	air	air	ADJ	B	0			trustpilot-132
+4	-	-	PUNCT	I	3			trustpilot-132
+5	conditioned	conditioned	ADJ	I	4			trustpilot-132
+6	,	,	PUNCT	O	0			trustpilot-132
+7	and	and	CONJ	O	0			trustpilot-132
+8	drove	drive	VERB	O	0		v.motion	trustpilot-132
+9	pretty	pretty	ADV	O	0			trustpilot-132
+10	well	well	ADV	O	0			trustpilot-132
+11	,	,	PUNCT	O	0			trustpilot-132
+12	once	once	CONJ	O	0			trustpilot-132
+13	I	i	PRON	O	0			trustpilot-132
+14	'	'	PUNCT	O	0			trustpilot-132
+15	d	d	VERB	O	0			trustpilot-132
+16	sussed	sussed	VERB	B	0		v.cognition	trustpilot-132
+17	out	out	PART	I	16			trustpilot-132
+18	the	the	DET	O	0			trustpilot-132
+19	bite	bite	NOUN	B	0		n.attribute	trustpilot-132
+20	point	point	NOUN	I	19			trustpilot-132
+21	(	(	PUNCT	O	0			trustpilot-132
+22	which	which	PRON	O	0			trustpilot-132
+23	I	i	PRON	O	0			trustpilot-132
+24	had	have	AUX	O	0			trustpilot-132
+25	to	to	PART	O	0			trustpilot-132
+26	do	do	VERB	O	0		v.contact	trustpilot-132
+27	after	after	ADV	O	0			trustpilot-132
+28	stalling	stall	VERB	O	0		v.change	trustpilot-132
+29	on	on	ADP	O	0			trustpilot-132
+30	a	a	DET	O	0			trustpilot-132
+31	0	0	NUM	B	0		n.natural_object	trustpilot-132
+32	:	:	PUNCT	I	31			trustpilot-132
+33	0	0	NUM	I	32			trustpilot-132
+34	hill	hill	NOUN	I	33			trustpilot-132
+35	-	-	PUNCT	O	0			trustpilot-132
+36	a	a	DET	O	0			trustpilot-132
+37	bit	bit	NOUN	O	0		n.attribute	trustpilot-132
+38	scary	scary	ADJ	O	0			trustpilot-132
+39	!).	!).	PUNCT	O	0			trustpilot-132
+
+1	@MelCardillo	@USER	X	O	0			tweebank.410
+2	weird	weird	ADJ	O	0			tweebank.410
+3	cause	cause	SCONJ	O	0			tweebank.410
+4	you	you	PRON	O	0			tweebank.410
+5	r	r	VERB	O	0		v.stative	tweebank.410
+6	not	not	PART	O	0			tweebank.410
+7	doin	doin	VERB	O	0		v.stative	tweebank.410
+8	either	either	DET	O	0			tweebank.410
+9	..	..	PUNCT	O	0			tweebank.410
+
+1	Aww	aww	NOUN	O	0			ted.iwslt.1161.6
+2	,	,	PUNCT	O	0			ted.iwslt.1161.6
+3	thank	thank	VERB	O	0		v.communication	ted.iwslt.1161.6
+4	you	you	PRON	O	0			ted.iwslt.1161.6
+5	.	.	PUNCT	O	0			ted.iwslt.1161.6
+
+1	yeah	yeah	INTJ	O	0			tweebank.111
+2	Start	start	VERB	O	0		v.change	tweebank.111
+3	all	all	DET	O	0			tweebank.111
+4	overrrr	overrrr	ADP	O	0			tweebank.111
+5	3YearsBreakout	3yearsbreakout	PROPN	O	0		n.event	tweebank.111
+
+1	@BrittyKitty28	@USER	X	O	0			tweebank.462
+2	i	i	PRON	O	0			tweebank.462
+3	ma	ma	AUX	O	0			tweebank.462
+4	get	get	VERB	O	0		v.possession	tweebank.462
+5	me	me	PRON	O	0			tweebank.462
+6	a	a	DET	O	0			tweebank.462
+7	flip	flip	ADJ	B	0		n.artifact	tweebank.462
+8	phone	phone	NOUN	I	7			tweebank.462
+9	for	for	ADP	B	0			tweebank.462
+10	real	real	ADJ	I	9			tweebank.462
+
+1	Ty	ty	PROPN	B	0		n.artifact	tweebank.402
+2	Beanie	beanie	PROPN	I	1			tweebank.402
+3	Babies	babies	PROPN	I	2			tweebank.402
+4	-	-	PUNCT	O	0			tweebank.402
+5	Set	set	NOUN	O	0		n.group	tweebank.402
+6	of	of	ADP	O	0			tweebank.402
+7	2	NUMBER	NUM	O	0			tweebank.402
+8	Beanies	beanies	PROPN	O	0		n.artifact	tweebank.402
+9	(	(	PUNCT	O	0			tweebank.402
+10	Dora	dora	PROPN	O	0		n.person	tweebank.402
+11	&	&	CONJ	O	0			tweebank.402
+12	Boots	boots	PROPN	O	0		n.person	tweebank.402
+13	):	):	PUNCT	O	0			tweebank.402
+14	TY	ty	PROPN	B	0		n.artifact	tweebank.402
+15	Beanie	beanie	PROPN	I	14			tweebank.402
+16	Babies	babies	PROPN	I	15			tweebank.402
+17	Set	set	NOUN	O	0		n.group	tweebank.402
+18	of	of	ADP	O	0			tweebank.402
+19	2-	NUMBER	NUM	O	0			tweebank.402
+20	Dora	dora	PROPN	B	0		n.person	tweebank.402
+21	the	the	DET	I	20			tweebank.402
+22	Explorer	explorer	NOUN	I	21			tweebank.402
+23	and	and	CONJ	O	0			tweebank.402
+24	Boots	boots	PROPN	O	0		n.person	tweebank.402
+25	http://t.co/c90SAqaR	URL	X	O	0			tweebank.402
+
+1	I	i	PRON	O	0			trustpilot-182
+2	received	receive	VERB	O	0		v.communication	trustpilot-182
+3	an	an	DET	O	0			trustpilot-182
+4	email	email	NOUN	O	0		n.communication	trustpilot-182
+5	from	from	ADP	O	0			trustpilot-182
+6	Lindy	lindy	NOUN	O	0		n.person	trustpilot-182
+7	on	on	ADP	O	0			trustpilot-182
+8	00rd	00rd	ADJ	O	0			trustpilot-182
+9	August	august	NOUN	O	0		n.time	trustpilot-182
+10	stating	state	VERB	O	0		v.communication	trustpilot-182
+11	they	they	PRON	O	0			trustpilot-182
+12	had	have	AUX	O	0			trustpilot-182
+13	shipped	ship	VERB	O	0		v.motion	trustpilot-182
+14	the	the	DET	O	0			trustpilot-182
+15	order	order	NOUN	O	0		n.communication	trustpilot-182
+16	0st	0st	NOUN	B	0		n.attribute	trustpilot-182
+17	Class	class	NOUN	I	16			trustpilot-182
+18	,	,	PUNCT	O	0			trustpilot-182
+19	today	today	NOUN	O	0		n.time	trustpilot-182
+20	is	be	VERB	O	0		v.stative	trustpilot-182
+21	the	the	DET	O	0			trustpilot-182
+22	0th	0th	ADJ	O	0			trustpilot-182
+23	September	september	NOUN	O	0		n.time	trustpilot-182
+24	and	and	CONJ	O	0			trustpilot-182
+25	I	i	PRON	O	0			trustpilot-182
+26	have	have	AUX	O	0			trustpilot-182
+27	received	receive	VERB	O	0		v.change	trustpilot-182
+28	nothing	nothing	NOUN	O	0		n.quantity	trustpilot-182
+29	/	/	PUNCT	O	0			trustpilot-182
+30	heard	hear	VERB	O	0		v.perception	trustpilot-182
+31	nothing	nothing	NOUN	O	0		n.quantity	trustpilot-182
+32	.	.	PUNCT	O	0			trustpilot-182
+
+1	I	i	PRON	O	0			ted.iwslt.1353.1
+2	'm	'm	VERB	O	0		v.stative	ted.iwslt.1353.1
+3	here	here	ADV	O	0			ted.iwslt.1353.1
+4	to	to	PART	O	0			ted.iwslt.1353.1
+5	share	share	VERB	O	0		v.social	ted.iwslt.1353.1
+6	my	my	PRON	O	0			ted.iwslt.1353.1
+7	photography	photography	NOUN	O	0		n.artifact	ted.iwslt.1353.1
+8	.	.	PUNCT	O	0			ted.iwslt.1353.1
+
+1	When	when	ADV	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+2	philanthropy	philanthropy	NOUN	O	0		n.act	ted.naist.005-KatherineFulton_2007.iwslt.585.5
+3	was	be	AUX	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+4	reinvented	reinvent	VERB	O	0		v.creation	ted.naist.005-KatherineFulton_2007.iwslt.585.5
+5	a	a	DET	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+6	century	century	NOUN	O	0		n.time	ted.naist.005-KatherineFulton_2007.iwslt.585.5
+7	ago	ago	ADV	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+8	,	,	PUNCT	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+9	when	when	ADV	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+10	the	the	DET	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+11	foundation	foundation	NOUN	B	0		n.cognition	ted.naist.005-KatherineFulton_2007.iwslt.585.5
+12	form	form	NOUN	I	11			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+13	was	be	AUX	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+14	actually	actually	ADV	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+15	invented	invent	VERB	O	0		v.creation	ted.naist.005-KatherineFulton_2007.iwslt.585.5
+16	,	,	PUNCT	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+17	they	they	PRON	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+18	did	do	AUX	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+19	n't	n't	PART	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+20	think	think	VERB	O	0		v.cognition	ted.naist.005-KatherineFulton_2007.iwslt.585.5
+21	of	of	ADP	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+22	themselves	themselves	PRON	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+23	on	on	ADP	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+24	the	the	DET	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+25	wrong	wrong	ADJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+26	side	side	NOUN	O	0		n.location	ted.naist.005-KatherineFulton_2007.iwslt.585.5
+27	of	of	ADP	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+28	these	these	DET	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+29	either	either	CONJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+30	.	.	PUNCT	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.5
+
+1	Just	just	ADV	O	0			ted.iwslt.69.2
+2	to	to	PART	O	0			ted.iwslt.69.2
+3	know	know	VERB	O	0		v.cognition	ted.iwslt.69.2
+4	that	that	SCONJ	O	0			ted.iwslt.69.2
+5	Jaguar	jaguar	VERB	B	0		n.person	ted.iwslt.69.2
+6	shamans	shaman	NOUN	I	5			ted.iwslt.69.2
+7	still	still	ADV	O	0			ted.iwslt.69.2
+8	journey	journey	NOUN	O	0		n.act	ted.iwslt.69.2
+9	beyond	beyond	ADP	O	0			ted.iwslt.69.2
+10	the	the	DET	O	0			ted.iwslt.69.2
+11	Milky	milky	ADJ	B	0		n.natural_object	ted.iwslt.69.2
+12	Way	way	NOUN	I	11			ted.iwslt.69.2
+13	,	,	PUNCT	O	0			ted.iwslt.69.2
+14	or	or	CONJ	O	0			ted.iwslt.69.2
+15	the	the	DET	O	0			ted.iwslt.69.2
+16	myths	myths	PROPN	O	0		n.communication	ted.iwslt.69.2
+17	of	of	ADP	O	0			ted.iwslt.69.2
+18	the	the	DET	O	0			ted.iwslt.69.2
+19	Inuit	inuit	NOUN	B	0		n.person	ted.iwslt.69.2
+20	elders	elder	NOUN	I	19			ted.iwslt.69.2
+21	still	still	ADV	O	0			ted.iwslt.69.2
+22	resonate	resonate	VERB	O	0		v.emotion	ted.iwslt.69.2
+23	with	with	ADP	O	0			ted.iwslt.69.2
+24	meaning	meaning	NOUN	O	0		n.communication	ted.iwslt.69.2
+25	,	,	PUNCT	O	0			ted.iwslt.69.2
+26	or	or	CONJ	O	0			ted.iwslt.69.2
+27	that	that	PRON	O	0			ted.iwslt.69.2
+28	in	in	ADP	O	0			ted.iwslt.69.2
+29	the	the	DET	O	0			ted.iwslt.69.2
+30	Himalaya	himalaya	NOUN	O	0		n.location	ted.iwslt.69.2
+31	,	,	PUNCT	O	0			ted.iwslt.69.2
+32	the	the	DET	O	0			ted.iwslt.69.2
+33	Buddhists	buddhist	NOUN	O	0		n.person	ted.iwslt.69.2
+34	still	still	ADV	O	0			ted.iwslt.69.2
+35	pursue	pursue	VERB	O	0		v.cognition	ted.iwslt.69.2
+36	the	the	DET	O	0			ted.iwslt.69.2
+37	breath	breath	NOUN	O	0		n.body	ted.iwslt.69.2
+38	of	of	ADP	O	0			ted.iwslt.69.2
+39	the	the	DET	O	0			ted.iwslt.69.2
+40	Dharma	dharma	NOUN	O	0		n.person	ted.iwslt.69.2
+41	,	,	PUNCT	O	0			ted.iwslt.69.2
+42	is	be	VERB	O	0			ted.iwslt.69.2
+43	to	to	PART	O	0			ted.iwslt.69.2
+44	really	really	ADV	O	0			ted.iwslt.69.2
+45	remember	remember	VERB	O	0		v.cognition	ted.iwslt.69.2
+46	the	the	DET	O	0			ted.iwslt.69.2
+47	central	central	ADJ	O	0			ted.iwslt.69.2
+48	revelation	revelation	NOUN	O	0		n.cognition	ted.iwslt.69.2
+49	of	of	ADP	O	0			ted.iwslt.69.2
+50	anthropology	anthropology	NOUN	O	0		n.cognition	ted.iwslt.69.2
+51	,	,	PUNCT	O	0			ted.iwslt.69.2
+52	and	and	CONJ	O	0			ted.iwslt.69.2
+53	that	that	PRON	O	0			ted.iwslt.69.2
+54	is	be	VERB	O	0		v.stative	ted.iwslt.69.2
+55	the	the	DET	O	0			ted.iwslt.69.2
+56	idea	idea	NOUN	O	0		n.cognition	ted.iwslt.69.2
+57	that	that	SCONJ	O	0			ted.iwslt.69.2
+58	the	the	DET	O	0			ted.iwslt.69.2
+59	world	world	NOUN	O	0		n.natural_object	ted.iwslt.69.2
+60	in	in	ADP	O	0			ted.iwslt.69.2
+61	which	which	DET	O	0			ted.iwslt.69.2
+62	we	we	PRON	O	0			ted.iwslt.69.2
+63	live	live	VERB	O	0		v.stative	ted.iwslt.69.2
+64	does	do	AUX	O	0			ted.iwslt.69.2
+65	not	not	PART	O	0			ted.iwslt.69.2
+66	exist	exist	VERB	O	0		v.stative	ted.iwslt.69.2
+67	in	in	ADP	O	0			ted.iwslt.69.2
+68	some	some	DET	O	0			ted.iwslt.69.2
+69	absolute	absolute	ADJ	O	0			ted.iwslt.69.2
+70	sense	sense	NOUN	O	0		n.cognition	ted.iwslt.69.2
+71	,	,	PUNCT	O	0			ted.iwslt.69.2
+72	but	but	CONJ	O	0			ted.iwslt.69.2
+73	is	be	VERB	O	0		v.stative	ted.iwslt.69.2
+74	just	just	ADV	O	0			ted.iwslt.69.2
+75	one	one	NUM	O	0			ted.iwslt.69.2
+76	model	model	NOUN	O	0		n.cognition	ted.iwslt.69.2
+77	of	of	ADP	O	0			ted.iwslt.69.2
+78	reality	reality	NOUN	O	0		n.cognition	ted.iwslt.69.2
+79	,	,	PUNCT	O	0			ted.iwslt.69.2
+80	the	the	DET	O	0			ted.iwslt.69.2
+81	consequence	consequence	NOUN	O	0		n.phenomenon	ted.iwslt.69.2
+82	of	of	ADP	O	0			ted.iwslt.69.2
+83	one	one	NUM	O	0			ted.iwslt.69.2
+84	particular	particular	ADJ	O	0			ted.iwslt.69.2
+85	set	set	NOUN	O	0		n.group	ted.iwslt.69.2
+86	of	of	ADP	O	0			ted.iwslt.69.2
+87	adaptive	adaptive	NOUN	O	0			ted.iwslt.69.2
+88	choices	choices	VERB	O	0			ted.iwslt.69.2
+89	that	that	DET	O	0			ted.iwslt.69.2
+90	our	our	PRON	O	0			ted.iwslt.69.2
+91	lineage	lineage	NOUN	O	0		n.group	ted.iwslt.69.2
+92	made	make	VERB	O	0		v.change	ted.iwslt.69.2
+93	,	,	PUNCT	O	0			ted.iwslt.69.2
+94	albeit	albeit	VERB	O	0			ted.iwslt.69.2
+95	successfully	successfully	ADV	O	0			ted.iwslt.69.2
+96	,	,	PUNCT	O	0			ted.iwslt.69.2
+97	many	many	ADJ	O	0			ted.iwslt.69.2
+98	generations	generation	NOUN	O	0		n.group	ted.iwslt.69.2
+99	ago	ago	ADV	O	0			ted.iwslt.69.2
+100	.	.	PUNCT	O	0			ted.iwslt.69.2
+
+1	I	i	PRON	O	0			trustpilot-205
+2	would	would	VERB	O	0			trustpilot-205
+3	definitely	definitely	ADV	O	0			trustpilot-205
+4	choose	choose	VERB	O	0		v.cognition	trustpilot-205
+5	AFerry	aferry	PROPN	O	0		n.group	trustpilot-205
+6	again	again	ADV	O	0			trustpilot-205
+7	.	.	PUNCT	O	0			trustpilot-205
+
+1	RT	rt	X	O	0			tweebank.56
+2	@JuicyJennaa	@USER	X	O	0			tweebank.56
+3	:	:	X	O	0			tweebank.56
+4	@Dame_O_DewBaby	@USER	X	O	0			tweebank.56
+5	aite	aite	INTJ	O	0			tweebank.56
+6	bruh	bruh	NOUN	B	0		n.communication	tweebank.56
+7	bruh	bruh	NOUN	I	6			tweebank.56
+8	I	i	PRON	O	0			tweebank.56
+9	got	get	VERB	O	0		v.stative	tweebank.56
+10	you	you	PRON	O	0			tweebank.56
+11	foue	foue	NOUN	O	0		n.person	tweebank.56
+
+1	Would	would	VERB	O	0			trustpilot-109
+2	use	use	VERB	O	0		v.stative	trustpilot-109
+3	these	these	PRON	O	0			trustpilot-109
+4	again	again	ADV	O	0			trustpilot-109
+5	.	.	PUNCT	O	0			trustpilot-109
+
+1	RT	rt	X	O	0			tweebank.83
+2	@ieatpussy4pizza	@USER	X	O	0			tweebank.83
+3	:	:	X	O	0			tweebank.83
+4	@Allan_oVo	@USER	X	O	0			tweebank.83
+5	got	get	VERB	O	0		v.stative	tweebank.83
+6	them	them	DET	O	0			tweebank.83
+7	black	black	ADJ	B	0		n.person	tweebank.83
+8	girl	girl	NOUN	I	7			tweebank.83
+9	groupies	groupie	NOUN	I	8			tweebank.83
+10	though	though	ADP	O	0			tweebank.83
+
+1	Secondhand	secondhand	ADJ	O	0			ted.iwslt.1161.7
+2	shopping	shopping	NOUN	O	0		n.act	ted.iwslt.1161.7
+3	allows	allow	VERB	O	0		v.stative	ted.iwslt.1161.7
+4	me	me	PRON	O	0			ted.iwslt.1161.7
+5	to	to	PART	O	0			ted.iwslt.1161.7
+6	reduce	reduce	VERB	O	0		v.change	ted.iwslt.1161.7
+7	the	the	DET	O	0			ted.iwslt.1161.7
+8	impact	impact	NOUN	O	0		n.process	ted.iwslt.1161.7
+9	my	my	PRON	O	0			ted.iwslt.1161.7
+10	wardrobe	wardrobe	NOUN	O	0		n.artifact	ted.iwslt.1161.7
+11	has	have	VERB	O	0		v.stative	ted.iwslt.1161.7
+12	on	on	ADP	O	0			ted.iwslt.1161.7
+13	the	the	DET	O	0			ted.iwslt.1161.7
+14	environment	environment	NOUN	O	0		n.state	ted.iwslt.1161.7
+15	and	and	CONJ	O	0			ted.iwslt.1161.7
+16	on	on	ADP	O	0			ted.iwslt.1161.7
+17	my	my	PRON	O	0			ted.iwslt.1161.7
+18	wallet	wallet	NOUN	O	0		n.artifact	ted.iwslt.1161.7
+19	.	.	PUNCT	O	0			ted.iwslt.1161.7
+
+1	@mandaffodil	@USER	X	O	0			tweebank.152
+2	lol	lol	INTJ	O	0			tweebank.152
+3	,	,	PUNCT	O	0			tweebank.152
+4	we	we	PRON	O	0			tweebank.152
+5	are	be	VERB	O	0		v.stative	tweebank.152
+6	one	one	INTJ	O	0			tweebank.152
+7	.	.	PUNCT	O	0			tweebank.152
+8	and	and	CONJ	O	0			tweebank.152
+9	that	that	PRON	O	0			tweebank.152
+10	was	be	VERB	O	0		v.stative	tweebank.152
+11	me	me	PRON	O	0			tweebank.152
+12	this	this	DET	O	0			tweebank.152
+13	weekend	weekend	NOUN	O	0		n.time	tweebank.152
+14	especially	especially	ADV	O	0			tweebank.152
+15	.	.	PUNCT	O	0			tweebank.152
+16	maybe	maybe	ADV	O	0			tweebank.152
+17	put	put	VERB	B	0		v.change	tweebank.152
+18	it	it	PRON	o	0			tweebank.152
+19	off	off	ADP	I	17			tweebank.152
+20	until	until	SCONJ	O	0			tweebank.152
+21	you	you	PRON	O	0			tweebank.152
+22	feel	feel	VERB	B	0		v.emotion	tweebank.152
+23	like	like	SCONJ	I	22			tweebank.152
+24	~	~	SYM	O	0			tweebank.152
+25	talking	talk	VERB	O	0		v.communication	tweebank.152
+26	again	again	ADV	O	0			tweebank.152
+27	?	?	PUNCT	O	0			tweebank.152
+
+1	Keep	keep	VERB	B	0		v.stative	trustpilot-123
+2	up	up	PART	I	1			trustpilot-123
+3	the	the	DET	O	0			trustpilot-123
+4	good	good	ADJ	O	0			trustpilot-123
+5	work	work	NOUN	O	0		n.act	trustpilot-123
+6	guys	guy	NOUN	O	0		n.person	trustpilot-123
+7	.	.	PUNCT	O	0			trustpilot-123
+
+1	But	but	CONJ	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+2	on	on	ADP	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+3	the	the	DET	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+4	other	other	ADJ	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+5	side	side	NOUN	O	0		n.location	ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+6	of	of	ADP	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+7	that	that	DET	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+8	,	,	PUNCT	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+9	though	though	ADV	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+10	,	,	PUNCT	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+11	we	we	PRON	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+12	were	be	VERB	O	0		v.stative	ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+13	big	big	ADJ	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+14	readers	reader	NOUN	O	0		n.person	ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+15	in	in	ADP	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+16	our	our	PRON	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+17	house	house	NOUN	O	0		n.artifact	ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+18	.	.	PUNCT	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.7
+
+1	Photos	photo	NOUN	O	0		n.artifact	ted.iwslt.1353.10
+2	like	like	ADP	O	0			ted.iwslt.1353.10
+3	this	this	PRON	O	0			ted.iwslt.1353.10
+4	:	:	PUNCT	O	0			ted.iwslt.1353.10
+5	construction	construction	NOUN	O	0		n.act	ted.iwslt.1353.10
+6	going	go	VERB	B	0		v.motion	ted.iwslt.1353.10
+7	on	on	ADP	I	6			ted.iwslt.1353.10
+8	along	along	ADP	O	0			ted.iwslt.1353.10
+9	a	a	DET	O	0			ted.iwslt.1353.10
+10	busy	busy	ADJ	O	0			ted.iwslt.1353.10
+11	road	road	NOUN	O	0		n.artifact	ted.iwslt.1353.10
+12	.	.	PUNCT	O	0			ted.iwslt.1353.10
+
+1	I	i	PRON	O	0			trustpilot-38
+2	was	be	AUX	O	0			trustpilot-38
+3	looking	look	VERB	O	0		v.perception	trustpilot-38
+4	for	for	ADP	O	0			trustpilot-38
+5	a	a	DET	O	0			trustpilot-38
+6	watch	watch	NOUN	O	0		n.artifact	trustpilot-38
+7	for	for	ADP	O	0			trustpilot-38
+8	my	my	DET	O	0			trustpilot-38
+9	teenage	teenage	ADJ	B	0		n.person	trustpilot-38
+10	grandson	grandson	NOUN	I	9			trustpilot-38
+11	for	for	ADP	O	0			trustpilot-38
+12	his	his	DET	O	0			trustpilot-38
+13	birthday	birthday	NOUN	O	0		n.event	trustpilot-38
+14	,	,	PUNCT	O	0			trustpilot-38
+15	I	i	PRON	O	0			trustpilot-38
+16	found	found	VERB	O	0		v.cognition	trustpilot-38
+17	the	the	DET	B	0		n.group	trustpilot-38
+18	watchshop	watchshop	NOUN	I	17			trustpilot-38
+19	from	from	ADP	O	0			trustpilot-38
+20	a	a	DET	O	0			trustpilot-38
+21	web	web	NOUN	B	0		n.communication	trustpilot-38
+22	search	search	NOUN	I	21			trustpilot-38
+23	.	.	PUNCT	O	0			trustpilot-38
+
+1	very	very	ADV	O	0			trustpilot-225
+2	clearly	clearly	ADJ	O	0			trustpilot-225
+3	and	and	CONJ	O	0			trustpilot-225
+4	at	at	ADP	O	0			trustpilot-225
+5	no	no	DET	O	0			trustpilot-225
+6	time	time	NOUN	O	0		n.event	trustpilot-225
+7	did	do	AUX	O	0			trustpilot-225
+8	I	i	PRON	O	0			trustpilot-225
+9	feel	feel	VERB	O	0		v.emotion	trustpilot-225
+10	under	under	ADP	B	0		n.feeling	trustpilot-225
+11	pressure	pressure	NOUN	I	10			trustpilot-225
+12	to	to	PART	O	0			trustpilot-225
+13	use	use	VERB	O	0		v.stative	trustpilot-225
+14	this	this	DET	O	0			trustpilot-225
+15	service	service	NOUN	O	0		n.act	trustpilot-225
+16	.	.	PUNCT	O	0			trustpilot-225
+
+1	Haha	haha	INTJ	O	0			tweebank.496
+2	.	.	PUNCT	O	0			tweebank.496
+3	My	my	PRON	O	0			tweebank.496
+4	producer	producer	NOUN	O	0		n.person	tweebank.496
+5	said	say	VERB	O	0		v.communication	tweebank.496
+6	UV	uv	PROPN	B	0		n.food	tweebank.496
+7	vodka	vodka	NOUN	I	6			tweebank.496
+8	is	be	AUX	O	0			tweebank.496
+9	a	a	DET	O	0			tweebank.496
+10	bad	bad	ADJ	O	0			tweebank.496
+11	situation	situation	NOUN	O	0		n.state	tweebank.496
+12	waitin	waitin	VERB	O	0		v.stative	tweebank.496
+13	to	to	PART	O	0			tweebank.496
+14	happen	happen	VERB	O	0		v.change	tweebank.496
+15	,	,	PUNCT	O	0			tweebank.496
+16	i	i	PRON	O	0			tweebank.496
+17	said	say	VERB	O	0		v.communication	tweebank.496
+18	#fuuuuuuucccit	#fuuuuuuucccit	INTJ	O	0			tweebank.496
+
+1	Took	take	VERB	O	0		v.stative	trustpilot-258
+2	three	three	NUM	O	0			trustpilot-258
+3	days	days	NOUN	O	0		n.time	trustpilot-258
+4	,	,	PUNCT	O	0			trustpilot-258
+5	be	be	VERB	O	0		v.stative	trustpilot-258
+6	patient	patient	ADJ	O	0			trustpilot-258
+7	and	and	CONJ	O	0			trustpilot-258
+8	it	it	PRON	O	0			trustpilot-258
+9	'	'	PART	O	0			trustpilot-258
+10	ll	ll	VERB	O	0			trustpilot-258
+11	happen	happen	VERB	O	0		v.change	trustpilot-258
+12	.	.	PUNCT	O	0			trustpilot-258
+
+1	I	i	PRON	O	0			trustpilot-83
+2	needed	need	VERB	O	0		v.stative	trustpilot-83
+3	a	a	DET	O	0			trustpilot-83
+4	service	service	NOUN	O	0		n.act	trustpilot-83
+5	that	that	PRON	O	0			trustpilot-83
+6	was	be	VERB	O	0		v.stative	trustpilot-83
+7	simple	simple	ADJ	O	0			trustpilot-83
+8	and	and	CONJ	O	0			trustpilot-83
+9	quick	quick	ADJ	O	0			trustpilot-83
+10	which	which	PRON	O	0			trustpilot-83
+11	Transglobal	transglobal	PROPN	O	0		n.group	trustpilot-83
+12	provided	provide	VERB	O	0		v.stative	trustpilot-83
+13	,	,	PUNCT	O	0			trustpilot-83
+14	from	from	ADP	O	0			trustpilot-83
+15	the	the	DET	O	0			trustpilot-83
+16	start	start	NOUN	O	0		n.event	trustpilot-83
+17	of	of	ADP	O	0			trustpilot-83
+18	the	the	DET	O	0			trustpilot-83
+19	process	process	NOUN	O	0		n.act	trustpilot-83
+20	to	to	ADP	O	0			trustpilot-83
+21	receiving	receive	VERB	O	0		v.contact	trustpilot-83
+22	goods	good	NOUN	O	0		n.artifact	trustpilot-83
+23	from	from	ADP	O	0			trustpilot-83
+24	the	the	DET	O	0			trustpilot-83
+25	USA	usa	PROPN	O	0		n.location	trustpilot-83
+26	took	take	VERB	O	0		v.stative	trustpilot-83
+27	0	0	NUM	O	0			trustpilot-83
+28	days	days	NOUN	O	0		n.time	trustpilot-83
+29	which	which	PRON	O	0			trustpilot-83
+30	in	in	ADP	O	0			trustpilot-83
+31	my	my	DET	O	0			trustpilot-83
+32	opinion	opinion	NOUN	O	0		n.cognition	trustpilot-83
+33	is	be	VERB	O	0		v.stative	trustpilot-83
+34	superb	superb	ADJ	O	0			trustpilot-83
+35	.	.	PUNCT	O	0			trustpilot-83
+
+1	well	well	ADV	B	0			trustpilot-10
+2	done	do	VERB	I	1			trustpilot-10
+3	Illumi	illumi	PROPN	O	0		n.group	trustpilot-10
+4	for	for	ADP	O	0			trustpilot-10
+5	a	a	DET	O	0			trustpilot-10
+6	great	great	ADJ	O	0			trustpilot-10
+7	product	product	NOUN	O	0		n.artifact	trustpilot-10
+8	.	.	PUNCT	O	0			trustpilot-10
+
+1	SHOWOFFRADIO	showoffradio	PROPN	O	0		n.communication	tweebank.425
+2	LIVE	live	ADJ	O	0			tweebank.425
+3	!!!	!!!	PUNCT	O	0			tweebank.425
+
+1	Any	any	DET	O	0			trustpilot-245
+2	ideas	idea	NOUN	O	0		n.cognition	trustpilot-245
+3	re	re	ADP	O	0			trustpilot-245
+4	cause	cause	NOUN	O	0			trustpilot-245
+5	?	?	PUNCT	O	0			trustpilot-245
+
+1	Rihanna	rihanna	PROPN	O	0		n.person	tweebank.413
+2	changed	change	VERB	O	0		v.change	tweebank.413
+3	her	her	PRON	O	0			tweebank.413
+4	all	all	DET	O	0			tweebank.413
+5	style	style	NOUN	O	0		n.attribute	tweebank.413
+6	she	she	PRON	O	0			tweebank.413
+7	was	be	VERB	O	0		v.stative	tweebank.413
+8	nothing	nothing	NOUN	O	0			tweebank.413
+9	like	like	SCONJ	O	0			tweebank.413
+10	she	she	PRON	O	0			tweebank.413
+11	is	be	VERB	O	0		v.stative	tweebank.413
+12	now	now	ADV	O	0			tweebank.413
+
+1	I	i	PRON	O	0			trustpilot-103
+2	presume	presume	VERB	O	0		v.cognition	trustpilot-103
+3	they	they	PRON	O	0			trustpilot-103
+4	will	will	AUX	O	0			trustpilot-103
+5	now	now	ADV	O	0			trustpilot-103
+6	have	have	AUX	O	0			trustpilot-103
+7	to	to	PART	O	0			trustpilot-103
+8	take	take	VERB	B	0		v.communication	trustpilot-103
+9	the	the	DET	o	0			trustpilot-103
+10	duff	duff	NOUN	o	0			trustpilot-103
+11	machine	machine	NOUN	o	0		n.artifact	trustpilot-103
+12	issue	issue	NOUN	o	0		n.state	trustpilot-103
+13	up	up	PART	I	8			trustpilot-103
+14	with	with	ADP	O	0			trustpilot-103
+15	Hotpoint	hotpoint	PROPN	O	0		n.group	trustpilot-103
+16	but	but	CONJ	O	0			trustpilot-103
+17	offered	offer	VERB	O	0		v.communication	trustpilot-103
+18	me	me	PRON	O	0			trustpilot-103
+19	a	a	DET	O	0			trustpilot-103
+20	fantastic	fantastic	ADJ	O	0			trustpilot-103
+21	service	service	NOUN	O	0		n.act	trustpilot-103
+22	as	as	ADP	O	0			trustpilot-103
+23	it	it	PRON	O	0			trustpilot-103
+24	'	'	PART	O	0			trustpilot-103
+25	s	s	VERB	O	0			trustpilot-103
+26	resolved	resolve	VERB	O	0		v.change	trustpilot-103
+27	the	the	DET	O	0			trustpilot-103
+28	issue	issue	NOUN	O	0		n.state	trustpilot-103
+29	for	for	ADP	O	0			trustpilot-103
+30	me	me	PRON	O	0			trustpilot-103
+31	.	.	PUNCT	O	0			trustpilot-103
+
+1	Credit	credit	NOUN	B	0		n.group	trustpilot-166
+2	card	card	NOUN	I	1			trustpilot-166
+3	company	company	NOUN	I	2			trustpilot-166
+4	now	now	ADV	O	0			trustpilot-166
+5	notified	notify	VERB	O	0		v.communication	trustpilot-166
+6	we	we	PRON	O	0			trustpilot-166
+7	are	be	VERB	O	0		v.stative	trustpilot-166
+8	in	in	ADP	O	0			trustpilot-166
+9	dispute	dispute	NOUN	O	0		n.state	trustpilot-166
+10	and	and	CONJ	O	0			trustpilot-166
+11	a	a	DET	O	0			trustpilot-166
+12	replacement	replacement	NOUN	B	0		n.communication	trustpilot-166
+13	order	order	NOUN	I	12			trustpilot-166
+14	in	in	ADP	O	0			trustpilot-166
+15	progress	progress	NOUN	O	0		n.act	trustpilot-166
+16	with	with	ADP	O	0			trustpilot-166
+17	alternative	alternative	ADJ	B	0		n.group	trustpilot-166
+18	supplier	supplier	NOUN	I	17			trustpilot-166
+19	.	.	PUNCT	O	0			trustpilot-166
+
+1	@syabillaedward	@USER	X	O	0			tweebank.184
+2	honestly	honestly	ADV	O	0			tweebank.184
+3	?	?	PUNCT	O	0			tweebank.184
+4	I	i	PRON	O	0			tweebank.184
+5	have	have	VERB	O	0		v.stative	tweebank.184
+6	no	no	DET	O	0			tweebank.184
+7	idea	idea	NOUN	O	0		n.cognition	tweebank.184
+8	.	.	PUNCT	O	0			tweebank.184
+9	I	i	PRON	O	0			tweebank.184
+10	just	just	ADV	O	0			tweebank.184
+11	am	be	VERB	O	0		v.stative	tweebank.184
+12	...	...	PUNCT	O	0			tweebank.184
+13	all	all	DET	O	0			tweebank.184
+14	.	.	PUNCT	O	0			tweebank.184
+15	the	the	DET	O	0			tweebank.184
+16	.	.	PUNCT	O	0			tweebank.184
+17	time	time	NOUN	O	0		n.time	tweebank.184
+18	.	.	PUNCT	O	0			tweebank.184
+19	:(	EMOTICON	X	O	0			tweebank.184
+
+1	@room_downstairs	@USER	X	O	0			tweebank.316
+2	where	where	ADV	O	0			tweebank.316
+3	did	do	AUX	O	0			tweebank.316
+4	you	you	PRON	O	0			tweebank.316
+5	ask	ask	VERB	O	0		v.communication	tweebank.316
+6	?	?	PUNCT	O	0			tweebank.316
+7	We	we	PRON	O	0			tweebank.316
+8	are	be	VERB	O	0		v.stative	tweebank.316
+9	very	very	ADV	O	0			tweebank.316
+10	prompt	prompt	ADJ	O	0			tweebank.316
+11	with	with	ADP	O	0			tweebank.316
+12	replies	reply	NOUN	O	0		n.communication	tweebank.316
+13	.	.	PUNCT	O	0			tweebank.316
+14	If	if	SCONJ	O	0			tweebank.316
+15	you	you	PRON	O	0			tweebank.316
+16	want	want	VERB	O	0		v.emotion	tweebank.316
+17	to	to	PART	O	0			tweebank.316
+18	DM	dm	VERB	O	0		v.communication	tweebank.316
+19	your	your	PRON	O	0			tweebank.316
+20	name	name	NOUN	O	0		n.communication	tweebank.316
+21	or	or	CONJ	O	0			tweebank.316
+22	email	email	NOUN	O	0		n.communication	tweebank.316
+23	we	we	PRON	O	0			tweebank.316
+24	can	can	AUX	O	0			tweebank.316
+25	check	check	VERB	O	0		v.cognition	tweebank.316
+26	right	right	ADV	B	0			tweebank.316
+27	now	now	ADV	I	26			tweebank.316
+28	.	.	PUNCT	O	0			tweebank.316
+
+1	I	i	PRON	O	0			trustpilot-165
+2	would	would	VERB	O	0			trustpilot-165
+3	recommend	recommend	VERB	O	0		v.communication	trustpilot-165
+4	their	their	DET	O	0			trustpilot-165
+5	services	services	NOUN	O	0		n.act	trustpilot-165
+6	,	,	PUNCT	O	0			trustpilot-165
+7	to	to	ADP	O	0			trustpilot-165
+8	friends	friend	NOUN	O	0		n.person	trustpilot-165
+9	,	,	PUNCT	O	0			trustpilot-165
+10	without	without	ADP	O	0			trustpilot-165
+11	hesitation	hesitation	NOUN	O	0		n.cognition	trustpilot-165
+12	.	.	PUNCT	O	0			trustpilot-165
+
+1	Fainlly	fainlly	ADV	O	0			tweebank.187
+2	KFC	kfc	PROPN	O	0		n.group	tweebank.187
+3	dinner	dinner	NOUN	O	0		n.food	tweebank.187
+4	is	be	VERB	O	0		v.stative	tweebank.187
+5	here	here	ADV	O	0			tweebank.187
+6	♥	♥	PUNCT	O	0			tweebank.187
+7	.	.	PUNCT	O	0			tweebank.187
+
+1	They	they	PRON	O	0			trustpilot-4
+2	kept	keep	VERB	O	0		v.stative	trustpilot-4
+3	to	to	ADP	O	0			trustpilot-4
+4	the	the	DET	O	0			trustpilot-4
+5	estimated	estimated	ADJ	O	0			trustpilot-4
+6	worth	worth	NOUN	O	0		n.possession	trustpilot-4
+7	they	they	PRON	O	0			trustpilot-4
+8	had	have	AUX	O	0			trustpilot-4
+9	given	give	VERB	O	0		v.communication	trustpilot-4
+10	for	for	ADP	O	0			trustpilot-4
+11	my	my	DET	O	0			trustpilot-4
+12	phone	phone	NOUN	O	0		n.artifact	trustpilot-4
+13	.	.	PUNCT	O	0			trustpilot-4
+
+1	@CareenaCoolAss	@USER	X	O	0			tweebank.330
+2	u	u	PRON	O	0			tweebank.330
+3	not	not	PART	O	0			tweebank.330
+4	callin	callin	VERB	O	0		v.communication	tweebank.330
+5	me	me	PRON	O	0			tweebank.330
+
+1	Overall	overall	ADV	O	0			trustpilot-104
+2	we	we	PRON	O	0			trustpilot-104
+3	were	be	VERB	O	0		v.stative	trustpilot-104
+4	really	really	ADV	O	0			trustpilot-104
+5	impressed	impressed	ADJ	O	0			trustpilot-104
+6	with	with	ADP	O	0			trustpilot-104
+7	the	the	DET	O	0			trustpilot-104
+8	service	service	NOUN	O	0		n.act	trustpilot-104
+9	and	and	CONJ	O	0			trustpilot-104
+10	the	the	DET	O	0			trustpilot-104
+11	pricing	pricing	NOUN	O	0		n.attribute	trustpilot-104
+12	and	and	CONJ	O	0			trustpilot-104
+13	would	would	VERB	O	0			trustpilot-104
+14	recommend	recommend	VERB	O	0		v.communication	trustpilot-104
+15	them	them	PRON	O	0			trustpilot-104
+16	to	to	ADP	O	0			trustpilot-104
+17	others	others	NOUN	O	0			trustpilot-104
+18	.	.	PUNCT	O	0			trustpilot-104
+
+1	@Tiff3rz	@USER	X	O	0			tweebank.173
+2	smfh	smfh	X	O	0			tweebank.173
+3	that	that	PRON	O	0			tweebank.173
+4	's	's	VERB	O	0		v.stative	tweebank.173
+5	fucking	fucking	ADV	O	0			tweebank.173
+6	crazy	crazy	ADJ	O	0			tweebank.173
+
+1	It	it	PRON	O	0			trustpilot-9
+2	took	take	VERB	O	0		v.stative	trustpilot-9
+3	me	me	PRON	O	0			trustpilot-9
+4	months	month	NOUN	O	0		n.time	trustpilot-9
+5	to	to	PART	O	0			trustpilot-9
+6	eventually	eventually	ADV	O	0			trustpilot-9
+7	take	take	VERB	O	0		v.motion	trustpilot-9
+8	the	the	DET	O	0			trustpilot-9
+9	dealer	dealer	NOUN	O	0		n.person	trustpilot-9
+10	to	to	ADP	O	0			trustpilot-9
+11	court	court	NOUN	O	0		n.act	trustpilot-9
+12	.	.	PUNCT	O	0			trustpilot-9
+
+1	Pain	pain	NOUN	O	0		n.state	tweebank.277
+2	is	be	VERB	O	0		v.stative	tweebank.277
+3	pleasure	pleasure	NOUN	O	0		n.feeling	tweebank.277
+
+1	Bridalplasty	bridalplasty	PROPN	O	0		n.communication	tweebank.133
+2	!	!	PUNCT	O	0			tweebank.133
+3	Love	love	VERB	O	0		v.emotion	tweebank.133
+4	this	this	DET	O	0			tweebank.133
+5	showww	showww	NOUN	O	0		n.communication	tweebank.133
+6	.	.	PUNCT	O	0			tweebank.133
+
+1	The	the	DET	O	0			trustpilot-189
+2	screen	screen	NOUN	B	0		n.artifact	trustpilot-189
+3	washer	washer	NOUN	I	2			trustpilot-189
+4	was	be	VERB	O	0		v.stative	trustpilot-189
+5	empty	empty	ADJ	O	0			trustpilot-189
+6	on	on	ADP	O	0			trustpilot-189
+7	delivery	delivery	NOUN	O	0		n.act	trustpilot-189
+8	and	and	CONJ	O	0			trustpilot-189
+9	unfortunately	unfortunately	ADV	O	0			trustpilot-189
+10	I	i	PRON	O	0			trustpilot-189
+11	parked	park	VERB	O	0		v.contact	trustpilot-189
+12	under	under	ADP	O	0			trustpilot-189
+13	some	some	DET	O	0			trustpilot-189
+14	trees	tree	NOUN	O	0		n.plant	trustpilot-189
+15	for	for	ADP	O	0			trustpilot-189
+16	the	the	DET	O	0			trustpilot-189
+17	first	first	ADJ	O	0			trustpilot-189
+18	night	night	NOUN	O	0		n.time	trustpilot-189
+19	and	and	CONJ	O	0			trustpilot-189
+20	came	come	VERB	B	0		v.motion	trustpilot-189
+21	back	back	PART	I	20			trustpilot-189
+22	to	to	ADP	O	0			trustpilot-189
+23	a	a	DET	O	0			trustpilot-189
+24	pebble	pebble	NOUN	B	0		n.artifact	trustpilot-189
+25	-	-	PUNCT	I	24			trustpilot-189
+26	dashed	dashed	ADJ	I	25			trustpilot-189
+27	car	car	NOUN	I	26			trustpilot-189
+28	the	the	DET	O	0			trustpilot-189
+29	next	next	ADJ	O	0			trustpilot-189
+30	morning	morning	NOUN	O	0		n.time	trustpilot-189
+31	.	.	PUNCT	O	0			trustpilot-189
+
+1	Another	another	DET	O	0			tweebank.112
+2	push	push	NOUN	O	0		n.act	tweebank.112
+3	to	to	PART	O	0			tweebank.112
+4	allow	allow	VERB	O	0		v.stative	tweebank.112
+5	guns	gun	NOUN	O	0		n.artifact	tweebank.112
+6	on	on	ADP	O	0			tweebank.112
+7	college	college	NOUN	B	0		n.artifact	tweebank.112
+8	campuses	campus	NOUN	I	7			tweebank.112
+9	:	:	PUNCT	O	0			tweebank.112
+10	The	the	DET	O	0			tweebank.112
+11	upcoming	upcoming	ADJ	O	0			tweebank.112
+12	legislative	legislative	ADJ	O	0			tweebank.112
+13	session	session	NOUN	O	0		n.communication	tweebank.112
+14	will	will	AUX	O	0			tweebank.112
+15	see	see	VERB	O	0		v.perception	tweebank.112
+16	a	a	DET	O	0			tweebank.112
+17	push	push	NOUN	O	0		n.act	tweebank.112
+18	by	by	ADP	O	0			tweebank.112
+19	pro-gun	pro-gun	ADJ	O	0			tweebank.112
+20	...	...	X	O	0			tweebank.112
+21	http://t.co/QFzgmXOm	URL	X	O	0			tweebank.112
+
+1	I	i	PRON	O	0			tweebank.279
+2	made	make	VERB	O	0		v.creation	tweebank.279
+3	$300	NUMBER	NUM	O	0			tweebank.279
+4	.	.	PUNCT	O	0			tweebank.279
+5	That	that	PRON	O	0			tweebank.279
+6	is	be	VERB	O	0		v.stative	tweebank.279
+7	on	on	ADP	B	0			tweebank.279
+8	top	top	NOUN	I	7			tweebank.279
+9	of	of	ADP	I	8			tweebank.279
+10	the	the	DET	O	0			tweebank.279
+11	$550	NUMBER	NUM	O	0			tweebank.279
+12	I	i	PRON	O	0			tweebank.279
+13	've	've	AUX	O	0			tweebank.279
+14	made	make	VERB	O	0		v.creation	tweebank.279
+15	earlier	earlier	ADV	O	0			tweebank.279
+16	on	on	ADP	O	0			tweebank.279
+17	this	this	DET	O	0			tweebank.279
+18	trip	trip	NOUN	O	0		n.act	tweebank.279
+19	.	.	PUNCT	O	0			tweebank.279
+20	Not	not	PART	O	0			tweebank.279
+21	bad	bad	ADJ	O	0			tweebank.279
+22	if	if	SCONJ	O	0			tweebank.279
+23	I	i	PRON	O	0			tweebank.279
+24	do	do	AUX	O	0			tweebank.279
+25	say	say	VERB	O	0		v.communication	tweebank.279
+26	so	so	ADV	O	0			tweebank.279
+27	myself	myself	PRON	O	0			tweebank.279
+28	.	.	PUNCT	O	0			tweebank.279
+
+1	My	my	DET	O	0			trustpilot-81
+2	order	order	NOUN	O	0		n.communication	trustpilot-81
+3	was	be	AUX	O	0			trustpilot-81
+4	swiftly	swiftly	ADV	O	0			trustpilot-81
+5	completed	complete	VERB	O	0		v.change	trustpilot-81
+6	delivered	deliver	VERB	O	0		v.contact	trustpilot-81
+7	and	and	CONJ	O	0			trustpilot-81
+8	information	information	NOUN	O	0		n.communication	trustpilot-81
+9	regarding	regard	VERB	O	0		v.cognition	trustpilot-81
+10	updates	update	NOUN	O	0		n.communication	trustpilot-81
+11	to	to	ADP	O	0			trustpilot-81
+12	the	the	DET	O	0			trustpilot-81
+13	delivery	delivery	NOUN	O	0		n.act	trustpilot-81
+14	were	be	VERB	O	0		v.stative	trustpilot-81
+15	spot	spot	NOUN	B	0		n.attribute	trustpilot-81
+16	on	on	ADP	I	15			trustpilot-81
+17	.	.	PUNCT	O	0			trustpilot-81
+
+1	I	i	PRON	O	0			ted.iwslt.129.10
+2	would	would	AUX	O	0			ted.iwslt.129.10
+3	n't	n't	PART	O	0			ted.iwslt.129.10
+4	recommend	recommend	VERB	O	0		v.communication	ted.iwslt.129.10
+5	it	it	PRON	O	0			ted.iwslt.129.10
+6	.	.	PUNCT	O	0			ted.iwslt.129.10
+
+1	@waveyylifestyle	@USER	X	O	0			tweebank.194
+2	true	true	ADJ	O	0			tweebank.194
+3	true	true	ADJ	O	0			tweebank.194
+4	.	.	PUNCT	O	0			tweebank.194
+5	I	i	PRON	O	0			tweebank.194
+6	'm	'm	VERB	O	0			tweebank.194
+7	in	in	ADP	B	0			tweebank.194
+8	love	love	NOUN	I	7			tweebank.194
+9	wit	wit	ADP	O	0			tweebank.194
+10	food	food	NOUN	O	0		n.food	tweebank.194
+11	nigga	nigga	NOUN	O	0		n.person	tweebank.194
+
+1	I	i	PRON	O	0			tweebank.493
+2	had	have	AUX	O	0			tweebank.493
+3	forgotten	forget	VERB	O	0		v.cognition	tweebank.493
+4	how	how	ADV	O	0			tweebank.493
+5	much	much	ADV	O	0			tweebank.493
+6	i	i	PRON	O	0			tweebank.493
+7	looove	looove	VERB	O	0		v.emotion	tweebank.493
+8	coffee	coffee	NOUN	B	0		n.food	tweebank.493
+9	cake	cake	NOUN	I	8			tweebank.493
+10	!!	!!	PUNCT	O	0			tweebank.493
+11	Yup	yup	INTJ	O	0			tweebank.493
+12	!	!	PUNCT	O	0			tweebank.493
+13	I	i	PRON	O	0			tweebank.493
+14	Love	love	VERB	O	0		v.emotion	tweebank.493
+15	Coffee	coffee	NOUN	B	0		n.food	tweebank.493
+16	Cake	cake	NOUN	I	15			tweebank.493
+17	.	.	PUNCT	O	0			tweebank.493
+18	Y	y	X	B	0			tweebank.493
+19	Que	que	X	I	18			tweebank.493
+20	?!	?!	PUNCT	O	0			tweebank.493
+
+1	I	i	PRON	O	0			tweebank.109
+2	gotta	gotta	VERB	O	0			tweebank.109
+3	make	make	VERB	B	0		v.motion	tweebank.109
+4	my	my	PRON	o	0			tweebank.109
+5	way	way	NOUN	I	3			tweebank.109
+6	to	to	ADP	O	0			tweebank.109
+7	the	the	DET	O	0			tweebank.109
+8	sprint	sprint	PROPN	B	0		n.artifact	tweebank.109
+9	store	store	NOUN	I	8			tweebank.109
+10	n	n	CONJ	O	0			tweebank.109
+11	I	i	PRON	O	0			tweebank.109
+12	really	really	ADV	O	0			tweebank.109
+13	do	do	AUX	O	0			tweebank.109
+14	n't	n't	PART	O	0			tweebank.109
+15	wana	wana	VERB	O	0		v.emotion	tweebank.109
+16	go	go	VERB	O	0		v.motion	tweebank.109
+17	outside	outside	ADV	O	0			tweebank.109
+18	i	i	PRON	O	0			tweebank.109
+19	ma	ma	AUX	O	0			tweebank.109
+20	try	try	VERB	O	0		v.social	tweebank.109
+21	to	to	PART	O	0			tweebank.109
+22	get	get	VERB	O	0		v.communication	tweebank.109
+23	moms	mom	NOUN	O	0		n.person	tweebank.109
+24	to	to	PART	O	0			tweebank.109
+25	give	give	VERB	O	0		v.stative	tweebank.109
+26	me	me	PRON	O	0			tweebank.109
+27	a	a	DET	O	0			tweebank.109
+28	ride	ride	NOUN	O	0		n.act	tweebank.109
+29	lol	lol	INTJ	O	0			tweebank.109
+
+1	This	this	PRON	O	0			ted.iwslt.129.6
+2	is	be	VERB	O	0		v.stative	ted.iwslt.129.6
+3	an	an	DET	O	0			ted.iwslt.129.6
+4	entire	entire	ADJ	O	0			ted.iwslt.129.6
+5	book	book	NOUN	O	0		n.communication	ted.iwslt.129.6
+6	,	,	PUNCT	O	0			ted.iwslt.129.6
+7	so	so	ADV	O	0			ted.iwslt.129.6
+8	this	this	PRON	O	0			ted.iwslt.129.6
+9	is	be	VERB	O	0		v.stative	ted.iwslt.129.6
+10	an	an	DET	O	0			ted.iwslt.129.6
+11	example	example	NOUN	O	0		n.cognition	ted.iwslt.129.6
+12	of	of	ADP	O	0			ted.iwslt.129.6
+13	non-image	non-image	ADJ	B	0		n.cognition	ted.iwslt.129.6
+14	data	data	NOUN	I	13			ted.iwslt.129.6
+15	.	.	PUNCT	O	0			ted.iwslt.129.6
+
+1	The	the	DET	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+2	thing	thing	NOUN	O	0		n.other	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+3	to	to	PART	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+4	watch	watch	VERB	B	0		v.perception	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+5	for	for	ADP	I	4			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+6	as	as	SCONJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+7	a	a	DET	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+8	global	global	ADJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+9	philanthropy	philanthropy	NOUN	B	0		n.act	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+10	industry	industry	NOUN	I	9			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+11	comes	come	VERB	B	0		v.change	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+12	about	about	ADP	I	11			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+13	--	--	PUNCT	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+14	and	and	CONJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+15	that	that	DET	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+16	's	's	VERB	O	0		v.stative	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+17	exactly	exactly	ADV	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+18	what	what	PRON	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+19	is	be	AUX	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+20	happening	happen	VERB	O	0		v.change	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+21	--	--	PUNCT	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+22	is	be	VERB	O	0		v.stative	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+23	how	how	ADV	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+24	the	the	DET	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+25	aspiration	aspiration	NOUN	O	0		n.feeling	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+26	is	be	VERB	O	0		v.stative	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+27	to	to	PART	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+28	flip	flip	VERB	O	0		v.change	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+29	these	these	DET	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+30	old	old	ADJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+31	assumptions	assumption	NOUN	O	0		n.cognition	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+32	,	,	PUNCT	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+33	for	for	SCONJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+34	philanthropy	philanthropy	NOUN	O	0		n.act	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+35	to	to	PART	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+36	become	become	VERB	O	0		v.change	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+37	open	open	ADJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+38	and	and	CONJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+39	big	big	ADJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+40	and	and	CONJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+41	fast	fast	ADJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+42	and	and	CONJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+43	connected	connected	ADJ	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+44	,	,	PUNCT	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+45	in	in	ADP	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+46	service	service	NOUN	O	0		n.act	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+47	of	of	ADP	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+48	the	the	DET	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+49	long	long	ADJ	B	0		n.time	ted.naist.005-KatherineFulton_2007.iwslt.585.9
+50	term	term	NOUN	I	49			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+51	.	.	PUNCT	O	0			ted.naist.005-KatherineFulton_2007.iwslt.585.9
+
+1	This	this	DET	O	0			trustpilot-146
+2	company	company	NOUN	O	0		n.group	trustpilot-146
+3	deserves	deserve	VERB	O	0		v.stative	trustpilot-146
+4	fantastic	fantastic	ADJ	O	0			trustpilot-146
+5	recognition	recognition	NOUN	O	0		n.state	trustpilot-146
+6	for	for	ADP	O	0			trustpilot-146
+7	customer	customer	NOUN	B	0		n.act	trustpilot-146
+8	service	service	NOUN	I	7			trustpilot-146
+9	and	and	CONJ	O	0			trustpilot-146
+10	superb	superb	ADJ	O	0			trustpilot-146
+11	quality	quality	NOUN	O	0		n.attribute	trustpilot-146
+12	goods	good	NOUN	O	0		n.artifact	trustpilot-146
+13	.	.	PUNCT	O	0			trustpilot-146
+
+1	@MS_OUTTA_ORDA	@USER	X	O	0			tweebank.486
+2	lol	lol	INTJ	O	0			tweebank.486
+3	it	it	PRON	O	0			tweebank.486
+4	wasnt	wasnt	VERB	O	0		v.stative	tweebank.486
+5	blood	blood	NOUN	O	0		n.body	tweebank.486
+6	but	but	CONJ	O	0			tweebank.486
+7	thanks	thanks	NOUN	O	0		n.communication	tweebank.486
+8	.	.	PUNCT	O	0			tweebank.486
+
+1	00	00	NUM	O	0			trustpilot-155
+2	,	,	PUNCT	O	0			trustpilot-155
+3	not	not	ADV	O	0			trustpilot-155
+4	0	0	NUM	O	0			trustpilot-155
+5	.	.	PUNCT	O	0			trustpilot-155
+6	the	the	DET	O	0			trustpilot-155
+7	address	address	NOUN	O	0		n.communication	trustpilot-155
+8	was	be	AUX	O	0			trustpilot-155
+9	given	give	VERB	O	0		v.stative	trustpilot-155
+10	them	them	PRON	O	0			trustpilot-155
+11	correctly	correctly	ADV	O	0			trustpilot-155
+12	,	,	PUNCT	O	0			trustpilot-155
+13	they	they	PRON	O	0			trustpilot-155
+14	chose	choose	VERB	O	0		v.cognition	trustpilot-155
+15	to	to	PART	O	0			trustpilot-155
+16	drop	drop	VERB	O	0		v.change	trustpilot-155
+17	a	a	DET	O	0			trustpilot-155
+18	digit	digit	NOUN	O	0		n.quantity	trustpilot-155
+19	.	.	PUNCT	O	0			trustpilot-155
+
+1	SHM	shm	NOUN	O	0			tweebank.190
+2	..	..	PUNCT	O	0			tweebank.190
+3	brb	brb	INTJ	O	0			tweebank.190
+
+1	It	it	PRON	O	0			trustpilot-12
+2	was	be	VERB	O	0		v.stative	trustpilot-12
+3	a	a	DET	O	0			trustpilot-12
+4	very	very	ADV	O	0			trustpilot-12
+5	comfortable	comfortable	ADJ	O	0			trustpilot-12
+6	bus	bus	NOUN	O	0		n.artifact	trustpilot-12
+7	and	and	CONJ	O	0			trustpilot-12
+8	arrived	arrive	VERB	O	0		v.motion	trustpilot-12
+9	at	at	ADP	O	0			trustpilot-12
+10	our	our	DET	O	0			trustpilot-12
+11	resort	resort	NOUN	O	0		n.location	trustpilot-12
+12	in	in	ADP	O	0			trustpilot-12
+13	the	the	DET	O	0			trustpilot-12
+14	time	time	NOUN	O	0		n.event	trustpilot-12
+15	it	it	PRON	O	0			trustpilot-12
+16	stated	state	VERB	O	0		v.communication	trustpilot-12
+17	.	.	PUNCT	O	0			trustpilot-12
+
+1	RT	rt	X	O	0			tweebank.168
+2	@dddika	@USER	X	O	0			tweebank.168
+3	:	:	X	O	0			tweebank.168
+4	RT	rt	X	O	0			tweebank.168
+5	@DamnItsTrue	@USER	X	O	0			tweebank.168
+6	:	:	X	O	0			tweebank.168
+7	I	i	PRON	O	0			tweebank.168
+8	love	love	VERB	O	0		v.emotion	tweebank.168
+9	when	when	ADV	O	0			tweebank.168
+10	teachers	teacher	NOUN	O	0		n.person	tweebank.168
+11	get	get	VERB	O	0		v.change	tweebank.168
+12	off	off	ADP	B	0			tweebank.168
+13	topic	topic	NOUN	I	12			tweebank.168
+14	.	.	PUNCT	O	0			tweebank.168
+15	#DamnItsTrue	#damnitstrue	X	O	0			tweebank.168
+
+1	It	it	PRON	O	0			ted.iwslt.1371.2
+2	's	's	VERB	O	0		v.stative	ted.iwslt.1371.2
+3	true	true	ADJ	O	0			ted.iwslt.1371.2
+4	.	.	PUNCT	O	0			ted.iwslt.1371.2
+
+1	answer	answer	NOUN	O	0		n.communication	tweebank.210
+2	:	:	PUNCT	O	0			tweebank.210
+3	spouting	spout	VERB	O	0		v.motion	tweebank.210
+4	,	,	PUNCT	O	0			tweebank.210
+5	@tunjung	@USER	X	O	0			tweebank.210
+6	8/388	NUMBER	NUM	O	0			tweebank.210
+7	points	point	NOUN	O	0		n.cognition	tweebank.210
+8	,	,	PUNCT	O	0			tweebank.210
+9	meaning	meaning	NOUN	O	0		n.communication	tweebank.210
+10	:	:	PUNCT	O	0			tweebank.210
+11	http://goo.gl/XzlsV	URL	X	O	0			tweebank.210
+
+1	This	this	PRON	O	0			trustpilot-62
+2	was	be	AUX	O	0			trustpilot-62
+3	to	to	PART	O	0			trustpilot-62
+4	deteriorate	deteriorate	VERB	O	0		v.change	trustpilot-62
+5	into	into	ADP	O	0			trustpilot-62
+6	0	0	NUM	B	0		n.quantity	trustpilot-62
+7	/	/	PUNCT	I	6			trustpilot-62
+8	0s	0	NOUN	I	7			trustpilot-62
+9	of	of	ADP	O	0			trustpilot-62
+10	the	the	DET	O	0			trustpilot-62
+11	screen	screen	NOUN	O	0		n.artifact	trustpilot-62
+12	displaying	display	VERB	O	0		v.perception	trustpilot-62
+13	a	a	DET	O	0			trustpilot-62
+14	blurry	blurry	ADJ	O	0			trustpilot-62
+15	image	image	NOUN	O	0		n.communication	trustpilot-62
+16	.	.	PUNCT	O	0			trustpilot-62
+
+1	RT	rt	X	O	0			tweebank.312
+2	@MISSMYA	@USER	X	O	0			tweebank.312
+3	:	:	X	O	0			tweebank.312
+4	"	"	PUNCT	O	0			tweebank.312
+5	It	it	PRON	O	0			tweebank.312
+6	always	always	ADV	O	0			tweebank.312
+7	seems	seem	VERB	O	0		v.perception	tweebank.312
+8	impossible	impossible	ADJ	O	0			tweebank.312
+9	until	until	SCONJ	O	0			tweebank.312
+10	it	it	PRON	O	0			tweebank.312
+11	's	's	AUX	O	0			tweebank.312
+12	done	do	VERB	O	0		v.change	tweebank.312
+13	.	.	PUNCT	O	0			tweebank.312
+14	"	"	PUNCT	O	0			tweebank.312
+15	-	-	PUNCT	O	0			tweebank.312
+16	Nelson	nelson	PROPN	B	0		n.person	tweebank.312
+17	Mandela	mandela	PROPN	I	16			tweebank.312
+
+1	Deramores	deramores	PROPN	O	0		n.group	trustpilot-247
+2	stocks	stock	VERB	O	0		v.possession	trustpilot-247
+3	a	a	DET	O	0			trustpilot-247
+4	wide	wide	ADJ	O	0			trustpilot-247
+5	range	range	NOUN	O	0		n.attribute	trustpilot-247
+6	of	of	ADP	O	0			trustpilot-247
+7	yarns	yarn	NOUN	O	0		n.artifact	trustpilot-247
+8	and	and	CONJ	O	0			trustpilot-247
+9	accessories	accessory	NOUN	O	0		n.artifact	trustpilot-247
+10	.	.	PUNCT	O	0			trustpilot-247
+11	They	they	PRON	O	0			trustpilot-247
+12	also	also	ADV	O	0			trustpilot-247
+13	stock	stock	VERB	O	0		v.possession	trustpilot-247
+14	an	an	DET	O	0			trustpilot-247
+15	amazing	amazing	ADJ	O	0			trustpilot-247
+16	array	array	NOUN	O	0		n.attribute	trustpilot-247
+17	of	of	ADP	O	0			trustpilot-247
+18	patterns	pattern	NOUN	O	0		n.artifact	trustpilot-247
+19	and	and	CONJ	O	0			trustpilot-247
+20	books	book	NOUN	O	0		n.artifact	trustpilot-247
+21	.	.	PUNCT	O	0			trustpilot-247
+
+1	Found	found	VERB	O	0		v.perception	tweebank.132
+2	the	the	DET	O	0			tweebank.132
+3	scarriest	scarriest	ADJ	O	0			tweebank.132
+4	mystery	mystery	NOUN	B	0		n.artifact	tweebank.132
+5	door	door	NOUN	I	4			tweebank.132
+6	in	in	ADP	O	0			tweebank.132
+7	my	my	PRON	O	0			tweebank.132
+8	school	school	NOUN	O	0		n.group	tweebank.132
+9	.	.	PUNCT	O	0			tweebank.132
+10	I	i	PRON	O	0			tweebank.132
+11	'M	'm	VERB	O	0		v.stative	tweebank.132
+12	SO	so	ADV	O	0			tweebank.132
+13	CURIOUS	curious	ADJ	O	0			tweebank.132
+14	D:	EMOTICON	X	O	0			tweebank.132
+
+1	@WaddleandSilvy	@USER	X	O	0			tweebank.431
+2	sup	sup	INTJ	O	0			tweebank.431
+3	shirt	shirt	NOUN	O	0		n.artifact	tweebank.431
+4	off	off	ADP	O	0			tweebank.431
+
+1	@JanetteAhylin	@USER	X	O	0			tweebank.45
+2	did	do	AUX	O	0			tweebank.45
+3	u	u	PRON	O	0			tweebank.45
+4	get	get	VERB	O	0		v.cognition	tweebank.45
+5	that	that	PRON	O	0			tweebank.45
+6	janette	janette	PROPN	O	0		n.person	tweebank.45
+7	!?	!?	PUNCT	O	0			tweebank.45
+8	"	"	PUNCT	O	0			tweebank.45
+9	prefection	prefection	NOUN	O	0		n.artifact	tweebank.45
+10	rhymes	rhyme	VERB	O	0		v.cognition	tweebank.45
+11	with	with	ADP	O	0			tweebank.45
+12	one	NUMBER	NUM	B	0		n.artifact	tweebank.45
+13	direction	direction	NOUN	I	12			tweebank.45
+14	"	"	PUNCT	O	0			tweebank.45
+15	Not	not	PART	O	0			tweebank.45
+16	Janette	janette	PROPN	B	0		n.artifact	tweebank.45
+17	Gonzalez	gonzalez	PROPN	I	16			tweebank.45
+18	.	.	PUNCT	O	0			tweebank.45
+19	~	~	PUNCT	O	0			tweebank.45
+20	Lol	lol	INTJ	O	0			tweebank.45
+
+1	#badcombination	#badcombination	X	O	0			tweebank.460
+2	any	any	DET	O	0			tweebank.460
+3	bitch	bitch	NOUN	O	0		n.person	tweebank.460
+4	born	bear	VERB	O	0		v.body	tweebank.460
+5	in	in	ADP	O	0			tweebank.460
+6	da	da	DET	O	0			tweebank.460
+7	9o's	NUMBER	NUM	O	0			tweebank.460
+8	&	&	CONJ	O	0			tweebank.460
+9	me	me	PRON	O	0			tweebank.460
+
+1	My	my	DET	O	0			trustpilot-32
+2	contact	contact	NOUN	O	0		n.person	trustpilot-32
+3	was	be	VERB	O	0		v.stative	trustpilot-32
+4	Lee	lee	PROPN	O	0		n.person	trustpilot-32
+5	.	.	PUNCT	O	0			trustpilot-32
+
+1	I	i	PRON	O	0			trustpilot-15
+2	highly	highly	ADV	O	0			trustpilot-15
+3	recommend	recommend	VERB	O	0		v.social	trustpilot-15
+4	them	them	PRON	O	0			trustpilot-15
+5	.	.	PUNCT	O	0			trustpilot-15
+
+1	I	i	PRON	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+2	'm	'm	VERB	O	0		v.stative	ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+3	a	a	DET	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+4	contemporary	contemporary	ADJ	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+5	artist	artist	NOUN	O	0		n.person	ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+6	with	with	ADP	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+7	a	a	DET	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+8	bit	bit	NOUN	O	0		n.quantity	ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+9	of	of	ADP	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+10	an	an	DET	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+11	unexpected	unexpected	ADJ	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+12	background	background	NOUN	O	0		n.state	ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+13	.	.	PUNCT	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.1
+
+1	@Fashionisda	@USER	X	O	0			tweebank.468
+2	HA	ha	INTJ	O	0			tweebank.468
+3	.	.	PUNCT	O	0			tweebank.468
+4	AHA	aha	INTJ	O	0			tweebank.468
+5	!!!!!	!!!!!	PUNCT	O	0			tweebank.468
+6	YOU	you	PRON	O	0			tweebank.468
+7	SO	so	ADV	O	0			tweebank.468
+8	NASTY	nasty	ADJ	O	0			tweebank.468
+9	!!!!!!!..	!!!!!!!..	PUNCT	O	0			tweebank.468
+10	BUT	but	CONJ	O	0			tweebank.468
+11	I	i	PRON	O	0			tweebank.468
+12	LIKE	like	VERB	O	0		v.emotion	tweebank.468
+13	IT	it	PRON	O	0			tweebank.468
+14	LMAO	lmao	INTJ	O	0			tweebank.468
+
+1	Only	only	ADV	O	0			trustpilot-51
+2	ever	ever	ADV	O	0			trustpilot-51
+3	had	have	VERB	O	0		v.stative	trustpilot-51
+4	0	0	NUM	O	0			trustpilot-51
+5	problem	problem	NOUN	O	0		n.state	trustpilot-51
+6	with	with	ADP	O	0			trustpilot-51
+7	an	an	DET	O	0			trustpilot-51
+8	order	order	NOUN	O	0		n.possession	trustpilot-51
+9	through	through	ADP	O	0			trustpilot-51
+10	Amazon	amazon	PROPN	O	0		n.group	trustpilot-51
+11	,	,	PUNCT	O	0			trustpilot-51
+12	not	not	ADV	O	0			trustpilot-51
+13	their	their	DET	O	0			trustpilot-51
+14	fault	fault	NOUN	O	0		n.attribute	trustpilot-51
+15	or	or	CONJ	O	0			trustpilot-51
+16	the	the	DET	O	0			trustpilot-51
+17	supplier	supplier	NOUN	O	0		n.person	trustpilot-51
+18	,	,	PUNCT	O	0			trustpilot-51
+19	the	the	DET	O	0			trustpilot-51
+20	goods	good	NOUN	O	0		n.artifact	trustpilot-51
+21	were	be	AUX	O	0			trustpilot-51
+22	lost	lose	VERB	O	0		v.change	trustpilot-51
+23	in	in	ADP	O	0			trustpilot-51
+24	the	the	DET	O	0			trustpilot-51
+25	U	u	NOUN	B	0		n.cognition	trustpilot-51
+26	.	.	PUNCT	I	25			trustpilot-51
+27	S	s	NOUN	I	26			trustpilot-51
+28	.	.	PUNCT	I	27			trustpilot-51
+29	postal	postal	ADJ	I	28			trustpilot-51
+30	system	system	NOUN	I	29			trustpilot-51
+31	.	.	PUNCT	O	0			trustpilot-51
+
+1	Blu	blu	PROPN	B	0		n.person	tweebank.411
+2	Cantrell	cantrell	PROPN	I	1			tweebank.411
+3	just	just	ADV	O	0			tweebank.411
+4	came	come	VERB	O	0		v.perception	tweebank.411
+5	on	on	ADP	O	0			tweebank.411
+6	my	my	PRON	O	0			tweebank.411
+7	Destiny	destiny	PROPN	B	0		n.communication	tweebank.411
+8	's	's	PART	I	7			tweebank.411
+9	Child	child	PROPN	I	8			tweebank.411
+10	Pandora	pandora	PROPN	I	9			tweebank.411
+11	.	.	PUNCT	O	0			tweebank.411
+12	See	see	VERB	O	0		v.perception	tweebank.411
+13	what	what	PRON	O	0			tweebank.411
+14	happens	happen	VERB	O	0		v.change	tweebank.411
+15	when	when	ADV	O	0			tweebank.411
+16	you	you	PRON	O	0			tweebank.411
+17	leave	leave	VERB	O	0		v.stative	tweebank.411
+18	the	the	DET	O	0			tweebank.411
+19	door	door	NOUN	O	0		n.artifact	tweebank.411
+20	open	open	ADJ	O	0			tweebank.411
+21	?	?	PUNCT	O	0			tweebank.411
+22	Getcho	getcho	VERB	O	0		v.motion	tweebank.411
+23	ass	ass	NOUN	O	0		n.body	tweebank.411
+24	out	out	ADP	O	0			tweebank.411
+25	!!!	!!!	PUNCT	O	0			tweebank.411
+
+1	Yet	yet	CONJ	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+2	we	we	PRON	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+3	're	're	AUX	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+4	still	still	ADV	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+5	dealing	deal	VERB	B	0		v.cognition	ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+6	with	with	ADP	I	5			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+7	a	a	DET	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+8	lot	lot	NOUN	O	0		n.quantity	ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+9	of	of	ADP	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+10	the	the	DET	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+11	same	same	ADJ	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+12	challenges	challenge	NOUN	O	0		n.state	ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+13	as	as	ADP	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+14	many	many	ADJ	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+15	decades	decade	NOUN	O	0		n.time	ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+16	ago	ago	ADP	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+17	.	.	PUNCT	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.6
+
+1	RT	rt	X	O	0			tweebank.147
+2	@justinbieber	@USER	X	O	0			tweebank.147
+3	:	:	X	O	0			tweebank.147
+4	now	now	ADV	O	0			tweebank.147
+5	Hailee	hailee	PROPN	O	0		n.person	tweebank.147
+6	get	get	VERB	O	0		v.change	tweebank.147
+7	a	a	DET	O	0			tweebank.147
+8	twitter	twitter	PROPN	O	0		n.communication	tweebank.147
+
+1	strobelights	strobelights	NOUN	O	0		n.artifact	tweebank.160
+2	dance	dance	VERB	O	0		v.motion	tweebank.160
+3	with	with	ADP	O	0			tweebank.160
+4	the	the	DET	O	0			tweebank.160
+5	stars	star	NOUN	O	0		n.natural_object	tweebank.160
+6	..	..	PUNCT	O	0			tweebank.160
+
+1	Home	home	NOUN	B	0		n.location	tweebank.404
+2	sweet	sweet	ADJ	I	1			tweebank.404
+3	home	home	NOUN	I	2			tweebank.404
+4	:)	EMOTICON	X	O	0			tweebank.404
+
+1	Why	why	ADV	O	0			tweebank.81
+2	aren't	aren't	VERB	O	0		v.stative	tweebank.81
+3	I	i	PRON	O	0			tweebank.81
+4	tired	tired	ADJ	O	0			tweebank.81
+5	?	?	PUNCT	O	0			tweebank.81
+6	-_-	EMOTICON	X	O	0			tweebank.81
+
+1	We	we	PRON	O	0			tweebank.472
+2	are	be	AUX	O	0			tweebank.472
+3	always	always	ADV	O	0			tweebank.472
+4	getting	get	AUX	O	0			tweebank.472
+5	invited	invite	VERB	O	0		v.communication	tweebank.472
+6	and	and	CONJ	O	0			tweebank.472
+7	you	you	PRON	O	0			tweebank.472
+8	ca	ca	AUX	O	0			tweebank.472
+9	n't	n't	PART	O	0			tweebank.472
+10	say	say	VERB	O	0		v.communication	tweebank.472
+11	no	no	INTJ	O	0			tweebank.472
+12	!!:	!!:	PUNCT	O	0			tweebank.472
+13	)	EMOTICON	X	O	0			tweebank.472
+
+1	It	it	PRON	O	0			trustpilot-41
+2	had	have	VERB	O	0		v.possession	trustpilot-41
+3	the	the	DET	O	0			trustpilot-41
+4	tumble	tumble	NOUN	B	0		n.artifact	trustpilot-41
+5	dryer	dryer	NOUN	I	4			trustpilot-41
+6	i	i	PRON	O	0			trustpilot-41
+7	wanted	want	VERB	O	0		v.emotion	trustpilot-41
+8	at	at	ADP	O	0			trustpilot-41
+9	a	a	DET	O	0			trustpilot-41
+10	price	price	NOUN	O	0		n.attribute	trustpilot-41
+11	i	i	PRON	O	0			trustpilot-41
+12	liked	like	VERB	O	0		v.emotion	trustpilot-41
+13	,	,	PUNCT	O	0			trustpilot-41
+14	so	so	ADV	O	0			trustpilot-41
+15	i	i	PRON	O	0			trustpilot-41
+16	ordered	order	VERB	O	0		v.change	trustpilot-41
+17	one	one	PRON	O	0			trustpilot-41
+18	.	.	PUNCT	O	0			trustpilot-41
+
+1	RT	rt	X	O	0			tweebank.218
+2	@JosetteSheeran	@USER	X	O	0			tweebank.218
+3	:	:	X	O	0			tweebank.218
+4	@WFP	@USER	X	O	0			tweebank.218
+5	#Libya	#libya	PROPN	O	0		n.location	tweebank.218
+6	breakthru	breakthru	NOUN	O	0		n.event	tweebank.218
+7	!	!	PUNCT	O	0			tweebank.218
+8	We	we	PRON	O	0			tweebank.218
+9	move	move	VERB	O	0		v.motion	tweebank.218
+10	urgently	urgently	ADV	O	0			tweebank.218
+11	needed	need	VERB	O	0		v.stative	tweebank.218
+12	#food	#food	NOUN	O	0		n.food	tweebank.218
+13	(	(	PUNCT	O	0			tweebank.218
+14	wheat	wheat	NOUN	O	0		n.food	tweebank.218
+15	,	,	PUNCT	O	0			tweebank.218
+16	flour	flour	NOUN	O	0		n.food	tweebank.218
+17	)	)	PUNCT	O	0			tweebank.218
+18	by	by	ADP	O	0			tweebank.218
+19	truck	truck	NOUN	O	0		n.artifact	tweebank.218
+20	convoy	convoy	NOUN	O	0		n.group	tweebank.218
+21	into	into	ADP	O	0			tweebank.218
+22	western	western	ADJ	B	0		n.location	tweebank.218
+23	Libya	libya	PROPN	I	22			tweebank.218
+24	for	for	ADP	O	0			tweebank.218
+25	1st	1st	ADJ	O	0			tweebank.218
+26	time	time	NOUN	O	0		n.event	tweebank.218
+27	...	...	X	O	0			tweebank.218
+
+1	I	i	PRON	O	0			tweebank.360
+2	'm	'm	VERB	O	0		v.stative	tweebank.360
+3	a	a	DET	O	0			tweebank.360
+4	super	super	ADJ	B	0		n.person	tweebank.360
+5	hero	hero	NOUN	I	4			tweebank.360
+6	in	in	ADP	B	0			tweebank.360
+7	my	my	PRON	o	0			tweebank.360
+8	own	own	ADJ	I	6			tweebank.360
+9	right	right	NOUN	I	8			tweebank.360
+10	.	.	PUNCT	O	0			tweebank.360
+11	Actually	actually	ADV	O	0			tweebank.360
+12	...	...	PUNCT	O	0			tweebank.360
+13	Anti	anti	NOUN	B	0		n.person	tweebank.360
+14	Hero	hero	NOUN	I	13			tweebank.360
+15	more	more	ADV	B	0			tweebank.360
+16	like	like	ADP	I	15			tweebank.360
+17	.	.	PUNCT	O	0			tweebank.360
+
+1	Wind	wind	NOUN	O	0		n.phenomenon	tweebank.91
+2	2.2	NUMBER	NUM	O	0			tweebank.91
+3	mph	mph	NOUN	O	0		n.quantity	tweebank.91
+4	NNW	nnw	NOUN	O	0		n.relation	tweebank.91
+5	.	.	PUNCT	O	0			tweebank.91
+6	Barometer	barometer	NOUN	O	0		n.artifact	tweebank.91
+7	1019.0	NUMBER	NUM	O	0			tweebank.91
+8	mb	mb	NOUN	O	0		n.quantity	tweebank.91
+9	,	,	PUNCT	O	0			tweebank.91
+10	Rising	rise	VERB	O	0		v.motion	tweebank.91
+11	.	.	PUNCT	O	0			tweebank.91
+12	Temperature	temperature	NOUN	O	0		n.attribute	tweebank.91
+13	15.5	NUMBER	NUM	O	0			tweebank.91
+14	°C	°c	NOUN	O	0		n.quantity	tweebank.91
+15	.	.	PUNCT	O	0			tweebank.91
+16	Rain	rain	NOUN	O	0		n.phenomenon	tweebank.91
+17	today	today	NOUN	O	0			tweebank.91
+18	0.0	NUMBER	NUM	O	0			tweebank.91
+19	mm	mm	NOUN	O	0		n.quantity	tweebank.91
+20	.	.	PUNCT	O	0			tweebank.91
+21	Humidity	humidity	NOUN	O	0		n.state	tweebank.91
+22	59%	NUMBER	NUM	O	0			tweebank.91
+
+1	I	i	PRON	O	0			trustpilot-318
+2	'	'	PART	O	0			trustpilot-318
+3	ve	ve	VERB	O	0			trustpilot-318
+4	just	just	ADV	O	0			trustpilot-318
+5	found	found	VERB	B	0		v.cognition	trustpilot-318
+6	out	out	PART	I	5			trustpilot-318
+7	that	that	CONJ	O	0			trustpilot-318
+8	I	i	PRON	O	0			trustpilot-318
+9	'	'	PART	O	0			trustpilot-318
+10	ve	ve	VERB	B	0			trustpilot-318
+11	been	be	AUX	I	10			trustpilot-318
+12	paying	pay	VERB	O	0		v.possession	trustpilot-318
+13	£	£	X	O	0			trustpilot-318
+14	00	00	NUM	O	0			trustpilot-318
+15	a	a	ADP	O	0			trustpilot-318
+16	month	month	NOUN	O	0		n.time	trustpilot-318
+17	and	and	CONJ	O	0			trustpilot-318
+18	not	not	ADV	O	0			trustpilot-318
+19	getting	get	VERB	O	0		v.stative	trustpilot-318
+20	my	my	DET	O	0			trustpilot-318
+21	0G	0g	NOUN	O	0		n.communication	trustpilot-318
+22	-	-	PUNCT	O	0			trustpilot-318
+23	awful	awful	ADJ	O	0			trustpilot-318
+24	.	.	PUNCT	O	0			trustpilot-318
+
+1	I	i	PRON	O	0			trustpilot-58
+2	complained	complain	VERB	O	0		v.communication	trustpilot-58
+3	to	to	ADP	O	0			trustpilot-58
+4	them	them	PRON	O	0			trustpilot-58
+5	and	and	CONJ	O	0			trustpilot-58
+6	have	have	AUX	O	0			trustpilot-58
+7	copied	copy	VERB	O	0		v.creation	trustpilot-58
+8	their	their	DET	O	0			trustpilot-58
+9	response	response	NOUN	O	0		n.communication	trustpilot-58
+10	below	below	ADP	O	0			trustpilot-58
+11	.	.	PUNCT	O	0			trustpilot-58
+
+1	RT	rt	X	O	0			tweebank.1
+2	@ieatpussy4pizza	@USER	X	O	0			tweebank.1
+3	:	:	X	O	0			tweebank.1
+4	@Allan_oVo	@USER	X	O	0			tweebank.1
+5	got	get	VERB	O	0		v.stative	tweebank.1
+6	them	them	DET	O	0			tweebank.1
+7	black	black	ADJ	O	0			tweebank.1
+8	girl	girl	NOUN	O	0		n.person	tweebank.1
+9	groupies	groupie	NOUN	O	0		n.person	tweebank.1
+10	though	though	ADP	O	0			tweebank.1
+
+1	USED	use	VERB	O	0		v.stative	trustpilot-269
+2	TWICE	twice	ADV	O	0			trustpilot-269
+3	,	,	PUNCT	O	0			trustpilot-269
+4	VERY	very	ADV	O	0			trustpilot-269
+5	DECIEVING	decieving	ADJ	O	0			trustpilot-269
+6	INFORMATION	information	VERB	O	0			trustpilot-269
+7	,	,	PUNCT	O	0			trustpilot-269
+8	BACKED	back	VERB	B	0		v.cognition	trustpilot-269
+9	UP	up	PART	I	8			trustpilot-269
+10	BY	by	ADP	O	0			trustpilot-269
+11	UNHELPFULL	unhelpfull	ADJ	O	0			trustpilot-269
+12	STAFF	staff	NOUN	B	0		n.person	trustpilot-269
+13	MEMBERS	members	PROPN	I	12			trustpilot-269
+14	,	,	PUNCT	O	0			trustpilot-269
+15	HAD	have	AUX	O	0			trustpilot-269
+16	TO	to	PART	O	0			trustpilot-269
+17	DO	do	VERB	O	0		v.cognition	trustpilot-269
+18	A	a	DET	O	0			trustpilot-269
+19	CLAIMBACK	claimback	PROPN	O	0		n.communication	trustpilot-269
+20	LAST	last	ADJ	B	0		n.event	trustpilot-269
+21	TIME	time	NOUN	I	20			trustpilot-269
+22	TO	to	PART	O	0			trustpilot-269
+23	RECOVER	recover	VERB	O	0		v.possession	trustpilot-269
+24	PAYMENT	payment	NOUN	O	0		n.possession	trustpilot-269
+25	MADE	make	VERB	O	0		v.possession	trustpilot-269
+26	IN	in	ADP	O	0			trustpilot-269
+27	FULL	full	ADJ	O	0			trustpilot-269
+28	IN	in	ADP	O	0			trustpilot-269
+29	ADVANCE	advance	NOUN	O	0		n.event	trustpilot-269
+30	,	,	PUNCT	O	0			trustpilot-269
+31	NEVER	never	ADV	B	0			trustpilot-269
+32	AGAIN	again	ADV	I	31			trustpilot-269
+33	,	,	PUNCT	O	0			trustpilot-269
+34	BEWARE	beware	VERB	O	0		v.cognition	trustpilot-269
+35	,	,	PUNCT	O	0			trustpilot-269
+36	CHECK	check	VERB	O	0		v.cognition	trustpilot-269
+37	THOROUGHLY	thoroughly	ADV	O	0			trustpilot-269
+38	...	...	PUNCT	O	0			trustpilot-269
+
+1	@KUTV2News	@USER	X	O	0			tweebank.172
+2	is	be	AUX	O	0			tweebank.172
+3	giving	give	VERB	B	0		v.possession	tweebank.172
+4	away	away	ADV	I	3			tweebank.172
+5	2	NUMBER	NUM	O	0			tweebank.172
+6	$250	NUMBER	NUM	O	0			tweebank.172
+7	Grocery	grocery	NOUN	O	0		n.food	tweebank.172
+8	Gift	gift	NOUN	B	0		n.possession	tweebank.172
+9	Cards	cards	NOUN	I	8			tweebank.172
+10	to	to	ADP	O	0			tweebank.172
+11	Associated	associated	PROPN	B	0		n.group	tweebank.172
+12	Foods	foods	PROPN	I	11			tweebank.172
+13	.	.	PUNCT	O	0			tweebank.172
+14	Winner	winner	NOUN	O	0		n.person	tweebank.172
+15	announced	announce	VERB	O	0		v.communication	tweebank.172
+16	Wed	wed	PROPN	O	0		n.time	tweebank.172
+17	on	on	ADP	O	0			tweebank.172
+18	2News	2news	PROPN	O	0		n.group	tweebank.172
+19	at	at	ADP	O	0			tweebank.172
+20	10	NUMBER	NUM	O	0			tweebank.172
+21	!	!	PUNCT	O	0			tweebank.172
+22	http://on.fb.me/h8uFzD	URL	X	O	0			tweebank.172
+
+1	Ordering	ordering	NOUN	O	0		n.communication	trustpilot-114
+2	was	be	VERB	O	0		v.stative	trustpilot-114
+3	easy	easy	ADJ	O	0			trustpilot-114
+4	and	and	CONJ	O	0			trustpilot-114
+5	delivery	delivery	NOUN	O	0		n.act	trustpilot-114
+6	was	be	VERB	O	0		v.stative	trustpilot-114
+7	quick	quick	ADJ	O	0			trustpilot-114
+8	.	.	PUNCT	O	0			trustpilot-114
+
+1	Three	three	NUM	O	0			trustpilot-36
+2	weeks	week	NOUN	O	0		n.time	trustpilot-36
+3	later	later	ADV	O	0			trustpilot-36
+4	I	i	PRON	O	0			trustpilot-36
+5	was	be	AUX	O	0			trustpilot-36
+6	told	tell	VERB	O	0		v.communication	trustpilot-36
+7	they	they	PRON	O	0			trustpilot-36
+8	couldn	couldn	AUX	O	0			trustpilot-36
+9	'	'	PART	O	0			trustpilot-36
+10	t	t	PART	O	0			trustpilot-36
+11	get	get	VERB	O	0		v.possession	trustpilot-36
+12	it	it	PRON	O	0			trustpilot-36
+13	and	and	CONJ	O	0			trustpilot-36
+14	I	i	PRON	O	0			trustpilot-36
+15	should	should	AUX	O	0			trustpilot-36
+16	go	go	VERB	O	0		v.motion	trustpilot-36
+17	elsewhere	elsewhere	ADV	O	0			trustpilot-36
+18	,	,	PUNCT	O	0			trustpilot-36
+19	and	and	CONJ	O	0			trustpilot-36
+20	I	i	PRON	O	0			trustpilot-36
+21	was	be	AUX	O	0			trustpilot-36
+22	told	tell	VERB	O	0		v.communication	trustpilot-36
+23	that	that	CONJ	O	0			trustpilot-36
+24	it	it	PRON	O	0			trustpilot-36
+25	would	would	VERB	O	0			trustpilot-36
+26	take	take	VERB	O	0		v.stative	trustpilot-36
+27	up	up	ADP	O	0			trustpilot-36
+28	to	to	ADP	O	0			trustpilot-36
+29	00	00	NUM	O	0			trustpilot-36
+30	days	days	NOUN	O	0		n.time	trustpilot-36
+31	to	to	PART	O	0			trustpilot-36
+32	refund	refund	VERB	O	0		v.possession	trustpilot-36
+33	my	my	DET	O	0			trustpilot-36
+34	money	money	NOUN	O	0		n.possession	trustpilot-36
+35	,	,	PUNCT	O	0			trustpilot-36
+36	which	which	PRON	O	0			trustpilot-36
+37	it	it	PRON	O	0			trustpilot-36
+38	did	do	VERB	O	0		v.stative	trustpilot-36
+39	.	.	PUNCT	O	0			trustpilot-36
+
+1	Found	found	VERB	O	0		v.cognition	trustpilot-198
+2	a	a	DET	O	0			trustpilot-198
+3	device	device	NOUN	O	0		n.artifact	trustpilot-198
+4	that	that	PRON	O	0			trustpilot-198
+5	matched	match	VERB	O	0		v.stative	trustpilot-198
+6	our	our	DET	O	0			trustpilot-198
+7	criteria	criterion	NOUN	O	0		n.motive	trustpilot-198
+8	and	and	CONJ	O	0			trustpilot-198
+9	also	also	ADV	O	0			trustpilot-198
+10	compared	compare	VERB	O	0		v.cognition	trustpilot-198
+11	well	well	ADV	O	0			trustpilot-198
+12	from	from	ADP	O	0			trustpilot-198
+13	a	a	DET	O	0			trustpilot-198
+14	price	price	NOUN	B	0		n.attribute	trustpilot-198
+15	comparison	comparison	NOUN	I	14			trustpilot-198
+16	perspective	perspective	NOUN	O	0		n.cognition	trustpilot-198
+17	.	.	PUNCT	O	0			trustpilot-198
+
+1	I	i	PRON	O	0			trustpilot-331
+2	have	have	AUX	O	0			trustpilot-331
+3	been	be	AUX	O	0			trustpilot-331
+4	buying	buy	VERB	O	0		v.possession	trustpilot-331
+5	Glucosamine	glucosamine	NOUN	O	0		n.substance	trustpilot-331
+6	and	and	CONJ	O	0			trustpilot-331
+7	Multi	multi	PROPN	B	0		n.substance	trustpilot-331
+8	-	-	PUNCT	I	7			trustpilot-331
+9	Vitamins	vitamin	NOUN	I	8			trustpilot-331
+10	now	now	ADV	O	0			trustpilot-331
+11	for	for	ADP	O	0			trustpilot-331
+12	quite	quite	ADV	O	0			trustpilot-331
+13	some	some	DET	O	0			trustpilot-331
+14	time	time	NOUN	O	0		n.event	trustpilot-331
+15	for	for	ADP	O	0			trustpilot-331
+16	my	my	DET	O	0			trustpilot-331
+17	elderly	elderly	ADJ	O	0			trustpilot-331
+18	dog	dog	NOUN	O	0		n.animal	trustpilot-331
+19	who	who	PRON	O	0			trustpilot-331
+20	suffers	suffer	VERB	O	0		v.emotion	trustpilot-331
+21	from	from	ADP	O	0			trustpilot-331
+22	arthritis	arthritis	NOUN	O	0		n.body	trustpilot-331
+23	.	.	PUNCT	O	0			trustpilot-331
+
+1	We	we	PRON	O	0			trustpilot-333
+2	never	never	ADV	O	0			trustpilot-333
+3	even	even	ADV	O	0			trustpilot-333
+4	looked	look	VERB	O	0		v.perception	trustpilot-333
+5	at	at	ADP	O	0			trustpilot-333
+6	other	other	ADJ	O	0			trustpilot-333
+7	sites	site	NOUN	O	0		n.communication	trustpilot-333
+8	because	because	CONJ	O	0			trustpilot-333
+9	the	the	DET	O	0			trustpilot-333
+10	service	service	NOUN	O	0		n.act	trustpilot-333
+11	we	we	PRON	O	0			trustpilot-333
+12	got	get	VERB	O	0		v.stative	trustpilot-333
+13	in	in	ADP	O	0			trustpilot-333
+14	the	the	DET	O	0			trustpilot-333
+15	past	past	NOUN	O	0		n.time	trustpilot-333
+16	was	be	VERB	O	0		v.stative	trustpilot-333
+17	good	good	ADJ	O	0			trustpilot-333
+18	.	.	PUNCT	O	0			trustpilot-333
+
+1	Facing	face	VERB	O	0		v.cognition	tweebank.235
+2	difficulties	difficulty	NOUN	O	0		n.state	tweebank.235
+3	in	in	SCONJ	O	0			tweebank.235
+4	serving	serve	VERB	O	0		v.social	tweebank.235
+5	elder	elder	ADJ	O	0			tweebank.235
+6	family	family	NOUN	B	0		n.person	tweebank.235
+7	member	member	NOUN	I	6			tweebank.235
+8	get	get	VERB	O	0		v.stative	tweebank.235
+9	assistance	assistance	NOUN	O	0		n.act	tweebank.235
+10	from	from	ADP	O	0			tweebank.235
+11	respite	respite	NOUN	B	0		n.group	tweebank.235
+12	care	care	NOUN	I	11			tweebank.235
+13	service	service	NOUN	I	12			tweebank.235
+14	and	and	CONJ	O	0			tweebank.235
+15	live	live	VERB	O	0		v.stative	tweebank.235
+16	life	life	NOUN	O	0		n.state	tweebank.235
+17	peacefully	peacefully	ADV	O	0			tweebank.235
+18	.	.	PUNCT	O	0			tweebank.235
+19	http://ow.ly/2CnxL	URL	X	O	0			tweebank.235
+
+1	Twitter	twitter	PROPN	O	0		n.communication	tweebank.205
+2	off#	off#	ADJ	O	0			tweebank.205
+
+1	Mmmmm	mmmmm	INTJ	O	0			tweebank.181
+2	cranberries	cranberry	NOUN	O	0		n.food	tweebank.181
+3	:)	EMOTICON	X	O	0			tweebank.181
+
+1	Follow	follow	PROPN	B	0			trustpilot-239
+2	up	up	NOUN	I	1			trustpilot-239
+3	:	:	PUNCT	O	0			trustpilot-239
+4	I	i	PRON	O	0			trustpilot-239
+5	have	have	AUX	O	0			trustpilot-239
+6	recently	recently	ADV	O	0			trustpilot-239
+7	been	be	AUX	O	0			trustpilot-239
+8	told	tell	VERB	O	0		v.communication	trustpilot-239
+9	by	by	ADP	O	0			trustpilot-239
+10	an	an	DET	O	0			trustpilot-239
+11	independent	independent	ADJ	O	0			trustpilot-239
+12	surgeon	surgeon	NOUN	O	0		n.person	trustpilot-239
+13	that	that	CONJ	O	0			trustpilot-239
+14	the	the	DET	O	0			trustpilot-239
+15	Optical	optical	PROPN	B	0		n.person	trustpilot-239
+16	Express	express	NOUN	I	15			trustpilot-239
+17	surgeon	surgeon	NOUN	I	16			trustpilot-239
+18	put	put	VERB	O	0		v.contact	trustpilot-239
+19	incorrect	incorrect	ADJ	O	0			trustpilot-239
+20	parameters	parameter	NOUN	O	0		n.cognition	trustpilot-239
+21	into	into	ADP	O	0			trustpilot-239
+22	the	the	DET	O	0			trustpilot-239
+23	laser	laser	NOUN	O	0		n.artifact	trustpilot-239
+24	before	before	ADP	O	0			trustpilot-239
+25	my	my	DET	O	0			trustpilot-239
+26	second	second	ADJ	B	0		n.act	trustpilot-239
+27	(	(	PUNCT	I	26			trustpilot-239
+28	LASEK	lasek	NOUN	I	27			trustpilot-239
+29	)	)	PUNCT	I	28			trustpilot-239
+30	surgery	surgery	NOUN	I	29			trustpilot-239
+31	(	(	PUNCT	O	0			trustpilot-239
+32	first	first	ADJ	B	0		n.act	trustpilot-239
+33	surgery	surgery	NOUN	I	32			trustpilot-239
+34	LASIK	lasik	NOUN	I	33			trustpilot-239
+35	was	be	VERB	O	0		v.stative	trustpilot-239
+36	a	a	DET	O	0			trustpilot-239
+37	failure	failure	NOUN	O	0		n.state	trustpilot-239
+38	by	by	ADP	O	0			trustpilot-239
+39	the	the	DET	O	0			trustpilot-239
+40	same	same	ADJ	O	0			trustpilot-239
+41	surgeon	surgeon	NOUN	O	0		n.person	trustpilot-239
+42	).	).	PUNCT	O	0			trustpilot-239
+
+1	Their	their	DET	O	0			trustpilot-87
+2	customer	customer	NOUN	B	0		n.communication	trustpilot-87
+3	helpline	helpline	NOUN	I	2			trustpilot-87
+4	has	have	AUX	O	0			trustpilot-87
+5	always	always	ADV	O	0			trustpilot-87
+6	been	be	VERB	B	0			trustpilot-87
+7	able	able	ADJ	I	6			trustpilot-87
+8	to	to	PART	I	7			trustpilot-87
+9	fix	fix	VERB	O	0		v.change	trustpilot-87
+10	any	any	DET	O	0			trustpilot-87
+11	problems	problem	NOUN	O	0		n.state	trustpilot-87
+12	quickly	quickly	ADV	O	0			trustpilot-87
+13	and	and	CONJ	O	0			trustpilot-87
+14	courteously	courteously	ADV	O	0			trustpilot-87
+15	.	.	PUNCT	O	0			trustpilot-87
+
+1	In	in	ADP	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+2	the	the	DET	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+3	industrialized	industrialized	ADJ	B	0		n.natural_object	ted.naist.007-HansRosling_2010S.iwslt.9121.9
+4	world	world	NOUN	I	3			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+5	,	,	PUNCT	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+6	people	people	NOUN	O	0		n.person	ted.naist.007-HansRosling_2010S.iwslt.9121.9
+7	were	be	VERB	O	0		v.stative	ted.naist.007-HansRosling_2010S.iwslt.9121.9
+8	healthy	healthy	ADJ	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+9	,	,	PUNCT	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+10	educated	educated	ADJ	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+11	,	,	PUNCT	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+12	rich	rich	ADJ	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+13	,	,	PUNCT	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+14	and	and	CONJ	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+15	they	they	PRON	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+16	had	have	VERB	O	0		v.stative	ted.naist.007-HansRosling_2010S.iwslt.9121.9
+17	small	small	ADJ	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+18	families	family	NOUN	O	0		n.group	ted.naist.007-HansRosling_2010S.iwslt.9121.9
+19	.	.	PUNCT	O	0			ted.naist.007-HansRosling_2010S.iwslt.9121.9
+
+1	I	i	PRON	O	0			trustpilot-270
+2	would	would	VERB	O	0			trustpilot-270
+3	not	not	ADV	O	0			trustpilot-270
+4	even	even	ADV	O	0			trustpilot-270
+5	consider	consider	VERB	O	0		v.cognition	trustpilot-270
+6	going	go	VERB	O	0		v.motion	trustpilot-270
+7	elsewhere	elsewhere	ADV	O	0			trustpilot-270
+8	for	for	ADP	O	0			trustpilot-270
+9	my	my	DET	O	0			trustpilot-270
+10	vinyl	vinyl	NOUN	B	0		n.cognition	trustpilot-270
+11	needs	need	NOUN	I	10			trustpilot-270
+12	,	,	PUNCT	O	0			trustpilot-270
+13	the	the	DET	O	0			trustpilot-270
+14	service	service	NOUN	O	0		n.act	trustpilot-270
+15	is	be	VERB	O	0		v.stative	trustpilot-270
+16	just	just	ADV	O	0			trustpilot-270
+17	that	that	ADV	O	0			trustpilot-270
+18	good	good	ADJ	O	0			trustpilot-270
+19	and	and	CONJ	O	0			trustpilot-270
+20	the	the	DET	O	0			trustpilot-270
+21	price	price	NOUN	O	0		n.attribute	trustpilot-270
+22	is	be	VERB	O	0		v.stative	trustpilot-270
+23	fantastic	fantastic	ADJ	O	0			trustpilot-270
+24	too	too	ADV	O	0			trustpilot-270
+25	.	.	PUNCT	O	0			trustpilot-270
+
+1	TCA	tca	PROPN	O	0		n.person	tweebank.250
+2	to	to	PART	O	0			tweebank.250
+3	play	play	VERB	O	0		v.competition	tweebank.250
+4	for	for	ADP	O	0			tweebank.250
+5	Colorado	colorado	PROPN	O	0		n.group	tweebank.250
+6	3A	3a	PROPN	O	0		n.group	tweebank.250
+7	women	woman	NOUN	O	0		n.person	tweebank.250
+8	's	's	PART	O	0			tweebank.250
+9	soccer	soccer	NOUN	O	0		n.act	tweebank.250
+10	championship	championship	NOUN	O	0		n.cognition	tweebank.250
+11	.	.	PUNCT	O	0			tweebank.250
+12	#charterschool	#charterschool	X	O	0			tweebank.250
+13	#tca	#tca	X	O	0			tweebank.250
+14	#soccer	#soccer	X	O	0			tweebank.250
+
+1	Every	every	DET	O	0			tweebank.170
+2	girl	girl	NOUN	O	0		n.person	tweebank.170
+3	always	always	ADV	O	0			tweebank.170
+4	says	say	VERB	O	0		v.communication	tweebank.170
+5	RT	rt	X	O	0			tweebank.170
+6	@_jadorecheri	@USER	X	O	0			tweebank.170
+7	I	i	PRON	O	0			tweebank.170
+8	'm	'm	VERB	O	0		v.stative	tweebank.170
+9	different	different	ADJ	O	0			tweebank.170
+10	from	from	ADP	O	0			tweebank.170
+11	most	most	ADJ	O	0			tweebank.170
+12	girls	girl	NOUN	O	0		n.person	tweebank.170
+13	.	.	PUNCT	O	0			tweebank.170
+
+1	Excellent	excellent	ADJ	O	0			trustpilot-86
+2	on	on	ADP	B	0			trustpilot-86
+3	time	time	NOUN	I	2			trustpilot-86
+4	delivery	delivery	NOUN	O	0		n.act	trustpilot-86
+5	.	.	PUNCT	O	0			trustpilot-86
+
+1	I	i	PRON	O	0			trustpilot-65
+2	ordered	order	VERB	O	0		v.communication	trustpilot-65
+3	a	a	DET	O	0			trustpilot-65
+4	bifold	bifold	ADJ	B	0		n.artifact	trustpilot-65
+5	shower	shower	NOUN	I	4			trustpilot-65
+6	door	door	NOUN	I	5			trustpilot-65
+7	and	and	CONJ	O	0			trustpilot-65
+8	a	a	DET	O	0			trustpilot-65
+9	shower	shower	NOUN	B	0		n.artifact	trustpilot-65
+10	base	base	NOUN	I	9			trustpilot-65
+11	with	with	ADP	I	10			trustpilot-65
+12	waste	waste	NOUN	I	11			trustpilot-65
+13	.	.	PUNCT	O	0			trustpilot-65
+
+1	RT	rt	X	O	0			tweebank.325
+2	@FRIENDSHlP	@USER	X	O	0			tweebank.325
+3	:	:	X	O	0			tweebank.325
+4	Friendship	friendship	NOUN	O	0		n.state	tweebank.325
+5	is	be	VERB	O	0		v.stative	tweebank.325
+6	love	love	NOUN	O	0		n.feeling	tweebank.325
+7	without	without	SCONJ	O	0			tweebank.325
+8	kissing	kiss	VERB	O	0		v.contact	tweebank.325
+9	...	...	PUNCT	O	0			tweebank.325
+
+1	«	«	X	O	0			tweebank.344
+2	@KayoVito	@USER	X	O	0			tweebank.344
+3	#KayoQ	#kayoq	X	O	0			tweebank.344
+4	&A	&a	X	O	0			tweebank.344
+5	LADIES	lady	NOUN	O	0		n.person	tweebank.344
+6	what	what	PRON	O	0			tweebank.344
+7	if	if	ADP	O	0			tweebank.344
+8	u	u	PRON	O	0			tweebank.344
+9	tell	tell	VERB	O	0		v.communication	tweebank.344
+10	a	a	DET	O	0			tweebank.344
+11	guy	guy	NOUN	O	0		n.person	tweebank.344
+12	"	"	PUNCT	O	0			tweebank.344
+13	I	i	PRON	B	0			tweebank.344
+14	Love	love	VERB	I	13			tweebank.344
+15	you	you	PRON	I	14			tweebank.344
+16	"	"	PUNCT	O	0			tweebank.344
+17	and	and	CONJ	O	0			tweebank.344
+18	he	he	PRON	O	0			tweebank.344
+19	says	say	VERB	O	0		v.communication	tweebank.344
+20	"	"	PUNCT	O	0			tweebank.344
+21	oh	oh	INTJ	B	0			tweebank.344
+22	ok	ok	INTJ	I	21			tweebank.344
+23	"	"	PUNCT	O	0			tweebank.344
+24	...	...	PUNCT	O	0			tweebank.344
+25	...	...	PUNCT	O	0			tweebank.344
+26	.	.	PUNCT	O	0			tweebank.344
+27	then	then	ADV	O	0			tweebank.344
+28	what	what	PRON	O	0			tweebank.344
+29	?	?	PUNCT	O	0			tweebank.344
+30	»then	»then	X	O	0			tweebank.344
+31	he	he	PRON	O	0			tweebank.344
+32	do	do	AUX	O	0			tweebank.344
+33	n't	n't	PART	O	0			tweebank.344
+34	love	love	VERB	O	0		v.emotion	tweebank.344
+35	you	you	PRON	O	0			tweebank.344
+36	lol	lol	INTJ	O	0			tweebank.344
+
+1	@CoverGurlFayyy	@USER	X	O	0			tweebank.305
+2	i	i	PRON	O	0			tweebank.305
+3	did	do	VERB	O	0		v.stative	tweebank.305
+4	tooo	tooo	ADV	O	0			tweebank.305
+5	!	!	PUNCT	O	0			tweebank.305
+6	this	this	PRON	O	0			tweebank.305
+7	is	be	AUX	B	0		v.change	tweebank.305
+8	getting	get	VERB	I	7			tweebank.305
+9	goood	goood	ADJ	O	0			tweebank.305
+10	.	.	PUNCT	O	0			tweebank.305
+11	lol	lol	INTJ	O	0			tweebank.305
+
+1	if	if	SCONJ	O	0			tweebank.176
+2	@DoobieClothing	@USER	X	O	0			tweebank.176
+3	do	do	AUX	O	0			tweebank.176
+4	nt	nt	PART	O	0			tweebank.176
+5	make	make	VERB	O	0		v.creation	tweebank.176
+6	some	some	DET	O	0			tweebank.176
+7	hoodies	hoodies	NOUN	O	0		n.artifact	tweebank.176
+8	soon	soon	ADV	O	0			tweebank.176
+9	...	...	PUNCT	O	0			tweebank.176
+10	i	i	PRON	O	0			tweebank.176
+11	mma	mma	AUX	O	0			tweebank.176
+12	beat	beat	VERB	O	0		v.contact	tweebank.176
+13	em	em	PRON	O	0			tweebank.176
+14	!	!	PUNCT	O	0			tweebank.176
+
+1	Ordered	order	VERB	O	0		v.communication	trustpilot-222
+2	0	0	NUM	O	0			trustpilot-222
+3	nail	nail	NOUN	B	0		n.artifact	trustpilot-222
+4	varnishes	varnish	NOUN	I	3			trustpilot-222
+5	good	good	ADJ	O	0			trustpilot-222
+6	quality	quality	NOUN	O	0		n.attribute	trustpilot-222
+7	makes	make	NOUN	O	0		n.attribute	trustpilot-222
+8	love	love	VERB	O	0		v.emotion	trustpilot-222
+9	the	the	DET	O	0			trustpilot-222
+10	colours	colours	NOUN	O	0		n.artifact	trustpilot-222
+11	keeping	keep	VERB	O	0		v.stative	trustpilot-222
+12	them	them	PRON	O	0			trustpilot-222
+13	for	for	ADP	O	0			trustpilot-222
+14	my	my	DET	O	0			trustpilot-222
+15	hols	hols	NOUN	O	0		n.event	trustpilot-222
+16	very	very	ADV	O	0			trustpilot-222
+17	easy	easy	ADJ	O	0			trustpilot-222
+18	to	to	PART	O	0			trustpilot-222
+19	order	order	VERB	O	0		v.communication	trustpilot-222
+20	quick	quick	ADJ	O	0			trustpilot-222
+21	delivery	delivery	NOUN	O	0		n.act	trustpilot-222
+22	and	and	CONJ	O	0			trustpilot-222
+23	excellent	excellent	ADJ	O	0			trustpilot-222
+24	prices	price	NOUN	O	0		n.attribute	trustpilot-222
+
+1	Fuck	fuck	VERB	O	0			tweebank.55
+2			PRON	O	0			tweebank.55
+
+1	@MrNixon357	@USER	X	O	0			tweebank.257
+2	aight	aight	INTJ	O	0			tweebank.257
+3	leaving	leave	VERB	O	0		v.motion	tweebank.257
+4	my	my	PRON	O	0			tweebank.257
+5	crib	crib	NOUN	O	0		n.artifact	tweebank.257
+6	in	in	ADP	O	0			tweebank.257
+7	20	NUMBER	NUM	O	0			tweebank.257
+8	minutes	minutes	NOUN	O	0		n.time	tweebank.257
+
+1	http://bit.ly/er4S9P	URL	X	O	0			tweebank.196
+2	making	make	VERB	O	0		v.change	tweebank.196
+3	it	it	PRON	O	0			tweebank.196
+4	easy	easy	ADJ	O	0			tweebank.196
+5	to	to	PART	O	0			tweebank.196
+6	put	put	VERB	B	0		v.creation	tweebank.196
+7	up	up	ADP	I	6			tweebank.196
+8	a	a	DET	O	0			tweebank.196
+9	@wordpress	@USER	X	O	0			tweebank.196
+10	,	,	PUNCT	O	0			tweebank.196
+11	@joomla	@USER	X	O	0			tweebank.196
+12	in	in	ADP	O	0			tweebank.196
+13	the	the	DET	O	0			tweebank.196
+14	cloud	cloud	NOUN	O	0		n.phenomenon	tweebank.196
+15	#aws	#aws	X	O	0			tweebank.196
+
+1	well	well	X	O	0			trustpilot-73
+2	here	here	ADV	O	0			trustpilot-73
+3	I	i	PRON	O	0			trustpilot-73
+4	am	be	AUX	O	0			trustpilot-73
+5	waiting	wait	VERB	O	0		v.stative	trustpilot-73
+6	for	for	ADP	O	0			trustpilot-73
+7	tickets	ticket	NOUN	O	0		n.communication	trustpilot-73
+8	for	for	ADP	O	0			trustpilot-73
+9	the	the	DET	O	0			trustpilot-73
+10	England	england	PROPN	B	0		n.act	trustpilot-73
+11	v	v	ADP	I	10			trustpilot-73
+12	Australia	australia	PROPN	I	11			trustpilot-73
+13	game	game	NOUN	I	12			trustpilot-73
+14	Nov	nov	NOUN	B	0		n.time	trustpilot-73
+15	0nd	0nd	NOUN	I	14			trustpilot-73
+16	.	.	PUNCT	O	0			trustpilot-73
+
+1	And	and	CONJ	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+2	if	if	SCONJ	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+3	the	the	DET	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+4	TV	tv	NOUN	O	0		n.communication	ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+5	was	be	VERB	O	0		v.stative	ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+6	on	on	ADV	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+7	,	,	PUNCT	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+8	we	we	PRON	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+9	were	be	AUX	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+10	watching	watch	VERB	O	0		v.perception	ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+11	a	a	DET	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+12	documentary	documentary	NOUN	O	0		n.communication	ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+13	.	.	PUNCT	O	0			ted.naist.000-SheaHembrey_2011.iwslt.1169.8
+
+1	Purchased	purchase	VERB	O	0		v.possession	trustpilot-54
+2	a	a	DET	O	0			trustpilot-54
+3	couple	couple	NOUN	O	0		n.quantity	trustpilot-54
+4	of	of	ADP	O	0			trustpilot-54
+5	things	things	NOUN	O	0		n.artifact	trustpilot-54
+6	from	from	ADP	O	0			trustpilot-54
+7	Currys	curry	NOUN	O	0		n.group	trustpilot-54
+8	recently	recently	ADV	O	0			trustpilot-54
+9	,	,	PUNCT	O	0			trustpilot-54
+10	One	one	NUM	O	0			trustpilot-54
+11	of	of	ADP	O	0			trustpilot-54
+12	the	the	DET	O	0			trustpilot-54
+13	items	item	NOUN	O	0		n.artifact	trustpilot-54
+14	would	would	VERB	O	0			trustpilot-54
+15	not	not	ADV	O	0			trustpilot-54
+16	allow	allow	VERB	O	0		v.stative	trustpilot-54
+17	me	me	PRON	O	0			trustpilot-54
+18	to	to	PART	O	0			trustpilot-54
+19	purchase	purchase	VERB	O	0		v.possession	trustpilot-54
+20	on	on	ADJ	O	0			trustpilot-54
+21	-	-	PUNCT	O	0			trustpilot-54
+22	line	line	ADJ	O	0			trustpilot-54
+23	,	,	PUNCT	O	0			trustpilot-54
+24	so	so	ADV	O	0			trustpilot-54
+25	after	after	ADP	O	0			trustpilot-54
+26	searching	search	VERB	O	0		v.cognition	trustpilot-54
+27	the	the	DET	O	0			trustpilot-54
+28	internet	internet	NOUN	O	0		n.phenomenon	trustpilot-54
+29	for	for	ADP	O	0			trustpilot-54
+30	a	a	DET	O	0			trustpilot-54
+31	contact	contact	NOUN	B	0		n.communication	trustpilot-54
+32	number	number	NOUN	I	31			trustpilot-54
+33	for	for	ADP	O	0			trustpilot-54
+34	my	my	DET	O	0			trustpilot-54
+35	local	local	ADJ	B	0		n.artifact	trustpilot-54
+36	store	store	NOUN	I	35			trustpilot-54
+37	(	(	PUNCT	O	0			trustpilot-54
+38	this	this	DET	O	0			trustpilot-54
+39	is	be	VERB	O	0		v.stative	trustpilot-54
+40	an	an	DET	O	0			trustpilot-54
+41	impossible	impossible	ADJ	O	0			trustpilot-54
+42	task	task	NOUN	O	0		n.act	trustpilot-54
+43	and	and	CONJ	O	0			trustpilot-54
+44	the	the	DET	O	0			trustpilot-54
+45	website	website	NOUN	O	0		n.communication	trustpilot-54
+46	also	also	ADV	O	0			trustpilot-54
+47	does	do	AUX	O	0			trustpilot-54
+48	not	not	ADV	O	0			trustpilot-54
+49	have	have	VERB	O	0		v.stative	trustpilot-54
+50	this	this	DET	O	0			trustpilot-54
+51	information	information	NOUN	O	0		n.communication	trustpilot-54
+52	).	).	PUNCT	O	0			trustpilot-54
+
+1	RT	rt	X	O	0			tweebank.333
+2	@taylorswift13	@USER	X	O	0			tweebank.333
+3	:	:	X	O	0			tweebank.333
+4	I	i	PRON	O	0			tweebank.333
+5	got	get	AUX	B	0			tweebank.333
+6	to	to	ADP	I	5			tweebank.333
+7	say	say	VERB	O	0		v.communication	tweebank.333
+8	'	'	PUNCT	O	0			tweebank.333
+9	peace	peace	NOUN	B	0		n.body	tweebank.333
+10	up	up	ADJ	I	9			tweebank.333
+11	,	,	PUNCT	I	10			tweebank.333
+12	A-town	a-town	PROPN	I	11			tweebank.333
+13	down	down	ADJ	I	12			tweebank.333
+14	'	'	PUNCT	O	0			tweebank.333
+15	in	in	ADP	O	0			tweebank.333
+16	atlanta	atlanta	PROPN	O	0		n.location	tweebank.333
+17	then	then	ADV	O	0			tweebank.333
+18	@UsherRaymondIV	@USER	X	O	0			tweebank.333
+19	came	come	VERB	B	0		v.motion	tweebank.333
+20	out	out	ADP	I	19			tweebank.333
+21	and	and	CONJ	O	0			tweebank.333
+22	sang	sing	VERB	O	0		v.creation	tweebank.333
+23	'	'	PUNCT	O	0			tweebank.333
+24	Yeah!'	yeah!'	INTJ	O	0			tweebank.333
+25	with	with	ADP	O	0			tweebank.333
+26	me	me	PRON	O	0			tweebank.333
+27	.	.	PUNCT	O	0			tweebank.333
+28	I	i	PRON	O	0			tweebank.333
+29	'm	'm	VERB	O	0		v.stative	tweebank.333
+30	thinking	think	VERB	O	0		v.cognition	tweebank.333
+31	...	...	X	O	0			tweebank.333
+
+1	Ambitious	ambitious	ADJ	O	0			tweebank.267
+2	young	young	ADJ	O	0			tweebank.267
+3	Italians	italians	PROPN	O	0		n.person	tweebank.267
+4	are	be	AUX	O	0			tweebank.267
+5	quitting	quit	VERB	O	0		v.change	tweebank.267
+6	their	their	PRON	O	0			tweebank.267
+7	country	country	NOUN	O	0		n.group	tweebank.267
+8	in	in	ADP	O	0			tweebank.267
+9	droves	drove	NOUN	O	0		n.group	tweebank.267
+10	,	,	PUNCT	O	0			tweebank.267
+11	leaving	leave	VERB	O	0		v.stative	tweebank.267
+12	power	power	NOUN	O	0		n.attribute	tweebank.267
+13	in	in	ADP	O	0			tweebank.267
+14	the	the	DET	O	0			tweebank.267
+15	hands	hands	NOUN	O	0		n.cognition	tweebank.267
+16	of	of	ADP	O	0			tweebank.267
+17	an	an	DET	O	0			tweebank.267
+18	elderly	elderly	ADJ	O	0			tweebank.267
+19	elite	elite	NOUN	O	0		n.group	tweebank.267
+20	.	.	PUNCT	O	0			tweebank.267
+21	http://t.co/6idomWv	URL	X	O	0			tweebank.267
+22	#tsunami	#tsunami	X	O	0			tweebank.267
+
+1	This	this	DET	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+2	is	be	VERB	O	0		v.stative	ted.naist.004-YvesBehar_2009.iwslt.552.9
+3	a	a	DET	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+4	100,000-volt	100,000-volt	ADJ	B	0		n.artifact	ted.naist.004-YvesBehar_2009.iwslt.552.9
+5	Tesla	tesla	ADJ	I	4			ted.naist.004-YvesBehar_2009.iwslt.552.9
+6	coil	coil	NOUN	I	5			ted.naist.004-YvesBehar_2009.iwslt.552.9
+7	that	that	DET	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+8	I	i	PRON	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+9	built	build	VERB	O	0		v.creation	ted.naist.004-YvesBehar_2009.iwslt.552.9
+10	in	in	ADP	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+11	my	my	PRON	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+12	bedroom	bedroom	NOUN	O	0		n.artifact	ted.naist.004-YvesBehar_2009.iwslt.552.9
+13	,	,	PUNCT	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+14	much	much	ADV	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+15	to	to	PART	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+16	the	the	DET	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+17	dismay	dismay	NOUN	O	0		n.feeling	ted.naist.004-YvesBehar_2009.iwslt.552.9
+18	of	of	ADP	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+19	my	my	PRON	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+20	mother	mother	NOUN	O	0		n.person	ted.naist.004-YvesBehar_2009.iwslt.552.9
+21	.	.	PUNCT	O	0			ted.naist.004-YvesBehar_2009.iwslt.552.9
+
+1	In	in	ADP	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+2	the	the	DET	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+3	front	front	NOUN	O	0		n.location	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+4	,	,	PUNCT	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+5	you	you	PRON	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+6	see	see	VERB	O	0		v.perception	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+7	,	,	PUNCT	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+8	actually	actually	ADV	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+9	,	,	PUNCT	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+10	Joe	joe	PROPN	B	0		n.person	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+11	Murray	murray	PROPN	I	10			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+12	getting	get	VERB	O	0		v.change	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+13	the	the	DET	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+14	patient	patient	NOUN	O	0		n.person	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+15	ready	ready	ADJ	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+16	for	for	ADP	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+17	the	the	DET	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+18	transplant	transplant	NOUN	O	0		n.body	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+19	,	,	PUNCT	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+20	while	while	SCONJ	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+21	in	in	ADP	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+22	the	the	DET	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+23	back	back	ADJ	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+24	room	room	NOUN	O	0		n.artifact	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+25	you	you	PRON	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+26	see	see	VERB	O	0		v.perception	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+27	Hartwell	hartwell	PROPN	B	0		n.person	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+28	Harrison	harrison	PROPN	I	27			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+29	,	,	PUNCT	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+30	the	the	DET	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+31	Chief	chief	PROPN	B	0		n.person	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+32	of	of	ADP	I	31			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+33	Urology	urology	PROPN	I	32			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+34	at	at	ADP	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+35	Harvard	harvard	PROPN	O	0		n.group	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+36	,	,	PUNCT	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+37	actually	actually	ADV	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+38	harvesting	harvest	VERB	O	0		v.contact	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+39	the	the	DET	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+40	kidney	kidney	NOUN	O	0		n.body	ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+41	.	.	PUNCT	O	0			ted.naist.009-AnthonyAtala_2009P.iwslt.744.3
+
+1	I	i	PRON	O	0			trustpilot-57
+2	was	be	AUX	O	0			trustpilot-57
+3	offered	offer	VERB	O	0		v.communication	trustpilot-57
+4	an	an	DET	O	0			trustpilot-57
+5	alternative	alternative	NOUN	O	0		n.other	trustpilot-57
+6	.	.	PUNCT	O	0			trustpilot-57

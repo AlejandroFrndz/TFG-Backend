@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE candidates SYSTEM "dtd/mwetoolkit-candidates.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<candidates >
+<meta>
+</meta>
+<cand candid="1">
+    <ngram><w lemma="resumption" pos="NN" /> <w lemma="session" pos="NN" /> <freq name="corpus-1sentence.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="Resumption" lemma="resumption" pos="NN" /> <w surface="session" lemma="session" pos="NN" /> <freq name="corpus-1sentence.moses" value="1" /><sources ids="1:1,4"/></ngram>
+    </occurs>
+</cand>
+<cand candid="2">
+    <ngram><w lemma="session" pos="NN" /> <w lemma="declare" pos="VBP" /> <freq name="corpus-1sentence.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="session" lemma="session" pos="NN" /> <w surface="declare" lemma="declare" pos="VBP" /> <freq name="corpus-1sentence.moses" value="1" /><sources ids="1:4,6"/></ngram>
+    </occurs>
+</cand>
+</candidates>
