@@ -73,12 +73,11 @@ export const executeParseAndIndex = async (
     }
 
     try {
-        const { stdout, stderr } = await execFile(
+        const { stderr } = await execFile(
             `${process.cwd()}/src/scripts/parse-and-index-corpus.sh`,
             [langCode, userId, projectId]
         );
 
-        console.log(stdout);
         console.log(stderr);
 
         return success(null);
