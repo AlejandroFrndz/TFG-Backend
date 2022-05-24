@@ -1,14 +1,11 @@
 import util from "util";
-import fs from "fs";
+import { promises as fs } from "fs";
 import path from "path";
 import child_process from "child_process";
 import { failure, FailureOrSuccess, success } from "src/core/logic";
 import { UnexpectedError } from "src/core/logic/errors";
 import { Language } from "#project/domain";
 
-const mkdir = util.promisify(fs.mkdir);
-const readdir = util.promisify(fs.readdir);
-const writeFile = util.promisify(fs.writeFile);
 const execFile = util.promisify(child_process.execFile);
 
 type FileSystemResponse = FailureOrSuccess<UnexpectedError, null>;
@@ -19,7 +16,7 @@ export const writeCorpusFiles = async (
     projectId: string
 ): Promise<FileSystemResponse> => {
     try {
-        await mkdir(
+        await fs.mkdir(
             `${process.cwd()}/src/scripts/corpus_raw/${userId}/${projectId}`,
             { recursive: true }
         );
@@ -32,12 +29,12 @@ export const writeCorpusFiles = async (
     for (const file of files) {
         try {
             const num = (
-                await readdir(
+                await fs.readdir(
                     `${process.cwd()}/src/scripts/corpus_raw/${userId}/${projectId}`
                 )
             ).length;
 
-            await writeFile(
+            await fs.writeFile(
                 `${process.cwd()}/src/scripts/corpus_raw/${userId}/${projectId}/corpusFile_${num}${path.extname(
                     file.originalname
                 )}`,
@@ -84,4 +81,18 @@ export const executeParseAndIndex = async (
     } catch (error) {
         return failure(new UnexpectedError(error));
     }
+};
+
+export const getFilesFromDir = async (
+    dir: string
+): Promise<string | string[]> => {
+    const dirents = await fs.readdir(dir, { withFileTypes: true });
+    const files = await Promise.all(
+        dirents.map((dirent) => {
+            const res = path.resolve(dir, dirent.name);
+            return dirent.isDirectory() ? getFilesFromDir(res) : res;
+        })
+    );
+
+    return Array.prototype.concat(...files);
 };
