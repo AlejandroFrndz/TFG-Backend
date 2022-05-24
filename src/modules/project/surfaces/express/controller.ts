@@ -1,5 +1,6 @@
 import { Language } from "#project/domain";
 import { IProjectRepository } from "#project/domain/repo";
+import { S3Service } from "#project/services/AWS/S3";
 import {
     executeParseAndIndex,
     writeCorpusFiles
@@ -119,6 +120,15 @@ const _handleCorpusUpload =
 
         if (parseAndIndexResponse.isFailure()) {
             return next(parseAndIndexResponse.error);
+        }
+
+        const s3UploadResponse = await S3Service.uploadProcessedCorpus(
+            userId,
+            project.id
+        );
+
+        if (s3UploadResponse.isFailure()) {
+            return next(s3UploadResponse.error);
         }
 
         const updateProjectResponse = await projectRepo.finishCreation(
