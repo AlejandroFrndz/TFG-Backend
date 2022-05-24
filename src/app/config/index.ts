@@ -33,5 +33,12 @@ export const config = {
     } as DataSourceOptions,
 
     //JWT
-    jwtSecret: process.env.JWT_SECRET || ""
+    jwtSecret: process.env.JWT_SECRET || "",
+
+    //AWS
+    AWS: {
+        region: process.env.AWS_REGION || "eu-west-3",
+        accessKeyId: process.env.AWS_ACCESS_KEY_ID || "",
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || ""
+    }
 };
