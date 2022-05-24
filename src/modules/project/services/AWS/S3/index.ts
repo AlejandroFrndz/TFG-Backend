@@ -2,6 +2,7 @@ import { getFilesFromDir } from "#project/services/fileSystem";
 import { PutObjectCommand } from "@aws-sdk/client-s3";
 import { createReadStream } from "fs";
 import path from "path";
+import { config } from "src/app/config";
 import { EmptyResponse, failure, success } from "src/core/logic";
 import { UnexpectedError } from "src/core/logic/errors";
 import { s3Client } from "./client";
@@ -44,7 +45,7 @@ const uploadProcessedCorpus = async (
         await _uploadDir(
             `${process.cwd()}/src/scripts/corpus_processed/${userId}/${projectId}`,
             `${userId}/${projectId}`,
-            "processed-corpus"
+            config.AWS.S3.processedCorpusBucket
         );
         return success(null);
     } catch (error) {

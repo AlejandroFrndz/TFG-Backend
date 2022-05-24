@@ -39,6 +39,10 @@ export const config = {
     AWS: {
         region: process.env.AWS_REGION || "eu-west-3",
         accessKeyId: process.env.AWS_ACCESS_KEY_ID || "",
-        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || ""
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || "",
+
+        S3: {
+            processedCorpusBucket: process.env.AWS_PROCESSED_CORPUS_BUCKET || ""
+        }
     }
 };
