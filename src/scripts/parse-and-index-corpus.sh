@@ -19,6 +19,7 @@ if [ $isProd = "false" ]; then
 
   dest_folder="./src/scripts/corpus_processed/${userId}/${projectId}"
   raw_folder="./src/scripts/corpus_raw/${userId}/${projectId}"
+  perl_splitter="./src/scripts/split-sentences.perl"
 else
   UDPIPE="./dist/src/tools/udpipe"
   UDPIPEMODELS="${UDPIPE}/models/"
@@ -26,6 +27,7 @@ else
 
   dest_folder="./dist/src/scripts/corpus_processed/${userId}/${projectId}"
   raw_folder="./dist/src/scripts/corpus_raw/${userId}/${projectId}"
+  perl_splitter="./dist/src/scripts/split-sentences.perl"
 fi
 
 if [ $lang = "EN" ]; then
@@ -51,7 +53,7 @@ for f in "${raw_folder}"/*.txt; do
   iconv -c -f UTF-8 -t UTF-8 |  # check corpus original encoding first
   sed -E 's/\r\n?/\n/g' |
   sed 's/<[^>]*>//g' |
-  ./src/scripts/split-sentences.perl -l ${splitter} 
+  ${perl_splitter} -l ${splitter} 
 done |
 awk '{if(NF > 1)print $0}' | # remove 1-word sentences
 ${UDPIPE}/udpipe --immediate --tokenize --tag --parse --input=horizontal ${UDPIPEMODELS}/${model} |
