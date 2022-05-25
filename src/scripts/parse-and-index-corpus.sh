@@ -2,7 +2,7 @@
 
 # CR 12/12/2016
 
-if [ $# -ne 3 ]; then
+if [ $# -ne 4 ]; then
   echo -e "Error: Incorrect arguments"
   exit
 fi
@@ -10,13 +10,22 @@ fi
 lang="$1"
 userId="$2"
 projectId="$3"
+isProd="$4"
 
-UDPIPE="./src/tools/udpipe"
-UDPIPEMODELS="${UDPIPE}/models/"
-MWETOOLKIT="./src/tools/mwetoolkit/"
+if [ $isProd = "false" ]
+  UDPIPE="./src/tools/udpipe"
+  UDPIPEMODELS="${UDPIPE}/models/"
+  MWETOOLKIT="./src/tools/mwetoolkit/"
 
-dest_folder="./src/scripts/corpus_processed/${userId}/${projectId}"
-raw_folder="./src/scripts/corpus_raw/${userId}/${projectId}"
+  dest_folder="./src/scripts/corpus_processed/${userId}/${projectId}"
+  raw_folder="./src/scripts/corpus_raw/${userId}/${projectId}"
+else
+  UDPIPE="./dist/src/tools/udpipe"
+  UDPIPEMODELS="${UDPIPE}/models/"
+  MWETOOLKIT="./dist/src/tools/mwetoolkit/"
+
+  dest_folder="./dist/src/scripts/corpus_processed/${userId}/${projectId}"
+  raw_folder="./dist/src/scripts/corpus_raw/${userId}/${projectId}"
 
 if [ $lang = "EN" ]; then
   model=english-partut-ud-2.5-191206.udpipe
@@ -77,4 +86,7 @@ ${MWETOOLKIT}/bin/index.py --attributes surface,lemma,pos,syn --from=CONLL -v \
                            
 gzip ${dest_folder}/corpus.parsed.conll                          
 
-rm -rf "./src/scripts/corpus_raw/${userId}"
+if [ $isProd = "false" ]
+  rm -rf "./src/scripts/corpus_raw/${userId}"
+else
+  rm -rf "./dist/src/scripts/corpus_raw/${userId}"

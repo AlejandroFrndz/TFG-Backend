@@ -81,7 +81,7 @@ export const executeParseAndIndex = async (
             `${process.cwd()}${
                 config.isProdEnv ? "/dist" : ""
             }/src/scripts/parse-and-index-corpus.sh`,
-            [langCode, userId, projectId]
+            [langCode, userId, projectId, config.isProdEnv.toString()]
         );
 
         console.log(stderr);
