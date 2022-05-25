@@ -77,14 +77,15 @@ export const executeParseAndIndex = async (
     }
 
     try {
-        const { stderr } = await execFile(
+        const isProd = config.isProdEnv ? "true" : "false";
+        const { stderr, stdout } = await execFile(
             `${process.cwd()}${
                 config.isProdEnv ? "/dist" : ""
             }/src/scripts/parse-and-index-corpus.sh`,
-            [langCode, userId, projectId, config.isProdEnv.toString()]
+            [langCode, userId, projectId, isProd]
         );
 
-        console.log(stderr);
+        console.log(stdout, stderr);
 
         return success(null);
     } catch (error) {
