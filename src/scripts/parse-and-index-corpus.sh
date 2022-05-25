@@ -89,4 +89,4 @@ gzip ${dest_folder}/corpus.parsed.conll
 if [ $isProd = "false" ]; then
   rm -rf "./src/scripts/corpus_raw/${userId}"
 else
-  rm -rf "./dist/src/scripts/corpus_raw/${userId}"
+  rm -rf "./dist/src/scripts/corpus_raw/${userId}"ç
