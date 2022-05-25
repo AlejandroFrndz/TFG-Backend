@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE corpus SYSTEM "dtd/mwetoolkit-corpus.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<corpus >
+<!-- source_sent_id = http://hdl.handle.net/11234/1-2515 UD_English/en-ud-train.conllu answers-20111108090616AAv6fpU_ans-0019 -->
+<!-- text = My suggestion is to pay close attention to what's going on in the background and if possible, stand on a chair, get on the ground, do whatever you need to do to get rid of distracting elements. -->
+<s s_id="1"><w surface="My" lemma="my" pos="PRON" syn="nmod:poss:2" /> <w surface="suggestion" lemma="suggestion" pos="NOUN" syn="nsubj:3" /> <w surface="is" lemma="be" pos="VERB" syn="root:0" /> <w surface="to" lemma="to" pos="PART" syn="mark:5" /> <w surface="pay" lemma="pay" pos="VERB" syn="ccomp:3" /> <w surface="close" lemma="close" pos="ADJ" syn="amod:7" /> <w surface="attention" lemma="attention" pos="NOUN" syn="obj:5" /> <w surface="to" lemma="to" pos="SCONJ" syn="case:9" /> <w surface="what" lemma="what" pos="PRON" syn="obl:5" /> <w surface="'s" lemma="be" pos="AUX" syn="aux:11" /> <w surface="going" lemma="go" pos="VERB" syn="acl:relcl:9" /> <w surface="on" lemma="on" pos="ADP" syn="compound:prt:11" /> <w surface="in" lemma="in" pos="ADP" syn="case:15" /> <w surface="the" lemma="the" pos="DET" syn="det:15" /> <w surface="background" lemma="background" pos="NOUN" syn="obl:11" /> <w surface="and" lemma="and" pos="CCONJ" syn="cc:20" /> <w surface="if" lemma="if" pos="SCONJ" syn="mark:18" /> <w surface="possible" lemma="possible" pos="ADJ" syn="advcl:20" /> <w surface="," lemma="," pos="PUNCT" syn="punct:20" /> <w surface="stand" lemma="stand" pos="VERB" syn="conj:5" /> <w surface="on" lemma="on" pos="ADP" syn="case:23" /> <w surface="a" lemma="a" pos="DET" syn="det:23" /> <w surface="chair" lemma="chair" pos="NOUN" syn="obl:20" /> <w surface="," lemma="," pos="PUNCT" syn="punct:5" /> <w surface="get" lemma="get" pos="VERB" syn="list:20" /> <w surface="on" lemma="on" pos="ADP" syn="case:28" /> <w surface="the" lemma="the" pos="DET" syn="det:28" /> <w surface="ground" lemma="ground" pos="NOUN" syn="obl:25" /> <w surface="," lemma="," pos="PUNCT" syn="punct:5" /> <w surface="do" lemma="do" pos="VERB" syn="list:20" /> <w surface="whatever" lemma="whatever" pos="PRON" syn="obj:30" /> <w surface="you" lemma="you" pos="PRON" syn="nsubj:33" /> <w surface="need" lemma="need" pos="VERB" syn="ccomp:30" /> <w surface="to" lemma="to" pos="PART" syn="mark:35" /> <w surface="do" lemma="do" pos="VERB" syn="xcomp:33" /> <w surface="to" lemma="to" pos="PART" syn="mark:38" /> <w surface="get" lemma="get" pos="VERB" syn="aux:pass:38" /> <w surface="rid" lemma="rid" pos="ADJ" syn="advcl:35" /> <w surface="of" lemma="of" pos="ADP" syn="case:41" /> <w surface="distracting" lemma="distracting" pos="ADJ" syn="amod:41" /> <w surface="elements" lemma="element" pos="NOUN" syn="obl:38" /> <w surface="." lemma="." pos="PUNCT" syn="punct:3" /> 
+<mweoccurs>
+  <mweoccur candid="1"><mwepart index="5"/><mwepart index="7"/></mweoccur>
+  <mweoccur candid="2"><mwepart index="11"/><mwepart index="12"/></mweoccur>
+  <mweoccur candid="3"><mwepart index="37"/><mwepart index="38"/></mweoccur>
+  <mweoccur candid="4"><mwepart index="37"/><mwepart index="38"/><mwepart index="39"/></mweoccur>
+</mweoccurs>
+</s>
+<!-- source_sent_id = http://hdl.handle.net/11234/1-2515 UD_English/en-ud-train.conllu email-enronsent11_01-0057 -->
+<!-- text = Shucks, guess none of us three paid much attention to that. -->
+<s s_id="2"><w surface="Shucks" lemma="shucks" pos="INTJ" syn="discourse:3" /> <w surface="," lemma="," pos="PUNCT" syn="punct:3" /> <w surface="guess" lemma="guess" pos="VERB" syn="root:0" /> <w surface="none" lemma="none" pos="NOUN" syn="nsubj:8" /> <w surface="of" lemma="of" pos="ADP" syn="case:6" /> <w surface="us" lemma="we" pos="PRON" syn="nmod:4" /> <w surface="three" lemma="three" pos="NUM" syn="nummod:6" /> <w surface="paid" lemma="pay" pos="VERB" syn="ccomp:3" /> <w surface="much" lemma="much" pos="ADJ" syn="amod:10" /> <w surface="attention" lemma="attention" pos="NOUN" syn="obj:8" /> <w surface="to" lemma="to" pos="ADP" syn="case:12" /> <w surface="that" lemma="that" pos="PRON" syn="obl:8" /> <w surface="." lemma="." pos="PUNCT" syn="punct:3" /> 
+<mweoccurs>
+  <mweoccur candid="1"><mwepart index="8"/><mwepart index="10"/></mweoccur>
+</mweoccurs>
+</s>
+<!-- source_sent_id = http://hdl.handle.net/11234/1-2515 UD_English/en-ud-train.conllu reviews-116821-0006 -->
+<!-- text = Well then I went on a trip to Glasgow and was walking around. -->
+<s s_id="3"><w surface="Well" lemma="well" pos="INTJ" syn="discourse:4" /> <w surface="then" lemma="then" pos="ADV" syn="advmod:4" /> <w surface="I" lemma="I" pos="PRON" syn="nsubj:4" /> <w surface="went" lemma="go" pos="VERB" syn="root:0" /> <w surface="on" lemma="on" pos="ADP" syn="case:7" /> <w surface="a" lemma="a" pos="DET" syn="det:7" /> <w surface="trip" lemma="trip" pos="NOUN" syn="obl:4" /> <w surface="to" lemma="to" pos="ADP" syn="case:9" /> <w surface="Glasgow" lemma="Glasgow" pos="PROPN" syn="nmod:7" /> <w surface="and" lemma="and" pos="CCONJ" syn="cc:12" /> <w surface="was" lemma="be" pos="AUX" syn="aux:12" /> <w surface="walking" lemma="walk" pos="VERB" syn="conj:4" /> <w surface="around" lemma="around" pos="ADV" syn="advmod:12" /> <w surface="." lemma="." pos="PUNCT" syn="punct:4" /> </s>
+<!-- source_sent_id = http://hdl.handle.net/11234/1-2515 UD_English/en-ud-train.conllu reviews-399348-0002 -->
+<!-- text = The staff was very helpful, and gave us good advice on day and night time activities. -->
+<s s_id="4"><w surface="The" lemma="the" pos="DET" syn="det:2" /> <w surface="staff" lemma="staff" pos="NOUN" syn="nsubj:5" /> <w surface="was" lemma="be" pos="AUX" syn="cop:5" /> <w surface="very" lemma="very" pos="ADV" syn="advmod:5" /> <w surface="helpful" lemma="helpful" pos="ADJ" syn="root:0" /> <w surface="," lemma="," pos="PUNCT" syn="punct:8" /> <w surface="and" lemma="and" pos="CCONJ" syn="cc:8" /> <w surface="gave" lemma="give" pos="VERB" syn="conj:5" /> <w surface="us" lemma="we" pos="PRON" syn="iobj:8" /> <w surface="good" lemma="good" pos="ADJ" syn="amod:11" /> <w surface="advice" lemma="advice" pos="NOUN" syn="obj:8" /> <w surface="on" lemma="on" pos="ADP" syn="case:17" /> <w surface="day" lemma="day" pos="NOUN" syn="compound:16" /> <w surface="and" lemma="and" pos="CCONJ" syn="cc:15" /> <w surface="night" lemma="night" pos="NOUN" syn="conj:13" /> <w surface="time" lemma="time" pos="NOUN" syn="compound:17" /> <w surface="activities" lemma="activity" pos="NOUN" syn="nmod:11" /> <w surface="." lemma="." pos="PUNCT" syn="punct:5" /> 
+<mweoccurs>
+  <mweoccur candid="1"><mwepart index="8"/><mwepart index="11"/></mweoccur>
+</mweoccurs>
+</s>
+<!-- newdoc id = reviews-004574 -->
+<!-- source_sent_id = http://hdl.handle.net/11234/1-2515 UD_English/en-ud-train.conllu reviews-004574-0001 -->
+<!-- text = Please, double-check. -->
+<s s_id="5"><w surface="Please" lemma="please" pos="INTJ" syn="discourse:2" /> <w surface="double-check" lemma="double-check" pos="VERB" syn="root:0" /> <w surface="." lemma="." pos="PUNCT" syn="punct:2" /> 
+<mweoccurs>
+  <mweoccur candid="1"><mwepart index="2"/></mweoccur>
+</mweoccurs>
+</s>
+<!-- source_sent_id = http://hdl.handle.net/11234/1-2515 UD_English/en-ud-train.conllu reviews-241739-0004 -->
+<!-- text = I have terrible hair and he really takes his time to give it a good look. -->
+<s s_id="6"><w surface="I" lemma="I" pos="PRON" syn="nsubj:2" /> <w surface="have" lemma="have" pos="VERB" syn="root:0" /> <w surface="terrible" lemma="terrible" pos="ADJ" syn="amod:4" /> <w surface="hair" lemma="hair" pos="NOUN" syn="obj:2" /> <w surface="and" lemma="and" pos="CCONJ" syn="cc:8" /> <w surface="he" lemma="he" pos="PRON" syn="nsubj:8" /> <w surface="really" lemma="really" pos="ADV" syn="advmod:8" /> <w surface="takes" lemma="take" pos="VERB" syn="conj:2" /> <w surface="his" lemma="he" pos="PRON" syn="nmod:poss:10" /> <w surface="time" lemma="time" pos="NOUN" syn="obj:8" /> <w surface="to" lemma="to" pos="PART" syn="mark:12" /> <w surface="give" lemma="give" pos="VERB" syn="advcl:8" /> <w surface="it" lemma="it" pos="PRON" syn="obj:12" /> <w surface="a" lemma="a" pos="DET" syn="det:16" /> <w surface="good" lemma="good" pos="ADJ" syn="amod:16" /> <w surface="look" lemma="look" pos="VERB" syn="xcomp:12" /> <w surface="." lemma="." pos="PUNCT" syn="punct:2" /> 
+<mweoccurs>
+  <mweoccur candid="1"><mwepart index="8"/><mwepart index="10"/></mweoccur>
+  <mweoccur candid="2"><mwepart index="12"/><mwepart index="16"/></mweoccur>
+</mweoccurs>
+</s>
+<!-- source_sent_id = http://hdl.handle.net/11234/1-2515 UD_English/en-ud-train.conllu email-enronsent33_01-0068 -->
+<!-- text = As I mentioned, please let me know when it is ready, and I will send someone to pick it up. -->
+<s s_id="7"><w surface="As" lemma="as" pos="SCONJ" syn="mark:3" /> <w surface="I" lemma="I" pos="PRON" syn="nsubj:3" /> <w surface="mentioned" lemma="mention" pos="VERB" syn="advcl:6" /> <w surface="," lemma="," pos="PUNCT" syn="punct:6" /> <w surface="please" lemma="please" pos="INTJ" syn="discourse:6" /> <w surface="let" lemma="let" pos="VERB" syn="root:0" /> <w surface="me" lemma="I" pos="PRON" syn="obj:6" /> <w surface="know" lemma="know" pos="VERB" syn="xcomp:6" /> <w surface="when" lemma="when" pos="ADV" syn="mark:12" /> <w surface="it" lemma="it" pos="PRON" syn="nsubj:12" /> <w surface="is" lemma="be" pos="AUX" syn="cop:12" /> <w surface="ready" lemma="ready" pos="ADJ" syn="advcl:8" /> <w surface="," lemma="," pos="PUNCT" syn="punct:17" /> <w surface="and" lemma="and" pos="CCONJ" syn="cc:17" /> <w surface="I" lemma="I" pos="PRON" syn="nsubj:17" /> <w surface="will" lemma="will" pos="AUX" syn="aux:17" /> <w surface="send" lemma="send" pos="VERB" syn="conj:6" /> <w surface="someone" lemma="someone" pos="PRON" syn="obj:17" /> <w surface="to" lemma="to" pos="PART" syn="mark:20" /> <w surface="pick" lemma="pick" pos="VERB" syn="acl:18" /> <w surface="it" lemma="it" pos="PRON" syn="obj:20" /> <w surface="up" lemma="up" pos="ADP" syn="compound:prt:20" /> <w surface="." lemma="." pos="PUNCT" syn="punct:6" /> 
+<mweoccurs>
+  <mweoccur candid="1"><mwepart index="20"/><mwepart index="22"/></mweoccur>
+</mweoccurs>
+</s>
+</corpus>

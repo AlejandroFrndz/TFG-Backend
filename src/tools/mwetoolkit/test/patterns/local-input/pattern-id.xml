@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <pat>
+        <pat id="p1"><w /></pat>
+        <pat id="p2"><w /></pat>
+        <pat id="p3"><w /></pat>                
+    </pat> <!-- matches any trigram -->
+</patterns>

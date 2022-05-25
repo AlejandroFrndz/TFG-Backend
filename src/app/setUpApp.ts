@@ -3,6 +3,7 @@ import userRouter from "#user/surfaces/express/routes";
 import authRouter from "src/core/surfaces/express/auth/routes";
 import folderRouter from "#folder/surfaces/express/routes";
 import fileRouter from "#file/surfaces/express/routes";
+import projectRouter from "#project/surfaces/express/routes";
 import parseToken from "src/core/surfaces/express/middleware/parseToken";
 import cors from "cors";
 import logger from "morgan";
@@ -32,6 +33,7 @@ const setUpApp = (app: Application) => {
     app.use(`${PREFIX}/auth`, authRouter);
     app.use(`${PREFIX}/folder`, folderRouter);
     app.use(`${PREFIX}/file`, fileRouter);
+    app.use(`${PREFIX}/project`, projectRouter);
 
     // Error middleware
     app.use(errorHandler);

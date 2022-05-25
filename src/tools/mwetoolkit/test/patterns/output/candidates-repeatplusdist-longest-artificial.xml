@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE candidates SYSTEM "dtd/mwetoolkit-candidates.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<candidates >
+<meta>
+</meta>
+<cand candid="1">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="2">
+    <ngram><w surface="suc" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="3">
+    <ngram><w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="4">
+    <ngram><w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="5">
+    <ngram><w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="6">
+    <ngram><w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="7">
+    <ngram><w surface="sua" /> <w surface="sua" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="8">
+    <ngram><w surface="sua" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="9">
+    <ngram><w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="10">
+    <ngram><w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="11">
+    <ngram><w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="12">
+    <ngram><w surface="sub" /> <w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="13">
+    <ngram><w surface="sua" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="14">
+    <ngram><w surface="sud" /> <w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="15">
+    <ngram><w surface="sue" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="16">
+    <ngram><w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="17">
+    <ngram><w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="18">
+    <ngram><w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="19">
+    <ngram><w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="20">
+    <ngram><w surface="sua" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="21">
+    <ngram><w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="22">
+    <ngram><w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="23">
+    <ngram><w surface="sud" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="24">
+    <ngram><w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="25">
+    <ngram><w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="26">
+    <ngram><w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="27">
+    <ngram><w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="28">
+    <ngram><w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="29">
+    <ngram><w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="30">
+    <ngram><w surface="sue" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="31">
+    <ngram><w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="32">
+    <ngram><w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="33">
+    <ngram><w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="34">
+    <ngram><w surface="sua" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="35">
+    <ngram><w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="36">
+    <ngram><w surface="sua" /> <w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="37">
+    <ngram><w surface="sua" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="38">
+    <ngram><w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="39">
+    <ngram><w surface="sud" /> <w surface="sud" /> <w surface="sud" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sue" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="40">
+    <ngram><w surface="sud" /> <w surface="sud" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sue" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="41">
+    <ngram><w surface="sud" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sue" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="42">
+    <ngram><w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sue" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="43">
+    <ngram><w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sue" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="44">
+    <ngram><w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sue" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="45">
+    <ngram><w surface="suc" /> <w surface="sua" /> <w surface="sue" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="46">
+    <ngram><w surface="sua" /> <w surface="sue" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="47">
+    <ngram><w surface="sue" /> <w surface="sud" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="48">
+    <ngram><w surface="sud" /> <w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="49">
+    <ngram><w surface="sue" /> <w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="50">
+    <ngram><w surface="suc" /> <w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="51">
+    <ngram><w surface="sue" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="52">
+    <ngram><w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="53">
+    <ngram><w surface="suc" /> <w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="54">
+    <ngram><w surface="sud" /> <w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="55">
+    <ngram><w surface="sue" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="56">
+    <ngram><w surface="suc" /> <w surface="sud" /> <w surface="sue" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="suc" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="57">
+    <ngram><w surface="sud" /> <w surface="sue" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="suc" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="58">
+    <ngram><w surface="sue" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="suc" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="59">
+    <ngram><w surface="sue" /> <w surface="sue" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="suc" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="60">
+    <ngram><w surface="sue" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="suc" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="61">
+    <ngram><w surface="sua" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="suc" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="62">
+    <ngram><w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="suc" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="63">
+    <ngram><w surface="suc" /> <w surface="sua" /> <w surface="suc" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="64">
+    <ngram><w surface="sua" /> <w surface="suc" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="65">
+    <ngram><w surface="suc" /> <w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="66">
+    <ngram><w surface="sub" /> <w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="67">
+    <ngram><w surface="sua" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="68">
+    <ngram><w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="69">
+    <ngram><w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="70">
+    <ngram><w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="71">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="72">
+    <ngram><w surface="suc" /> <w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="73">
+    <ngram><w surface="sua" /> <w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="74">
+    <ngram><w surface="sub" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="75">
+    <ngram><w surface="sub" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="76">
+    <ngram><w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="77">
+    <ngram><w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="78">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="79">
+    <ngram><w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="80">
+    <ngram><w surface="sud" /> <w surface="suc" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="81">
+    <ngram><w surface="suc" /> <w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="82">
+    <ngram><w surface="sub" /> <w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="83">
+    <ngram><w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="84">
+    <ngram><w surface="suc" /> <w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="85">
+    <ngram><w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="86">
+    <ngram><w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="87">
+    <ngram><w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="88">
+    <ngram><w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="89">
+    <ngram><w surface="sub" /> <w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="90">
+    <ngram><w surface="sud" /> <w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="91">
+    <ngram><w surface="sua" /> <w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="92">
+    <ngram><w surface="sua" /> <w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="93">
+    <ngram><w surface="sua" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="94">
+    <ngram><w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="95">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="96">
+    <ngram><w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="97">
+    <ngram><w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="98">
+    <ngram><w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="99">
+    <ngram><w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="100">
+    <ngram><w surface="sub" /> <w surface="sub" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="101">
+    <ngram><w surface="sub" /> <w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="102">
+    <ngram><w surface="sud" /> <w surface="suc" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="103">
+    <ngram><w surface="suc" /> <w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="104">
+    <ngram><w surface="sua" /> <w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="105">
+    <ngram><w surface="sua" /> <w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="106">
+    <ngram><w surface="sub" /> <w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="107">
+    <ngram><w surface="sue" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="108">
+    <ngram><w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="109">
+    <ngram><w surface="sue" /> <w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="110">
+    <ngram><w surface="sua" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="111">
+    <ngram><w surface="sue" /> <w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="112">
+    <ngram><w surface="sua" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="113">
+    <ngram><w surface="sud" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="114">
+    <ngram><w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="115">
+    <ngram><w surface="sud" /> <w surface="sud" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="116">
+    <ngram><w surface="sud" /> <w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="117">
+    <ngram><w surface="sud" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="118">
+    <ngram><w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="119">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="120">
+    <ngram><w surface="suc" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="121">
+    <ngram><w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="122">
+    <ngram><w surface="sub" /> <w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="123">
+    <ngram><w surface="suc" /> <w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="124">
+    <ngram><w surface="sud" /> <w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="125">
+    <ngram><w surface="sub" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="126">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="127">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="128">
+    <ngram><w surface="suc" /> <w surface="suc" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="129">
+    <ngram><w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="130">
+    <ngram><w surface="sub" /> <w surface="sub" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="131">
+    <ngram><w surface="sub" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="132">
+    <ngram><w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="133">
+    <ngram><w surface="sub" /> <w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="134">
+    <ngram><w surface="sub" /> <w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="135">
+    <ngram><w surface="suc" /> <w surface="sua" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="136">
+    <ngram><w surface="sua" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="137">
+    <ngram><w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="138">
+    <ngram><w surface="suc" /> <w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="139">
+    <ngram><w surface="sue" /> <w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="140">
+    <ngram><w surface="sud" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="141">
+    <ngram><w surface="sud" /> <w surface="suc" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="142">
+    <ngram><w surface="suc" /> <w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="143">
+    <ngram><w surface="sub" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="144">
+    <ngram><w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="145">
+    <ngram><w surface="sua" /> <w surface="suc" /> <w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="146">
+    <ngram><w surface="suc" /> <w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="147">
+    <ngram><w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="148">
+    <ngram><w surface="sue" /> <w surface="sua" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="149">
+    <ngram><w surface="sua" /> <w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="150">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="151">
+    <ngram><w surface="suc" /> <w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="152">
+    <ngram><w surface="sud" /> <w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="153">
+    <ngram><w surface="suc" /> <w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="154">
+    <ngram><w surface="sue" /> <w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="155">
+    <ngram><w surface="sud" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="156">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="157">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="158">
+    <ngram><w surface="suc" /> <w surface="suc" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="suc" lemma="lc" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="159">
+    <ngram><w surface="sue" /> <w surface="suc" /> <w surface="sud" /> <w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="160">
+    <ngram><w surface="suc" /> <w surface="sud" /> <w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="suc" lemma="lc" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="161">
+    <ngram><w surface="sud" /> <w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="162">
+    <ngram><w surface="sud" /> <w surface="sue" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="163">
+    <ngram><w surface="sue" /> <w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="164">
+    <ngram><w surface="sua" /> <w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="165">
+    <ngram><w surface="sud" /> <w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="166">
+    <ngram><w surface="sud" /> <w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="167">
+    <ngram><w surface="sub" /> <w surface="sud" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="168">
+    <ngram><w surface="sud" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="169">
+    <ngram><w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="170">
+    <ngram><w surface="sue" /> <w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="171">
+    <ngram><w surface="sue" /> <w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="172">
+    <ngram><w surface="sud" /> <w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sud" lemma="ld" /> <w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="173">
+    <ngram><w surface="sua" /> <w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sua" lemma="la" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="174">
+    <ngram><w surface="sub" /> <w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="175">
+    <ngram><w surface="sub" /> <w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="176">
+    <ngram><w surface="sub" /> <w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sub" lemma="lb" /> <w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="177">
+    <ngram><w surface="sue" /> <w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="178">
+    <ngram><w surface="sue" /> <w surface="sua" /> </ngram>
+    <occurs>
+    <ngram><w surface="sue" lemma="le" /> <w surface="sua" lemma="la" /> <freq name="corpus-artificial.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+</candidates>

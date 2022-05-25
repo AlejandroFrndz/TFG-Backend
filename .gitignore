@@ -2,3 +2,6 @@ node_modules
 postgres_data
 src/app/config/.env
 dist
+src/uploads
+src/scripts/corpus_processed
+src/scripts/corpus_raw

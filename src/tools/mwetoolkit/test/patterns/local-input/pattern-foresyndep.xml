@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <pat>
+        <w syndep="*:v1" />
+        <pat ignore="true" repeat="*"><w/></pat>
+        <w id="v1" />
+    </pat>
+</patterns>

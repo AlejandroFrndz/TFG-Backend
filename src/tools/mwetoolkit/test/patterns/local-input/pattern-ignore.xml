@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <!-- matches all 1-skip bigrams -->
+    <pat>
+        <w />
+        <pat ignore="true"><w /></pat>
+        <w /> 
+    </pat> 
+</patterns>

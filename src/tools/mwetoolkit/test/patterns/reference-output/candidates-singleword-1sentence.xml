@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE candidates SYSTEM "dtd/mwetoolkit-candidates.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<candidates >
+<meta>
+</meta>
+<cand candid="1">
+    <ngram><w lemma="resumption" pos="NN" /> <freq name="corpus-1sentence.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="Resumption" lemma="resumption" pos="NN" /> <freq name="corpus-1sentence.moses" value="1" /><sources ids="1:1"/></ngram>
+    </occurs>
+</cand>
+<cand candid="2">
+    <ngram><w lemma="of" pos="IN" /> <freq name="corpus-1sentence.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="of" lemma="of" pos="IN" /> <freq name="corpus-1sentence.moses" value="1" /><sources ids="1:2"/></ngram>
+    </occurs>
+</cand>
+<cand candid="3">
+    <ngram><w lemma="the" pos="DT" /> <freq name="corpus-1sentence.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="the" lemma="the" pos="DT" /> <freq name="corpus-1sentence.moses" value="1" /><sources ids="1:3"/></ngram>
+    </occurs>
+</cand>
+<cand candid="4">
+    <ngram><w lemma="session" pos="NN" /> <freq name="corpus-1sentence.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="session" lemma="session" pos="NN" /> <freq name="corpus-1sentence.moses" value="1" /><sources ids="1:4"/></ngram>
+    </occurs>
+</cand>
+<cand candid="5">
+    <ngram><w lemma="I" pos="PRP" /> <freq name="corpus-1sentence.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="I" lemma="I" pos="PRP" /> <freq name="corpus-1sentence.moses" value="1" /><sources ids="1:5"/></ngram>
+    </occurs>
+</cand>
+<cand candid="6">
+    <ngram><w lemma="declare" pos="VBP" /> <freq name="corpus-1sentence.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="declare" lemma="declare" pos="VBP" /> <freq name="corpus-1sentence.moses" value="1" /><sources ids="1:6"/></ngram>
+    </occurs>
+</cand>
+</candidates>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <pat>
+        <w id="n1"/>
+        <w />
+        <w lemma="back:n1.lemma" />
+    </pat>    
+</patterns>
+

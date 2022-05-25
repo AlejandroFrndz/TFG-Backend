@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <pat>
+    <w lemma="de"/>
+    <w>
+        <neg surface="la"/>
+    </w>
+    <w pos="NOM" />
+    </pat> <!-- matches all words in the corpus -->
+</patterns>

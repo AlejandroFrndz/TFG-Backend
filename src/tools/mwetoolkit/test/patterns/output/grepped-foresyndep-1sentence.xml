@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE corpus SYSTEM "dtd/mwetoolkit-corpus.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<corpus >
+<s s_id="1"><w surface="Resumption" lemma="resumption" pos="NN" /> <w surface="of" lemma="of" pos="IN" /> <w surface="the" lemma="the" pos="DT" syn="det:4" /> <w surface="session" lemma="session" pos="NN" syn="prep_of:1" /> <w surface="I" lemma="I" pos="PRP" syn="nsubj:6" /> <w surface="declare" lemma="declare" pos="VBP" syn="rcmod:4" /> 
+<mweoccurs>
+  <mweoccur candid="1"><mwepart index="3"/><mwepart index="4"/></mweoccur>
+  <mweoccur candid="2"><mwepart index="5"/><mwepart index="6"/></mweoccur>
+</mweoccurs>
+</s>
+</corpus>

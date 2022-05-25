@@ -1,0 +1,75 @@
+# MWETOOLKIT: filetype="CONLL"
+
+# Using CoNLL-X Shared Task format
+# (We also allow comments and escape codes)
+
+1	Cathy	Cathy	_	N	_	2	su	_	_
+2	zag	zie	_	V	_	0	ROOT	_	_
+3	hen	hen	_	Pron	_	2	obj1	_	_
+4	wild	wild	_	Adj	_	5	mod	_	_
+5	zwaaien	zwaai	_	N	_	2	vc	_	_
+6	.	.	_	Punc	_	5	punct	_	_
+
+1	Of	of	_	Conj	_	0	ROOT	_	_
+2	ze	ze	_	Pron	_	3	su	_	_
+3	had	heb	_	V	_	0	ROOT	_	_
+4	gewoon	gewoon	_	Adj	_	10	mod	_	_
+5	met	met	_	Prep	_	10	mod	_	_
+6	haar	haar	_	Pron	_	7	det	_	_
+7	vriendinnen	vriendin	_	N	_	5	obj1	_	_
+8	rond	rond	_	Adv	_	10	svp	_	_
+9	kunnen	kan	_	V	_	3	vc	_	_
+10	slenteren	slenter	_	V	_	9	vc	_	_
+11	in	in	_	Prep	_	10	mod	_	_
+12	de	de	_	Art	_	13	det	_	_
+13	buurt	buurt	_	N	_	11	obj1	_	_
+14	van	van	_	Prep	_	13	mod	_	_
+15	Trafalgar${underscore}Square	Trafalgar${underscore}Square	_	_	_	14	obj1	_	_
+16	.	.	_	Punc	_	15	punct	_	_
+
+1	Dat	dat	_	Pron	_	2	det	_	_
+2	werkwoord	werkwoord	_	N	_	6	obj1	_	_
+3	had	heb	_	V	_	0	ROOT	_	_
+4	ze	ze	_	Pron	_	6	su	_	_
+5	zelf	zelf	_	Pron	_	3	predm	_	_
+6	uitgevonden	vind	_	V	_	3	vc	_	_
+7	.	.	_	Punc	_	6	punct	_	_
+
+1	Het	het	_	Pron	_	2	su	_	_
+2	hoorde	hoor	_	V	_	0	ROOT	_	_
+3	bij	bij	_	Prep	_	2	ld	_	_
+4	de	de	_	Art	_	6	det	_	_
+5	warme	warm	_	Adj	_	6	mod	_	_
+6	zomerdag	zomerdag	_	N	_	3	obj1	_	_
+7	die	die	_	Pron	_	6	mod	_	_
+8	ze	ze	_	Pron	_	12	su	_	_
+9	ginds	ginds	_	Adv	_	12	mod	_	_
+10	achter	achter	_	Adv	_	12	svp	_	_
+11	had	heb	_	V	_	7	body	_	_
+12	gelaten	laat	_	V	_	11	vc	_	_
+13	.	.	_	Punc	_	12	punct	_	_
+
+1	Ze	ze	_	Pron	_	2	su	_	_
+2	hadden	heb	_	V	_	0	ROOT	_	_
+3	languit	languit	_	Adv	_	11	mod	_	_
+4	naast	naast	_	Prep	_	11	mod	_	_
+5	elkaar	elkaar	_	Pron	_	4	obj1	_	_
+6	op	op	_	Prep	_	11	ld	_	_
+7	de	de	_	Art	_	8	det	_	_
+8	strandstoelen	strandstoel	_	N	_	6	obj1	_	_
+9	kunnen	kan	_	V	_	2	vc	_	_
+10	gaan	ga	_	V	_	9	vc	_	_
+11	liggen	lig	_	V	_	10	vc	_	_
+12	.	.	_	Punc	_	11	punct	_	_
+
+1	Zij	zij	_	Pron	_	2	su	_	_
+2	zou	zal	_	V	_	7	cnj	_	_
+3	mams	mams	_	N	_	4	det	_	_
+4	rug	rug	_	N	_	5	obj1	_	_
+5	ingewreven	wrijf	_	V	_	6	vc	_	_
+6	hebben	heb	_	V	_	2	vc	_	_
+7	en	en	_	Conj	_	0	ROOT	_	_
+8	mam	mam	_	V	_	7	cnj	_	_
+9	de	de	_	Art	_	10	det	_	_
+10	hare	hare	_	Pron	_	8	obj1	_	_
+11	.	.	_	Punc	_	10	punct	_	_

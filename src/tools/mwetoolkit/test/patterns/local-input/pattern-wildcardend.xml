@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <!-- matches any verb followed by a determiner -->
+    <pat><w pos="VER:*"/><w pos="DET:ART"/></pat> 
+    <!-- matches any determiner followed by a noun -->
+    <pat><w pos="DET:ART"/><w pos="N*"/></pat> 
+</patterns>

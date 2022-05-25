@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE candidates SYSTEM "dtd/mwetoolkit-candidates.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<candidates >
+<meta>
+</meta>
+<cand candid="1">
+    <ngram><w lemma="vraiment" pos="ADV" /> <freq name="corpus-french.moses" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="vraiment" lemma="vraiment" pos="ADV" /> <freq name="corpus-french.moses" value="5" /><sources ids="4:39;5:8;35:4;36:9;71:23"/></ngram>
+    </occurs>
+</cand>
+<cand candid="2">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="plus" pos="ADV" /> <freq name="corpus-french.moses" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="le" lemma="le" pos="DET:ART" /> <w surface="plus" lemma="plus" pos="ADV" /> <freq name="corpus-french.moses" value="1" /><sources ids="13:9,10"/></ngram>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="plus" lemma="plus" pos="ADV" /> <freq name="corpus-french.moses" value="1" /><sources ids="42:24,25"/></ngram>
+    </occurs>
+</cand>
+<cand candid="3">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="gens" pos="NOM" /> <freq name="corpus-french.moses" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="gens" lemma="gens" pos="NOM" /> <freq name="corpus-french.moses" value="3" /><sources ids="15:1,2;21:11,12;83:8,9"/></ngram>
+    </occurs>
+</cand>
+<cand candid="4">
+    <ngram><w lemma="leur" pos="DET:POS" /> <w lemma="corps" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="leurs" lemma="leur" pos="DET:POS" /> <w surface="corps" lemma="corps" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="20:16,17"/></ngram>
+    </occurs>
+</cand>
+<cand candid="5">
+    <ngram><w lemma="comment" pos="ADV" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="comment" lemma="comment" pos="ADV" /> <freq name="corpus-french.moses" value="1" /><sources ids="24:27"/></ngram>
+    </occurs>
+</cand>
+<cand candid="6">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="petit" pos="ADJ" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="petites" lemma="petit" pos="ADJ" /> <freq name="corpus-french.moses" value="1" /><sources ids="24:20,21"/></ngram>
+    </occurs>
+</cand>
+<cand candid="7">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="bas" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="le" lemma="le" pos="DET:ART" /> <w surface="bas" lemma="bas" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="31:7,8"/></ngram>
+    </occurs>
+</cand>
+<cand candid="8">
+    <ngram><w lemma="le" pos="DET:ART" /> <w surface="polychlorobiphényles" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="polychlorobiphényles" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="32:18,19"/></ngram>
+    </occurs>
+</cand>
+<cand candid="9">
+    <ngram><w lemma="notre" pos="DET:POS" /> <w lemma="corps" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="notre" lemma="notre" pos="DET:POS" /> <w surface="corps" lemma="corps" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="32:28,29"/></ngram>
+    </occurs>
+</cand>
+<cand candid="10">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="règle|règles" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="règles" lemma="règle|règles" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="41:2,3"/></ngram>
+    </occurs>
+</cand>
+<cand candid="11">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="chip|chips" pos="NOM" /> <freq name="corpus-french.moses" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="chips" lemma="chip|chips" pos="NOM" /> <freq name="corpus-french.moses" value="2" /><sources ids="41:28,29;42:7,8"/></ngram>
+    </occurs>
+</cand>
+<cand candid="12">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="personne" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="personnes" lemma="personne" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="42:22,23"/></ngram>
+    </occurs>
+</cand>
+<cand candid="13">
+    <ngram><w lemma="exactement" pos="ADV" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="exactement" lemma="exactement" pos="ADV" /> <freq name="corpus-french.moses" value="1" /><sources ids="43:34"/></ngram>
+    </occurs>
+</cand>
+<cand candid="14">
+    <ngram><w lemma="malheureusement" pos="ADV" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="malheureusement" lemma="malheureusement" pos="ADV" /> <freq name="corpus-french.moses" value="1" /><sources ids="51:8"/></ngram>
+    </occurs>
+</cand>
+<cand candid="15">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="dauphin" pos="NOM" /> <freq name="corpus-french.moses" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="dauphins" lemma="dauphin" pos="NOM" /> <freq name="corpus-french.moses" value="4" /><sources ids="52:6,7;54:1,2;54:27,28;57:10,11"/></ngram>
+    </occurs>
+</cand>
+<cand candid="16">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="poisson" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="poissons" lemma="poisson" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="54:4,5"/></ngram>
+    </occurs>
+</cand>
+<cand candid="17">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="jeune" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="jeunes" lemma="jeune" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="59:1,2"/></ngram>
+    </occurs>
+</cand>
+<cand candid="18">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="femelle" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="femelles" lemma="femelle" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="60:1,2"/></ngram>
+    </occurs>
+</cand>
+<cand candid="19">
+    <ngram><w lemma="leur" pos="DET:POS" /> <w lemma="petit" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="leurs" lemma="leur" pos="DET:POS" /> <w surface="petits" lemma="petit" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="62:7,8"/></ngram>
+    </occurs>
+</cand>
+<cand candid="20">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="petit" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="petits" lemma="petit" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="63:2,3"/></ngram>
+    </occurs>
+</cand>
+<cand candid="21">
+    <ngram><w lemma="leur" pos="DET:POS" /> <w lemma="premier" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="leurs" lemma="leur" pos="DET:POS" /> <w surface="premiers" lemma="premier" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="65:4,5"/></ngram>
+    </occurs>
+</cand>
+<cand candid="22">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="corps" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="le" lemma="le" pos="DET:ART" /> <w surface="corps" lemma="corps" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="80:7,8"/></ngram>
+    </occurs>
+</cand>
+<cand candid="23">
+    <ngram><w lemma="seulement" pos="ADV" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="seulement" lemma="seulement" pos="ADV" /> <freq name="corpus-french.moses" value="1" /><sources ids="90:38"/></ngram>
+    </occurs>
+</cand>
+<cand candid="24">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="donnée" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="données" lemma="donnée" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="90:27,28"/></ngram>
+    </occurs>
+</cand>
+<cand candid="25">
+    <ngram><w lemma="simplement" pos="ADV" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="simplement" lemma="simplement" pos="ADV" /> <freq name="corpus-french.moses" value="1" /><sources ids="91:18"/></ngram>
+    </occurs>
+</cand>
+<cand candid="26">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="mère" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="mères" lemma="mère" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="92:2,3"/></ngram>
+    </occurs>
+</cand>
+<cand candid="27">
+    <ngram><w lemma="correctement" pos="ADV" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="correctement" lemma="correctement" pos="ADV" /> <freq name="corpus-french.moses" value="1" /><sources ids="94:6"/></ngram>
+    </occurs>
+</cand>
+<cand candid="28">
+    <ngram><w lemma="leur" pos="DET:POS" /> <w lemma="enfant" pos="NOM" /> <freq name="corpus-french.moses" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="leurs" lemma="leur" pos="DET:POS" /> <w surface="enfants" lemma="enfant" pos="NOM" /> <freq name="corpus-french.moses" value="2" /><sources ids="97:6,7;99:8,9"/></ngram>
+    </occurs>
+</cand>
+<cand candid="29">
+    <ngram><w lemma="développement" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="développement" lemma="développement" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="99:6"/></ngram>
+    </occurs>
+</cand>
+<cand candid="30">
+    <ngram><w lemma="nutriment" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="nutriments" lemma="nutriment" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="105:6"/></ngram>
+    </occurs>
+</cand>
+<cand candid="31">
+    <ngram><w lemma="complètement" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="complètement" lemma="complètement" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="105:27"/></ngram>
+    </occurs>
+</cand>
+<cand candid="32">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="engrais" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="l'" lemma="le" pos="DET:ART" /> <w surface="engrais" lemma="engrais" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="105:13,14"/></ngram>
+    </occurs>
+</cand>
+<cand candid="33">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="marée" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="marées" lemma="marée" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="106:14,15"/></ngram>
+    </occurs>
+</cand>
+<cand candid="34">
+    <ngram><w lemma="le" pos="DET:ART" /> <w lemma="océan" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="les" lemma="le" pos="DET:ART" /> <w surface="océans" lemma="océan" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="106:31,32"/></ngram>
+    </occurs>
+</cand>
+<cand candid="35">
+    <ngram><w lemma="tellement" pos="ADV" /> <freq name="corpus-french.moses" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="tellement" lemma="tellement" pos="ADV" /> <freq name="corpus-french.moses" value="2" /><sources ids="110:6;112:34"/></ngram>
+    </occurs>
+</cand>
+<cand candid="36">
+    <ngram><w lemma="notre" pos="DET:POS" /> <w lemma="plage" pos="NOM" /> <freq name="corpus-french.moses" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="nos" lemma="notre" pos="DET:POS" /> <w surface="plages" lemma="plage" pos="NOM" /> <freq name="corpus-french.moses" value="1" /><sources ids="110:27,28"/></ngram>
+    </occurs>
+</cand>
+</candidates>

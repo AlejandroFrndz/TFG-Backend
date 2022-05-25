@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <pat>
+        <pat id="w1"><w lemma="lb" /></pat>
+        <pat repeat="{2,5}" ignore="true"><w /></pat>
+        <pat id="w2"><w lemma="lc" /></pat>
+    </pat>
+</patterns>

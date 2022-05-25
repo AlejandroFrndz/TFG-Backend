@@ -6,6 +6,7 @@ import {
     IFileRepository
 } from "#file/domain";
 import { FolderEntity } from "#folder/infra/postgres/folder.model";
+import { ProjectEntity } from "#project/infra/postgres/project.model";
 import { UserEntity } from "#user/infra/postgres/user.model";
 import { Mapper } from "src/core/domain/mapper";
 import { EmptyResponse, failure, success } from "src/core/logic";
@@ -18,7 +19,8 @@ export class TypeORMFileRepository implements IFileRepository {
         private readonly repo: Repository<FileEntity>,
         private readonly mapper: Mapper<File, FileEntity>,
         private readonly folderRepo: Repository<FolderEntity>,
-        private readonly userRepo: Repository<UserEntity>
+        private readonly userRepo: Repository<UserEntity>,
+        private readonly projectRepo: Repository<ProjectEntity>
     ) {}
 
     async create(params: CreateFileParams): Promise<FileResponse> {
@@ -56,11 +58,33 @@ export class TypeORMFileRepository implements IFileRepository {
                 );
             }
 
+            let project: ProjectEntity;
+
+            if (projectId) {
+                const foundProject = await this.projectRepo.findOne({
+                    where: { id: projectId }
+                });
+
+                if (!foundProject) {
+                    return failure(
+                        new NotFoundError(
+                            `Project with id ${projectId} not found`
+                        )
+                    );
+                }
+
+                project = foundProject;
+            } else {
+                const createdProject = await this.projectRepo.create({ owner });
+
+                project = await this.projectRepo.save(createdProject);
+            }
+
             const file = this.repo.create({
                 name,
                 parent,
                 owner,
-                project: projectId || "Dummy Project"
+                project
             });
 
             const createdFile = await this.repo.save(file);
@@ -75,7 +99,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const file = await this.repo.findOne({
                 where: { id },
-                relations: { owner: true, parent: true }
+                relations: { owner: true, parent: true, project: true }
             });
 
             if (!file) {
@@ -94,7 +118,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const files = await this.repo.find({
                 where: { owner: { id: userId } },
-                relations: { owner: true, parent: true },
+                relations: { owner: true, parent: true, project: true },
                 order: {
                     name: "ASC"
                 }
@@ -113,7 +137,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const file = await this.repo.findOne({
                 where: { id: fileId },
-                relations: { owner: true, parent: true }
+                relations: { owner: true, parent: true, project: true }
             });
 
             if (!file) {
@@ -152,7 +176,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const file = await this.repo.findOne({
                 where: { id: fileId },
-                relations: { owner: true, parent: true }
+                relations: { owner: true, parent: true, project: true }
             });
 
             if (!file) {
@@ -175,7 +199,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const file = await this.repo.findOne({
                 where: { id: fileId },
-                relations: { owner: true, parent: true }
+                relations: { owner: true, parent: true, project: true }
             });
 
             if (!file) {

@@ -1,0 +1,16 @@
+# MWETOOLKIT: filetype="TextualPattern"
+
+# Matching be+Noun
+be N
+
+# Matching Noun compounds
+N{repeat=+}
+
+# Matching be+(Adj+)Noun
+be ADJ{repeat=?} N
+
+# Matching Adj+Noun, where Noun is not "thing"
+ADJ [pos~/N.*/ lemma!="thing"]
+
+# Matching auxiliary verb in French frWaC
+(être | avoir) [pos="VER:pper"]

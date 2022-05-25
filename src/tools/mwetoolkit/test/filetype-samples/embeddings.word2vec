@@ -1,0 +1,8 @@
+5 3
+abcdef 0 0 8
+a_bc 1 2 3
+a 1 0 0
+bc 1 1 0
+de${dollar}f 5 4 3
+abcdef 0 5.3 9
+abcdef 0 0 8.2

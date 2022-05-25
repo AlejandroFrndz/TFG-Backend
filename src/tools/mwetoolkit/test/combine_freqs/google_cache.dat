@@ -1,0 +1,4915 @@
+(dp1
+Ven___blast crisis
+p2
+(I26200
+cdatetime
+date
+p3
+(S'\x07\xdf\x08\x07'
+tRp4
+tp5
+sVen___target cell
+p6
+(I219000
+g3
+(S'\x07\xdf\x08\x07'
+tRp7
+tp8
+sVen___fusion
+p9
+(I30800000
+g3
+(S'\x07\xdf\x08\x07'
+tRp10
+tp11
+sVen___class i
+p12
+(I3310000
+g7
+tp13
+sVen___sequence
+p14
+(I27200000
+g3
+(S'\x07\xdf\x08\x07'
+tRp15
+tp16
+sVen___c-fos mrna
+p17
+(I15900
+g4
+tp18
+sVen___p95vav synergizes
+p19
+(I1
+g3
+(S'\x07\xdf\x08\x07'
+tRp20
+tp21
+sVen___ionophore
+p22
+(I122000
+g3
+(S'\x07\xdf\x08\x07'
+tRp23
+tp24
+sVen___therapy
+p25
+(I48300000
+g4
+tp26
+sVen___alpha b1/
+p27
+(I35900
+g3
+(S'\x07\xdf\x08\x07'
+tRp28
+tp29
+sVen___control subject
+p30
+(I52700
+g3
+(S'\x07\xdf\x08\x07'
+tRp31
+tp32
+sVen___coat
+p33
+(I27400000
+g10
+tp34
+sVen___replication
+p35
+(I4080000
+g31
+tp36
+sVen___antigen expression
+p37
+(I106000
+g7
+tp38
+sVen___receptor
+p39
+(I9800000
+g3
+(S'\x07\xdf\x08\x07'
+tRp40
+tp41
+sVen___induction
+p42
+(I13800000
+g3
+(S'\x07\xdf\x08\x07'
+tRp43
+tp44
+sVen___ah receptor complex
+p45
+(I763
+g3
+(S'\x07\xdf\x08\x07'
+tRp46
+tp47
+sVen___cell transcription factor
+p48
+(I7360
+g3
+(S'\x07\xdf\x08\x07'
+tRp49
+tp50
+sVen___transfectants
+p51
+(I82900
+g3
+(S'\x07\xdf\x08\x07'
+tRp52
+tp53
+sVen___blood
+p54
+(I82900000
+g40
+tp55
+sVen___mhc
+p56
+(I1510000
+g7
+tp57
+sVen___cell surface receptor
+p58
+(I90400
+g49
+tp59
+sVen___blood group system
+p60
+(I19900
+g4
+tp61
+sVen___consensus sequence
+p62
+(I205000
+g20
+tp63
+sVen___zinc finger protein
+p64
+(I74100
+g3
+(S'\x07\xdf\x08\x07'
+tRp65
+tp66
+sVen___cd4-cd8-
+p67
+(I123000
+g4
+tp68
+sVen___% decrease
+p69
+(I31900000
+g52
+tp70
+sVen___involvement
+p71
+(I18200000
+g20
+tp72
+sVen___8 hr
+p73
+(I555000
+g10
+tp74
+sVen___receptor alpha gene
+p75
+(I11100
+g3
+(S'\x07\xdf\x08\x07'
+tRp76
+tp77
+sVen___promoter region
+p78
+(I336000
+g40
+tp79
+sVen___specificity
+p80
+(I4970000
+g40
+tp81
+sVen___microm
+p82
+(I159000
+g52
+tp83
+sVen___type
+p84
+(I444000000
+g40
+tp85
+sVen___polyomavirus enhancer
+p86
+(I1730
+g20
+tp87
+sVen___mobility shift assay
+p88
+(I82100
+g40
+tp89
+sVen___cytomegalovirus ie2 protein
+p90
+(I382
+g31
+tp91
+sVen___dna repair
+p92
+(I502000
+g3
+(S'\x07\xdf\x08\x07'
+tRp93
+tp94
+sVen___gland tissue
+p95
+(I28000
+g93
+tp96
+sVen___dna replication
+p97
+(I439000
+g31
+tp98
+sVen___substrate
+p99
+(I7170000
+g20
+tp100
+sVen___stem
+p101
+(I19100000
+g3
+(S'\x07\xdf\x08\x07'
+tRp102
+tp103
+sVen___lymphocyte line
+p104
+(I2530
+g93
+tp105
+sVen___protein synthesis
+p106
+(I932000
+g3
+(S'\x07\xdf\x08\x07'
+tRp107
+tp108
+sVen___hepor
+p109
+(I938
+g52
+tp110
+sVen___ester
+p111
+(I6430000
+g7
+tp112
+sVen___class ii molecule
+p113
+(I12400
+g23
+tp114
+sVen___result
+p115
+(I139000000
+g15
+tp116
+sVen___synthesis-independent
+p117
+(I4190
+g3
+(S'\x07\xdf\x08\x07'
+tRp118
+tp119
+sVen___shc
+p120
+(I1090000
+g23
+tp121
+sVen___activator
+p122
+(I2950000
+g52
+tp123
+sVen___maz transcription
+p124
+(I109
+g3
+(S'\x07\xdf\x08\x07'
+tRp125
+tp126
+sVen___marrow
+p127
+(I3170000
+g23
+tp128
+sVen___high-dose estrogen administration
+p129
+(I66
+g23
+tp130
+sVen___lymphoma model
+p131
+(I6110
+g23
+tp132
+sVen___responsiveness
+p133
+(I3640000
+g3
+(S'\x07\xdf\x08\x07'
+tRp134
+tp135
+sVen___diphosphate
+p136
+(I289000
+g31
+tp137
+sVen___roi
+p138
+(I19100000
+g40
+tp139
+sVen___cat reporter gene
+p140
+(I8580
+g4
+tp141
+sVen___case
+p142
+(I240000000
+g40
+tp143
+sVen___death
+p144
+(I115000000
+g49
+tp145
+sVen___lineage
+p146
+(I4020000
+g102
+tp147
+sVen___jak
+p148
+(I77600000
+g10
+tp149
+sVen___alpha a-gene product
+p150
+(I3
+g20
+tp151
+sVen___host
+p152
+(I82400000
+g28
+tp153
+sVen___fusion transcript
+p154
+(I16200
+g10
+tp155
+sVen___strain
+p156
+(I14200000
+g46
+tp157
+sVen___il-2 receptor
+p158
+(I112000
+g76
+tp159
+sVen___cell killing
+p160
+(I108000
+g7
+tp161
+sVen___pleckstrin homology domain
+p162
+(I21300
+g20
+tp163
+sVen___class ii gene
+p164
+(I9750
+g49
+tp165
+sVen___cycle-dependent
+p166
+(I72200
+g93
+tp167
+sVen___rb expression vector
+p168
+(I168
+g52
+tp169
+sVen___necrosis
+p170
+(I2800000
+g28
+tp171
+sVen___terminal repeat
+p172
+(I76300
+g40
+tp173
+sVen___de novo infection
+p174
+(I3790
+g102
+tp175
+sVen___cycle control
+p176
+(I158000
+g3
+(S'\x07\xdf\x08\x07'
+tRp177
+tp178
+sVen___p95vav overexpression
+p179
+(I1
+g20
+tp180
+sVen___e1a transfection
+p181
+(I109
+g7
+tp182
+sVen___transfection datum
+p183
+(I0
+g40
+tp184
+sVen___phorbol
+p185
+(I236000
+g40
+tp186
+sVen___dna
+p187
+(I33600000
+g93
+tp188
+sVen___1,25-dihydroxyvitamin
+p189
+(I69000
+g52
+tp190
+sVen___saos
+p191
+(I278000
+g177
+tp192
+sVen___interleukins
+p193
+(I118000
+g43
+tp194
+sVen___adult t
+p195
+(I213000
+g52
+tp196
+sVen___interleukin-2 receptor alpha
+p197
+(I6770
+g3
+(S'\x07\xdf\x08\x07'
+tRp198
+tp199
+sVen___cd4-cd8- t lymphocyte
+p200
+(I676
+g49
+tp201
+sVen___bone marrow
+p202
+(I2180000
+g3
+(S'\x07\xdf\x08\x07'
+tRp203
+tp204
+sVen___cleo element
+p205
+(I23
+g49
+tp206
+sVen___b2 protein
+p207
+(I3760
+g20
+tp208
+sVen___dna-binding
+p209
+(I743000
+g31
+tp210
+sVen___start site
+p211
+(I239000
+g102
+tp212
+sVen___type 2
+p213
+(I5890000
+g40
+tp214
+sVen___dna mobility
+p215
+(I4100
+g31
+tp216
+sVen___cell line jurkat
+p217
+(I7080
+g49
+tp218
+sVen___cd4-cd8- t
+p219
+(I12800
+g4
+tp220
+sVen___blast crisis phase
+p221
+(I1180
+g4
+tp222
+sVen___control transcription
+p223
+(I11700
+g76
+tp224
+sVen___mhc antigen
+p225
+(I12700
+g7
+tp226
+sVen___role monocyte
+p227
+(I25
+g7
+tp228
+sVen___oxygen intermediate
+p229
+(I5640
+g40
+tp230
+sVen___acid
+p231
+(I34100000
+g20
+tp232
+sVen___transformation
+p233
+(I26600000
+g49
+tp234
+sVen___e1a gene expression
+p235
+(I619
+g7
+tp236
+sVen___nf-at
+p237
+(I25000
+g23
+tp238
+sVen___function
+p239
+(I96800000
+g102
+tp240
+sVen___c-rich
+p241
+(I86600
+g4
+tp242
+sVen___cat reporter
+p243
+(I16800
+g4
+tp244
+sVen___il
+p245
+(I316000000
+g49
+tp246
+sVen___ciita mrna
+p247
+(I668
+g49
+tp248
+sVen___coimmunoprecipitation
+p249
+(I64200
+g203
+tp250
+sVen___finger region
+p251
+(I6090
+g203
+tp252
+sVen___mouse interleukin-2 receptor
+p253
+(I574
+g198
+tp254
+sVen___cytokine expression
+p255
+(I128000
+g28
+tp256
+sVen___oxygen
+p257
+(I17000000
+g40
+tp258
+sVen___protein tyrosine
+p259
+(I238000
+g40
+tp260
+sVen___mouse gm-csf
+p261
+(I3010
+g20
+tp262
+sVen___progenitor cell
+p263
+(I214000
+g23
+tp264
+sVen___il-2r alpha mrna
+p265
+(I29
+g118
+tp266
+sVen___g3ag4ag3
+p267
+(I1
+g65
+tp268
+sVen___cdna library
+p269
+(I173000
+g49
+tp270
+sVen___cascade
+p271
+(I7470000
+g52
+tp272
+sVen___cell proliferation
+p273
+(I1550000
+g40
+tp274
+sVen___78-nucleotide
+p275
+(I375
+g102
+tp276
+sVen___mobility shift
+p277
+(I136000
+g40
+tp278
+sVen___cos
+p279
+(I27200000
+g203
+tp280
+sVen___finger
+p281
+(I35800000
+g203
+tp282
+sVen___two contact
+p283
+(I54100
+g203
+tp284
+sVen___@card@ kda
+p285
+(I0
+g52
+tp286
+sVen___2 enhancer
+p287
+(I5900
+g40
+tp288
+sVen___tcr
+p289
+(I1560000
+g20
+tp290
+sVen___ifn-gamma gene expression
+p291
+(I886
+g43
+tp292
+sVen___glycosylase
+p293
+(I56200
+g93
+tp294
+sVen___t-cell stimulation
+p295
+(I27300
+g40
+tp296
+sVen___calcium flux
+p297
+(I29400
+g23
+tp298
+sVen___il-2r alpha transcript
+p299
+(I0
+g102
+tp300
+sVen___adenovirus
+p301
+(I511000
+g7
+tp302
+sVen___box element
+p303
+(I13100
+g4
+tp304
+sVen___infection
+p305
+(I17100000
+g7
+tp306
+sVen___consensus nf-kappa
+p307
+(I157
+g3
+(S'\x07\xdf\x08\x07'
+tRp308
+tp309
+sVen___high-dose
+p310
+(I1110000
+g23
+tp311
+sVen___stat
+p312
+(I43400000
+g102
+tp313
+sVen___ag receptor complex
+p314
+(I187
+g46
+tp315
+sVen___@card@ microm
+p316
+(I0
+g52
+tp317
+sVen___antigen-presenting cell
+p318
+(I60100
+g23
+tp319
+sVen___jurkat cell
+p320
+(I18900
+g28
+tp321
+sVen___analogue
+p322
+(I4840000
+g49
+tp323
+sVen___interaction
+p324
+(I31200000
+g203
+tp325
+sVen___augment pma-
+p326
+(I45
+g3
+(S'\x07\xdf\x08\x07'
+tRp327
+tp328
+sVen___line
+p329
+(I381000000
+g40
+tp330
+sVen___adult
+p331
+(I115000000
+g52
+tp332
+sVen___pma-
+p333
+(I2410000
+g327
+tp334
+sVen___receptor alpha
+p335
+(I180000
+g76
+tp336
+sVen___promoter
+p337
+(I5450000
+g40
+tp338
+sVen___similarity
+p339
+(I6190000
+g52
+tp340
+sVen___e2f site
+p341
+(I2100
+g15
+tp342
+sVen___amino acid sequence
+p343
+(I810000
+g46
+tp344
+sVen___bind hematopoietin receptor
+p345
+(I0
+g3
+(S'\x07\xdf\x08\x07'
+tRp346
+tp347
+sVen___e1a gene product
+p348
+(I809
+g7
+tp349
+sVen___decrease
+p350
+(I31900000
+g52
+tp351
+sVen___production
+p352
+(I125000000
+g40
+tp353
+sVen___beta subunits
+p354
+(I27200
+g20
+tp355
+sVen___1 integrins
+p356
+(I15400
+g52
+tp357
+sVen___complex class i
+p358
+(I52900
+g49
+tp359
+sVen___darc
+p360
+(I465000
+g31
+tp361
+sVen___immunoassay
+p362
+(I678000
+g31
+tp363
+sVen___g3ag4ag3 motif
+p364
+(I1
+g125
+tp365
+sVen___epitopes
+p366
+(I455000
+g7
+tp367
+sVen___message
+p368
+(I311000000
+g31
+tp369
+sVen___i mhc antigen
+p370
+(I1690
+g7
+tp371
+sVen___one substrate
+p372
+(I34200
+g20
+tp373
+sVen___anti-stat3 ab
+p374
+(I283
+g327
+tp375
+sVen___pathway
+p376
+(I9280000
+g23
+tp377
+sVen___synthesis
+p378
+(I13300000
+g107
+tp379
+sVen___differentiation inducer
+p380
+(I2120
+g31
+tp381
+sVen___udg gene
+p382
+(I216
+g15
+tp383
+sVen___@card@ min
+p384
+(I4530
+g52
+tp385
+sVen___antigen
+p386
+(I3460000
+g7
+tp387
+sVen___guanine nucleotide
+p388
+(I125000
+g20
+tp389
+sVen___b-independent hiv
+p390
+(I40
+g3
+(S'\x07\xdf\x08\x07'
+tRp391
+tp392
+sVen___tnf mrna accumulation
+p393
+(I201
+g308
+tp394
+sVen___activation site
+p395
+(I14800
+g52
+tp396
+sVen___novo
+p397
+(I67700000
+g102
+tp398
+sVen___bp hepor promoter
+p399
+(I0
+g4
+tp400
+sVen___adaptor
+p401
+(I4810000
+g23
+tp402
+sVen___interferon gamma
+p403
+(I260000
+g28
+tp404
+sVen___inhibitor
+p405
+(I5310000
+g107
+tp406
+sVen___library
+p407
+(I150000000
+g4
+tp408
+sVen___cd4 promoter
+p409
+(I1410
+g65
+tp410
+sVen___p95vav activity
+p411
+(I104
+g20
+tp412
+sVen___h5
+p413
+(I3420000
+g23
+tp414
+sVen___beta-galactosidase mrna
+p415
+(I229
+g346
+tp416
+sVen___cytokine message
+p417
+(I901
+g31
+tp418
+sVen___78-nucleotide segment @card@
+p419
+(I0
+g102
+tp420
+sVen___axis activation
+p421
+(I11000
+g327
+tp422
+sVen___genome
+p423
+(I5880000
+g102
+tp424
+sVen___canntg
+p425
+(I6130
+g31
+tp426
+sVen___model
+p427
+(I281000000
+g7
+tp428
+sVen___mutagenesis analysis
+p429
+(I6780
+g65
+tp430
+sVen___control
+p431
+(I262000000
+g76
+tp432
+sVen___alpha subunit
+p433
+(I91800
+g20
+tp434
+sVen___src homology
+p435
+(I62500
+g20
+tp436
+sVen___segment @card@
+p437
+(I229
+g102
+tp438
+sVen___differentiation induction
+p439
+(I8270
+g31
+tp440
+sVen___il-2 receptor alpha
+p441
+(I6750
+g76
+tp442
+sVen___rb
+p443
+(I30800000
+g52
+tp444
+sVen___nk cell line
+p445
+(I3350
+g177
+tp446
+sVen___lymphoma
+p447
+(I2130000
+g23
+tp448
+sVen___control il-2
+p449
+(I781
+g76
+tp450
+sVen___chemokine receptor gene
+p451
+(I4250
+g49
+tp452
+sVen___motif
+p453
+(I13400000
+g65
+tp454
+sVen___present
+p455
+(I153000000
+g65
+tp456
+sVen___c-fos mrna induction
+p457
+(I1050
+g4
+tp458
+sVen___aid case
+p459
+(I11800
+g40
+tp460
+sVen___dna strand
+p461
+(I214000
+g31
+tp462
+sVen___molecule-1
+p463
+(I240000
+g52
+tp464
+sVen___action
+p465
+(I226000000
+g52
+tp466
+sVen___cos cell
+p467
+(I7660
+g203
+tp468
+sVen___ebv infection
+p469
+(I34600
+g10
+tp470
+sVen___transcript
+p471
+(I53300000
+g102
+tp472
+sVen___fp promoter
+p473
+(I280
+g10
+tp474
+sVen___lipoxygenase
+p475
+(I154000
+g40
+tp476
+sVen___mmol/
+p477
+(I2500000
+g52
+tp478
+sVen___protein tyrosine kinase
+p479
+(I87300
+g40
+tp480
+sVen___activity
+p481
+(I255000000
+g40
+tp482
+sVen___1 h
+p483
+(I32400000
+g52
+tp484
+sVen___cell transcription
+p485
+(I16600
+g49
+tp486
+sVen___udg expression
+p487
+(I58
+g15
+tp488
+sVen___contact
+p489
+(I1400000000
+g203
+tp490
+sVen___band 3
+p491
+(I727000
+g23
+tp492
+sVen___homologue
+p493
+(I917000
+g20
+tp494
+sVen___guanine nucleotide exchange
+p495
+(I66700
+g20
+tp496
+sVen___five
+p497
+(I158000000
+g43
+tp498
+sVen___t cell line
+p499
+(I53700
+g43
+tp500
+sVen___udg
+p501
+(I984000
+g15
+tp502
+sVen___gm-csf promoter activity
+p503
+(I130
+g28
+tp504
+sVen___treatment
+p505
+(I85600000
+g31
+tp506
+sVen___alpha gene
+p507
+(I45400
+g76
+tp508
+sVen___activation domain
+p509
+(I75200
+g203
+tp510
+sVen___family
+p511
+(I358000000
+g52
+tp512
+sVen___antibody
+p513
+(I5200000
+g23
+tp514
+sVen___carcinoma
+p515
+(I3770000
+g49
+tp516
+sVen___region
+p517
+(I202000000
+g40
+tp518
+sVen___t-cell
+p519
+(I1610000
+g40
+tp520
+sVen___phospholipase
+p521
+(I415000
+g40
+tp522
+sVen___factor gata-1
+p523
+(I5380
+g23
+tp524
+sVen___danazol decrease transcription
+p525
+(I0
+g31
+tp526
+sVen___t-cell activation
+p527
+(I253000
+g52
+tp528
+sVen___class
+p529
+(I198000000
+g7
+tp530
+sVen___gene
+p531
+(I27300000
+g40
+tp532
+sVen___crisis
+p533
+(I42400000
+g4
+tp534
+sVen___class ii expression
+p535
+(I22300
+g49
+tp536
+sVen___amino acid residue
+p537
+(I133000
+g46
+tp538
+sVen___mrna stability
+p539
+(I80300
+g28
+tp540
+sVen___cell adhesion
+p541
+(I693000
+g49
+tp542
+sVen___lps stimulation
+p543
+(I43700
+g308
+tp544
+sVen___protein-protein interaction
+p545
+(I213000
+g198
+tp546
+sVen___nfat
+p547
+(I71100
+g20
+tp548
+sVen___ifn-gamma production
+p549
+(I19700
+g177
+tp550
+sVen___udg promoter
+p551
+(I15
+g15
+tp552
+sVen___calcium pathway
+p553
+(I2680
+g23
+tp554
+sVen___protein
+p555
+(I34700000
+g40
+tp556
+sVen___acid residue
+p557
+(I179000
+g52
+tp558
+sVen___interleukin-2
+p559
+(I283000
+g198
+tp560
+sVen___gr mrna
+p561
+(I4440
+g52
+tp562
+sVen___protein synthesis-independent
+p563
+(I2380
+g118
+tp564
+sVen___alpha-globin
+p565
+(I9800
+g46
+tp566
+sVen___cell surface interaction
+p567
+(I2750
+g49
+tp568
+sVen___role
+p569
+(I112000000
+g7
+tp570
+sVen___t-cell line
+p571
+(I53700
+g40
+tp572
+sVen___lipoxygenase metabolite
+p573
+(I1590
+g40
+tp574
+sVen___cell line thp-1
+p575
+(I14000
+g49
+tp576
+sVen___intermediate
+p577
+(I19000000
+g40
+tp578
+sVen___consensus
+p579
+(I9490000
+g20
+tp580
+sVen___interleukin
+p581
+(I1600000
+g134
+tp582
+sVen___bp hepor
+p583
+(I2
+g4
+tp584
+sVen___anti-ig induction
+p585
+(I51
+g327
+tp586
+sVen___histone h5
+p587
+(I2640
+g23
+tp588
+sVen___dnase
+p589
+(I482000
+g102
+tp590
+sVen___phospholipase a2
+p591
+(I123000
+g40
+tp592
+sVen___il-2 expression
+p593
+(I10900
+g40
+tp594
+sVen___factor promoter activity
+p595
+(I647
+g20
+tp596
+sVen___lymphocyte
+p597
+(I1280000
+g40
+tp598
+sVen___autoregulatory mechanism
+p599
+(I5050
+g93
+tp600
+sVen___tnf mrna
+p601
+(I7210
+g308
+tp602
+sVen___surface
+p603
+(I73100000
+g40
+tp604
+sVen___tyrosine
+p605
+(I1810000
+g40
+tp606
+sVen___cd4
+p607
+(I1350000
+g7
+tp608
+sVen___bp promoter fragment
+p609
+(I2460
+g4
+tp610
+sVen___cell surface
+p611
+(I1310000
+g49
+tp612
+sVen___tnf
+p613
+(I2200000
+g28
+tp614
+sVen___mouse il-2r alpha
+p615
+(I11
+g134
+tp616
+sVen___administration
+p617
+(I77600000
+g23
+tp618
+sVen___4 h
+p619
+(I19000000
+g52
+tp620
+sVen___high-dose estrogen
+p621
+(I3940
+g23
+tp622
+sVen___box
+p623
+(I286000000
+g4
+tp624
+sVen___2 cell
+p625
+(I394000
+g177
+tp626
+sVen___marrow culture
+p627
+(I9940
+g203
+tp628
+sVen___src
+p629
+(I103000000
+g20
+tp630
+sVen___monoclonal antibody
+p631
+(I1170000
+g23
+tp632
+sVen___colony-stimulating factor gene
+p633
+(I4370
+g49
+tp634
+sVen___nf-at transcription
+p635
+(I674
+g23
+tp636
+sVen___saos 2 cell
+p637
+(I2520
+g177
+tp638
+sVen___status
+p639
+(I187000000
+g52
+tp640
+sVen___phosphorylation
+p641
+(I1910000
+g20
+tp642
+sVen___mouse homologue
+p643
+(I11700
+g20
+tp644
+sVen___body temperature
+p645
+(I1150000
+g4
+tp646
+sVen___assay
+p647
+(I6850000
+g40
+tp648
+sVen___cell death
+p649
+(I1630000
+g49
+tp650
+sVen___two interleukins
+p651
+(I322
+g43
+tp652
+sVen___cell surface enzyme
+p653
+(I1520
+g49
+tp654
+sVen___@card@ kilobases
+p655
+(I0
+g102
+tp656
+sVen___ifn-gamma gene
+p657
+(I3560
+g43
+tp658
+sVen___four
+p659
+(I188000000
+g65
+tp660
+sVen___adenovirus infection
+p661
+(I24500
+g7
+tp662
+sVen___disruption
+p663
+(I5540000
+g102
+tp664
+sVen___chemokine
+p665
+(I458000
+g49
+tp666
+sVen___binding-protein
+p667
+(I1400000
+g20
+tp668
+sVen___dnase i footprinting
+p669
+(I13300
+g31
+tp670
+sVen___synergizes
+p671
+(I76600
+g20
+tp672
+sVen___cell ag receptor
+p673
+(I932
+g49
+tp674
+sVen___p56lck
+p675
+(I10300
+g23
+tp676
+sVen___protein product
+p677
+(I116000
+g125
+tp678
+sVen___1 alpha
+p679
+(I432000
+g52
+tp680
+sVen___b1/
+p681
+(I24200000
+g20
+tp682
+sVen___cell surface molecule
+p683
+(I17300
+g49
+tp684
+sVen___@card@ hr
+p685
+(I1630
+g10
+tp686
+sVen___cap site
+p687
+(I25100
+g65
+tp688
+sVen___mhc antigen expression
+p689
+(I2990
+g7
+tp690
+sVen___protein bind
+p691
+(I9930
+g40
+tp692
+sVen___ii
+p693
+(I293000000
+g23
+tp694
+sVen___colony-stimulating
+p695
+(I335000
+g43
+tp696
+sVen___tyrosine kinase p56lck
+p697
+(I2130
+g23
+tp698
+sVen___anemia-inducing strain
+p699
+(I203
+g46
+tp700
+sVen___b1/ alpha b2
+p701
+(I1
+g28
+tp702
+sVen___tcr expression
+p703
+(I8320
+g20
+tp704
+sVen___control il-2 receptor
+p705
+(I183
+g76
+tp706
+sVen___cytokine pleiotropy
+p707
+(I527
+g31
+tp708
+sVen___t1/ 2
+p709
+(I370000
+g308
+tp710
+sVen___c-myc gene
+p711
+(I21300
+g125
+tp712
+sVen___repeat
+p713
+(I36400000
+g40
+tp714
+sVen___polyomavirus
+p715
+(I45000
+g20
+tp716
+sVen___consensus ah receptor
+p717
+(I1
+g49
+tp718
+sVen___gm-csf gene expression
+p719
+(I791
+g20
+tp720
+sVen___e-selectin
+p721
+(I76200
+g31
+tp722
+sVen___cells-binding factor
+p723
+(I16
+g49
+tp724
+sVen___blood monocyte
+p725
+(I16300
+g40
+tp726
+sVen___t1/
+p727
+(I13200000
+g308
+tp728
+sVen___alpha-globin enhancer
+p729
+(I54
+g46
+tp730
+sVen___cell cycle
+p731
+(I1490000
+g177
+tp732
+sVen___9 hr
+p733
+(I443000
+g52
+tp734
+sVen___alpha degradation
+p735
+(I2390
+g46
+tp736
+sVen___il-12 stimulation
+p737
+(I1550
+g43
+tp738
+sVen___mrna accumulation
+p739
+(I29400
+g308
+tp740
+sVen___enhancer region
+p741
+(I21800
+g31
+tp742
+sVen___scl
+p743
+(I2370000
+g125
+tp744
+sVen___il-2r alpha
+p745
+(I1850
+g134
+tp746
+sVen___model change
+p747
+(I131000
+g7
+tp748
+sVen___adaptor protein
+p749
+(I112000
+g23
+tp750
+sVen___acetyltransferase
+p751
+(I223000
+g49
+tp752
+sVen___word
+p753
+(I181000000
+g198
+tp754
+sVen___deletion analysis
+p755
+(I40900
+g31
+tp756
+sVen___cell transformation
+p757
+(I105000
+g49
+tp758
+sVen___p95vav involvement
+p759
+(I1
+g20
+tp760
+sVen___phorbol ester
+p761
+(I94400
+g7
+tp762
+sVen___ebv genome
+p763
+(I9680
+g102
+tp764
+sVen___degradation
+p765
+(I6780000
+g46
+tp766
+sVen___e1a expression
+p767
+(I1990
+g7
+tp768
+sVen___adhesion molecule-1
+p769
+(I173000
+g52
+tp770
+sVen___surface receptor
+p771
+(I118000
+g40
+tp772
+sVen___activator protein-1
+p773
+(I71900
+g52
+tp774
+sVen___tyrosine kinase inhibitor
+p775
+(I130000
+g107
+tp776
+sVen___class ii protein
+p777
+(I2600
+g49
+tp778
+sVen___necrosis factor
+p779
+(I1050000
+g28
+tp780
+sVen___stimulation
+p781
+(I8050000
+g40
+tp782
+sVen___enhancer binding-protein 2
+p783
+(I3650
+g20
+tp784
+sVen___cgmp analogue
+p785
+(I1860
+g49
+tp786
+sVen___cell v-atpase content
+p787
+(I1
+g49
+tp788
+sVen___novo ebv infection
+p789
+(I30
+g10
+tp790
+sVen___gene expression
+p791
+(I3700000
+g40
+tp792
+sVen___coimmunoprecipitation experiment
+p793
+(I1410
+g203
+tp794
+sVen___a-gene
+p795
+(I1420000
+g20
+tp796
+sVen___cell line
+p797
+(I1990000
+g177
+tp798
+sVen___il-2r alpha expression
+p799
+(I130
+g102
+tp800
+sVen___pet
+p801
+(I118000000
+g40
+tp802
+sVen___antigen-presenting
+p803
+(I282000
+g23
+tp804
+sVen___cancer therapy
+p805
+(I647000
+g4
+tp806
+sVen___change
+p807
+(I335000000
+g7
+tp808
+sVen___blast-crisis cdna library
+p809
+(I2
+g4
+tp810
+sVen___@card@ word
+p811
+(I10300
+g198
+tp812
+sVen___cell antigen receptor
+p813
+(I48300
+g49
+tp814
+sVen___agent
+p815
+(I96000000
+g4
+tp816
+sVen___class i mhc
+p817
+(I37400
+g7
+tp818
+sVen___bind stat
+p819
+(I254
+g346
+tp820
+sVen___alpha a-gene
+p821
+(I396
+g20
+tp822
+sVen___zinc finger
+p823
+(I245000
+g65
+tp824
+sVen___subunits
+p825
+(I1210000
+g20
+tp826
+sVen___mouse
+p827
+(I59800000
+g198
+tp828
+sVen___anti-ig stimulation
+p829
+(I333
+g327
+tp830
+sVen___calcium stimulation
+p831
+(I3100
+g4
+tp832
+sVen___cytokine
+p833
+(I1690000
+g28
+tp834
+sVen___transcription factor gata-1
+p835
+(I4950
+g23
+tp836
+sVen___estrogen administration
+p837
+(I13500
+g23
+tp838
+sVen___enhancer binding-protein
+p839
+(I57400
+g20
+tp840
+sVen___nf-kappa
+p841
+(I138000
+g40
+tp842
+sVen___shc adaptor protein
+p843
+(I1230
+g23
+tp844
+sVen___component
+p845
+(I44900000
+g49
+tp846
+sVen___alpha/
+p847
+(I41900000
+g46
+tp848
+sVen___maz transcription factor
+p849
+(I77
+g125
+tp850
+sVen___effect
+p851
+(I105000000
+g7
+tp852
+sVen___rb expression
+p853
+(I4470
+g52
+tp854
+sVen___estrogen receptor
+p855
+(I394000
+g23
+tp856
+sVen___protein kinase
+p857
+(I1380000
+g23
+tp858
+sVen___vector
+p859
+(I43000000
+g52
+tp860
+sVen___blast
+p861
+(I20500000
+g346
+tp862
+sVen___concentration
+p863
+(I24400000
+g31
+tp864
+sVen___cleo
+p865
+(I4050000
+g49
+tp866
+sVen___@card@ bp hepor
+p867
+(I0
+g52
+tp868
+sVen___c-rel protein
+p869
+(I846
+g4
+tp870
+sVen___sequence present
+p871
+(I21600
+g65
+tp872
+sVen___amino
+p873
+(I10100000
+g20
+tp874
+sVen___shift assay
+p875
+(I110000
+g40
+tp876
+sVen___binding-protein 2
+p877
+(I62900
+g20
+tp878
+sVen___segment
+p879
+(I21000000
+g102
+tp880
+sVen___novo infection
+p881
+(I3900
+g102
+tp882
+sVen___two gene
+p883
+(I57200
+g20
+tp884
+sVen___kilobases
+p885
+(I70200
+g102
+tp886
+sVen___stat protein
+p887
+(I10600
+g102
+tp888
+sVen___alpha-globin gene expression
+p889
+(I782
+g46
+tp890
+sVen___maz
+p891
+(I2820000
+g125
+tp892
+sVen___alpha protein
+p893
+(I13500
+g46
+tp894
+sVen___mobility
+p895
+(I17700000
+g40
+tp896
+sVen___cell extract
+p897
+(I119000
+g28
+tp898
+sVen___group
+p899
+(I437000000
+g4
+tp900
+sVen___transcription factor
+p901
+(I1240000
+g40
+tp902
+sVen___alpha a1
+p903
+(I1700
+g20
+tp904
+sVen___tyrosine phosphorylation
+p905
+(I202000
+g20
+tp906
+sVen___line nk3.3
+p907
+(I118
+g43
+tp908
+sVen___d2
+p909
+(I12900000
+g52
+tp910
+sVen___virus type
+p911
+(I413000
+g40
+tp912
+sVen___jurkat t cell
+p913
+(I12600
+g20
+tp914
+sVen___immunoregulatory protein
+p915
+(I941
+g177
+tp916
+sVen___defence
+p917
+(I16300000
+g28
+tp918
+sVen___adult t cell
+p919
+(I40300
+g52
+tp920
+sVen___interleukin-2 receptor
+p921
+(I51300
+g198
+tp922
+sVen___transfection experiment
+p923
+(I7200
+g102
+tp924
+sVen___kinase
+p925
+(I3400000
+g40
+tp926
+sVen___hr
+p927
+(I82500000
+g102
+tp928
+sVen___profile
+p929
+(I573000000
+g31
+tp930
+sVen___mapping
+p931
+(I17600000
+g203
+tp932
+sVen___plasmid
+p933
+(I1710000
+g20
+tp934
+sVen___oxygen production
+p935
+(I40700
+g40
+tp936
+sVen___cell ag
+p937
+(I7250
+g49
+tp938
+sVen___culture
+p939
+(I245000000
+g23
+tp940
+sVen___hiv pathogenesis
+p941
+(I31200
+g7
+tp942
+sVen___colony-stimulating factor promoter
+p943
+(I554
+g20
+tp944
+sVen___mouse gene
+p945
+(I48400
+g102
+tp946
+sVen___anti-stat3
+p947
+(I6570
+g327
+tp948
+sVen___cytokine profile
+p949
+(I64500
+g31
+tp950
+sVen___nfat activation
+p951
+(I6400
+g20
+tp952
+sVen___uracil-dna
+p953
+(I21300
+g93
+tp954
+sVen___residue
+p955
+(I5110000
+g52
+tp956
+sVen___t-cell antigen
+p957
+(I51800
+g20
+tp958
+sVen___ca2+ ionophore
+p959
+(I6700
+g4
+tp960
+sVen___transcription
+p961
+(I6190000
+g40
+tp962
+sVen___complex
+p963
+(I80000000
+g20
+tp964
+sVen___proteolysis
+p965
+(I474000
+g391
+tp966
+sVen___pleckstrin
+p967
+(I45700
+g20
+tp968
+sVen___monocyte
+p969
+(I594000
+g40
+tp970
+sVen___il-2r alpha gene
+p971
+(I123
+g118
+tp972
+sVen___alpha-globin gene
+p973
+(I3590
+g46
+tp974
+sVen___tcr stimulation
+p975
+(I18300
+g20
+tp976
+sVen___e2f
+p977
+(I113000
+g15
+tp978
+sVen___chloramphenicol acetyltransferase
+p979
+(I29600
+g49
+tp980
+sVen___cyclooxygenase activity
+p981
+(I11300
+g31
+tp982
+sVen___cell adhesion molecule-1
+p983
+(I89000
+g49
+tp984
+sVen___cd4 epitopes
+p985
+(I1060
+g7
+tp986
+sVen___cell receptor
+p987
+(I330000
+g49
+tp988
+sVen___granulocyte-macrophage
+p989
+(I167000
+g43
+tp990
+sVen___ii-positive
+p991
+(I22200
+g49
+tp992
+sVen___basic-helix-loop-helix
+p993
+(I70000
+g125
+tp994
+sVen___virus type 2
+p995
+(I71500
+g40
+tp996
+sVen___@card@ ovulation
+p997
+(I31
+g52
+tp998
+sVen___de
+p999
+(I1560000000
+g102
+tp1000
+sVen___division
+p1001
+(I64900000
+g102
+tp1002
+sVen___% sequence similarity
+p1003
+(I297000
+g52
+tp1004
+sVen___tissue
+p1005
+(I22800000
+g93
+tp1006
+sVen___datum
+p1007
+(I27700000
+g40
+tp1008
+sVen___bind
+p1009
+(I8480000
+g40
+tp1010
+sVen___lineage commitment
+p1011
+(I43300
+g102
+tp1012
+sVen___transcription start
+p1013
+(I129000
+g102
+tp1014
+sVen___78-nucleotide segment
+p1015
+(I4
+g102
+tp1016
+sVen___band
+p1017
+(I113000000
+g23
+tp1018
+sVen___@card@
+p1019
+(I180000000
+g23
+tp1020
+sVen___law
+p1021
+(I148000000
+g52
+tp1022
+sVen___interleukin responsiveness
+p1023
+(I7
+g134
+tp1024
+sVen___-dr
+p1025
+(I256000000
+g52
+tp1026
+sVen___transcription start site
+p1027
+(I114000
+g102
+tp1028
+sVen___inducibility
+p1029
+(I73500
+g49
+tp1030
+sVen___adhesion
+p1031
+(I3480000
+g52
+tp1032
+sVen___complex class
+p1033
+(I119000
+g49
+tp1034
+sVen___degradation rate
+p1035
+(I115000
+g31
+tp1036
+sVen___homology 3
+p1037
+(I26700
+g20
+tp1038
+sVen___homology 2
+p1039
+(I41000
+g20
+tp1040
+sVen___pre-treatment
+p1041
+(I602000
+g308
+tp1042
+sVen___finger protein
+p1043
+(I98200
+g65
+tp1044
+sVen___b-cell
+p1045
+(I1060000
+g52
+tp1046
+sVen___gene promoter
+p1047
+(I212000
+g20
+tp1048
+sVen___promoter sequence
+p1049
+(I94000
+g15
+tp1050
+sVen___scl gene
+p1051
+(I1770
+g125
+tp1052
+sVen___differentiation arrest
+p1053
+(I2920
+g31
+tp1054
+sVen___ab
+p1055
+(I287000000
+g46
+tp1056
+sVen___c-fos induction
+p1057
+(I7290
+g4
+tp1058
+sVen___control mechanism
+p1059
+(I311000
+g31
+tp1060
+sVen___stability
+p1061
+(I23400000
+g28
+tp1062
+sVen___cortisol
+p1063
+(I1190000
+g31
+tp1064
+sVen___aid
+p1065
+(I56500000
+g40
+tp1066
+sVen___b-independent hiv promoter
+p1067
+(I21
+g391
+tp1068
+sVen___gata-binding site
+p1069
+(I1720
+g203
+tp1070
+sVen___fp
+p1071
+(I25300000
+g10
+tp1072
+sVen___zebra
+p1073
+(I12200000
+g10
+tp1074
+sVen___dissociation
+p1075
+(I1940000
+g31
+tp1076
+sVen___domain activity
+p1077
+(I4640
+g31
+tp1078
+sVen___roi formation
+p1079
+(I717
+g40
+tp1080
+sVen___mutagenesis
+p1081
+(I1020000
+g65
+tp1082
+sVen___one
+p1083
+(I938000000
+g177
+tp1084
+sVen___upregulation
+p1085
+(I803000
+g31
+tp1086
+sVen___enzyme activity
+p1087
+(I786000
+g31
+tp1088
+sVen___level
+p1089
+(I213000000
+g346
+tp1090
+sVen___two dna
+p1091
+(I77500
+g107
+tp1092
+sVen___overexpression
+p1093
+(I1400000
+g20
+tp1094
+sVen___cytokine gene
+p1095
+(I68500
+g31
+tp1096
+sVen___virus
+p1097
+(I37300000
+g40
+tp1098
+sVen___band @card@
+p1099
+(I6600
+g23
+tp1100
+sVen___defence response
+p1101
+(I15000
+g28
+tp1102
+sVen___ovulation
+p1103
+(I2910000
+g52
+tp1104
+sVen___stem cell
+p1105
+(I2700000
+g102
+tp1106
+sVen___transfection assay result
+p1107
+(I1
+g177
+tp1108
+sVen___mrnas
+p1109
+(I664000
+g43
+tp1110
+sVen___camp-inducing
+p1111
+(I841
+g4
+tp1112
+sVen___alpha gene expression
+p1113
+(I7400
+g76
+tp1114
+sVen___alpha b1/ alpha
+p1115
+(I19
+g20
+tp1116
+sVen___udg promoter sequence
+p1117
+(I1
+g15
+tp1118
+sVen___antigen receptor
+p1119
+(I102000
+g20
+tp1120
+sVen___kinase activity
+p1121
+(I397000
+g40
+tp1122
+sVen___dna-binding complex
+p1123
+(I7760
+g31
+tp1124
+sVen___@card@ kd fraction
+p1125
+(I0
+g52
+tp1126
+sVen___differentiation
+p1127
+(I6540000
+g31
+tp1128
+sVen___nk
+p1129
+(I27900000
+g7
+tp1130
+sVen___antimouse
+p1131
+(I64500
+g28
+tp1132
+sVen___mouse il-2r
+p1133
+(I237
+g118
+tp1134
+sVen___nm
+p1135
+(I52100000
+g52
+tp1136
+sVen___calcium
+p1137
+(I11000000
+g23
+tp1138
+sVen___differentiation induction system
+p1139
+(I75
+g31
+tp1140
+sVen___b2 subunit
+p1141
+(I2310
+g52
+tp1142
+sVen___tnf production
+p1143
+(I22300
+g28
+tp1144
+sVen___immunodeficiency
+p1145
+(I1230000
+g40
+tp1146
+sVen___gr expression
+p1147
+(I7260
+g52
+tp1148
+sVen___jurkat cell extract
+p1149
+(I433
+g28
+tp1150
+sVen___inhibitor h-89
+p1151
+(I3960
+g65
+tp1152
+sVen___ciita mrna induction
+p1153
+(I30
+g49
+tp1154
+sVen___e1a
+p1155
+(I137000
+g7
+tp1156
+sVen___dna repair enzyme
+p1157
+(I18400
+g93
+tp1158
+sVen___ag
+p1159
+(I83800000
+g46
+tp1160
+sVen___lps response
+p1161
+(I4880
+g28
+tp1162
+sVen___bind stat protein
+p1163
+(I1
+g346
+tp1164
+sVen___e1a gene
+p1165
+(I4640
+g7
+tp1166
+sVen___lymphocyte precursor
+p1167
+(I2640
+g134
+tp1168
+sVen___site-binding protein
+p1169
+(I1720
+g28
+tp1170
+sVen___mouse interleukin-2
+p1171
+(I1390
+g198
+tp1172
+sVen___carg motif
+p1173
+(I455
+g4
+tp1174
+sVen___ah
+p1175
+(I70700000
+g46
+tp1176
+sVen___product
+p1177
+(I407000000
+g7
+tp1178
+sVen___shc adaptor
+p1179
+(I1990
+g23
+tp1180
+sVen___autoregulatory
+p1181
+(I68000
+g93
+tp1182
+sVen___segment @card@ kilobases
+p1183
+(I0
+g102
+tp1184
+sVen___jurkat mutant
+p1185
+(I300
+g20
+tp1186
+sVen___blood t cell
+p1187
+(I10900
+g4
+tp1188
+sVen___transcription factor nf-kappa
+p1189
+(I7230
+g40
+tp1190
+sVen___cd19 gene
+p1191
+(I1120
+g4
+tp1192
+sVen___kinase inhibitor h-89
+p1193
+(I389
+g65
+tp1194
+sVen___trophoblast cell
+p1195
+(I15100
+g20
+tp1196
+sVen___competition
+p1197
+(I59500000
+g31
+tp1198
+sVen___factor promoter
+p1199
+(I7240
+g20
+tp1200
+sVen___zebra protein
+p1201
+(I798
+g10
+tp1202
+sVen___cortisol concentration
+p1203
+(I20300
+g31
+tp1204
+sVen___a2
+p1205
+(I23500000
+g40
+tp1206
+sVen___crisis phase
+p1207
+(I6760
+g31
+tp1208
+sVen___nf-at transcription factor
+p1209
+(I298
+g23
+tp1210
+sVen___a1
+p1211
+(I32900000
+g20
+tp1212
+sVen___cycle-dependent transcription factor
+p1213
+(I43
+g15
+tp1214
+sVen___dna mobility shift
+p1215
+(I1570
+g31
+tp1216
+sVen___inducer
+p1217
+(I505000
+g31
+tp1218
+sVen___il-12
+p1219
+(I1270000
+g43
+tp1220
+sVen___bp promoter
+p1221
+(I10800
+g4
+tp1222
+sVen___il-10
+p1223
+(I1670000
+g49
+tp1224
+sVen___alpha b1
+p1225
+(I35900
+g20
+tp1226
+sVen___tyrosine kinase activity
+p1227
+(I73800
+g40
+tp1228
+sVen___alpha b2
+p1229
+(I293
+g20
+tp1230
+sVen___ah receptor dna
+p1231
+(I57
+g46
+tp1232
+sVen___-c-c
+p1233
+(I276000000
+g52
+tp1234
+sVen___enzyme
+p1235
+(I8120000
+g93
+tp1236
+sVen___alpha b2 protein
+p1237
+(I1
+g20
+tp1238
+sVen___@card@ bp promoter
+p1239
+(I0
+g52
+tp1240
+sVen___bone
+p1241
+(I30000000
+g23
+tp1242
+sVen___repressor
+p1243
+(I425000
+g102
+tp1244
+sVen___response
+p1245
+(I97100000
+g28
+tp1246
+sVen___8
+p1247
+(I2540000000
+g102
+tp1248
+sVen___9
+p1249
+(I2340000000
+g52
+tp1250
+sVen___repressor raz
+p1251
+(I38
+g102
+tp1252
+sVen___5
+p1253
+(I3090000000
+g4
+tp1254
+sVen___gm-csf
+p1255
+(I229000
+g43
+tp1256
+sVen___enzyme uracil-dna glycosylase
+p1257
+(I859
+g15
+tp1258
+sVen___acid sequence similarity
+p1259
+(I18000
+g52
+tp1260
+sVen___1
+p1261
+(I3940000000
+g52
+tp1262
+sVen___2
+p1263
+(I3650000000
+g40
+tp1264
+sVen___3
+p1265
+(I3420000000
+g23
+tp1266
+sVen___alpha-globin promoter activity
+p1267
+(I24
+g46
+tp1268
+sVen___metabolite
+p1269
+(I1130000
+g40
+tp1270
+sVen___raz
+p1271
+(I15300000
+g102
+tp1272
+sVen___crisis transition
+p1273
+(I2460
+g31
+tp1274
+sVen___content
+p1275
+(I1140000000
+g49
+tp1276
+sVen___blood t
+p1277
+(I77200
+g4
+tp1278
+sVen___wp promoter
+p1279
+(I250
+g10
+tp1280
+sVen___acid sequence
+p1281
+(I887000
+g52
+tp1282
+sVen___@card@ mmol/ l
+p1283
+(I0
+g52
+tp1284
+sVen___gamma
+p1285
+(I13400000
+g28
+tp1286
+sVen___monoclonal
+p1287
+(I2320000
+g23
+tp1288
+sVen___consensus ah
+p1289
+(I30
+g49
+tp1290
+sVen___nucleotide exchange
+p1291
+(I89000
+g20
+tp1292
+sVen___ratio
+p1293
+(I46900000
+g28
+tp1294
+sVen___cyclosporin treatment
+p1295
+(I2520
+g31
+tp1296
+sVen___transition
+p1297
+(I28400000
+g31
+tp1298
+sVen___cdna
+p1299
+(I3120000
+g4
+tp1300
+sVen___repair enzyme
+p1301
+(I29200
+g93
+tp1302
+sVen___cell leukemia
+p1303
+(I151000
+g49
+tp1304
+sVen___t
+p1305
+(I1770000000
+g40
+tp1306
+sVen___cell lineage
+p1307
+(I168000
+g49
+tp1308
+sVen___dna sequence canntg
+p1309
+(I187
+g31
+tp1310
+sVen___amino acid
+p1311
+(I3690000
+g20
+tp1312
+sVen___s
+p1313
+(I1820000000
+g52
+tp1314
+sVen___factor bind
+p1315
+(I4210
+g65
+tp1316
+sVen___beta-galactosidase activity
+p1317
+(I6370
+g346
+tp1318
+sVen___i
+p1319
+(I2100000000
+g7
+tp1320
+sVen___gm-csf promoter
+p1321
+(I964
+g20
+tp1322
+sVen___element
+p1323
+(I49500000
+g40
+tp1324
+sVen___start
+p1325
+(I463000000
+g102
+tp1326
+sVen___unit
+p1327
+(I120000000
+g4
+tp1328
+sVen___b
+p1329
+(I1510000000
+g102
+tp1330
+sVen___3 kb
+p1331
+(I1180000
+g52
+tp1332
+sVen___protein expression
+p1333
+(I1230000
+g43
+tp1334
+sVen___enzyme uracil-dna
+p1335
+(I900
+g15
+tp1336
+sVen___t cell activation
+p1337
+(I268000
+g40
+tp1338
+sVen___b1/ alpha
+p1339
+(I1310
+g28
+tp1340
+sVen___2 enhancer activation
+p1341
+(I46
+g40
+tp1342
+sVen___antimouse alpha
+p1343
+(I12
+g28
+tp1344
+sVen___cell v-atpase
+p1345
+(I71
+g49
+tp1346
+sVen___cytokine interleukin
+p1347
+(I34800
+g31
+tp1348
+sVen___mouse gm-csf promoter
+p1349
+(I92
+g20
+tp1350
+sVen___protein-protein
+p1351
+(I624000
+g203
+tp1352
+sVen___subject
+p1353
+(I147000000
+g31
+tp1354
+sVen___expression
+p1355
+(I39200000
+g40
+tp1356
+sVen___e1a protein
+p1357
+(I5940
+g7
+tp1358
+sVen___c-fos
+p1359
+(I201000
+g4
+tp1360
+sVen___experiment
+p1361
+(I29300000
+g203
+tp1362
+sVen___tumour necrosis factor
+p1363
+(I191000
+g28
+tp1364
+sVen___body
+p1365
+(I243000000
+g4
+tp1366
+sVen___thp-1
+p1367
+(I103000
+g49
+tp1368
+sVen___jak kinase
+p1369
+(I4940
+g10
+tp1370
+sVen___killing
+p1371
+(I30100000
+g7
+tp1372
+sVen___camp-inducing agent
+p1373
+(I162
+g4
+tp1374
+sVen___v-atpase
+p1375
+(I21200
+g49
+tp1376
+sVen___alpha phosphorylation
+p1377
+(I2580
+g46
+tp1378
+sVen___granulocyte-macrophage colony-stimulating
+p1379
+(I145000
+g43
+tp1380
+sVen___subunit
+p1381
+(I1960000
+g20
+tp1382
+sVen___cell il-10
+p1383
+(I1790
+g49
+tp1384
+sVen___cytomegalovirus
+p1385
+(I472000
+g31
+tp1386
+sVen___beta-galactosidase
+p1387
+(I61700
+g391
+tp1388
+sVen___enhancer activation
+p1389
+(I2450
+g40
+tp1390
+sVen___9 keratoacanthomas
+p1391
+(I5
+g52
+tp1392
+sVen___pathogenesis
+p1393
+(I2990000
+g7
+tp1394
+sVen___blast-crisis cdna
+p1395
+(I2
+g4
+tp1396
+sVen___anti-ig
+p1397
+(I11200
+g327
+tp1398
+sVen___@card@ %
+p1399
+(I180000000
+g52
+tp1400
+sVen___transfection assay
+p1401
+(I13100
+g40
+tp1402
+sVen___age @card@
+p1403
+(I16800
+g46
+tp1404
+sVen___enzyme immunoassay
+p1405
+(I189000
+g31
+tp1406
+sVen___care unit
+p1407
+(I1490000
+g4
+tp1408
+sVen___gene transcription
+p1409
+(I412000
+g134
+tp1410
+sVen___extract
+p1411
+(I21100000
+g28
+tp1412
+sVen___decrease transcription
+p1413
+(I1490
+g31
+tp1414
+sVen___c-fos control
+p1415
+(I76
+g4
+tp1416
+sVen___gland
+p1417
+(I3770000
+g93
+tp1418
+sVen___cell activation
+p1419
+(I499000
+g40
+tp1420
+sVen___uracil-dna glycosylase
+p1421
+(I18000
+g93
+tp1422
+sVen___molecule
+p1423
+(I6950000
+g23
+tp1424
+sVen___basic-helix-loop-helix motif
+p1425
+(I833
+g391
+tp1426
+sVen___e-selectin expression
+p1427
+(I8660
+g31
+tp1428
+sVen___@card@ % decrease
+p1429
+(I329
+g52
+tp1430
+sVen___h-89
+p1431
+(I497000
+g65
+tp1432
+sVen___fraction
+p1433
+(I12600000
+g52
+tp1434
+sVen___host defence
+p1435
+(I52800
+g28
+tp1436
+sVen___mapping experiment
+p1437
+(I7890
+g203
+tp1438
+sVen___udg gene product
+p1439
+(I3
+g15
+tp1440
+sVen___b/
+p1441
+(I1510000000
+g40
+tp1442
+sVen___@card@ mmol/
+p1443
+(I0
+g52
+tp1444
+sVen___dna sequence
+p1445
+(I692000
+g31
+tp1446
+sVen___rb status
+p1447
+(I1480
+g52
+tp1448
+sVen___nucleotide
+p1449
+(I6500000
+g20
+tp1450
+sVen___anti-cd28
+p1451
+(I36300
+g46
+tp1452
+sVen___-c-c family
+p1453
+(I11200
+g52
+tp1454
+sVen___ciita
+p1455
+(I15100
+g49
+tp1456
+sVen___blood group antigen
+p1457
+(I16400
+g4
+tp1458
+sVen___flux
+p1459
+(I25300000
+g23
+tp1460
+sVen___@card@ h
+p1461
+(I20100
+g52
+tp1462
+sVen___gp350/
+p1463
+(I10200
+g10
+tp1464
+sVen___pleiotropy
+p1465
+(I51900
+g31
+tp1466
+sVen___formation
+p1467
+(I52400000
+g40
+tp1468
+sVen___immunodeficiency virus
+p1469
+(I860000
+g40
+tp1470
+sVen___beta
+p1471
+(I80500000
+g20
+tp1472
+sVen___enhancer
+p1473
+(I2350000
+g40
+tp1474
+sVen___p95vav
+p1475
+(I602
+g20
+tp1476
+sVen___kinase inhibitor
+p1477
+(I349000
+g107
+tp1478
+sVen___blood lymphocyte
+p1479
+(I30000
+g93
+tp1480
+sVen___activator protein
+p1481
+(I106000
+g52
+tp1482
+sVen___control group
+p1483
+(I2560000
+g49
+tp1484
+sVen___phase
+p1485
+(I50700000
+g4
+tp1486
+sVen___cyclosporin
+p1487
+(I211000
+g31
+tp1488
+sVen___damage
+p1489
+(I53800000
+g177
+tp1490
+sVen___ifn-gamma pre-treatment
+p1491
+(I11
+g308
+tp1492
+sVen___enhancer element
+p1493
+(I27400
+g40
+tp1494
+sVen___class ii inducibility
+p1495
+(I345
+g49
+tp1496
+sVen___pet site
+p1497
+(I36700
+g40
+tp1498
+sVen___growth
+p1499
+(I70600000
+g107
+tp1500
+sVen___s cell
+p1501
+(I88500
+g52
+tp1502
+sVen___t-cell antigen receptor
+p1503
+(I35000
+g20
+tp1504
+sVen___component tyrosine
+p1505
+(I31
+g49
+tp1506
+sVen___6
+p1507
+(I2710000000
+g52
+tp1508
+sVen___epo
+p1509
+(I1830000
+g31
+tp1510
+sVen___class il transactivator
+p1511
+(I4
+g49
+tp1512
+sVen___chloramphenicol
+p1513
+(I398000
+g49
+tp1514
+sVen___transactivator
+p1515
+(I60200
+g49
+tp1516
+sVen___synthesis-independent appearance
+p1517
+(I9
+g118
+tp1518
+sVen___promoter function
+p1519
+(I12400
+g65
+tp1520
+sVen___cycle-dependent transcription
+p1521
+(I1370
+g15
+tp1522
+sVen___lps
+p1523
+(I4690000
+g28
+tp1524
+sVen___host defence response
+p1525
+(I1190
+g28
+tp1526
+sVen___3 hr
+p1527
+(I857000
+g52
+tp1528
+sVen___4
+p1529
+(I3140000000
+g52
+tp1530
+sVen___alpha
+p1531
+(I41900000
+g198
+tp1532
+sVen___assay result
+p1533
+(I11400
+g177
+tp1534
+sVen___b2
+p1535
+(I51200000
+g20
+tp1536
+sVen___b1
+p1537
+(I24200000
+g20
+tp1538
+sVen___factor nf-kappa
+p1539
+(I9600
+g40
+tp1540
+sVen___e-selectin surface expression
+p1541
+(I262
+g31
+tp1542
+sVen___cd19
+p1543
+(I165000
+g4
+tp1544
+sVen___analysis
+p1545
+(I118000000
+g28
+tp1546
+sVen___tumour
+p1547
+(I2100000
+g28
+tp1548
+sVen___redundancy
+p1549
+(I2660000
+g31
+tp1550
+sVen___trophoblast
+p1551
+(I122000
+g20
+tp1552
+sVen___1 min
+p1553
+(I6270000
+g52
+tp1554
+sVen___granulocyte-macrophage colony-stimulating factor
+p1555
+(I144000
+g43
+tp1556
+sVen___kd
+p1557
+(I23000000
+g52
+tp1558
+sVen___@card@ % sequence
+p1559
+(I10200
+g52
+tp1560
+sVen___novo ebv
+p1561
+(I65
+g10
+tp1562
+sVen___kb
+p1563
+(I124000000
+g52
+tp1564
+sVen___protein synthesis-independent appearance
+p1565
+(I9
+g118
+tp1566
+sVen___cell cycle-dependent
+p1567
+(I55300
+g93
+tp1568
+sVen___progenitor
+p1569
+(I1210000
+g23
+tp1570
+sVen___promoter activity
+p1571
+(I182000
+g20
+tp1572
+sVen___src homology 3
+p1573
+(I18300
+g20
+tp1574
+sVen___src homology 2
+p1575
+(I34100
+g20
+tp1576
+sVen___min
+p1577
+(I192000000
+g52
+tp1578
+sVen___hiv
+p1579
+(I16000000
+g7
+tp1580
+sVen___mutant
+p1581
+(I8600000
+g20
+tp1582
+sVen___accumulation
+p1583
+(I7650000
+g308
+tp1584
+sVen___one mechanism
+p1585
+(I181000
+g177
+tp1586
+sVen___transfection
+p1587
+(I1040000
+g40
+tp1588
+sVen___activation sequence
+p1589
+(I20200
+g52
+tp1590
+sVen___control element
+p1591
+(I86400
+g49
+tp1592
+sVen___blast-crisis
+p1593
+(I26200
+g4
+tp1594
+sVen___fragment
+p1595
+(I8560000
+g4
+tp1596
+sVen___mrna
+p1597
+(I3190000
+g118
+tp1598
+sVen___-dr transfectants
+p1599
+(I109
+g52
+tp1600
+sVen___cd28re region
+p1601
+(I25
+g4
+tp1602
+sVen___two alpha
+p1603
+(I27600
+g20
+tp1604
+sVen___exchange domain
+p1605
+(I6440
+g20
+tp1606
+sVen___gm-csf gene
+p1607
+(I4040
+g20
+tp1608
+sVen___bp
+p1609
+(I154000000
+g52
+tp1610
+sVen___cat
+p1611
+(I127000000
+g4
+tp1612
+sVen___ebv
+p1613
+(I931000
+g102
+tp1614
+sVen___footprinting
+p1615
+(I118000
+g31
+tp1616
+sVen___nf-kappa b/
+p1617
+(I137000
+g40
+tp1618
+sVen___cap
+p1619
+(I75800000
+g65
+tp1620
+sVen___gene disruption
+p1621
+(I73600
+g102
+tp1622
+sVen___immunodeficiency virus type
+p1623
+(I186000
+g40
+tp1624
+sVen___b-alpha proteolysis
+p1625
+(I671
+g391
+tp1626
+sVen___basic-helix-loop-helix motif characteristic
+p1627
+(I7
+g391
+tp1628
+sVen___nucleotide exchange domain
+p1629
+(I224
+g20
+tp1630
+sVen___interferon
+p1631
+(I1320000
+g28
+tp1632
+sVen___t lymphocyte precursor
+p1633
+(I1560
+g134
+tp1634
+sVen___segment function
+p1635
+(I2600
+g102
+tp1636
+sVen___b2 ratio
+p1637
+(I498
+g28
+tp1638
+sVen___%
+p1639
+(I0
+g52
+tp1640
+sVen___guanine
+p1641
+(I471000
+g20
+tp1642
+sVen___cancer
+p1643
+(I58700000
+g4
+tp1644
+sVen___blot
+p1645
+(I4020000
+g28
+tp1646
+sVen___jurkat
+p1647
+(I144000
+g20
+tp1648
+sVen___alpha b2 ratio
+p1649
+(I1
+g28
+tp1650
+sVen___saos 2
+p1651
+(I21700
+g177
+tp1652
+sVen___system
+p1653
+(I332000000
+g4
+tp1654
+sVen___kda
+p1655
+(I2450000
+g52
+tp1656
+sVen___danazol
+p1657
+(I88600
+g31
+tp1658
+sVen___e-selectin upregulation
+p1659
+(I307
+g31
+tp1660
+sVen___dnase i
+p1661
+(I197000
+g102
+tp1662
+sVen___cord
+p1663
+(I15700000
+g31
+tp1664
+sVen___t-cell receptor
+p1665
+(I246000
+g20
+tp1666
+sVen___@card@ kd
+p1667
+(I1750
+g52
+tp1668
+sVen___tyrosine kinase
+p1669
+(I638000
+g40
+tp1670
+sVen___bind hematopoietin
+p1671
+(I10
+g346
+tp1672
+sVen___activation
+p1673
+(I20200000
+g40
+tp1674
+sVen___homology domain
+p1675
+(I64800
+g20
+tp1676
+sVen___% sequence
+p1677
+(I33700000
+g52
+tp1678
+sVen___ag receptor
+p1679
+(I3040
+g46
+tp1680
+sVen___care
+p1681
+(I298000000
+g4
+tp1682
+sVen___deletion
+p1683
+(I7560000
+g31
+tp1684
+sVen___carg
+p1685
+(I170000
+g4
+tp1686
+sVen___gene induction
+p1687
+(I60300
+g43
+tp1688
+sVen___kinase p56lck
+p1689
+(I3020
+g23
+tp1690
+sVen___gr
+p1691
+(I79100000
+g52
+tp1692
+sVen___@card@ nm
+p1693
+(I5560
+g52
+tp1694
+sVen___protein tyrosine phosphorylation
+p1695
+(I20900
+g20
+tp1696
+sVen___cell carcinoma
+p1697
+(I1080000
+g49
+tp1698
+sVen___cell
+p1699
+(I93200000
+g40
+tp1700
+sVen___protein-1
+p1701
+(I851000
+g52
+tp1702
+sVen___site
+p1703
+(I1070000000
+g40
+tp1704
+sVen___clone
+p1705
+(I14000000
+g49
+tp1706
+sVen___1,25-dihydroxyvitamin d2
+p1707
+(I1150
+g52
+tp1708
+sVen___domain
+p1709
+(I63600000
+g203
+tp1710
+sVen___action law
+p1711
+(I63900
+g52
+tp1712
+sVen___dissociation rate
+p1713
+(I54200
+g31
+tp1714
+sVen___alpha expression
+p1715
+(I27400
+g102
+tp1716
+sVen___exchange
+p1717
+(I86200000
+g20
+tp1718
+sVen___repair
+p1719
+(I83500000
+g93
+tp1720
+sVen___cell division
+p1721
+(I865000
+g102
+tp1722
+sVen___gene product
+p1723
+(I414000
+g7
+tp1724
+sVen___t cell
+p1725
+(I1610000
+g40
+tp1726
+sVen___ah receptor
+p1727
+(I16200
+g46
+tp1728
+sVen___protein complex
+p1729
+(I377000
+g20
+tp1730
+sVen___two
+p1731
+(I487000000
+g203
+tp1732
+sVen___arrest
+p1733
+(I17100000
+g31
+tp1734
+sVen___c-rich region
+p1735
+(I1620
+g4
+tp1736
+sVen___cycle
+p1737
+(I47600000
+g177
+tp1738
+sVen___dna damage
+p1739
+(I750000
+g177
+tp1740
+sVen___augment
+p1741
+(I2130000
+g327
+tp1742
+sVen___homology
+p1743
+(I1440000
+g20
+tp1744
+sVen___c-myc
+p1745
+(I329000
+g125
+tp1746
+sVen___b-cell mutant
+p1747
+(I70
+g52
+tp1748
+sVen___axis
+p1749
+(I48500000
+g327
+tp1750
+sVen___il-2
+p1751
+(I2370000
+g40
+tp1752
+sVen___pleckstrin homology
+p1753
+(I40000
+g20
+tp1754
+sVen___il-2r
+p1755
+(I33900
+g134
+tp1756
+sVen___cytomegalovirus ie2
+p1757
+(I782
+g31
+tp1758
+sVen___factor-beta
+p1759
+(I250000
+g107
+tp1760
+sVen___proliferation
+p1761
+(I5060000
+g40
+tp1762
+sVen___tumour necrosis
+p1763
+(I218000
+g28
+tp1764
+sVen___dna strand competition
+p1765
+(I17
+g31
+tp1766
+sVen___alpha-globin promoter
+p1767
+(I117
+g46
+tp1768
+sVen___l
+p1769
+(I1090000000
+g52
+tp1770
+sVen___class ii mhc
+p1771
+(I37800
+g49
+tp1772
+sVen___cdna clone
+p1773
+(I134000
+g49
+tp1774
+sVen___gm-csf mrnas
+p1775
+(I313
+g43
+tp1776
+sVen___hematopoietin
+p1777
+(I3680
+g346
+tp1778
+sVen___cell antigen
+p1779
+(I109000
+g49
+tp1780
+sVen___gos19
+p1781
+(I95
+g46
+tp1782
+sVen___@card@ bp
+p1783
+(I1320
+g52
+tp1784
+sVen___repair enzyme uracil-dna
+p1785
+(I630
+g15
+tp1786
+sVen___colony-stimulating factor
+p1787
+(I300000
+g43
+tp1788
+sVen___@card@ amino
+p1789
+(I123
+g20
+tp1790
+sVen___b-cell line
+p1791
+(I33800
+g52
+tp1792
+sVen___@card@ amino acid
+p1793
+(I38
+g20
+tp1794
+sVen___four factor
+p1795
+(I69100
+g65
+tp1796
+sVen___characteristic
+p1797
+(I16100000
+g391
+tp1798
+sVen___ca2+
+p1799
+(I922000
+g4
+tp1800
+sVen___b2 subunit gene
+p1801
+(I79
+g52
+tp1802
+sVen___type 2 enhancer
+p1803
+(I150
+g40
+tp1804
+sVen___anti-cd28 ab
+p1805
+(I1440
+g46
+tp1806
+sVen___estrogen
+p1807
+(I2220000
+g23
+tp1808
+sVen___cord blood lymphocyte
+p1809
+(I696
+g31
+tp1810
+sVen___de novo
+p1811
+(I5580000
+g102
+tp1812
+sVen___appearance
+p1813
+(I42200000
+g118
+tp1814
+sVen___cell line nk3.3
+p1815
+(I120
+g43
+tp1816
+sVen___cells-binding
+p1817
+(I18400
+g49
+tp1818
+sVen___alpha/ gos19
+p1819
+(I3
+g46
+tp1820
+sVen___activation cascade
+p1821
+(I10200
+g52
+tp1822
+sVen___adhesion molecule
+p1823
+(I371000
+g52
+tp1824
+sVen___coat protein
+p1825
+(I72900
+g10
+tp1826
+sVen___blood group
+p1827
+(I305000
+g4
+tp1828
+sVen___growth factor-beta
+p1829
+(I235000
+g107
+tp1830
+sVen___i mhc
+p1831
+(I44200
+g7
+tp1832
+sVen___gata-1
+p1833
+(I71600
+g23
+tp1834
+sVen___6 h
+p1835
+(I16100000
+g52
+tp1836
+sVen___immunoregulatory
+p1837
+(I121000
+g177
+tp1838
+sVen___calcium ionophore
+p1839
+(I42700
+g23
+tp1840
+sVen___de novo ebv
+p1841
+(I66
+g10
+tp1842
+sVen___class ii-positive
+p1843
+(I7240
+g49
+tp1844
+sVen___beta-galactosidase mrna level
+p1845
+(I0
+g346
+tp1846
+sVen___t lymphocyte
+p1847
+(I380000
+g40
+tp1848
+sVen___bone marrow culture
+p1849
+(I8420
+g23
+tp1850
+sVen___cord blood
+p1851
+(I486000
+g31
+tp1852
+sVen___strand
+p1853
+(I17400000
+g31
+tp1854
+sVen___cgmp
+p1855
+(I505000
+g49
+tp1856
+sVen___five inhibitor
+p1857
+(I417
+g107
+tp1858
+sVen___cyclooxygenase
+p1859
+(I365000
+g31
+tp1860
+sVen___b-alpha
+p1861
+(I38500
+g391
+tp1862
+sVen___monocyte specificity
+p1863
+(I29
+g40
+tp1864
+sVen___alpha transcript
+p1865
+(I1320
+g102
+tp1866
+sVen___keratoacanthomas
+p1867
+(I6260
+g52
+tp1868
+sVen___danazol decrease
+p1869
+(I4
+g31
+tp1870
+sVen___commitment
+p1871
+(I28000000
+g102
+tp1872
+sVen___polyomavirus enhancer binding-protein
+p1873
+(I660
+g20
+tp1874
+sVen___anemia-inducing
+p1875
+(I769
+g46
+tp1876
+sVen___cd28re
+p1877
+(I650
+g4
+tp1878
+sVen___@card@ beta
+p1879
+(I16800
+g52
+tp1880
+sVen___jurkat t
+p1881
+(I46600
+g20
+tp1882
+sVen___gp350/ @card@
+p1883
+(I0
+g10
+tp1884
+sVen___target
+p1885
+(I89800000
+g7
+tp1886
+sVen___ifn-gamma
+p1887
+(I160000
+g177
+tp1888
+sVen___integrins
+p1889
+(I245000
+g52
+tp1890
+sVen___gene effect
+p1891
+(I15300
+g7
+tp1892
+sVen___precursor
+p1893
+(I4150000
+g134
+tp1894
+sVen___a-gene product
+p1895
+(I37300
+g20
+tp1896
+sVen___alpha mrna
+p1897
+(I12300
+g118
+tp1898
+sVen___nk cell
+p1899
+(I166000
+g7
+tp1900
+sVen___ie2
+p1901
+(I151000
+g31
+tp1902
+sVen___nk3.3
+p1903
+(I493
+g43
+tp1904
+sVen___class ii
+p1905
+(I1130000
+g23
+tp1906
+sVen___class il
+p1907
+(I9610
+g49
+tp1908
+sVen___cell cycle-dependent transcription
+p1909
+(I1290
+g93
+tp1910
+sVen___gata-binding
+p1911
+(I12500
+g203
+tp1912
+sVen___c-rich 5
+p1913
+(I369
+g4
+tp1914
+sVen___cytokine message induction
+p1915
+(I165
+g31
+tp1916
+sVen___cell cycle control
+p1917
+(I134000
+g177
+tp1918
+sVen___temperature
+p1919
+(I52000000
+g4
+tp1920
+sVen___terminal
+p1921
+(I36600000
+g40
+tp1922
+sVen___b-independent
+p1923
+(I39900
+g391
+tp1924
+sVen___histone
+p1925
+(I786000
+g23
+tp1926
+sVen___c-rel
+p1927
+(I36200
+g4
+tp1928
+sVen___reporter plasmid
+p1929
+(I80100
+g20
+tp1930
+sVen___age
+p1931
+(I197000000
+g46
+tp1932
+sVen___leukemia
+p1933
+(I3080000
+g49
+tp1934
+sVen___e-selectin surface
+p1935
+(I323
+g31
+tp1936
+sVen___cell type
+p1937
+(I891000
+g102
+tp1938
+sVen___site-binding
+p1939
+(I35600
+g28
+tp1940
+sVen___shift
+p1941
+(I46400000
+g40
+tp1942
+sVen___darc gene
+p1943
+(I475
+g31
+tp1944
+sVen___wp
+p1945
+(I427000000
+g10
+tp1946
+sVen___mechanism
+p1947
+(I26300000
+g93
+tp1948
+sVen___ii molecule
+p1949
+(I19100
+g23
+tp1950
+sVen___diphosphate kinase
+p1951
+(I13500
+g31
+tp1952
+sVen___rate
+p1953
+(I182000000
+g31
+tp1954
+sVen___blot analysis
+p1955
+(I933000
+g28
+tp1956
+sVen___factor
+p1957
+(I72700000
+g40
+tp1958
+sVen___reporter
+p1959
+(I27500000
+g20
+tp1960
+sVen___b cell
+p1961
+(I1060000
+g102
+tp1962
+sVen___h
+p1963
+(I776000000
+g52
+tp1964
+sVen___ciita inducibility
+p1965
+(I3
+g49
+tp1966
+sVen___cytokine redundancy
+p1967
+(I366
+g31
+tp1968
+sVen___chemokine receptor
+p1969
+(I135000
+g49
+tp1970
+sVen___zinc
+p1971
+(I9800000
+g65
+tp1972
+s.
