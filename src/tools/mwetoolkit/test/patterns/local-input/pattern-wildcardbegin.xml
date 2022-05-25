@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <!-- matches all words finishing in "ment" -->
+    <pat><w lemma="*ment"/></pat> 
+    <!-- matches all determiner + noun ending in "s" -->
+    <pat><w pos="DET:*"/><w surface="*s"/></pat>     
+</patterns>

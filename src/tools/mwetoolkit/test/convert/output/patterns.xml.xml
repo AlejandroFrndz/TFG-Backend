@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE patterns SYSTEM "dtd/mwetoolkit-patterns.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<patterns >
+<!-- Comment before the <patterns> tag (currently mishandled) -->
+<!-- Comment inside the <patterns> tag (currently mishandled) -->
+<!-- Comment inside a <pat> tag (currently mishandled) -->
+<!-- Comment inside a <w> tag (currently mishandled) -->
+<pat>
+    <pat repeat="+">
+        <pat repeat="?">
+            <w lemma="of" pos="IO"></w>
+        </pat>
+        <w pos="NN*" style="starred-wildcard"></w>
+        <w pos="NN*" style="starred-wildcard"></w>
+    </pat>
+</pat>
+</patterns>

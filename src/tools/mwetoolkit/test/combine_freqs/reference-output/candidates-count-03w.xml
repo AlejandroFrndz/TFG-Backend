@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE candidates SYSTEM "dtd/mwetoolkit-candidates.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<candidates >
+<meta>
+    <corpussize name="google" value="52000000000" />
+    <corpussize name="index-01" value="5021" />
+    <corpussize name="index-02" value="5212" />
+    <corpussize name="index-03" value="2645" />
+</meta>
+<cand candid="816">
+    <ngram><w lemma="%" pos="N" ><freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="4" /></w> <w lemma="decrease" pos="N" ><freq name="google" value="31900000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="1" /></w> <freq name="google" value="31900000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="%" lemma="%" pos="N" /> <w surface="decrease" lemma="decrease" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="454">
+    <ngram><w lemma="%" pos="N" ><freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="4" /></w> <w lemma="sequence" pos="N" ><freq name="google" value="27200000" /><freq name="index-01" value="8" /><freq name="index-02" value="17" /><freq name="index-03" value="5" /></w> <freq name="google" value="33700000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="%" lemma="%" pos="N" /> <w surface="sequence" lemma="sequence" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="453">
+    <ngram><w lemma="%" pos="N" ><freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="4" /></w> <w lemma="sequence" pos="N" ><freq name="google" value="27200000" /><freq name="index-01" value="8" /><freq name="index-02" value="17" /><freq name="index-03" value="5" /></w> <w lemma="similarity" pos="N" ><freq name="google" value="6190000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="1" /></w> <freq name="google" value="297000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="%" lemma="%" pos="N" /> <w surface="sequence" lemma="sequence" pos="N" /> <w surface="similarity" lemma="similarity" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="559">
+    <ngram><w lemma="-c-c" pos="N" ><freq name="google" value="276000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="family" pos="N" ><freq name="google" value="358000000" /><freq name="index-01" value="3" /><freq name="index-02" value="7" /><freq name="index-03" value="1" /></w> <freq name="google" value="11200" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="-c-c" lemma="-c-c" pos="N" /> <w surface="family" lemma="family" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="822">
+    <ngram><w lemma="-dr" pos="N" ><freq name="google" value="256000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="transfectants" pos="N" ><freq name="google" value="82900" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="1" /></w> <freq name="google" value="109" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="-dr" lemma="-dr" pos="N" /> <w surface="transfectants" lemma="transfectants" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="558">
+    <ngram><w lemma="1" pos="NUM" ><freq name="google" value="3940000000" /><freq name="index-01" value="0" /><freq name="index-02" value="6" /><freq name="index-03" value="1" /></w> <w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <freq name="google" value="432000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="1" lemma="1" pos="NUM" /> <w surface="alpha" lemma="alpha" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="769">
+    <ngram><w lemma="1" pos="NUM" ><freq name="google" value="3940000000" /><freq name="index-01" value="0" /><freq name="index-02" value="6" /><freq name="index-03" value="1" /></w> <w lemma="h" pos="N" ><freq name="google" value="776000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="6" /></w> <freq name="google" value="32400000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="1" lemma="1" pos="NUM" /> <w surface="h" lemma="h" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="698">
+    <ngram><w lemma="1" pos="NUM" ><freq name="google" value="3940000000" /><freq name="index-01" value="0" /><freq name="index-02" value="6" /><freq name="index-03" value="1" /></w> <w lemma="integrins" pos="N" ><freq name="google" value="245000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <freq name="google" value="15400" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="1" lemma="1" pos="NUM" /> <w surface="integrins" lemma="integrins" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="575">
+    <ngram><w lemma="1" pos="NUM" ><freq name="google" value="3940000000" /><freq name="index-01" value="0" /><freq name="index-02" value="6" /><freq name="index-03" value="1" /></w> <w lemma="min" pos="N" ><freq name="google" value="192000000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <freq name="google" value="6270000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="1" lemma="1" pos="NUM" /> <w surface="min" lemma="min" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="370">
+    <ngram><w lemma="1,25-dihydroxyvitamin" pos="N" ><freq name="google" value="69000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="d2" pos="N" ><freq name="google" value="12900000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="1150" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="1,25-dihydroxyvitamin" lemma="1,25-dihydroxyvitamin" pos="N" /> <w surface="d2" lemma="d2" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="203">
+    <ngram><w lemma="2" pos="NUM" ><freq name="google" value="3650000000" /><freq name="index-01" value="7" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="cell" pos="N" ><freq name="google" value="93200000" /><freq name="index-01" value="81" /><freq name="index-02" value="86" /><freq name="index-03" value="54" /></w> <freq name="google" value="394000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="2" lemma="2" pos="NUM" /> <w surface="cells" lemma="cell" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="27">
+    <ngram><w lemma="2" pos="NUM" ><freq name="google" value="3650000000" /><freq name="index-01" value="7" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="enhancer" pos="N" ><freq name="google" value="2350000" /><freq name="index-01" value="12" /><freq name="index-02" value="1" /><freq name="index-03" value="3" /></w> <freq name="google" value="5900" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="2" lemma="2" pos="NUM" /> <w surface="enhancer" lemma="enhancer" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="26">
+    <ngram><w lemma="2" pos="NUM" ><freq name="google" value="3650000000" /><freq name="index-01" value="7" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="enhancer" pos="N" ><freq name="google" value="2350000" /><freq name="index-01" value="12" /><freq name="index-02" value="1" /><freq name="index-03" value="3" /></w> <w lemma="activation" pos="N" ><freq name="google" value="20200000" /><freq name="index-01" value="30" /><freq name="index-02" value="23" /><freq name="index-03" value="19" /></w> <freq name="google" value="46" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="2" lemma="2" pos="NUM" /> <w surface="enhancer" lemma="enhancer" pos="N" /> <w surface="activation" lemma="activation" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="488">
+    <ngram><w lemma="3" pos="NUM" ><freq name="google" value="3420000000" /><freq name="index-01" value="3" /><freq name="index-02" value="1" /><freq name="index-03" value="1" /></w> <w lemma="hr" pos="N" ><freq name="google" value="82500000" /><freq name="index-01" value="3" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="857000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="3" lemma="3" pos="NUM" /> <w surface="hr" lemma="hr" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="970">
+    <ngram><w lemma="3" pos="NUM" ><freq name="google" value="3420000000" /><freq name="index-01" value="3" /><freq name="index-02" value="1" /><freq name="index-03" value="1" /></w> <w lemma="kb" pos="N" ><freq name="google" value="124000000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <freq name="google" value="1180000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="3" lemma="3" pos="NUM" /> <w surface="kb" lemma="kb" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="869">
+    <ngram><w lemma="4" pos="NUM" ><freq name="google" value="3140000000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></w> <w lemma="h" pos="N" ><freq name="google" value="776000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="6" /></w> <freq name="google" value="19000000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="4" lemma="4" pos="NUM" /> <w surface="h" lemma="h" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="868">
+    <ngram><w lemma="6" pos="NUM" ><freq name="google" value="2710000000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></w> <w lemma="h" pos="N" ><freq name="google" value="776000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="6" /></w> <freq name="google" value="16100000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="6" lemma="6" pos="NUM" /> <w surface="h" lemma="h" pos="N" /> <freq name="corpus-03.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="141">
+    <ngram><w lemma="78-nucleotide" pos="N" ><freq name="google" value="375" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="segment" pos="N" ><freq name="google" value="21000000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="4" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="78-nucleotide" lemma="78-nucleotide" pos="N" /> <w surface="segment" lemma="segment" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="140">
+    <ngram><w lemma="78-nucleotide" pos="N" ><freq name="google" value="375" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="segment" pos="N" ><freq name="google" value="21000000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <freq name="google" value="0" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="78-nucleotide" lemma="78-nucleotide" pos="N" /> <w surface="segment" lemma="segment" pos="N" /> <w surface="1.3" lemma="@card@" pos="NUM" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="164">
+    <ngram><w lemma="8" pos="NUM" ><freq name="google" value="2540000000" /><freq name="index-01" value="3" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="hr" pos="N" ><freq name="google" value="82500000" /><freq name="index-01" value="3" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="555000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="8" lemma="8" pos="NUM" /> <w surface="hr" lemma="hr" pos="N" /> <freq name="corpus-01.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="489">
+    <ngram><w lemma="9" pos="NUM" ><freq name="google" value="2340000000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="1" /></w> <w lemma="hr" pos="N" ><freq name="google" value="82500000" /><freq name="index-01" value="3" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="443000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="9" lemma="9" pos="NUM" /> <w surface="hr" lemma="hr" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="611">
+    <ngram><w lemma="9" pos="NUM" ><freq name="google" value="2340000000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="1" /></w> <w lemma="keratoacanthomas" pos="N" ><freq name="google" value="6260" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="5" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="9" lemma="9" pos="NUM" /> <w surface="keratoacanthomas" lemma="keratoacanthomas" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="452">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="%" pos="N" ><freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="4" /></w> <freq name="google" value="180000000" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="20" lemma="@card@" pos="NUM" /> <w surface="%" lemma="%" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    <ngram><w surface="35-55" lemma="@card@" pos="NUM" /> <w surface="%" lemma="%" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    <ngram><w surface="50" lemma="@card@" pos="NUM" /> <w surface="%" lemma="%" pos="N" /> <freq name="corpus-03.moses" value="2" /></ngram>
+    <ngram><w surface="65" lemma="@card@" pos="NUM" /> <w surface="%" lemma="%" pos="N" /> <freq name="corpus-02.moses" value="1" /><freq name="corpus-03.moses" value="1" /></ngram>
+    <ngram><w surface="67" lemma="@card@" pos="NUM" /> <w surface="%" lemma="%" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    <ngram><w surface="70" lemma="@card@" pos="NUM" /> <w surface="%" lemma="%" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    <ngram><w surface="90" lemma="@card@" pos="NUM" /> <w surface="%" lemma="%" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="815">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="%" pos="N" ><freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="4" /></w> <w lemma="decrease" pos="N" ><freq name="google" value="31900000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="1" /></w> <freq name="google" value="329" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="90" lemma="@card@" pos="NUM" /> <w surface="%" lemma="%" pos="N" /> <w surface="decrease" lemma="decrease" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="451">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="%" pos="N" ><freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="4" /></w> <w lemma="sequence" pos="N" ><freq name="google" value="27200000" /><freq name="index-01" value="8" /><freq name="index-02" value="17" /><freq name="index-03" value="5" /></w> <freq name="google" value="10200" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="70" lemma="@card@" pos="NUM" /> <w surface="%" lemma="%" pos="N" /> <w surface="sequence" lemma="sequence" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="262">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="amino" pos="N" ><freq name="google" value="10100000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <freq name="google" value="123" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="67" lemma="@card@" pos="NUM" /> <w surface="amino" lemma="amino" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="261">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="amino" pos="N" ><freq name="google" value="10100000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="acid" pos="N" ><freq name="google" value="34100000" /><freq name="index-01" value="4" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="38" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="67" lemma="@card@" pos="NUM" /> <w surface="amino" lemma="amino" pos="N" /> <w surface="acids" lemma="acid" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="703">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="beta" pos="N" ><freq name="google" value="80500000" /><freq name="index-01" value="2" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <freq name="google" value="16800" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="-1" lemma="@card@" pos="NUM" /> <w surface="beta" lemma="beta" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="422">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="bp" pos="N" ><freq name="google" value="154000000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="1320" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="150" lemma="@card@" pos="NUM" /> <w surface="bp" lemma="bp" pos="N" /> <freq name="corpus-01.moses" value="2" /></ngram>
+    <ngram><w surface="74" lemma="@card@" pos="NUM" /> <w surface="bp" lemma="bp" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="426">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="bp" pos="N" ><freq name="google" value="154000000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="hepor" pos="N" ><freq name="google" value="938" /><freq name="index-01" value="6" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="0" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="150" lemma="@card@" pos="NUM" /> <w surface="bp" lemma="bp" pos="N" /> <w surface="hepor" lemma="hepor" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="421">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="bp" pos="N" ><freq name="google" value="154000000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="promoter" pos="N" ><freq name="google" value="5450000" /><freq name="index-01" value="28" /><freq name="index-02" value="23" /><freq name="index-03" value="16" /></w> <freq name="google" value="0" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="150" lemma="@card@" pos="NUM" /> <w surface="bp" lemma="bp" pos="N" /> <w surface="promoter" lemma="promoter" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="867">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="h" pos="N" ><freq name="google" value="776000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="6" /></w> <freq name="google" value="20100" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="1-2" lemma="@card@" pos="NUM" /> <w surface="h" lemma="h" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    <ngram><w surface="24" lemma="@card@" pos="NUM" /> <w surface="h" lemma="h" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    <ngram><w surface="4-6" lemma="@card@" pos="NUM" /> <w surface="h" lemma="h" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="165">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="hr" pos="N" ><freq name="google" value="82500000" /><freq name="index-01" value="3" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="1630" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="12" lemma="@card@" pos="NUM" /> <w surface="hr" lemma="hr" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    <ngram><w surface="24" lemma="@card@" pos="NUM" /> <w surface="hr" lemma="hr" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="719">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="kd" pos="N" ><freq name="google" value="23000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="1750" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="150-200" lemma="@card@" pos="NUM" /> <w surface="kd" lemma="kd" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="718">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="kd" pos="N" ><freq name="google" value="23000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="fraction" pos="N" ><freq name="google" value="12600000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="150-200" lemma="@card@" pos="NUM" /> <w surface="kd" lemma="kd" pos="N" /> <w surface="fractions" lemma="fraction" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="700">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="kda" pos="N" ><freq name="google" value="2450000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="1" /></w> <freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="120-125" lemma="@card@" pos="NUM" /> <w surface="kda" lemma="kda" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    <ngram><w surface="70" lemma="@card@" pos="NUM" /> <w surface="kda" lemma="kda" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="144">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="kilobases" pos="N" ><freq name="google" value="70200" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="0" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="1.3" lemma="@card@" pos="NUM" /> <w surface="kilobases" lemma="kilobases" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="914">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="microm" pos="N" ><freq name="google" value="159000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></w> <freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="10" lemma="@card@" pos="NUM" /> <w surface="microm" lemma="microm" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="576">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="min" pos="N" ><freq name="google" value="192000000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <freq name="google" value="4530" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="1-3" lemma="@card@" pos="NUM" /> <w surface="min" lemma="min" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="786">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="mmol/" pos="N" ><freq name="google" value="2500000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="10" lemma="@card@" pos="NUM" /> <w surface="mmol/" lemma="mmol/" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="785">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="mmol/" pos="N" ><freq name="google" value="2500000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="l" pos="N" ><freq name="google" value="1090000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="10" lemma="@card@" pos="NUM" /> <w surface="mmol/" lemma="mmol/" pos="N" /> <w surface="l" lemma="l" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="796">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="nm" pos="N" ><freq name="google" value="52100000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="5560" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="1-5" lemma="@card@" pos="NUM" /> <w surface="nm" lemma="nm" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="1002">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="ovulation" pos="N" ><freq name="google" value="2910000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="6" /></w> <freq name="google" value="31" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="42" lemma="@card@" pos="NUM" /> <w surface="ovulation" lemma="ovulation" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="109">
+    <ngram><w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <w lemma="word" pos="N" ><freq name="google" value="181000000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="10300" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="250" lemma="@card@" pos="NUM" /> <w surface="words" lemma="word" pos="N" /> <freq name="corpus-01.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="615">
+    <ngram><w lemma="B-cell" pos="N" ><freq name="google" value="1060000" /><freq name="index-01" value="0" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <w lemma="line" pos="N" ><freq name="google" value="381000000" /><freq name="index-01" value="8" /><freq name="index-02" value="19" /><freq name="index-03" value="5" /></w> <freq name="google" value="33800" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="b-cell" lemma="B-cell" pos="N" /> <w surface="lines" lemma="line" pos="N" /> <freq name="corpus-02.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="635">
+    <ngram><w lemma="B-cell" pos="N" ><freq name="google" value="1060000" /><freq name="index-01" value="0" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <w lemma="mutant" pos="N" ><freq name="google" value="8600000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="70" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="b-cell" lemma="B-cell" pos="N" /> <w surface="mutants" lemma="mutant" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="293">
+    <ngram><w lemma="B2" pos="N" ><freq name="google" value="51200000" /><freq name="index-01" value="5" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="protein" pos="N" ><freq name="google" value="34700000" /><freq name="index-01" value="44" /><freq name="index-02" value="31" /><freq name="index-03" value="20" /></w> <freq name="google" value="3760" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="b2" lemma="B2" pos="N" /> <w surface="proteins" lemma="protein" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="302">
+    <ngram><w lemma="B2" pos="N" ><freq name="google" value="51200000" /><freq name="index-01" value="5" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="ratio" pos="N" ><freq name="google" value="46900000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="498" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="b2" lemma="B2" pos="N" /> <w surface="ratio" lemma="ratio" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="923">
+    <ngram><w lemma="B2" pos="N" ><freq name="google" value="51200000" /><freq name="index-01" value="5" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="subunit" pos="N" ><freq name="google" value="1960000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="3" /></w> <freq name="google" value="2310" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="b2" lemma="B2" pos="N" /> <w surface="subunit" lemma="subunit" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="922">
+    <ngram><w lemma="B2" pos="N" ><freq name="google" value="51200000" /><freq name="index-01" value="5" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="subunit" pos="N" ><freq name="google" value="1960000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="3" /></w> <w lemma="gene" pos="N" ><freq name="google" value="27300000" /><freq name="index-01" value="46" /><freq name="index-02" value="45" /><freq name="index-03" value="21" /></w> <freq name="google" value="79" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="b2" lemma="B2" pos="N" /> <w surface="subunit" lemma="subunit" pos="N" /> <w surface="gene" lemma="gene" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="373">
+    <ngram><w lemma="Gr" pos="N" ><freq name="google" value="79100000" /><freq name="index-01" value="2" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="expression" pos="N" ><freq name="google" value="39200000" /><freq name="index-01" value="36" /><freq name="index-02" value="38" /><freq name="index-03" value="14" /></w> <freq name="google" value="7260" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="gr" lemma="Gr" pos="N" /> <w surface="expression" lemma="expression" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="372">
+    <ngram><w lemma="Gr" pos="N" ><freq name="google" value="79100000" /><freq name="index-01" value="2" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="mrna" pos="N" ><freq name="google" value="3190000" /><freq name="index-01" value="16" /><freq name="index-02" value="7" /><freq name="index-03" value="8" /></w> <freq name="google" value="4440" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="gr" lemma="Gr" pos="N" /> <w surface="mrna" lemma="mrna" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="343">
+    <ngram><w lemma="Maz" pos="N" ><freq name="google" value="2820000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="transcription" pos="N" ><freq name="google" value="6190000" /><freq name="index-01" value="41" /><freq name="index-02" value="27" /><freq name="index-03" value="12" /></w> <freq name="google" value="109" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="maz" lemma="Maz" pos="N" /> <w surface="transcription" lemma="transcription" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="342">
+    <ngram><w lemma="Maz" pos="N" ><freq name="google" value="2820000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="transcription" pos="N" ><freq name="google" value="6190000" /><freq name="index-01" value="41" /><freq name="index-02" value="27" /><freq name="index-03" value="12" /></w> <w lemma="factor" pos="N" ><freq name="google" value="72700000" /><freq name="index-01" value="33" /><freq name="index-02" value="20" /><freq name="index-03" value="15" /></w> <freq name="google" value="77" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="maz" lemma="Maz" pos="N" /> <w surface="transcription" lemma="transcription" pos="N" /> <w surface="factor" lemma="factor" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="174">
+    <ngram><w lemma="Novo" pos="N" ><freq name="google" value="67700000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="ebv" pos="N" ><freq name="google" value="931000" /><freq name="index-01" value="7" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="65" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="novo" lemma="Novo" pos="N" /> <w surface="ebv" lemma="ebv" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="173">
+    <ngram><w lemma="Novo" pos="N" ><freq name="google" value="67700000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="ebv" pos="N" ><freq name="google" value="931000" /><freq name="index-01" value="7" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="infection" pos="N" ><freq name="google" value="17100000" /><freq name="index-01" value="12" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="30" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="novo" lemma="Novo" pos="N" /> <w surface="ebv" lemma="ebv" pos="N" /> <w surface="infection" lemma="infection" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="160">
+    <ngram><w lemma="Novo" pos="N" ><freq name="google" value="67700000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="infection" pos="N" ><freq name="google" value="17100000" /><freq name="index-01" value="12" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="3900" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="novo" lemma="Novo" pos="N" /> <w surface="infection" lemma="infection" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="630">
+    <ngram><w lemma="Rb" pos="N" ><freq name="google" value="30800000" /><freq name="index-01" value="0" /><freq name="index-02" value="12" /><freq name="index-03" value="0" /></w> <w lemma="expression" pos="N" ><freq name="google" value="39200000" /><freq name="index-01" value="36" /><freq name="index-02" value="38" /><freq name="index-03" value="14" /></w> <freq name="google" value="4470" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="rb" lemma="Rb" pos="N" /> <w surface="expression" lemma="expression" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="629">
+    <ngram><w lemma="Rb" pos="N" ><freq name="google" value="30800000" /><freq name="index-01" value="0" /><freq name="index-02" value="12" /><freq name="index-03" value="0" /></w> <w lemma="expression" pos="N" ><freq name="google" value="39200000" /><freq name="index-01" value="36" /><freq name="index-02" value="38" /><freq name="index-03" value="14" /></w> <w lemma="vector" pos="N" ><freq name="google" value="43000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="168" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="rb" lemma="Rb" pos="N" /> <w surface="expression" lemma="expression" pos="N" /> <w surface="vectors" lemma="vector" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="634">
+    <ngram><w lemma="Rb" pos="N" ><freq name="google" value="30800000" /><freq name="index-01" value="0" /><freq name="index-02" value="12" /><freq name="index-03" value="0" /></w> <w lemma="status" pos="N" ><freq name="google" value="187000000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="1480" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="rb" lemma="Rb" pos="N" /> <w surface="status" lemma="status" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="861">
+    <ngram><w lemma="S" pos="N" ><freq name="google" value="1820000000" /><freq name="index-01" value="3" /><freq name="index-02" value="2" /><freq name="index-03" value="1" /></w> <w lemma="cell" pos="N" ><freq name="google" value="93200000" /><freq name="index-01" value="81" /><freq name="index-02" value="86" /><freq name="index-03" value="54" /></w> <freq name="google" value="88500" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="s" lemma="S" pos="N" /> <w surface="cells" lemma="cell" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="667">
+    <ngram><w lemma="T-cell" pos="N" ><freq name="google" value="1610000" /><freq name="index-01" value="5" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="activation" pos="N" ><freq name="google" value="20200000" /><freq name="index-01" value="30" /><freq name="index-02" value="23" /><freq name="index-03" value="19" /></w> <freq name="google" value="253000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="t-cell" lemma="T-cell" pos="N" /> <w surface="activation" lemma="activation" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="238">
+    <ngram><w lemma="T-cell" pos="N" ><freq name="google" value="1610000" /><freq name="index-01" value="5" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="antigen" pos="N" ><freq name="google" value="3460000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="5" /></w> <freq name="google" value="51800" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="t-cell" lemma="T-cell" pos="N" /> <w surface="antigen" lemma="antigen" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="237">
+    <ngram><w lemma="T-cell" pos="N" ><freq name="google" value="1610000" /><freq name="index-01" value="5" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="antigen" pos="N" ><freq name="google" value="3460000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="5" /></w> <w lemma="receptor" pos="N" ><freq name="google" value="9800000" /><freq name="index-01" value="15" /><freq name="index-02" value="35" /><freq name="index-03" value="6" /></w> <freq name="google" value="35000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="t-cell" lemma="T-cell" pos="N" /> <w surface="antigen" lemma="antigen" pos="N" /> <w surface="receptor" lemma="receptor" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="38">
+    <ngram><w lemma="T-cell" pos="N" ><freq name="google" value="1610000" /><freq name="index-01" value="5" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="line" pos="N" ><freq name="google" value="381000000" /><freq name="index-01" value="8" /><freq name="index-02" value="19" /><freq name="index-03" value="5" /></w> <freq name="google" value="53700" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="t-cell" lemma="T-cell" pos="N" /> <w surface="lines" lemma="line" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="235">
+    <ngram><w lemma="T-cell" pos="N" ><freq name="google" value="1610000" /><freq name="index-01" value="5" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="receptor" pos="N" ><freq name="google" value="9800000" /><freq name="index-01" value="15" /><freq name="index-02" value="35" /><freq name="index-03" value="6" /></w> <freq name="google" value="246000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="t-cell" lemma="T-cell" pos="N" /> <w surface="receptor" lemma="receptor" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="31">
+    <ngram><w lemma="T-cell" pos="N" ><freq name="google" value="1610000" /><freq name="index-01" value="5" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="stimulation" pos="N" ><freq name="google" value="8050000" /><freq name="index-01" value="11" /><freq name="index-02" value="5" /><freq name="index-03" value="5" /></w> <freq name="google" value="27300" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="t-cell" lemma="T-cell" pos="N" /> <w surface="stimulation" lemma="stimulation" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="287">
+    <ngram><w lemma="a-gene" pos="N" ><freq name="google" value="1420000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="product" pos="N" ><freq name="google" value="407000000" /><freq name="index-01" value="7" /><freq name="index-02" value="5" /><freq name="index-03" value="0" /></w> <freq name="google" value="37300" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="a-gene" lemma="a-gene" pos="N" /> <w surface="product" lemma="product" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="461">
+    <ngram><w lemma="acid" pos="N" ><freq name="google" value="34100000" /><freq name="index-01" value="4" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <w lemma="residue" pos="N" ><freq name="google" value="5110000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <freq name="google" value="179000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="acid" lemma="acid" pos="N" /> <w surface="residues" lemma="residue" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="459">
+    <ngram><w lemma="acid" pos="N" ><freq name="google" value="34100000" /><freq name="index-01" value="4" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <w lemma="sequence" pos="N" ><freq name="google" value="27200000" /><freq name="index-01" value="8" /><freq name="index-02" value="17" /><freq name="index-03" value="5" /></w> <freq name="google" value="887000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="acid" lemma="acid" pos="N" /> <w surface="sequence" lemma="sequence" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="458">
+    <ngram><w lemma="acid" pos="N" ><freq name="google" value="34100000" /><freq name="index-01" value="4" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <w lemma="sequence" pos="N" ><freq name="google" value="27200000" /><freq name="index-01" value="8" /><freq name="index-02" value="17" /><freq name="index-03" value="5" /></w> <w lemma="similarity" pos="N" ><freq name="google" value="6190000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="1" /></w> <freq name="google" value="18000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="acid" lemma="acid" pos="N" /> <w surface="sequence" lemma="sequence" pos="N" /> <w surface="similarity" lemma="similarity" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="368">
+    <ngram><w lemma="action" pos="N" ><freq name="google" value="226000000" /><freq name="index-01" value="2" /><freq name="index-02" value="2" /><freq name="index-03" value="1" /></w> <w lemma="law" pos="N" ><freq name="google" value="148000000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="63900" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="action" lemma="action" pos="N" /> <w surface="law" lemma="law" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="879">
+    <ngram><w lemma="activation" pos="N" ><freq name="google" value="20200000" /><freq name="index-01" value="30" /><freq name="index-02" value="23" /><freq name="index-03" value="19" /></w> <w lemma="cascade" pos="N" ><freq name="google" value="7470000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="1" /></w> <freq name="google" value="10200" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="activation" lemma="activation" pos="N" /> <w surface="cascade" lemma="cascade" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="107">
+    <ngram><w lemma="activation" pos="N" ><freq name="google" value="20200000" /><freq name="index-01" value="30" /><freq name="index-02" value="23" /><freq name="index-03" value="19" /></w> <w lemma="domain" pos="N" ><freq name="google" value="63600000" /><freq name="index-01" value="6" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="75200" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="activation" lemma="activation" pos="N" /> <w surface="domain" lemma="domain" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="469">
+    <ngram><w lemma="activation" pos="N" ><freq name="google" value="20200000" /><freq name="index-01" value="30" /><freq name="index-02" value="23" /><freq name="index-03" value="19" /></w> <w lemma="sequence" pos="N" ><freq name="google" value="27200000" /><freq name="index-01" value="8" /><freq name="index-02" value="17" /><freq name="index-03" value="5" /></w> <freq name="google" value="20200" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="activation" lemma="activation" pos="N" /> <w surface="sequence" lemma="sequence" pos="N" /> <freq name="corpus-02.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="580">
+    <ngram><w lemma="activation" pos="N" ><freq name="google" value="20200000" /><freq name="index-01" value="30" /><freq name="index-02" value="23" /><freq name="index-03" value="19" /></w> <w lemma="site" pos="N" ><freq name="google" value="1070000000" /><freq name="index-01" value="28" /><freq name="index-02" value="20" /><freq name="index-03" value="6" /></w> <freq name="google" value="14800" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="activation" lemma="activation" pos="N" /> <w surface="site" lemma="site" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="842">
+    <ngram><w lemma="activator" pos="N" ><freq name="google" value="2950000" /><freq name="index-01" value="0" /><freq name="index-02" value="4" /><freq name="index-03" value="2" /></w> <w lemma="protein" pos="N" ><freq name="google" value="34700000" /><freq name="index-01" value="44" /><freq name="index-02" value="31" /><freq name="index-03" value="20" /></w> <freq name="google" value="106000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="activator" lemma="activator" pos="N" /> <w surface="protein" lemma="protein" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="971">
+    <ngram><w lemma="activator" pos="N" ><freq name="google" value="2950000" /><freq name="index-01" value="0" /><freq name="index-02" value="4" /><freq name="index-03" value="2" /></w> <w lemma="protein-1" pos="N" ><freq name="google" value="851000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <freq name="google" value="71900" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="activator" lemma="activator" pos="N" /> <w surface="protein-1" lemma="protein-1" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="83">
+    <ngram><w lemma="adaptor" pos="N" ><freq name="google" value="4810000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="protein" pos="N" ><freq name="google" value="34700000" /><freq name="index-01" value="44" /><freq name="index-02" value="31" /><freq name="index-03" value="20" /></w> <freq name="google" value="112000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="adaptor" lemma="adaptor" pos="N" /> <w surface="protein" lemma="protein" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="52">
+    <ngram><w lemma="adenovirus" pos="N" ><freq name="google" value="511000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="infection" pos="N" ><freq name="google" value="17100000" /><freq name="index-01" value="12" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="24500" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="adenovirus" lemma="adenovirus" pos="N" /> <w surface="infection" lemma="infection" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="533">
+    <ngram><w lemma="adhesion" pos="N" ><freq name="google" value="3480000" /><freq name="index-01" value="0" /><freq name="index-02" value="13" /><freq name="index-03" value="1" /></w> <w lemma="molecule" pos="N" ><freq name="google" value="6950000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="2" /></w> <freq name="google" value="371000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="adhesion" lemma="adhesion" pos="N" /> <w surface="molecules" lemma="molecule" pos="N" /> <freq name="corpus-02.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="536">
+    <ngram><w lemma="adhesion" pos="N" ><freq name="google" value="3480000" /><freq name="index-01" value="0" /><freq name="index-02" value="13" /><freq name="index-03" value="1" /></w> <w lemma="molecule-1" pos="N" ><freq name="google" value="240000" /><freq name="index-01" value="0" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></w> <freq name="google" value="173000" /><freq name="index-01" value="0" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="adhesion" lemma="adhesion" pos="N" /> <w surface="molecule-1" lemma="molecule-1" pos="N" /> <freq name="corpus-02.moses" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="520">
+    <ngram><w lemma="adult" pos="N" ><freq name="google" value="115000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="t" pos="N" ><freq name="google" value="1770000000" /><freq name="index-01" value="24" /><freq name="index-02" value="21" /><freq name="index-03" value="31" /></w> <freq name="google" value="213000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="adult" lemma="adult" pos="N" /> <w surface="t" lemma="t" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="519">
+    <ngram><w lemma="adult" pos="N" ><freq name="google" value="115000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="t" pos="N" ><freq name="google" value="1770000000" /><freq name="index-01" value="24" /><freq name="index-02" value="21" /><freq name="index-03" value="31" /></w> <w lemma="cell" pos="N" ><freq name="google" value="93200000" /><freq name="index-01" value="81" /><freq name="index-02" value="86" /><freq name="index-03" value="54" /></w> <freq name="google" value="40300" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="adult" lemma="adult" pos="N" /> <w surface="t" lemma="t" pos="N" /> <w surface="cell" lemma="cell" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="774">
+    <ngram><w lemma="ag" pos="N" ><freq name="google" value="83800000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="receptor" pos="N" ><freq name="google" value="9800000" /><freq name="index-01" value="15" /><freq name="index-02" value="35" /><freq name="index-03" value="6" /></w> <freq name="google" value="3040" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="ag" lemma="ag" pos="N" /> <w surface="receptor" lemma="receptor" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="773">
+    <ngram><w lemma="ag" pos="N" ><freq name="google" value="83800000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="receptor" pos="N" ><freq name="google" value="9800000" /><freq name="index-01" value="15" /><freq name="index-02" value="35" /><freq name="index-03" value="6" /></w> <w lemma="complex" pos="N" ><freq name="google" value="80000000" /><freq name="index-01" value="7" /><freq name="index-02" value="6" /><freq name="index-03" value="10" /></w> <freq name="google" value="187" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="ag" lemma="ag" pos="N" /> <w surface="receptor" lemma="receptor" pos="N" /> <w surface="complex" lemma="complex" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="676">
+    <ngram><w lemma="age" pos="N" ><freq name="google" value="197000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <freq name="google" value="16800" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="age" lemma="age" pos="N" /> <w surface="25-79" lemma="@card@" pos="NUM" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="829">
+    <ngram><w lemma="ah" pos="N" ><freq name="google" value="70700000" /><freq name="index-01" value="0" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></w> <w lemma="receptor" pos="N" ><freq name="google" value="9800000" /><freq name="index-01" value="15" /><freq name="index-02" value="35" /><freq name="index-03" value="6" /></w> <freq name="google" value="16200" /><freq name="index-01" value="0" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="ah" lemma="ah" pos="N" /> <w surface="receptor" lemma="receptor" pos="N" /> <freq name="corpus-02.moses" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="841">
+    <ngram><w lemma="ah" pos="N" ><freq name="google" value="70700000" /><freq name="index-01" value="0" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></w> <w lemma="receptor" pos="N" ><freq name="google" value="9800000" /><freq name="index-01" value="15" /><freq name="index-02" value="35" /><freq name="index-03" value="6" /></w> <w lemma="complex" pos="N" ><freq name="google" value="80000000" /><freq name="index-01" value="7" /><freq name="index-02" value="6" /><freq name="index-03" value="10" /></w> <freq name="google" value="763" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="ah" lemma="ah" pos="N" /> <w surface="receptor" lemma="receptor" pos="N" /> <w surface="complex" lemma="complex" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="846">
+    <ngram><w lemma="ah" pos="N" ><freq name="google" value="70700000" /><freq name="index-01" value="0" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></w> <w lemma="receptor" pos="N" ><freq name="google" value="9800000" /><freq name="index-01" value="15" /><freq name="index-02" value="35" /><freq name="index-03" value="6" /></w> <w lemma="dna" pos="N" ><freq name="google" value="33600000" /><freq name="index-01" value="11" /><freq name="index-02" value="8" /><freq name="index-03" value="0" /></w> <freq name="google" value="57" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="ah" lemma="ah" pos="N" /> <w surface="receptor" lemma="receptor" pos="N" /> <w surface="dna" lemma="dna" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="29">
+    <ngram><w lemma="aid" pos="N" ><freq name="google" value="56500000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="case" pos="N" ><freq name="google" value="240000000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="11800" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="aids" lemma="aid" pos="N" /> <w surface="cases" lemma="case" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="289">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="B2" pos="N" ><freq name="google" value="51200000" /><freq name="index-01" value="5" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <freq name="google" value="293" /><freq name="index-01" value="5" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="b2" lemma="B2" pos="N" /> <freq name="corpus-01.moses" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="292">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="B2" pos="N" ><freq name="google" value="51200000" /><freq name="index-01" value="5" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="protein" pos="N" ><freq name="google" value="34700000" /><freq name="index-01" value="44" /><freq name="index-02" value="31" /><freq name="index-03" value="20" /></w> <freq name="google" value="1" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="b2" lemma="B2" pos="N" /> <w surface="proteins" lemma="protein" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="301">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="B2" pos="N" ><freq name="google" value="51200000" /><freq name="index-01" value="5" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="ratio" pos="N" ><freq name="google" value="46900000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="1" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="b2" lemma="B2" pos="N" /> <w surface="ratio" lemma="ratio" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="286">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="a-gene" pos="N" ><freq name="google" value="1420000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="396" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="a-gene" lemma="a-gene" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="285">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="a-gene" pos="N" ><freq name="google" value="1420000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="product" pos="N" ><freq name="google" value="407000000" /><freq name="index-01" value="7" /><freq name="index-02" value="5" /><freq name="index-03" value="0" /></w> <freq name="google" value="3" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="a-gene" lemma="a-gene" pos="N" /> <w surface="product" lemma="product" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="284">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="a1" pos="N" ><freq name="google" value="32900000" /><freq name="index-01" value="3" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="1700" /><freq name="index-01" value="3" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="a1" lemma="a1" pos="N" /> <freq name="corpus-01.moses" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="288">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="b1" pos="N" ><freq name="google" value="24200000" /><freq name="index-01" value="4" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="35900" /><freq name="index-01" value="4" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="b1" lemma="b1" pos="N" /> <freq name="corpus-01.moses" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="298">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="b1/" pos="N" ><freq name="google" value="24200000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="35900" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="b1/" lemma="b1/" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="297">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="b1/" pos="N" ><freq name="google" value="24200000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <freq name="google" value="19" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="b1/" lemma="b1/" pos="N" /> <w surface="alpha" lemma="alpha" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="805">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="degradation" pos="N" ><freq name="google" value="6780000" /><freq name="index-01" value="1" /><freq name="index-02" value="5" /><freq name="index-03" value="1" /></w> <freq name="google" value="2390" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="degradation" lemma="degradation" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="151">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="expression" pos="N" ><freq name="google" value="39200000" /><freq name="index-01" value="36" /><freq name="index-02" value="38" /><freq name="index-03" value="14" /></w> <freq name="google" value="27400" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="expression" lemma="expression" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="117">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="gene" pos="N" ><freq name="google" value="27300000" /><freq name="index-01" value="46" /><freq name="index-02" value="45" /><freq name="index-03" value="21" /></w> <freq name="google" value="45400" /><freq name="index-01" value="4" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="gene" lemma="gene" pos="N" /> <freq name="corpus-01.moses" value="4" /><freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="116">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="gene" pos="N" ><freq name="google" value="27300000" /><freq name="index-01" value="46" /><freq name="index-02" value="45" /><freq name="index-03" value="21" /></w> <w lemma="expression" pos="N" ><freq name="google" value="39200000" /><freq name="index-01" value="36" /><freq name="index-02" value="38" /><freq name="index-03" value="14" /></w> <freq name="google" value="7400" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="gene" lemma="gene" pos="N" /> <w surface="expression" lemma="expression" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="135">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="mrna" pos="N" ><freq name="google" value="3190000" /><freq name="index-01" value="16" /><freq name="index-02" value="7" /><freq name="index-03" value="8" /></w> <freq name="google" value="12300" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="mrna" lemma="mrna" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="795">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="phosphorylation" pos="N" ><freq name="google" value="1910000" /><freq name="index-01" value="12" /><freq name="index-02" value="19" /><freq name="index-03" value="6" /></w> <freq name="google" value="2580" /><freq name="index-01" value="0" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="phosphorylation" lemma="phosphorylation" pos="N" /> <freq name="corpus-02.moses" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="507">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="protein" pos="N" ><freq name="google" value="34700000" /><freq name="index-01" value="44" /><freq name="index-02" value="31" /><freq name="index-03" value="20" /></w> <freq name="google" value="13500" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="protein" lemma="protein" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="282">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="subunit" pos="N" ><freq name="google" value="1960000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="3" /></w> <freq name="google" value="91800" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="subunit" lemma="subunit" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="137">
+    <ngram><w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="transcript" pos="N" ><freq name="google" value="53300000" /><freq name="index-01" value="3" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="1320" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha" lemma="alpha" pos="N" /> <w surface="transcripts" lemma="transcript" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="813">
+    <ngram><w lemma="alpha-globin" pos="N" ><freq name="google" value="9800" /><freq name="index-01" value="0" /><freq name="index-02" value="10" /><freq name="index-03" value="0" /></w> <w lemma="enhancer" pos="N" ><freq name="google" value="2350000" /><freq name="index-01" value="12" /><freq name="index-02" value="1" /><freq name="index-03" value="3" /></w> <freq name="google" value="54" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha-globin" lemma="alpha-globin" pos="N" /> <w surface="enhancer" lemma="enhancer" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="809">
+    <ngram><w lemma="alpha-globin" pos="N" ><freq name="google" value="9800" /><freq name="index-01" value="0" /><freq name="index-02" value="10" /><freq name="index-03" value="0" /></w> <w lemma="gene" pos="N" ><freq name="google" value="27300000" /><freq name="index-01" value="46" /><freq name="index-02" value="45" /><freq name="index-03" value="21" /></w> <freq name="google" value="3590" /><freq name="index-01" value="0" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha-globin" lemma="alpha-globin" pos="N" /> <w surface="gene" lemma="gene" pos="N" /> <freq name="corpus-02.moses" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="817">
+    <ngram><w lemma="alpha-globin" pos="N" ><freq name="google" value="9800" /><freq name="index-01" value="0" /><freq name="index-02" value="10" /><freq name="index-03" value="0" /></w> <w lemma="gene" pos="N" ><freq name="google" value="27300000" /><freq name="index-01" value="46" /><freq name="index-02" value="45" /><freq name="index-03" value="21" /></w> <w lemma="expression" pos="N" ><freq name="google" value="39200000" /><freq name="index-01" value="36" /><freq name="index-02" value="38" /><freq name="index-03" value="14" /></w> <freq name="google" value="782" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha-globin" lemma="alpha-globin" pos="N" /> <w surface="gene" lemma="gene" pos="N" /> <w surface="expression" lemma="expression" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="808">
+    <ngram><w lemma="alpha-globin" pos="N" ><freq name="google" value="9800" /><freq name="index-01" value="0" /><freq name="index-02" value="10" /><freq name="index-03" value="0" /></w> <w lemma="promoter" pos="N" ><freq name="google" value="5450000" /><freq name="index-01" value="28" /><freq name="index-02" value="23" /><freq name="index-03" value="16" /></w> <freq name="google" value="117" /><freq name="index-01" value="0" /><freq name="index-02" value="6" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha-globin" lemma="alpha-globin" pos="N" /> <w surface="promoter" lemma="promoter" pos="N" /> <freq name="corpus-02.moses" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="807">
+    <ngram><w lemma="alpha-globin" pos="N" ><freq name="google" value="9800" /><freq name="index-01" value="0" /><freq name="index-02" value="10" /><freq name="index-03" value="0" /></w> <w lemma="promoter" pos="N" ><freq name="google" value="5450000" /><freq name="index-01" value="28" /><freq name="index-02" value="23" /><freq name="index-03" value="16" /></w> <w lemma="activity" pos="N" ><freq name="google" value="255000000" /><freq name="index-01" value="27" /><freq name="index-02" value="12" /><freq name="index-03" value="10" /></w> <freq name="google" value="24" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha-globin" lemma="alpha-globin" pos="N" /> <w surface="promoter" lemma="promoter" pos="N" /> <w surface="activity" lemma="activity" pos="N" /> <freq name="corpus-02.moses" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="560">
+    <ngram><w lemma="alpha/" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="gos19" pos="N" ><freq name="google" value="95" /><freq name="index-01" value="0" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="3" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="alpha/" lemma="alpha/" pos="N" /> <w surface="gos19" lemma="gos19" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="263">
+    <ngram><w lemma="amino" pos="N" ><freq name="google" value="10100000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="acid" pos="N" ><freq name="google" value="34100000" /><freq name="index-01" value="4" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="3690000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="amino" lemma="amino" pos="N" /> <w surface="acid" lemma="acid" pos="N" /> <freq name="corpus-02.moses" value="2" /></ngram>
+    <ngram><w surface="amino" lemma="amino" pos="N" /> <w surface="acids" lemma="acid" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="460">
+    <ngram><w lemma="amino" pos="N" ><freq name="google" value="10100000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="acid" pos="N" ><freq name="google" value="34100000" /><freq name="index-01" value="4" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <w lemma="residue" pos="N" ><freq name="google" value="5110000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <freq name="google" value="133000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="amino" lemma="amino" pos="N" /> <w surface="acid" lemma="acid" pos="N" /> <w surface="residues" lemma="residue" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="457">
+    <ngram><w lemma="amino" pos="N" ><freq name="google" value="10100000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="acid" pos="N" ><freq name="google" value="34100000" /><freq name="index-01" value="4" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <w lemma="sequence" pos="N" ><freq name="google" value="27200000" /><freq name="index-01" value="8" /><freq name="index-02" value="17" /><freq name="index-03" value="5" /></w> <freq name="google" value="810000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="amino" lemma="amino" pos="N" /> <w surface="acid" lemma="acid" pos="N" /> <w surface="sequence" lemma="sequence" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="358">
+    <ngram><w lemma="anemia-inducing" pos="N" ><freq name="google" value="769" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="strain" pos="N" ><freq name="google" value="14200000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="203" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="anemia-inducing" lemma="anemia-inducing" pos="N" /> <w surface="strain" lemma="strain" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="919">
+    <ngram><w lemma="anti-cd28" pos="N" ><freq name="google" value="36300" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="ab" pos="N" ><freq name="google" value="287000000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></w> <freq name="google" value="1440" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="anti-cd28" lemma="anti-cd28" pos="N" /> <w surface="ab" lemma="ab" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="962">
+    <ngram><w lemma="anti-ig" pos="N" ><freq name="google" value="11200" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="3" /></w> <w lemma="induction" pos="N" ><freq name="google" value="13800000" /><freq name="index-01" value="9" /><freq name="index-02" value="18" /><freq name="index-03" value="15" /></w> <freq name="google" value="51" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="anti-ig" lemma="anti-ig" pos="N" /> <w surface="induction" lemma="induction" pos="N" /> <freq name="corpus-03.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="961">
+    <ngram><w lemma="anti-ig" pos="N" ><freq name="google" value="11200" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="3" /></w> <w lemma="stimulation" pos="N" ><freq name="google" value="8050000" /><freq name="index-01" value="11" /><freq name="index-02" value="5" /><freq name="index-03" value="5" /></w> <freq name="google" value="333" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="anti-ig" lemma="anti-ig" pos="N" /> <w surface="stimulation" lemma="stimulation" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="991">
+    <ngram><w lemma="anti-stat3" pos="N" ><freq name="google" value="6570" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="ab" pos="N" ><freq name="google" value="287000000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></w> <freq name="google" value="283" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="anti-stat3" lemma="anti-stat3" pos="N" /> <w surface="ab" lemma="ab" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="68">
+    <ngram><w lemma="antigen" pos="N" ><freq name="google" value="3460000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="5" /></w> <w lemma="expression" pos="N" ><freq name="google" value="39200000" /><freq name="index-01" value="36" /><freq name="index-02" value="38" /><freq name="index-03" value="14" /></w> <freq name="google" value="106000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="antigen" lemma="antigen" pos="N" /> <w surface="expression" lemma="expression" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="239">
+    <ngram><w lemma="antigen" pos="N" ><freq name="google" value="3460000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="5" /></w> <w lemma="receptor" pos="N" ><freq name="google" value="9800000" /><freq name="index-01" value="15" /><freq name="index-02" value="35" /><freq name="index-03" value="6" /></w> <freq name="google" value="102000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="antigen" lemma="antigen" pos="N" /> <w surface="receptor" lemma="receptor" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    <ngram><w surface="antigen" lemma="antigen" pos="N" /> <w surface="receptors" lemma="receptor" pos="N" /> <freq name="corpus-03.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="74">
+    <ngram><w lemma="antigen-presenting" pos="N" ><freq name="google" value="282000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="cell" pos="N" ><freq name="google" value="93200000" /><freq name="index-01" value="81" /><freq name="index-02" value="86" /><freq name="index-03" value="54" /></w> <freq name="google" value="60100" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="antigen-presenting" lemma="antigen-presenting" pos="N" /> <w surface="cells" lemma="cell" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="307">
+    <ngram><w lemma="antimouse" pos="N" ><freq name="google" value="64500" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <freq name="google" value="12" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="antimouse" lemma="antimouse" pos="N" /> <w surface="alpha" lemma="alpha" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="200">
+    <ngram><w lemma="assay" pos="N" ><freq name="google" value="6850000" /><freq name="index-01" value="6" /><freq name="index-02" value="9" /><freq name="index-03" value="2" /></w> <w lemma="result" pos="N" ><freq name="google" value="139000000" /><freq name="index-01" value="6" /><freq name="index-02" value="13" /><freq name="index-03" value="10" /></w> <freq name="google" value="11400" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="assay" lemma="assay" pos="N" /> <w surface="result" lemma="result" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="958">
+    <ngram><w lemma="augment" pos="N" ><freq name="google" value="2130000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="pma-" pos="N" ><freq name="google" value="2410000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <freq name="google" value="45" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="augments" lemma="augment" pos="N" /> <w surface="pma-" lemma="pma-" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="184">
+    <ngram><w lemma="autoregulatory" pos="N" ><freq name="google" value="68000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="mechanism" pos="N" ><freq name="google" value="26300000" /><freq name="index-01" value="7" /><freq name="index-02" value="9" /><freq name="index-03" value="3" /></w> <freq name="google" value="5050" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="autoregulatory" lemma="autoregulatory" pos="N" /> <w surface="mechanism" lemma="mechanism" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="688">
+    <ngram><w lemma="axis" pos="N" ><freq name="google" value="48500000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="activation" pos="N" ><freq name="google" value="20200000" /><freq name="index-01" value="30" /><freq name="index-02" value="23" /><freq name="index-03" value="19" /></w> <freq name="google" value="11000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="axis" lemma="axis" pos="N" /> <w surface="activation" lemma="activation" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="162">
+    <ngram><w lemma="b" pos="N" ><freq name="google" value="1510000000" /><freq name="index-01" value="3" /><freq name="index-02" value="1" /><freq name="index-03" value="2" /></w> <w lemma="cell" pos="N" ><freq name="google" value="93200000" /><freq name="index-01" value="81" /><freq name="index-02" value="86" /><freq name="index-03" value="54" /></w> <freq name="google" value="1060000" /><freq name="index-01" value="3" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="b" lemma="b" pos="N" /> <w surface="cell" lemma="cell" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    <ngram><w surface="b" lemma="b" pos="N" /> <w surface="cells" lemma="cell" pos="N" /> <freq name="corpus-01.moses" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="408">
+    <ngram><w lemma="b-alpha" pos="N" ><freq name="google" value="38500" /><freq name="index-01" value="5" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="proteolysis" pos="N" ><freq name="google" value="474000" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="671" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="b-alpha" lemma="b-alpha" pos="N" /> <w surface="proteolysis" lemma="proteolysis" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="377">
+    <ngram><w lemma="b-independent" pos="N" ><freq name="google" value="39900" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="hiv" pos="N" ><freq name="google" value="16000000" /><freq name="index-01" value="8" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="40" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="b-independent" lemma="b-independent" pos="N" /> <w surface="hiv" lemma="hiv" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="376">
+    <ngram><w lemma="b-independent" pos="N" ><freq name="google" value="39900" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="hiv" pos="N" ><freq name="google" value="16000000" /><freq name="index-01" value="8" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="promoter" pos="N" ><freq name="google" value="5450000" /><freq name="index-01" value="28" /><freq name="index-02" value="23" /><freq name="index-03" value="16" /></w> <freq name="google" value="21" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="b-independent" lemma="b-independent" pos="N" /> <w surface="hiv" lemma="hiv" pos="N" /> <w surface="promoter" lemma="promoter" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="300">
+    <ngram><w lemma="b1/" pos="N" ><freq name="google" value="24200000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <freq name="google" value="1310" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="b1/" lemma="b1/" pos="N" /> <w surface="alpha" lemma="alpha" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="299">
+    <ngram><w lemma="b1/" pos="N" ><freq name="google" value="24200000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="alpha" pos="N" ><freq name="google" value="41900000" /><freq name="index-01" value="32" /><freq name="index-02" value="22" /><freq name="index-03" value="2" /></w> <w lemma="B2" pos="N" ><freq name="google" value="51200000" /><freq name="index-01" value="5" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <freq name="google" value="1" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="b1/" lemma="b1/" pos="N" /> <w surface="alpha" lemma="alpha" pos="N" /> <w surface="b2" lemma="B2" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="95">
+    <ngram><w lemma="band" pos="N" ><freq name="google" value="113000000" /><freq name="index-01" value="2" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="3" pos="NUM" ><freq name="google" value="3420000000" /><freq name="index-01" value="3" /><freq name="index-02" value="1" /><freq name="index-03" value="1" /></w> <freq name="google" value="727000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="band" lemma="band" pos="N" /> <w surface="3" lemma="3" pos="NUM" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="96">
+    <ngram><w lemma="band" pos="N" ><freq name="google" value="113000000" /><freq name="index-01" value="2" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="@card@" pos="NUM" ><freq name="google" value="180000000" /><freq name="index-01" value="11" /><freq name="index-02" value="30" /><freq name="index-03" value="24" /></w> <freq name="google" value="6600" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="band" lemma="band" pos="N" /> <w surface="4.1" lemma="@card@" pos="NUM" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="347">
+    <ngram><w lemma="basic-helix-loop-helix" pos="N" ><freq name="google" value="70000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="motif" pos="N" ><freq name="google" value="13400000" /><freq name="index-01" value="7" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></w> <freq name="google" value="833" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="basic-helix-loop-helix" lemma="basic-helix-loop-helix" pos="N" /> <w surface="motif" lemma="motif" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="346">
+    <ngram><w lemma="basic-helix-loop-helix" pos="N" ><freq name="google" value="70000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="motif" pos="N" ><freq name="google" value="13400000" /><freq name="index-01" value="7" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></w> <w lemma="characteristic" pos="N" ><freq name="google" value="16100000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="7" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="basic-helix-loop-helix" lemma="basic-helix-loop-helix" pos="N" /> <w surface="motif" lemma="motif" pos="N" /> <w surface="characteristic" lemma="characteristic" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="280">
+    <ngram><w lemma="beta" pos="N" ><freq name="google" value="80500000" /><freq name="index-01" value="2" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="subunits" pos="N" ><freq name="google" value="1210000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="1" /></w> <freq name="google" value="27200" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="beta" lemma="beta" pos="N" /> <w surface="subunits" lemma="subunits" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="910">
+    <ngram><w lemma="beta-galactosidase" pos="N" ><freq name="google" value="61700" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></w> <w lemma="activity" pos="N" ><freq name="google" value="255000000" /><freq name="index-01" value="27" /><freq name="index-02" value="12" /><freq name="index-03" value="10" /></w> <freq name="google" value="6370" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="beta-galactosidase" lemma="beta-galactosidase" pos="N" /> <w surface="activity" lemma="activity" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="913">
+    <ngram><w lemma="beta-galactosidase" pos="N" ><freq name="google" value="61700" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></w> <w lemma="mrna" pos="N" ><freq name="google" value="3190000" /><freq name="index-01" value="16" /><freq name="index-02" value="7" /><freq name="index-03" value="8" /></w> <freq name="google" value="229" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="beta-galactosidase" lemma="beta-galactosidase" pos="N" /> <w surface="mrna" lemma="mrna" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="912">
+    <ngram><w lemma="beta-galactosidase" pos="N" ><freq name="google" value="61700" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></w> <w lemma="mrna" pos="N" ><freq name="google" value="3190000" /><freq name="index-01" value="16" /><freq name="index-02" value="7" /><freq name="index-03" value="8" /></w> <w lemma="level" pos="N" ><freq name="google" value="213000000" /><freq name="index-01" value="13" /><freq name="index-02" value="15" /><freq name="index-03" value="8" /></w> <freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="beta-galactosidase" lemma="beta-galactosidase" pos="N" /> <w surface="mrna" lemma="mrna" pos="N" /> <w surface="levels" lemma="level" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="663">
+    <ngram><w lemma="bind" pos="N" ><freq name="google" value="8480000" /><freq name="index-01" value="5" /><freq name="index-02" value="4" /><freq name="index-03" value="2" /></w> <w lemma="hematopoietin" pos="N" ><freq name="google" value="3680" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <freq name="google" value="10" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="bind" lemma="bind" pos="N" /> <w surface="hematopoietin" lemma="hematopoietin" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="662">
+    <ngram><w lemma="bind" pos="N" ><freq name="google" value="8480000" /><freq name="index-01" value="5" /><freq name="index-02" value="4" /><freq name="index-03" value="2" /></w> <w lemma="hematopoietin" pos="N" ><freq name="google" value="3680" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="receptor" pos="N" ><freq name="google" value="9800000" /><freq name="index-01" value="15" /><freq name="index-02" value="35" /><freq name="index-03" value="6" /></w> <freq name="google" value="0" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="bind" lemma="bind" pos="N" /> <w surface="hematopoietin" lemma="hematopoietin" pos="N" /> <w surface="receptors" lemma="receptor" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="670">
+    <ngram><w lemma="bind" pos="N" ><freq name="google" value="8480000" /><freq name="index-01" value="5" /><freq name="index-02" value="4" /><freq name="index-03" value="2" /></w> <w lemma="stat" pos="N" ><freq name="google" value="43400000" /><freq name="index-01" value="7" /><freq name="index-02" value="5" /><freq name="index-03" value="2" /></w> <freq name="google" value="254" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="bind" lemma="bind" pos="N" /> <w surface="stat" lemma="stat" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="669">
+    <ngram><w lemma="bind" pos="N" ><freq name="google" value="8480000" /><freq name="index-01" value="5" /><freq name="index-02" value="4" /><freq name="index-03" value="2" /></w> <w lemma="stat" pos="N" ><freq name="google" value="43400000" /><freq name="index-01" value="7" /><freq name="index-02" value="5" /><freq name="index-03" value="2" /></w> <w lemma="protein" pos="N" ><freq name="google" value="34700000" /><freq name="index-01" value="44" /><freq name="index-02" value="31" /><freq name="index-03" value="20" /></w> <freq name="google" value="1" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="bind" lemma="bind" pos="N" /> <w surface="stat" lemma="stat" pos="N" /> <w surface="proteins" lemma="protein" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="279">
+    <ngram><w lemma="binding-protein" pos="N" ><freq name="google" value="1400000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="2" pos="NUM" ><freq name="google" value="3650000000" /><freq name="index-01" value="7" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="62900" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="binding-protein" lemma="binding-protein" pos="N" /> <w surface="2" lemma="2" pos="NUM" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="444">
+    <ngram><w lemma="blast" pos="N" ><freq name="google" value="20500000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="crisis" pos="N" ><freq name="google" value="42400000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <freq name="google" value="26200" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blast" lemma="blast" pos="N" /> <w surface="crisis" lemma="crisis" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="443">
+    <ngram><w lemma="blast" pos="N" ><freq name="google" value="20500000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="crisis" pos="N" ><freq name="google" value="42400000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="phase" pos="N" ><freq name="google" value="50700000" /><freq name="index-01" value="3" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="1180" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blast" lemma="blast" pos="N" /> <w surface="crisis" lemma="crisis" pos="N" /> <w surface="phase" lemma="phase" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="449">
+    <ngram><w lemma="blast-crisis" pos="N" ><freq name="google" value="26200" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="cdna" pos="N" ><freq name="google" value="3120000" /><freq name="index-01" value="0" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="2" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blast-crisis" lemma="blast-crisis" pos="N" /> <w surface="cdna" lemma="cdna" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="448">
+    <ngram><w lemma="blast-crisis" pos="N" ><freq name="google" value="26200" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="cdna" pos="N" ><freq name="google" value="3120000" /><freq name="index-01" value="0" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <w lemma="library" pos="N" ><freq name="google" value="150000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="2" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blast-crisis" lemma="blast-crisis" pos="N" /> <w surface="cdna" lemma="cdna" pos="N" /> <w surface="library" lemma="library" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="728">
+    <ngram><w lemma="blood" pos="N" ><freq name="google" value="82900000" /><freq name="index-01" value="3" /><freq name="index-02" value="6" /><freq name="index-03" value="0" /></w> <w lemma="group" pos="N" ><freq name="google" value="437000000" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="0" /></w> <freq name="google" value="305000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blood" lemma="blood" pos="N" /> <w surface="group" lemma="group" pos="N" /> <freq name="corpus-02.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="727">
+    <ngram><w lemma="blood" pos="N" ><freq name="google" value="82900000" /><freq name="index-01" value="3" /><freq name="index-02" value="6" /><freq name="index-03" value="0" /></w> <w lemma="group" pos="N" ><freq name="google" value="437000000" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="0" /></w> <w lemma="antigen" pos="N" ><freq name="google" value="3460000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="5" /></w> <freq name="google" value="16400" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blood" lemma="blood" pos="N" /> <w surface="group" lemma="group" pos="N" /> <w surface="antigen" lemma="antigen" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="740">
+    <ngram><w lemma="blood" pos="N" ><freq name="google" value="82900000" /><freq name="index-01" value="3" /><freq name="index-02" value="6" /><freq name="index-03" value="0" /></w> <w lemma="group" pos="N" ><freq name="google" value="437000000" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="0" /></w> <w lemma="system" pos="N" ><freq name="google" value="332000000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="2" /></w> <freq name="google" value="19900" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blood" lemma="blood" pos="N" /> <w surface="group" lemma="group" pos="N" /> <w surface="system" lemma="system" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="177">
+    <ngram><w lemma="blood" pos="N" ><freq name="google" value="82900000" /><freq name="index-01" value="3" /><freq name="index-02" value="6" /><freq name="index-03" value="0" /></w> <w lemma="lymphocyte" pos="N" ><freq name="google" value="1280000" /><freq name="index-01" value="10" /><freq name="index-02" value="7" /><freq name="index-03" value="3" /></w> <freq name="google" value="30000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blood" lemma="blood" pos="N" /> <w surface="lymphocytes" lemma="lymphocyte" pos="N" /> <freq name="corpus-01.moses" value="2" /><freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="41">
+    <ngram><w lemma="blood" pos="N" ><freq name="google" value="82900000" /><freq name="index-01" value="3" /><freq name="index-02" value="6" /><freq name="index-03" value="0" /></w> <w lemma="monocyte" pos="N" ><freq name="google" value="594000" /><freq name="index-01" value="15" /><freq name="index-02" value="5" /><freq name="index-03" value="13" /></w> <freq name="google" value="16300" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blood" lemma="blood" pos="N" /> <w surface="monocytes" lemma="monocyte" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="524">
+    <ngram><w lemma="blood" pos="N" ><freq name="google" value="82900000" /><freq name="index-01" value="3" /><freq name="index-02" value="6" /><freq name="index-03" value="0" /></w> <w lemma="t" pos="N" ><freq name="google" value="1770000000" /><freq name="index-01" value="24" /><freq name="index-02" value="21" /><freq name="index-03" value="31" /></w> <freq name="google" value="77200" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blood" lemma="blood" pos="N" /> <w surface="t" lemma="t" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="523">
+    <ngram><w lemma="blood" pos="N" ><freq name="google" value="82900000" /><freq name="index-01" value="3" /><freq name="index-02" value="6" /><freq name="index-03" value="0" /></w> <w lemma="t" pos="N" ><freq name="google" value="1770000000" /><freq name="index-01" value="24" /><freq name="index-02" value="21" /><freq name="index-03" value="31" /></w> <w lemma="cell" pos="N" ><freq name="google" value="93200000" /><freq name="index-01" value="81" /><freq name="index-02" value="86" /><freq name="index-03" value="54" /></w> <freq name="google" value="10900" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blood" lemma="blood" pos="N" /> <w surface="t" lemma="t" pos="N" /> <w surface="cells" lemma="cell" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="308">
+    <ngram><w lemma="blot" pos="N" ><freq name="google" value="4020000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="analysis" pos="N" ><freq name="google" value="118000000" /><freq name="index-01" value="4" /><freq name="index-02" value="8" /><freq name="index-03" value="3" /></w> <freq name="google" value="933000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="blot" lemma="blot" pos="N" /> <w surface="analysis" lemma="analysis" pos="N" /> <freq name="corpus-01.moses" value="1" /><freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="686">
+    <ngram><w lemma="body" pos="N" ><freq name="google" value="243000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="temperature" pos="N" ><freq name="google" value="52000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="1150000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="body" lemma="body" pos="N" /> <w surface="temperature" lemma="temperature" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="99">
+    <ngram><w lemma="bone" pos="N" ><freq name="google" value="30000000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="marrow" pos="N" ><freq name="google" value="3170000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="2180000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="bone" lemma="bone" pos="N" /> <w surface="marrow" lemma="marrow" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="98">
+    <ngram><w lemma="bone" pos="N" ><freq name="google" value="30000000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="marrow" pos="N" ><freq name="google" value="3170000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="culture" pos="N" ><freq name="google" value="245000000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="8420" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="bone" lemma="bone" pos="N" /> <w surface="marrow" lemma="marrow" pos="N" /> <w surface="cultures" lemma="culture" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="511">
+    <ngram><w lemma="box" pos="N" ><freq name="google" value="286000000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="element" pos="N" ><freq name="google" value="49500000" /><freq name="index-01" value="14" /><freq name="index-02" value="4" /><freq name="index-03" value="10" /></w> <freq name="google" value="13100" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="box" lemma="box" pos="N" /> <w surface="elements" lemma="element" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="428">
+    <ngram><w lemma="bp" pos="N" ><freq name="google" value="154000000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="hepor" pos="N" ><freq name="google" value="938" /><freq name="index-01" value="6" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="2" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="bp" lemma="bp" pos="N" /> <w surface="hepor" lemma="hepor" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="427">
+    <ngram><w lemma="bp" pos="N" ><freq name="google" value="154000000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="hepor" pos="N" ><freq name="google" value="938" /><freq name="index-01" value="6" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="promoter" pos="N" ><freq name="google" value="5450000" /><freq name="index-01" value="28" /><freq name="index-02" value="23" /><freq name="index-03" value="16" /></w> <freq name="google" value="0" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="bp" lemma="bp" pos="N" /> <w surface="hepor" lemma="hepor" pos="N" /> <w surface="promoter" lemma="promoter" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="424">
+    <ngram><w lemma="bp" pos="N" ><freq name="google" value="154000000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="promoter" pos="N" ><freq name="google" value="5450000" /><freq name="index-01" value="28" /><freq name="index-02" value="23" /><freq name="index-03" value="16" /></w> <freq name="google" value="10800" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="bp" lemma="bp" pos="N" /> <w surface="promoter" lemma="promoter" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="423">
+    <ngram><w lemma="bp" pos="N" ><freq name="google" value="154000000" /><freq name="index-01" value="2" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="promoter" pos="N" ><freq name="google" value="5450000" /><freq name="index-01" value="28" /><freq name="index-02" value="23" /><freq name="index-03" value="16" /></w> <w lemma="fragment" pos="N" ><freq name="google" value="8560000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="1" /></w> <freq name="google" value="2460" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="bp" lemma="bp" pos="N" /> <w surface="promoter" lemma="promoter" pos="N" /> <w surface="fragment" lemma="fragment" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="946">
+    <ngram><w lemma="c-fos" pos="N" ><freq name="google" value="201000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="16" /></w> <w lemma="control" pos="N" ><freq name="google" value="262000000" /><freq name="index-01" value="7" /><freq name="index-02" value="4" /><freq name="index-03" value="4" /></w> <freq name="google" value="76" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="c-fos" lemma="c-fos" pos="N" /> <w surface="control" lemma="control" pos="N" /> <freq name="corpus-03.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="955">
+    <ngram><w lemma="c-fos" pos="N" ><freq name="google" value="201000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="16" /></w> <w lemma="induction" pos="N" ><freq name="google" value="13800000" /><freq name="index-01" value="9" /><freq name="index-02" value="18" /><freq name="index-03" value="15" /></w> <freq name="google" value="7290" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="c-fos" lemma="c-fos" pos="N" /> <w surface="induction" lemma="induction" pos="N" /> <freq name="corpus-03.moses" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="960">
+    <ngram><w lemma="c-fos" pos="N" ><freq name="google" value="201000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="16" /></w> <w lemma="mrna" pos="N" ><freq name="google" value="3190000" /><freq name="index-01" value="16" /><freq name="index-02" value="7" /><freq name="index-03" value="8" /></w> <freq name="google" value="15900" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="c-fos" lemma="c-fos" pos="N" /> <w surface="mrna" lemma="mrna" pos="N" /> <freq name="corpus-03.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="959">
+    <ngram><w lemma="c-fos" pos="N" ><freq name="google" value="201000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="16" /></w> <w lemma="mrna" pos="N" ><freq name="google" value="3190000" /><freq name="index-01" value="16" /><freq name="index-02" value="7" /><freq name="index-03" value="8" /></w> <w lemma="induction" pos="N" ><freq name="google" value="13800000" /><freq name="index-01" value="9" /><freq name="index-02" value="18" /><freq name="index-03" value="15" /></w> <freq name="google" value="1050" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="c-fos" lemma="c-fos" pos="N" /> <w surface="mrna" lemma="mrna" pos="N" /> <w surface="induction" lemma="induction" pos="N" /> <freq name="corpus-03.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="341">
+    <ngram><w lemma="c-myc" pos="N" ><freq name="google" value="329000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="gene" pos="N" ><freq name="google" value="27300000" /><freq name="index-01" value="46" /><freq name="index-02" value="45" /><freq name="index-03" value="21" /></w> <freq name="google" value="21300" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="c-myc" lemma="c-myc" pos="N" /> <w surface="gene" lemma="gene" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="828">
+    <ngram><w lemma="c-rel" pos="N" ><freq name="google" value="36200" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="protein" pos="N" ><freq name="google" value="34700000" /><freq name="index-01" value="44" /><freq name="index-02" value="31" /><freq name="index-03" value="20" /></w> <freq name="google" value="846" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="c-rel" lemma="c-rel" pos="N" /> <w surface="proteins" lemma="protein" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="814">
+    <ngram><w lemma="c-rich" pos="N" ><freq name="google" value="86600" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="0" /></w> <w lemma="5" pos="NUM" ><freq name="google" value="3090000000" /><freq name="index-01" value="1" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <freq name="google" value="369" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="c-rich" lemma="c-rich" pos="N" /> <w surface="5" lemma="5" pos="NUM" /> <freq name="corpus-02.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="810">
+    <ngram><w lemma="c-rich" pos="N" ><freq name="google" value="86600" /><freq name="index-01" value="0" /><freq name="index-02" value="5" /><freq name="index-03" value="0" /></w> <w lemma="region" pos="N" ><freq name="google" value="202000000" /><freq name="index-01" value="10" /><freq name="index-02" value="10" /><freq name="index-03" value="14" /></w> <freq name="google" value="1620" /><freq name="index-01" value="0" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="c-rich" lemma="c-rich" pos="N" /> <w surface="region" lemma="region" pos="N" /> <freq name="corpus-02.moses" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="969">
+    <ngram><w lemma="ca2+" pos="N" ><freq name="google" value="922000" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="ionophore" pos="N" ><freq name="google" value="122000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="5" /></w> <freq name="google" value="6700" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="ca2+" lemma="ca2+" pos="N" /> <w surface="ionophore" lemma="ionophore" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="84">
+    <ngram><w lemma="calcium" pos="N" ><freq name="google" value="11000000" /><freq name="index-01" value="4" /><freq name="index-02" value="1" /><freq name="index-03" value="8" /></w> <w lemma="flux" pos="N" ><freq name="google" value="25300000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="29400" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="calcium" lemma="calcium" pos="N" /> <w surface="flux" lemma="flux" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="85">
+    <ngram><w lemma="calcium" pos="N" ><freq name="google" value="11000000" /><freq name="index-01" value="4" /><freq name="index-02" value="1" /><freq name="index-03" value="8" /></w> <w lemma="ionophore" pos="N" ><freq name="google" value="122000" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="5" /></w> <freq name="google" value="42700" /><freq name="index-01" value="1" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="calcium" lemma="calcium" pos="N" /> <w surface="ionophore" lemma="ionophore" pos="N" /> <freq name="corpus-01.moses" value="1" /><freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="87">
+    <ngram><w lemma="calcium" pos="N" ><freq name="google" value="11000000" /><freq name="index-01" value="4" /><freq name="index-02" value="1" /><freq name="index-03" value="8" /></w> <w lemma="pathway" pos="N" ><freq name="google" value="9280000" /><freq name="index-01" value="9" /><freq name="index-02" value="10" /><freq name="index-03" value="5" /></w> <freq name="google" value="2680" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="calcium" lemma="calcium" pos="N" /> <w surface="pathways" lemma="pathway" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="957">
+    <ngram><w lemma="calcium" pos="N" ><freq name="google" value="11000000" /><freq name="index-01" value="4" /><freq name="index-02" value="1" /><freq name="index-03" value="8" /></w> <w lemma="stimulation" pos="N" ><freq name="google" value="8050000" /><freq name="index-01" value="11" /><freq name="index-02" value="5" /><freq name="index-03" value="5" /></w> <freq name="google" value="3100" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="calcium" lemma="calcium" pos="N" /> <w surface="stimulation" lemma="stimulation" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="963">
+    <ngram><w lemma="camp-inducing" pos="N" ><freq name="google" value="841" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></w> <w lemma="agent" pos="N" ><freq name="google" value="96000000" /><freq name="index-01" value="1" /><freq name="index-02" value="2" /><freq name="index-03" value="1" /></w> <freq name="google" value="162" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="camp-inducing" lemma="camp-inducing" pos="N" /> <w surface="agents" lemma="agent" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="570">
+    <ngram><w lemma="cancer" pos="N" ><freq name="google" value="58700000" /><freq name="index-01" value="0" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></w> <w lemma="therapy" pos="N" ><freq name="google" value="48300000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="647000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="cancer" lemma="cancer" pos="N" /> <w surface="therapy" lemma="therapy" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="338">
+    <ngram><w lemma="cap" pos="N" ><freq name="google" value="75800000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="site" pos="N" ><freq name="google" value="1070000000" /><freq name="index-01" value="28" /><freq name="index-02" value="20" /><freq name="index-03" value="6" /></w> <freq name="google" value="25100" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="cap" lemma="cap" pos="N" /> <w surface="site" lemma="site" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="677">
+    <ngram><w lemma="care" pos="N" ><freq name="google" value="298000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="unit" pos="N" ><freq name="google" value="120000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="1490000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="care" lemma="care" pos="N" /> <w surface="unit" lemma="unit" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="745">
+    <ngram><w lemma="carg" pos="N" ><freq name="google" value="170000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="motif" pos="N" ><freq name="google" value="13400000" /><freq name="index-01" value="7" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></w> <freq name="google" value="455" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="carg" lemma="carg" pos="N" /> <w surface="motif" lemma="motif" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="500">
+    <ngram><w lemma="cat" pos="N" ><freq name="google" value="127000000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="reporter" pos="N" ><freq name="google" value="27500000" /><freq name="index-01" value="2" /><freq name="index-02" value="4" /><freq name="index-03" value="4" /></w> <freq name="google" value="16800" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="cat" lemma="cat" pos="N" /> <w surface="reporter" lemma="reporter" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="499">
+    <ngram><w lemma="cat" pos="N" ><freq name="google" value="127000000" /><freq name="index-01" value="0" /><freq name="index-02" value="2" /><freq name="index-03" value="0" /></w> <w lemma="reporter" pos="N" ><freq name="google" value="27500000" /><freq name="index-01" value="2" /><freq name="index-02" value="4" /><freq name="index-03" value="4" /></w> <w lemma="gene" pos="N" ><freq name="google" value="27300000" /><freq name="index-01" value="46" /><freq name="index-02" value="45" /><freq name="index-03" value="21" /></w> <freq name="google" value="8580" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="cat" lemma="cat" pos="N" /> <w surface="reporter" lemma="reporter" pos="N" /> <w surface="gene" lemma="gene" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="843">
+    <ngram><w lemma="cd19" pos="N" ><freq name="google" value="165000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <w lemma="gene" pos="N" ><freq name="google" value="27300000" /><freq name="index-01" value="46" /><freq name="index-02" value="45" /><freq name="index-03" value="21" /></w> <freq name="google" value="1120" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="cd19" lemma="cd19" pos="N" /> <w surface="gene" lemma="gene" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="895">
+    <ngram><w lemma="cd28re" pos="N" ><freq name="google" value="650" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="4" /></w> <w lemma="region" pos="N" ><freq name="google" value="202000000" /><freq name="index-01" value="10" /><freq name="index-02" value="10" /><freq name="index-03" value="14" /></w> <freq name="google" value="25" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="cd28re" lemma="cd28re" pos="N" /> <w surface="region" lemma="region" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="70">
+    <ngram><w lemma="cd4" pos="N" ><freq name="google" value="1350000" /><freq name="index-01" value="4" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="epitopes" pos="N" ><freq name="google" value="455000" /><freq name="index-01" value="3" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <freq name="google" value="1060" /><freq name="index-01" value="2" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="cd4" lemma="cd4" pos="N" /> <w surface="epitopes" lemma="epitopes" pos="N" /> <freq name="corpus-01.moses" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="333">
+    <ngram><w lemma="cd4" pos="N" ><freq name="google" value="1350000" /><freq name="index-01" value="4" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></w> <w lemma="promoter" pos="N" ><freq name="google" value="5450000" /><freq name="index-01" value="28" /><freq name="index-02" value="23" /><freq name="index-03" value="16" /></w> <freq name="google" value="1410" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="cd4" lemma="cd4" pos="N" /> <w surface="promoter" lemma="promoter" pos="N" /> <freq name="corpus-01.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="1008">
+    <ngram><w lemma="cd4-cd8-" pos="N" ><freq name="google" value="123000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></w> <w lemma="t" pos="N" ><freq name="google" value="1770000000" /><freq name="index-01" value="24" /><freq name="index-02" value="21" /><freq name="index-03" value="31" /></w> <freq name="google" value="12800" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="cd4-cd8-" lemma="cd4-cd8-" pos="N" /> <w surface="t" lemma="t" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="1007">
+    <ngram><w lemma="cd4-cd8-" pos="N" ><freq name="google" value="123000" /><freq name="index-01" value="1" /><freq name="index-02" value="0" /><freq name="index-03" value="2" /></w> <w lemma="t" pos="N" ><freq name="google" value="1770000000" /><freq name="index-01" value="24" /><freq name="index-02" value="21" /><freq name="index-03" value="31" /></w> <w lemma="lymphocyte" pos="N" ><freq name="google" value="1280000" /><freq name="index-01" value="10" /><freq name="index-02" value="7" /><freq name="index-03" value="3" /></w> <freq name="google" value="676" /><freq name="index-01" value="0" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="cd4-cd8-" lemma="cd4-cd8-" pos="N" /> <w surface="t" lemma="t" pos="N" /> <w surface="lymphocytes" lemma="lymphocyte" pos="N" /> <freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="447">
+    <ngram><w lemma="cdna" pos="N" ><freq name="google" value="3120000" /><freq name="index-01" value="0" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <w lemma="clone" pos="N" ><freq name="google" value="14000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="134000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="cdna" lemma="cdna" pos="N" /> <w surface="clone" lemma="clone" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="450">
+    <ngram><w lemma="cdna" pos="N" ><freq name="google" value="3120000" /><freq name="index-01" value="0" /><freq name="index-02" value="3" /><freq name="index-03" value="0" /></w> <w lemma="library" pos="N" ><freq name="google" value="150000000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></w> <freq name="google" value="173000" /><freq name="index-01" value="0" /><freq name="index-02" value="1" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="cdna" lemma="cdna" pos="N" /> <w surface="library" lemma="library" pos="N" /> <freq name="corpus-02.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="6">
+    <ngram><w lemma="cell" pos="N" ><freq name="google" value="93200000" /><freq name="index-01" value="81" /><freq name="index-02" value="86" /><freq name="index-03" value="54" /></w> <w lemma="activation" pos="N" ><freq name="google" value="20200000" /><freq name="index-01" value="30" /><freq name="index-02" value="23" /><freq name="index-03" value="19" /></w> <freq name="google" value="499000" /><freq name="index-01" value="3" /><freq name="index-02" value="0" /><freq name="index-03" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="cell" lemma="cell" pos="N" /> <w surface="activation" lemma="activation" pos="N" /> <freq name="corpus-01.moses" value="3" /><freq name="corpus-03.moses" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="535">
+    <ngram><w lemma="cell" pos="N" ><freq name="google" value="93200000" /><freq name="index-01" value="81" /><freq name="index-02" value="86" /><freq name="index-03" value="54" /></w> <w lemma="adhesion" pos="N" ><freq name="google" value="3480000" /><freq name="index-01" value="0" /><freq name="index-02" value="13" /><freq name="index-03" value="1" /></w> <freq name="google" value="693000" /><freq name="index-01" value="0" /><freq name="index-02" value="4" /><freq name="index-03" value="0" /></ngram>
+    <occurs>
+    <ngram><w surface="cell" lemma="cell" pos="N" /> <w surface="adhesion" lemma="adhesion" pos="N" /> <freq name="corpus-02.moses" value="4" /></ngram>
+    </occurs>
+</cand>
+</candidates>

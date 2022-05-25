@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- matches all bigrams, trigrams and 4-grams in the corpus -->
+<patterns>
+    <pat><w /><w /></pat> 
+    <pat><w /><w /><w /></pat> 
+    <pat><w /><w /><w /><w /></pat>        
+</patterns>

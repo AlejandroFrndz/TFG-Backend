@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+    <!-- matches a word with pos=P:A optionally followed by the same word -->
+    <pat><w pos="*A"/> <pat repeat="?"> <w pos="*A"/></pat></pat> 
+</patterns>

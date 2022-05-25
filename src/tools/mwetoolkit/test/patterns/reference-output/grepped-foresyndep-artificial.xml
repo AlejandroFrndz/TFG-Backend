@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE corpus SYSTEM "dtd/mwetoolkit-corpus.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<corpus >
+<s s_id="1"><w surface="suc" lemma="lc" pos="PC" syn="sy:2" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:3" /> <w surface="sue" lemma="le" pos="PE" syn="sy:3" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:1" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:12" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:6" /> <w surface="sua" lemma="la" pos="PA" syn="sy:14" /> <w surface="sua" lemma="la" pos="PA" syn="sy:10" /> <w surface="sue" lemma="le" pos="PE" syn="sy:3" /> <w surface="sue" lemma="le" pos="PE" syn="sy:7" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:3" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:3" /> <w surface="sua" lemma="la" pos="PA" syn="sy:11" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:16" /> <w surface="sue" lemma="le" pos="PE" syn="sy:2" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:10" /> 
+<mweoccurs>
+  <mweoccur candid="1"><mwepart index="1"/><mwepart index="2"/></mweoccur>
+  <mweoccur candid="2"><mwepart index="2"/><mwepart index="3"/></mweoccur>
+  <mweoccur candid="3"><mwepart index="5"/><mwepart index="12"/></mweoccur>
+  <mweoccur candid="4"><mwepart index="7"/><mwepart index="14"/></mweoccur>
+  <mweoccur candid="5"><mwepart index="8"/><mwepart index="10"/></mweoccur>
+  <mweoccur candid="6"><mwepart index="14"/><mwepart index="16"/></mweoccur>
+</mweoccurs>
+</s>
+<s s_id="2"><w surface="suc" lemma="lc" pos="PC" syn="sy:4" /> <w surface="sua" lemma="la" pos="PA" syn="sy:14" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:9" /> <w surface="sua" lemma="la" pos="PA" syn="sy:19" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:22" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:6" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:19" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:8" /> <w surface="sua" lemma="la" pos="PA" syn="sy:13" /> <w surface="sua" lemma="la" pos="PA" syn="sy:10" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:10" /> <w surface="sue" lemma="le" pos="PE" syn="sy:10" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:9" /> <w surface="sue" lemma="le" pos="PE" syn="sy:13" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:8" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:22" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:8" /> <w surface="sua" lemma="la" pos="PA" syn="sy:16" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:1" /> <w surface="sua" lemma="la" pos="PA" syn="sy:7" /> <w surface="sua" lemma="la" pos="PA" syn="sy:22" /> <w surface="sua" lemma="la" pos="PA" syn="sy:17" /> 
+<mweoccurs>
+  <mweoccur candid="7"><mwepart index="1"/><mwepart index="4"/></mweoccur>
+  <mweoccur candid="8"><mwepart index="2"/><mwepart index="14"/></mweoccur>
+  <mweoccur candid="9"><mwepart index="3"/><mwepart index="9"/></mweoccur>
+  <mweoccur candid="10"><mwepart index="4"/><mwepart index="19"/></mweoccur>
+  <mweoccur candid="11"><mwepart index="5"/><mwepart index="22"/></mweoccur>
+  <mweoccur candid="12"><mwepart index="7"/><mwepart index="19"/></mweoccur>
+  <mweoccur candid="13"><mwepart index="9"/><mwepart index="13"/></mweoccur>
+  <mweoccur candid="14"><mwepart index="16"/><mwepart index="22"/></mweoccur>
+  <mweoccur candid="15"><mwepart index="21"/><mwepart index="22"/></mweoccur>
+</mweoccurs>
+</s>
+<s s_id="3"><w surface="sud" lemma="ld" pos="PD" syn="sy:8" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:12" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:6" /> <w surface="sue" lemma="le" pos="PE" syn="sy:3" /> <w surface="sue" lemma="le" pos="PE" syn="sy:6" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:9" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:9" /> <w surface="sua" lemma="la" pos="PA" syn="sy:4" /> <w surface="sue" lemma="le" pos="PE" syn="sy:5" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:5" /> <w surface="sue" lemma="le" pos="PE" syn="sy:17" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:14" /> <w surface="sue" lemma="le" pos="PE" syn="sy:14" /> <w surface="sue" lemma="le" pos="PE" syn="sy:6" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:10" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:13" /> <w surface="sue" lemma="le" pos="PE" syn="sy:11" /> 
+<mweoccurs>
+  <mweoccur candid="16"><mwepart index="1"/><mwepart index="8"/></mweoccur>
+  <mweoccur candid="17"><mwepart index="2"/><mwepart index="12"/></mweoccur>
+  <mweoccur candid="18"><mwepart index="3"/><mwepart index="6"/></mweoccur>
+  <mweoccur candid="19"><mwepart index="5"/><mwepart index="6"/></mweoccur>
+  <mweoccur candid="20"><mwepart index="6"/><mwepart index="9"/></mweoccur>
+  <mweoccur candid="21"><mwepart index="7"/><mwepart index="9"/></mweoccur>
+  <mweoccur candid="22"><mwepart index="11"/><mwepart index="17"/></mweoccur>
+  <mweoccur candid="23"><mwepart index="12"/><mwepart index="14"/></mweoccur>
+  <mweoccur candid="24"><mwepart index="13"/><mwepart index="14"/></mweoccur>
+</mweoccurs>
+</s>
+<s s_id="4"><w surface="suc" lemma="lc" pos="PC" syn="sy:3" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:17" /> <w surface="sue" lemma="le" pos="PE" syn="sy:18" /> <w surface="sue" lemma="le" pos="PE" syn="sy:10" /> <w surface="sue" lemma="le" pos="PE" syn="sy:13" /> <w surface="sua" lemma="la" pos="PA" syn="sy:10" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:16" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:11" /> <w surface="sua" lemma="la" pos="PA" syn="sy:11" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:6" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:14" /> <w surface="sua" lemma="la" pos="PA" syn="sy:12" /> <w surface="sua" lemma="la" pos="PA" syn="sy:15" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:3" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:8" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:19" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:9" /> <w surface="sua" lemma="la" pos="PA" syn="sy:3" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:1" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:19" /> 
+<mweoccurs>
+  <mweoccur candid="25"><mwepart index="1"/><mwepart index="3"/></mweoccur>
+  <mweoccur candid="26"><mwepart index="2"/><mwepart index="17"/></mweoccur>
+  <mweoccur candid="27"><mwepart index="3"/><mwepart index="18"/></mweoccur>
+  <mweoccur candid="28"><mwepart index="4"/><mwepart index="10"/></mweoccur>
+  <mweoccur candid="29"><mwepart index="5"/><mwepart index="13"/></mweoccur>
+  <mweoccur candid="30"><mwepart index="6"/><mwepart index="10"/></mweoccur>
+  <mweoccur candid="31"><mwepart index="7"/><mwepart index="16"/></mweoccur>
+  <mweoccur candid="32"><mwepart index="8"/><mwepart index="11"/></mweoccur>
+  <mweoccur candid="33"><mwepart index="9"/><mwepart index="11"/></mweoccur>
+  <mweoccur candid="34"><mwepart index="11"/><mwepart index="14"/></mweoccur>
+  <mweoccur candid="35"><mwepart index="13"/><mwepart index="15"/></mweoccur>
+  <mweoccur candid="36"><mwepart index="16"/><mwepart index="19"/></mweoccur>
+</mweoccurs>
+</s>
+<s s_id="5"><w surface="sub" lemma="lb" pos="PB" syn="sy:10" /> <w surface="sue" lemma="le" pos="PE" syn="sy:9" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:19" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:20" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:9" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:6" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:3" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:11" /> <w surface="sue" lemma="le" pos="PE" syn="sy:12" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:19" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:11" /> <w surface="sua" lemma="la" pos="PA" syn="sy:7" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:6" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:7" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:7" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:13" /> <w surface="sua" lemma="la" pos="PA" syn="sy:15" /> <w surface="sua" lemma="la" pos="PA" syn="sy:17" /> <w surface="sua" lemma="la" pos="PA" syn="sy:2" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:10" /> <w surface="sua" lemma="la" pos="PA" syn="sy:21" /> 
+<mweoccurs>
+  <mweoccur candid="37"><mwepart index="1"/><mwepart index="10"/></mweoccur>
+  <mweoccur candid="38"><mwepart index="2"/><mwepart index="9"/></mweoccur>
+  <mweoccur candid="39"><mwepart index="3"/><mwepart index="19"/></mweoccur>
+  <mweoccur candid="40"><mwepart index="4"/><mwepart index="20"/></mweoccur>
+  <mweoccur candid="41"><mwepart index="5"/><mwepart index="9"/></mweoccur>
+  <mweoccur candid="42"><mwepart index="8"/><mwepart index="11"/></mweoccur>
+  <mweoccur candid="43"><mwepart index="9"/><mwepart index="12"/></mweoccur>
+  <mweoccur candid="44"><mwepart index="10"/><mwepart index="19"/></mweoccur>
+</mweoccurs>
+</s>
+<s s_id="6"><w surface="suc" lemma="lc" pos="PC" syn="sy:19" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:10" /> <w surface="sue" lemma="le" pos="PE" syn="sy:17" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:6" /> <w surface="sua" lemma="la" pos="PA" syn="sy:7" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:16" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:7" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:15" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:12" /> <w surface="sua" lemma="la" pos="PA" syn="sy:17" /> <w surface="sua" lemma="la" pos="PA" syn="sy:2" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:14" /> <w surface="sue" lemma="le" pos="PE" syn="sy:9" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:12" /> <w surface="sue" lemma="le" pos="PE" syn="sy:13" /> <w surface="sua" lemma="la" pos="PA" syn="sy:19" /> <w surface="sue" lemma="le" pos="PE" syn="sy:4" /> <w surface="sua" lemma="la" pos="PA" syn="sy:8" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:1" /> 
+<mweoccurs>
+  <mweoccur candid="45"><mwepart index="1"/><mwepart index="19"/></mweoccur>
+  <mweoccur candid="46"><mwepart index="2"/><mwepart index="10"/></mweoccur>
+  <mweoccur candid="47"><mwepart index="3"/><mwepart index="17"/></mweoccur>
+  <mweoccur candid="48"><mwepart index="4"/><mwepart index="6"/></mweoccur>
+  <mweoccur candid="49"><mwepart index="5"/><mwepart index="7"/></mweoccur>
+  <mweoccur candid="50"><mwepart index="6"/><mwepart index="16"/></mweoccur>
+  <mweoccur candid="51"><mwepart index="8"/><mwepart index="15"/></mweoccur>
+  <mweoccur candid="52"><mwepart index="9"/><mwepart index="12"/></mweoccur>
+  <mweoccur candid="53"><mwepart index="10"/><mwepart index="17"/></mweoccur>
+  <mweoccur candid="54"><mwepart index="12"/><mwepart index="14"/></mweoccur>
+  <mweoccur candid="55"><mwepart index="16"/><mwepart index="19"/></mweoccur>
+</mweoccurs>
+</s>
+<s s_id="7"><w surface="sud" lemma="ld" pos="PD" syn="sy:6" /> <w surface="sua" lemma="la" pos="PA" syn="sy:8" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:17" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:11" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:15" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:8" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:13" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:1" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:15" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:16" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:17" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:17" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:6" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:9" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:1" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:11" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:13" /> 
+<mweoccurs>
+  <mweoccur candid="56"><mwepart index="1"/><mwepart index="6"/></mweoccur>
+  <mweoccur candid="57"><mwepart index="2"/><mwepart index="8"/></mweoccur>
+  <mweoccur candid="58"><mwepart index="3"/><mwepart index="17"/></mweoccur>
+  <mweoccur candid="59"><mwepart index="4"/><mwepart index="11"/></mweoccur>
+  <mweoccur candid="60"><mwepart index="5"/><mwepart index="15"/></mweoccur>
+  <mweoccur candid="61"><mwepart index="6"/><mwepart index="8"/></mweoccur>
+  <mweoccur candid="62"><mwepart index="7"/><mwepart index="13"/></mweoccur>
+  <mweoccur candid="63"><mwepart index="9"/><mwepart index="15"/></mweoccur>
+  <mweoccur candid="64"><mwepart index="10"/><mwepart index="16"/></mweoccur>
+  <mweoccur candid="65"><mwepart index="11"/><mwepart index="17"/></mweoccur>
+  <mweoccur candid="66"><mwepart index="12"/><mwepart index="17"/></mweoccur>
+</mweoccurs>
+</s>
+<s s_id="8"><w surface="sub" lemma="lb" pos="PB" syn="sy:11" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:1" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:10" /> <w surface="sua" lemma="la" pos="PA" syn="sy:5" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:5" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:10" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:11" /> <w surface="sua" lemma="la" pos="PA" syn="sy:5" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:1" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:1" /> <w surface="sue" lemma="le" pos="PE" syn="sy:1" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:2" /> 
+<mweoccurs>
+  <mweoccur candid="67"><mwepart index="1"/><mwepart index="11"/></mweoccur>
+  <mweoccur candid="68"><mwepart index="3"/><mwepart index="10"/></mweoccur>
+  <mweoccur candid="69"><mwepart index="4"/><mwepart index="5"/></mweoccur>
+  <mweoccur candid="70"><mwepart index="6"/><mwepart index="10"/></mweoccur>
+  <mweoccur candid="71"><mwepart index="7"/><mwepart index="11"/></mweoccur>
+</mweoccurs>
+</s>
+<s s_id="9"><w surface="sud" lemma="ld" pos="PD" syn="sy:1" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:16" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:14" /> <w surface="sue" lemma="le" pos="PE" syn="sy:11" /> <w surface="sua" lemma="la" pos="PA" syn="sy:16" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:14" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:15" /> <w surface="sue" lemma="le" pos="PE" syn="sy:17" /> <w surface="sua" lemma="la" pos="PA" syn="sy:15" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:6" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:19" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:15" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:10" /> <w surface="sue" lemma="le" pos="PE" syn="sy:14" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:8" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:17" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:9" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:7" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:10" /> <w surface="sua" lemma="la" pos="PA" syn="sy:17" /> 
+<mweoccurs>
+  <mweoccur candid="72"><mwepart index="2"/><mwepart index="16"/></mweoccur>
+  <mweoccur candid="73"><mwepart index="3"/><mwepart index="14"/></mweoccur>
+  <mweoccur candid="74"><mwepart index="4"/><mwepart index="11"/></mweoccur>
+  <mweoccur candid="75"><mwepart index="5"/><mwepart index="16"/></mweoccur>
+  <mweoccur candid="76"><mwepart index="6"/><mwepart index="14"/></mweoccur>
+  <mweoccur candid="77"><mwepart index="7"/><mwepart index="15"/></mweoccur>
+  <mweoccur candid="78"><mwepart index="8"/><mwepart index="17"/></mweoccur>
+  <mweoccur candid="79"><mwepart index="9"/><mwepart index="15"/></mweoccur>
+  <mweoccur candid="80"><mwepart index="11"/><mwepart index="19"/></mweoccur>
+  <mweoccur candid="81"><mwepart index="12"/><mwepart index="15"/></mweoccur>
+  <mweoccur candid="82"><mwepart index="16"/><mwepart index="17"/></mweoccur>
+</mweoccurs>
+</s>
+<s s_id="10"><w surface="sue" lemma="le" pos="PE" syn="sy:21" /> <w surface="suc" lemma="lc" pos="PC" syn="sy:16" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:17" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:20" /> <w surface="sue" lemma="le" pos="PE" syn="sy:10" /> <w surface="sua" lemma="la" pos="PA" syn="sy:18" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:7" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:21" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:13" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:13" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:3" /> <w surface="sue" lemma="le" pos="PE" syn="sy:9" /> <w surface="sue" lemma="le" pos="PE" syn="sy:6" /> <w surface="sud" lemma="ld" pos="PD" syn="sy:13" /> <w surface="sua" lemma="la" pos="PA" syn="sy:10" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:4" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:18" /> <w surface="sub" lemma="lb" pos="PB" syn="sy:18" /> <w surface="sue" lemma="le" pos="PE" syn="sy:13" /> <w surface="sue" lemma="le" pos="PE" syn="sy:8" /> <w surface="sua" lemma="la" pos="PA" syn="sy:2" /> 
+<mweoccurs>
+  <mweoccur candid="83"><mwepart index="1"/><mwepart index="21"/></mweoccur>
+  <mweoccur candid="84"><mwepart index="2"/><mwepart index="16"/></mweoccur>
+  <mweoccur candid="85"><mwepart index="3"/><mwepart index="17"/></mweoccur>
+  <mweoccur candid="86"><mwepart index="4"/><mwepart index="20"/></mweoccur>
+  <mweoccur candid="87"><mwepart index="5"/><mwepart index="10"/></mweoccur>
+  <mweoccur candid="88"><mwepart index="6"/><mwepart index="18"/></mweoccur>
+  <mweoccur candid="89"><mwepart index="8"/><mwepart index="21"/></mweoccur>
+  <mweoccur candid="90"><mwepart index="9"/><mwepart index="13"/></mweoccur>
+  <mweoccur candid="91"><mwepart index="10"/><mwepart index="13"/></mweoccur>
+  <mweoccur candid="92"><mwepart index="17"/><mwepart index="18"/></mweoccur>
+</mweoccurs>
+</s>
+</corpus>

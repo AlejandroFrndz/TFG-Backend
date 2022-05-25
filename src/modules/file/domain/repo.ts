@@ -16,7 +16,7 @@ export type CreateFileParams = {
     name: string;
     parent?: string;
     owner: string;
-    project: string;
+    project?: string;
 };
 
 export interface IFileRepository {

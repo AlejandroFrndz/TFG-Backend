@@ -1,0 +1,67 @@
+# MWETOOLKIT: filetype="TextualPattern"
+# Patterns for sanity checks (includes wrong patterns that should fail)
+
+[pos=N] [pos~/N.*/] ([surface="a"] | [lemma="b"])
+
+[] pat([]){ignore=true} [] [lemma=okay] [lemma!=hi] [lemma=reeee]
+[lemma=back:the${underscore}ok.lemma] either([surface=foo] | [surface=bar])
+[lemma="back:quoted.literal"] [surface≈≈V*]
+
+foo bar [lemma=baz] VP [pos=V*] [pos~/N./] [surface=|aha|]
+(x) (foo (bar (baz) baz) y)
+
+
+# Auto-wrap in a `seq`:
+(a | b){repeat=3}  c{ignore=true}
+(x){id=myID}
+myword{id=myID}
+myword{repeat=3}
+[pos=VP]{ignore=true}
+
+
+# BAD: Literal regex (users should just use [surface~/value/] instead
+/hohoho/
+# BAD: Any literal non-alphanum, actually
+@error
+wrong^name
+optional?
+
+# BAD: Seq with alternatives (use "either(" or "(" instead)
+seq(a | b | c)
+
+# BAD: Unbalanced parens
+foo(aha
+[surface="yes"])boo
+test{id=ok
+[lemma=test]}ok
+[a=word] [another=word
+[ok=]
+[good=pair onlykey]
+[pos~/aha)abc/]
+
+
+# GOOD: Escaped regexes
+[pos~aha]
+[pos~/aha\(/]
+[pos~/aha\[ok/]
+[pos~/aha(ok)/]
+[pos!~/aha?/]
+[pos!~/aha\?/]
+[pos~/aha((abc))/]
+[pos~/slash\/slash/]
+[pos~"quot\"quot"]
+[pos~/conte[xs]t/]
+[pos~/123[^4]567/]
+
+# BAD: Invalid in-pattern regexes
+[pos~/aha]
+[pos~/endofline$/]
+[pos~/^begofline/]
+[pos~/aha(?!whatever)/i]
+[pos~/badflags/YZ]
+
+
+# GOOD: Ugly but correct escaped patterns:
+[key${openparen}key="value"]
+[key${eq}key=value]
+[key_key!~value]
