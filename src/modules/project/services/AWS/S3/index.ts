@@ -43,7 +43,9 @@ const uploadProcessedCorpus = async (
 ): Promise<EmptyResponse> => {
     try {
         await _uploadDir(
-            `${process.cwd()}/src/scripts/corpus_processed/${userId}/${projectId}`,
+            `${process.cwd()}${
+                config.isProdEnv ? "/dist" : ""
+            }/src/scripts/corpus_processed/${userId}/${projectId}`,
             `${userId}/${projectId}`,
             config.AWS.S3.processedCorpusBucket
         );
