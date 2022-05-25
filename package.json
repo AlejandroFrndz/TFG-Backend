@@ -5,7 +5,7 @@
     "main": "index.ts",
     "scripts": {
         "start": "node dist/src/index.js",
-        "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
+        "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json && cp -r ./src/scripts/ ./dist/src/scripts && cp -r ./src/tools/ ./dist/src/tools",
         "dev": "set NODE_ENV=dev&& ts-node -r tsconfig-paths/register src/index.ts",
         "dev:unix": "NODE_ENV=dev ts-node -r tsconfig-paths/register src/index.ts",
         "dev:watch": "nodemon --watch src -e ts --exec npm run dev",
