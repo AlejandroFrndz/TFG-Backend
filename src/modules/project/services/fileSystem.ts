@@ -5,6 +5,7 @@ import child_process from "child_process";
 import { failure, FailureOrSuccess, success } from "src/core/logic";
 import { UnexpectedError } from "src/core/logic/errors";
 import { Language } from "#project/domain";
+import { config } from "src/app/config";
 
 const execFile = util.promisify(child_process.execFile);
 
@@ -17,7 +18,9 @@ export const writeCorpusFiles = async (
 ): Promise<FileSystemResponse> => {
     try {
         await fs.mkdir(
-            `${process.cwd()}/src/scripts/corpus_raw/${userId}/${projectId}`,
+            `${process.cwd()}${
+                config.isProdEnv ? "/dist" : ""
+            }/src/scripts/corpus_raw/${userId}/${projectId}`,
             { recursive: true }
         );
     } catch (error) {
@@ -30,12 +33,16 @@ export const writeCorpusFiles = async (
         try {
             const num = (
                 await fs.readdir(
-                    `${process.cwd()}/src/scripts/corpus_raw/${userId}/${projectId}`
+                    `${process.cwd()}${
+                        config.isProdEnv ? "/dist" : ""
+                    }/src/scripts/corpus_raw/${userId}/${projectId}`
                 )
             ).length;
 
             await fs.writeFile(
-                `${process.cwd()}/src/scripts/corpus_raw/${userId}/${projectId}/corpusFile_${num}${path.extname(
+                `${process.cwd()}${
+                    config.isProdEnv ? "/dist" : ""
+                }/src/scripts/corpus_raw/${userId}/${projectId}/corpusFile_${num}${path.extname(
                     file.originalname
                 )}`,
                 file.buffer
@@ -71,7 +78,9 @@ export const executeParseAndIndex = async (
 
     try {
         const { stderr } = await execFile(
-            `${process.cwd()}/src/scripts/parse-and-index-corpus.sh`,
+            `${process.cwd()}${
+                config.isProdEnv ? "/dist" : ""
+            }/src/scripts/parse-and-index-corpus.sh`,
             [langCode, userId, projectId]
         );
 
@@ -111,7 +120,11 @@ const deleteDir = async (dir: string): Promise<FileSystemResponse> => {
 const deleteProcessedCorpusDir = async (
     userId: string
 ): Promise<FileSystemResponse> => {
-    return deleteDir(`${process.cwd()}/src/scripts/corpus_processed/${userId}`);
+    return deleteDir(
+        `${process.cwd()}${
+            config.isProdEnv ? "/dist" : ""
+        }/src/scripts/corpus_processed/${userId}`
+    );
 };
 
 export const FileSystemService = {
