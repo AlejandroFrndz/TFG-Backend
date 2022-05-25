@@ -12,7 +12,7 @@ userId="$2"
 projectId="$3"
 isProd="$4"
 
-if [ $isProd = "false" ]
+if [ $isProd = "false" ]; then
   UDPIPE="./src/tools/udpipe"
   UDPIPEMODELS="${UDPIPE}/models/"
   MWETOOLKIT="./src/tools/mwetoolkit/"
@@ -86,7 +86,7 @@ ${MWETOOLKIT}/bin/index.py --attributes surface,lemma,pos,syn --from=CONLL -v \
                            
 gzip ${dest_folder}/corpus.parsed.conll                          
 
-if [ $isProd = "false" ]
+if [ $isProd = "false" ]; then
   rm -rf "./src/scripts/corpus_raw/${userId}"
 else
   rm -rf "./dist/src/scripts/corpus_raw/${userId}"
