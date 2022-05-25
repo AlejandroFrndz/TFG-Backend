@@ -96,3 +96,28 @@ export const getFilesFromDir = async (
 
     return Array.prototype.concat(...files);
 };
+
+const deleteDir = async (dir: string): Promise<FileSystemResponse> => {
+    try {
+        await fs.rm(dir, { recursive: true, force: true });
+
+        return success(null);
+    } catch (error) {
+        console.log(error);
+        return failure(new UnexpectedError(error));
+    }
+};
+
+const deleteProcessedCorpusDir = async (
+    userId: string
+): Promise<FileSystemResponse> => {
+    return deleteDir(`${process.cwd()}/src/scripts/corpus_processed/${userId}`);
+};
+
+export const FileSystemService = {
+    writeCorpusFiles,
+    executeParseAndIndex,
+    getFilesFromDir,
+    deleteDir,
+    deleteProcessedCorpusDir
+};

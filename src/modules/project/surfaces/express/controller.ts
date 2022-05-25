@@ -3,6 +3,7 @@ import { IProjectRepository } from "#project/domain/repo";
 import { S3Service } from "#project/services/AWS/S3";
 import {
     executeParseAndIndex,
+    FileSystemService,
     writeCorpusFiles
 } from "#project/services/fileSystem";
 import { User } from "#user/domain";
@@ -138,6 +139,8 @@ const _handleCorpusUpload =
         if (updateProjectResponse.isFailure()) {
             return next(updateProjectResponse.error);
         }
+
+        await FileSystemService.deleteProcessedCorpusDir(userId);
 
         res.status(StatusCodes.OK).json({
             success: true,
