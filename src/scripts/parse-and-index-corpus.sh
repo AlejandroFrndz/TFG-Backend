@@ -26,6 +26,7 @@ else
 
   dest_folder="./dist/src/scripts/corpus_processed/${userId}/${projectId}"
   raw_folder="./dist/src/scripts/corpus_raw/${userId}/${projectId}"
+fi
 
 if [ $lang = "EN" ]; then
   model=english-partut-ud-2.5-191206.udpipe
@@ -89,4 +90,5 @@ gzip ${dest_folder}/corpus.parsed.conll
 if [ $isProd = "false" ]; then
   rm -rf "./src/scripts/corpus_raw/${userId}"
 else
-  rm -rf "./dist/src/scripts/corpus_raw/${userId}"ç
+  rm -rf "./dist/src/scripts/corpus_raw/${userId}"
+fi
