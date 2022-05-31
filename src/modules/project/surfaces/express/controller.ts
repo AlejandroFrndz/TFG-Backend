@@ -1,6 +1,6 @@
 import { Language } from "#project/domain";
 import { IProjectRepository } from "#project/domain/repo";
-import { S3Service } from "#project/services/AWS/S3";
+import { S3ProjectService } from "#project/services/AWS/S3";
 import { FileSystemService } from "#project/services/fileSystem";
 import { User } from "#user/domain";
 import { NextFunction, Response } from "express";
@@ -120,7 +120,7 @@ const _handleCorpusUpload =
             return next(parseAndIndexResponse.error);
         }
 
-        const s3UploadResponse = await S3Service.uploadProcessedCorpus(
+        const s3UploadResponse = await S3ProjectService.uploadProcessedCorpus(
             userId,
             project.id
         );
