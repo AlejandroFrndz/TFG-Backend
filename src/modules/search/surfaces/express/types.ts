@@ -19,3 +19,4 @@ type CreateSearchRequest = {
 };
 
 export type ExpressCreateSearchRequest = Request<{}, {}, CreateSearchRequest>;
+export type ExpressDeleteSearchRequest = Request<{ searchId: string }>;

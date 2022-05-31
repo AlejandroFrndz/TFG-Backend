@@ -13,5 +13,6 @@ const controller = SearchController(
 );
 
 router.post("/", requireUser, searchFilesUpload, controller.create);
+router.delete("/:searchId", requireUser, controller.delete);
 
 export default router;

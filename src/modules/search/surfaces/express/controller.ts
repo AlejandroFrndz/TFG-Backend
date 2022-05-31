@@ -7,7 +7,11 @@ import { StatusCodes } from "http-status-codes";
 import _ from "lodash";
 import { EmptyResponse } from "src/core/logic";
 import { BadRequestError, ForbiddenError } from "src/core/logic/errors";
-import { CreateSearchBody, ExpressCreateSearchRequest } from "./types";
+import {
+    CreateSearchBody,
+    ExpressCreateSearchRequest,
+    ExpressDeleteSearchRequest
+} from "./types";
 
 const _create =
     (searchRepo: ISearchRepository, projectRepo: IProjectRepository) =>
@@ -145,9 +149,50 @@ const _create =
             .json({ success: true, search: searchResponse.value });
     };
 
+const _delete =
+    (searchRepo: ISearchRepository, projectRepo: IProjectRepository) =>
+    async (
+        req: ExpressDeleteSearchRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
+        const { searchId } = req.params;
+
+        const searchResponse = await searchRepo.findById(searchId);
+
+        if (searchResponse.isFailure()) {
+            return next(searchResponse.error);
+        }
+
+        const projectResponse = await projectRepo.findById(
+            searchResponse.value.project
+        );
+
+        if (projectResponse.isFailure()) {
+            return next(projectResponse.error);
+        }
+
+        if (projectResponse.value.owner !== (req.user as User).id) {
+            return next(
+                new ForbiddenError(
+                    `You cannot modify a project that does not belong to you`
+                )
+            );
+        }
+
+        const deleteResponse = await searchRepo.delete(searchId);
+
+        if (deleteResponse.isFailure()) {
+            return next(deleteResponse.error);
+        }
+
+        return res.sendStatus(StatusCodes.NO_CONTENT);
+    };
+
 export const SearchController = (
     searchRepo: ISearchRepository,
     projectRepo: IProjectRepository
 ) => ({
-    create: _create(searchRepo, projectRepo)
+    create: _create(searchRepo, projectRepo),
+    delete: _delete(searchRepo, projectRepo)
 });

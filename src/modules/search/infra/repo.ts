@@ -77,4 +77,23 @@ export class TypeORMSearchRepository implements ISearchRepository {
             return failure(new UnexpectedError(error));
         }
     }
+
+    async findById(searchId: string): Promise<SearchResponse> {
+        try {
+            const search = await this.repo.findOne({
+                where: { id: searchId },
+                relations: { project: true }
+            });
+
+            if (!search) {
+                return failure(
+                    new NotFoundError(`Search with id ${searchId} not found`)
+                );
+            }
+
+            return success(this.mapper.toDomain(search));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
 }

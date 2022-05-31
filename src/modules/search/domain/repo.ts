@@ -18,4 +18,5 @@ export type CreateSearchParams = {
 export interface ISearchRepository {
     create(params: CreateSearchParams): Promise<SearchResponse>;
     delete(searchId: string): Promise<EmptyResponse>;
+    findById(searchId: string): Promise<SearchResponse>;
 }
