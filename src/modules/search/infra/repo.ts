@@ -3,6 +3,7 @@ import {
     CreateSearchParams,
     ISearchRepository,
     Search,
+    SearchesResponse,
     SearchResponse
 } from "#search/domain";
 import { Mapper } from "src/core/domain/mapper";
@@ -92,6 +93,31 @@ export class TypeORMSearchRepository implements ISearchRepository {
             }
 
             return success(this.mapper.toDomain(search));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async getAllForProject(projectId: string): Promise<SearchesResponse> {
+        try {
+            const project = await this.projectRepo.findOne({
+                where: { id: projectId }
+            });
+
+            if (!project) {
+                return failure(
+                    new NotFoundError(`Project with id ${projectId} not found`)
+                );
+            }
+
+            const searches = await this.repo.find({
+                where: { project: { id: project.id } },
+                relations: { project: true }
+            });
+
+            return success(
+                searches.map((search) => this.mapper.toDomain(search))
+            );
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

@@ -14,5 +14,6 @@ const controller = SearchController(
 
 router.post("/", requireUser, searchFilesUpload, controller.create);
 router.delete("/:searchId", requireUser, controller.delete);
+router.get("/project/:projectId", requireUser, controller.getAllForProject);
 
 export default router;

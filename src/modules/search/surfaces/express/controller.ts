@@ -10,7 +10,8 @@ import { BadRequestError, ForbiddenError } from "src/core/logic/errors";
 import {
     CreateSearchBody,
     ExpressCreateSearchRequest,
-    ExpressDeleteSearchRequest
+    ExpressDeleteSearchRequest,
+    ExpressGetAllForProjectRequest
 } from "./types";
 
 const _create =
@@ -189,10 +190,45 @@ const _delete =
         return res.sendStatus(StatusCodes.NO_CONTENT);
     };
 
+const _getAllForProject =
+    (searchRepo: ISearchRepository, projectRepo: IProjectRepository) =>
+    async (
+        req: ExpressGetAllForProjectRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
+        const { projectId } = req.params;
+
+        const projectResponse = await projectRepo.findById(projectId);
+
+        if (projectResponse.isFailure()) {
+            return next(projectResponse.error);
+        }
+
+        if (projectResponse.value.owner !== (req.user as User).id) {
+            return next(
+                new ForbiddenError(
+                    "You cannot access a project that does not belong to you"
+                )
+            );
+        }
+
+        const searchesResponse = await searchRepo.getAllForProject(projectId);
+
+        if (searchesResponse.isFailure()) {
+            return next(searchesResponse.error);
+        }
+
+        return res
+            .status(StatusCodes.OK)
+            .json({ success: true, searches: searchesResponse.value });
+    };
+
 export const SearchController = (
     searchRepo: ISearchRepository,
     projectRepo: IProjectRepository
 ) => ({
     create: _create(searchRepo, projectRepo),
-    delete: _delete(searchRepo, projectRepo)
+    delete: _delete(searchRepo, projectRepo),
+    getAllForProject: _getAllForProject(searchRepo, projectRepo)
 });
