@@ -6,8 +6,12 @@ import {
     SearchResponse
 } from "#search/domain";
 import { Mapper } from "src/core/domain/mapper";
-import { failure, success } from "src/core/logic";
-import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
+import { EmptyResponse, failure, success } from "src/core/logic";
+import {
+    BadRequestError,
+    NotFoundError,
+    UnexpectedError
+} from "src/core/logic/errors";
 import { Repository } from "typeorm";
 import { SearchEntity } from "./search.model";
 
@@ -51,6 +55,24 @@ export class TypeORMSearchRepository implements ISearchRepository {
 
             const createdSearch = await this.repo.save(search);
             return success(this.mapper.toDomain(createdSearch));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async delete(searchId: string): Promise<EmptyResponse> {
+        try {
+            const search = await this.repo.findOne({ where: { id: searchId } });
+
+            if (!search) {
+                return failure(
+                    new NotFoundError(`Search with id ${searchId} not found`)
+                );
+            }
+
+            await this.repo.remove(search);
+
+            return success(null);
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

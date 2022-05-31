@@ -1,4 +1,4 @@
-import { FailureOrSuccess } from "src/core/logic";
+import { EmptyResponse, FailureOrSuccess } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
 import { Search, SearchParameter } from "./Search";
 
@@ -17,4 +17,5 @@ export type CreateSearchParams = {
 
 export interface ISearchRepository {
     create(params: CreateSearchParams): Promise<SearchResponse>;
+    delete(searchId: string): Promise<EmptyResponse>;
 }
