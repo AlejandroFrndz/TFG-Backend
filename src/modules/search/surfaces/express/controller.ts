@@ -1,12 +1,8 @@
 import { IProjectRepository } from "#project/domain/repo";
-import {
-    CreateSearchParams,
-    ISearchRepository,
-    SearchParameterType
-} from "#search/domain";
+import { ISearchRepository } from "#search/domain";
 import { S3SearchService } from "#search/services/AWS/S3";
 import { User } from "#user/domain";
-import { Response, NextFunction, response } from "express";
+import { Response, NextFunction } from "express";
 import { StatusCodes } from "http-status-codes";
 import _ from "lodash";
 import { EmptyResponse } from "src/core/logic";
