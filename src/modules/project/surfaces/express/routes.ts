@@ -1,5 +1,4 @@
 import { typeORMProjectRepository } from "#project/infra/postgres";
-import { executeParseAndIndex } from "#project/services/fileSystem";
 import { Router } from "express";
 import { requireUser } from "src/core/surfaces/express/middleware/auth";
 import { ProjectController } from "./controller";

@@ -1,11 +1,7 @@
 import { Language } from "#project/domain";
 import { IProjectRepository } from "#project/domain/repo";
 import { S3Service } from "#project/services/AWS/S3";
-import {
-    executeParseAndIndex,
-    FileSystemService,
-    writeCorpusFiles
-} from "#project/services/fileSystem";
+import { FileSystemService } from "#project/services/fileSystem";
 import { User } from "#user/domain";
 import { NextFunction, Response } from "express";
 import { StatusCodes } from "http-status-codes";
@@ -103,7 +99,7 @@ const _handleCorpusUpload =
 
         const files = req.files as Express.Multer.File[];
 
-        const writeCorpusResponse = await writeCorpusFiles(
+        const writeCorpusResponse = await FileSystemService.writeCorpusFiles(
             files,
             userId,
             projectId
@@ -113,11 +109,12 @@ const _handleCorpusUpload =
             return next(writeCorpusResponse.error);
         }
 
-        const parseAndIndexResponse = await executeParseAndIndex(
-            project.language as Language,
-            userId,
-            project.id
-        );
+        const parseAndIndexResponse =
+            await FileSystemService.executeParseAndIndex(
+                project.language as Language,
+                userId,
+                project.id
+            );
 
         if (parseAndIndexResponse.isFailure()) {
             return next(parseAndIndexResponse.error);
