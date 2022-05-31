@@ -8,18 +8,15 @@ export const SearchMapper: Mapper<Search, SearchEntity> = {
         project: search.project.id,
         noun1: {
             type: search.noun1Type,
-            value: search.noun1Value,
-            fileLocation: search.noun1FileLocation
+            value: search.noun1Value
         },
         verb: {
             type: search.verbType,
-            value: search.verbValue,
-            fileLocation: search.verbFileLocation
+            value: search.verbValue
         },
         noun2: {
             type: search.noun2Type,
-            value: search.noun2Value,
-            fileLocation: search.noun2FileLocation
+            value: search.noun2Value
         },
         isUsingSynt: search.isUsingSynt
     })

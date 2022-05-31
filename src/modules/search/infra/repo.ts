@@ -42,13 +42,10 @@ export class TypeORMSearchRepository implements ISearchRepository {
                 project,
                 noun1Type: noun1.type,
                 noun1Value: noun1.value,
-                noun1FileLocation: noun1.fileLocation,
                 verbType: verb.type,
                 verbValue: verb.value,
-                verbFileLocation: verb.fileLocation,
                 noun2Type: noun2.type,
                 noun2Value: noun2.value,
-                noun2FileLocation: noun2.fileLocation,
                 isUsingSynt
             });
 

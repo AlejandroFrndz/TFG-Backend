@@ -4,17 +4,16 @@ export enum SearchParameterType {
     Any = "any"
 }
 
-export type DomainSearchParameter = {
+export type SearchParameter = {
     type: SearchParameterType;
-    value: string | null;
-    fileLocation: string | null;
+    value: string;
 };
 
 export type Search = {
     id: string;
     project: string;
-    noun1: DomainSearchParameter;
-    verb: DomainSearchParameter;
-    noun2: DomainSearchParameter;
+    noun1: SearchParameter;
+    verb: SearchParameter;
+    noun2: SearchParameter;
     isUsingSynt: boolean;
 };

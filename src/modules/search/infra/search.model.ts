@@ -20,29 +20,20 @@ export class SearchEntity {
     @Column({ type: "enum", enum: SearchParameterType, nullable: false })
     noun1Type!: SearchParameterType;
 
-    @Column({ type: "character varying", nullable: true })
-    noun1Value!: string | null;
-
-    @Column({ type: "character varying", nullable: true })
-    noun1FileLocation!: string | null;
+    @Column({ type: "character varying", nullable: false })
+    noun1Value!: string;
 
     @Column({ type: "enum", enum: SearchParameterType, nullable: false })
     verbType!: SearchParameterType;
 
-    @Column({ type: "character varying", nullable: true })
-    verbValue!: string | null;
-
-    @Column({ type: "character varying", nullable: true })
-    verbFileLocation!: string | null;
+    @Column({ type: "character varying", nullable: false })
+    verbValue!: string;
 
     @Column({ type: "enum", enum: SearchParameterType, nullable: false })
     noun2Type!: SearchParameterType;
 
-    @Column({ type: "character varying", nullable: true })
-    noun2Value!: string | null;
-
-    @Column({ type: "character varying", nullable: true })
-    noun2FileLocation!: string | null;
+    @Column({ type: "character varying", nullable: false })
+    noun2Value!: string;
 
     @Column({ type: "boolean", nullable: false })
     isUsingSynt!: boolean;
