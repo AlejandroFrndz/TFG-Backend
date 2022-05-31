@@ -1,7 +1,7 @@
 import { Language } from "#project/domain";
 import { IProjectRepository } from "#project/domain/repo";
 import { S3ProjectService } from "#project/services/AWS/S3";
-import { FileSystemService } from "#project/services/fileSystem";
+import { FileSystemProjectService } from "#project/services/FileSystem";
 import { User } from "#user/domain";
 import { NextFunction, Response } from "express";
 import { StatusCodes } from "http-status-codes";
@@ -99,18 +99,19 @@ const _handleCorpusUpload =
 
         const files = req.files as Express.Multer.File[];
 
-        const writeCorpusResponse = await FileSystemService.writeCorpusFiles(
-            files,
-            userId,
-            projectId
-        );
+        const writeCorpusResponse =
+            await FileSystemProjectService.writeCorpusFiles(
+                files,
+                userId,
+                projectId
+            );
 
         if (writeCorpusResponse.isFailure()) {
             return next(writeCorpusResponse.error);
         }
 
         const parseAndIndexResponse =
-            await FileSystemService.executeParseAndIndex(
+            await FileSystemProjectService.executeParseAndIndex(
                 project.language as Language,
                 userId,
                 project.id
@@ -137,7 +138,7 @@ const _handleCorpusUpload =
             return next(updateProjectResponse.error);
         }
 
-        await FileSystemService.deleteProcessedCorpusDir(userId);
+        await FileSystemProjectService.deleteProcessedCorpusDir(userId);
 
         res.status(StatusCodes.OK).json({
             success: true,

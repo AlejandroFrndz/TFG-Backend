@@ -102,7 +102,7 @@ const deleteProcessedCorpusDir = async (
     );
 };
 
-export const FileSystemService = {
+export const FileSystemProjectService = {
     writeCorpusFiles,
     executeParseAndIndex,
     deleteProcessedCorpusDir
