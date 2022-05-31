@@ -136,6 +136,7 @@ const _create =
         const error = responses.find((response) => response.isFailure());
 
         if (error) {
+            await searchRepo.delete(search.id);
             return next(error.error);
         }
 
