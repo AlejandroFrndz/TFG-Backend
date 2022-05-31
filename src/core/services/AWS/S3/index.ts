@@ -2,6 +2,7 @@ import { PutObjectCommand } from "@aws-sdk/client-s3";
 import { createReadStream } from "fs";
 import path from "path";
 import { getFilesFromDir } from "src/core/services/FileSystem";
+import internal from "stream";
 import { s3Client } from "./client";
 
 export const uploadFile = async (params: {
@@ -36,4 +37,26 @@ export const uploadDir = async (
     );
 
     return Promise.all(uploads);
+};
+
+export const uploadBlob = async (params: {
+    key: string;
+    bucket: string;
+    blob:
+        | string
+        | Buffer
+        | internal.Readable
+        | ReadableStream<any>
+        | Blob
+        | Uint8Array;
+}) => {
+    const { key, bucket, blob } = params;
+
+    const command = new PutObjectCommand({
+        Key: key,
+        Bucket: bucket,
+        Body: blob
+    });
+
+    return s3Client.send(command);
 };

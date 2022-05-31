@@ -6,7 +6,7 @@ type CreateSearchRequestParameter = {
     value: string | null;
 };
 
-type CreateSearchRequestBody = {
+export type CreateSearchBody = {
     noun1: CreateSearchRequestParameter;
     verb: CreateSearchRequestParameter;
     noun2: CreateSearchRequestParameter;
@@ -14,8 +14,8 @@ type CreateSearchRequestBody = {
     project: string;
 };
 
-export type ExpressCreateSearchRequest = Request<
-    {},
-    {},
-    CreateSearchRequestBody
->;
+type CreateSearchRequest = {
+    document: string;
+};
+
+export type ExpressCreateSearchRequest = Request<{}, {}, CreateSearchRequest>;

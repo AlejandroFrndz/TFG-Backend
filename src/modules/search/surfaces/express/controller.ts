@@ -4,11 +4,14 @@ import {
     ISearchRepository,
     SearchParameterType
 } from "#search/domain";
+import { S3SearchService } from "#search/services/AWS/S3";
 import { User } from "#user/domain";
-import { Response, NextFunction } from "express";
+import { Response, NextFunction, response } from "express";
 import { StatusCodes } from "http-status-codes";
-import { ForbiddenError } from "src/core/logic/errors";
-import { ExpressCreateSearchRequest } from "./types";
+import _ from "lodash";
+import { EmptyResponse } from "src/core/logic";
+import { BadRequestError, ForbiddenError } from "src/core/logic/errors";
+import { CreateSearchBody, ExpressCreateSearchRequest } from "./types";
 
 const _create =
     (searchRepo: ISearchRepository, projectRepo: IProjectRepository) =>
@@ -17,13 +20,15 @@ const _create =
         res: Response,
         next: NextFunction
     ) => {
+        const parsedBody: CreateSearchBody = JSON.parse(req.body.document);
+
         const {
             project: projectId,
             noun1,
             verb,
             noun2,
             isUsingSynt
-        } = req.body;
+        } = parsedBody;
 
         const projectResponse = await projectRepo.findById(projectId);
 
@@ -39,37 +44,103 @@ const _create =
             );
         }
 
-        if (noun1.type === SearchParameterType.File) {
-            // Handle S3 file upload
-        }
+        let noun1File: Express.Multer.File | undefined;
+        let verbFile: Express.Multer.File | undefined;
+        let noun2File: Express.Multer.File | undefined;
 
-        if (verb.type === SearchParameterType.File) {
-            // Handle S3 file upload
-        }
+        if (
+            (noun1.type === "file" ||
+                verb.type === "file" ||
+                noun2.type === "file") &&
+            _.isEmpty(req.files)
+        ) {
+            return next(
+                new BadRequestError(
+                    "Some parameter is of type file but no files were uploaded with the request"
+                )
+            );
+        } else if (
+            noun1.type === "file" ||
+            verb.type === "file" ||
+            noun2.type === "file"
+        ) {
+            const files = req.files as {
+                [fieldname: string]: Express.Multer.File[];
+            };
 
-        if (noun2.type === SearchParameterType.File) {
-            // Handle S3 file upload
-        }
+            if (noun1.type === "file") {
+                noun1File = files["noun1File"][0];
+            }
 
+            if (verb.type === "file") {
+                verbFile = files["verbFile"][0];
+            }
+
+            if (noun2.type === "file") {
+                noun2File = files["noun2File"][0];
+            }
+        }
         const searchResponse = await searchRepo.create({
             noun1: {
                 type: noun1.type,
-                value: noun1.value === null ? "" : noun1.value
+                value: noun1File
+                    ? noun1File.originalname
+                    : (noun1.value as string)
             },
             verb: {
                 type: verb.type,
-                value: verb.value === null ? "" : verb.value
+                value: verbFile ? verbFile.originalname : (verb.value as string)
             },
             noun2: {
                 type: noun2.type,
-                value: noun2.value === null ? "" : noun2.value
+                value: noun2File
+                    ? noun2File.originalname
+                    : (noun2.value as string)
             },
             isUsingSynt,
             project: projectId
         });
 
         if (searchResponse.isFailure()) {
-            next(searchResponse.error);
+            return next(searchResponse.error);
+        }
+
+        const search = searchResponse.value;
+
+        const promises: Promise<EmptyResponse>[] = [];
+
+        if (noun1.type === "file" && noun1File) {
+            promises.push(
+                S3SearchService.uploadParameterFile(
+                    search.id,
+                    "noun1",
+                    noun1File
+                )
+            );
+        }
+
+        if (verb.type === "file" && verbFile) {
+            promises.push(
+                S3SearchService.uploadParameterFile(search.id, "verb", verbFile)
+            );
+        }
+
+        if (noun2.type === "file" && noun2File) {
+            promises.push(
+                S3SearchService.uploadParameterFile(
+                    search.id,
+                    "noun2",
+                    noun2File
+                )
+            );
+        }
+
+        const responses = await Promise.all(promises);
+
+        const error = responses.find((response) => response.isFailure());
+
+        if (error) {
+            return next(error.error);
         }
 
         return res
