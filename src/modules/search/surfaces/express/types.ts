@@ -21,3 +21,4 @@ type CreateSearchRequest = {
 export type ExpressCreateSearchRequest = Request<{}, {}, CreateSearchRequest>;
 export type ExpressDeleteSearchRequest = Request<{ searchId: string }>;
 export type ExpressGetAllForProjectRequest = Request<{ projectId: string }>;
+export type ExpressRunSearchesRequest = Request<{ projectId: string }>;
