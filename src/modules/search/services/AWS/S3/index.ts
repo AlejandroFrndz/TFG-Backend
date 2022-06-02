@@ -53,7 +53,8 @@ const getProcessedCorpus = async (params: {
     userId: string;
     projectId: string;
 }): Promise<EmptyResponse> => {
-    const { userId, projectId } = params;
+    return success(null);
+    /*const { userId, projectId } = params;
     try {
         const listResponse = await listObjects({
             bucket: config.AWS.S3.processedCorpusBucket,
@@ -67,12 +68,6 @@ const getProcessedCorpus = async (params: {
                 new NotFoundError("Processed corpus not found in S3")
             );
         }
-
-        /**
-         * Using fs.writeFile and fs.mkdir directly brakes the separation between file system and s3 services
-         * But by doing this we avoid having to store in memory the Buffers for all corpus files at once
-         * Just choosing the lesser evil
-         */
 
         // Create project directory in searches (also create index directory for the files that need it)
         try {
@@ -125,7 +120,7 @@ const getProcessedCorpus = async (params: {
         return success(null);
     } catch (error) {
         return failure(new UnexpectedError(error));
-    }
+    }*/
 };
 export const S3SearchService = {
     uploadParameterFile,

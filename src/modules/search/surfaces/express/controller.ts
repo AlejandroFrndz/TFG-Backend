@@ -345,6 +345,21 @@ const _runSearches =
                     return next(noun2FileFileSystemResponse.error);
                 }
             }
+
+            const execSearchResponse =
+                await FileSystemSearchService.executeSearchTriples(search);
+
+            if (execSearchResponse.isFailure()) {
+                return next(execSearchResponse.error);
+            }
+        }
+
+        // After all searches have been executed, group them up in a single tsv file
+        const groupSearchesResponse =
+            await FileSystemSearchService.executeGroupTriples(projectId);
+
+        if (groupSearchesResponse.isFailure()) {
+            return next(groupSearchesResponse.error);
         }
 
         return res.status(StatusCodes.OK).json({ success: true, search: {} });
