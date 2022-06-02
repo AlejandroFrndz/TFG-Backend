@@ -5,6 +5,7 @@ import { EmptyResponse, failure, success } from "src/core/logic";
 import { UnexpectedError } from "src/core/logic/errors";
 import child_process from "child_process";
 import util from "util";
+import { deleteDir } from "src/core/services/FileSystem";
 
 const execFile = util.promisify(child_process.execFile);
 
@@ -108,8 +109,13 @@ const executeGroupTriples = async (
     }
 };
 
+const deleteSearchesDir = async (projectId: string): Promise<EmptyResponse> => {
+    return await deleteDir(`${_getSearchesProjectFolder(projectId)}`);
+};
+
 export const FileSystemSearchService = {
     writeParameterFile,
     executeSearchTriples,
-    executeGroupTriples
+    executeGroupTriples,
+    deleteSearchesDir
 };

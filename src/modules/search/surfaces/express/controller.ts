@@ -362,7 +362,24 @@ const _runSearches =
             return next(groupSearchesResponse.error);
         }
 
-        return res.status(StatusCodes.OK).json({ success: true, search: {} });
+        /**
+         * Temporal solution to upload the raw .tsv file to s3
+         */
+
+        const uploadResultResponse =
+            await S3SearchService.uploadSearchResultFile(projectId);
+
+        if (uploadResultResponse.isFailure()) {
+            return next(uploadResultResponse.error);
+        }
+
+        void FileSystemSearchService.deleteSearchesDir(projectId);
+
+        return res.status(StatusCodes.OK).json({
+            success: true,
+            search: {},
+            url: uploadResultResponse.value
+        });
     };
 
 export const SearchController = (
