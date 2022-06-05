@@ -2,16 +2,15 @@ import util from "util";
 import { promises as fs } from "fs";
 import path from "path";
 import child_process from "child_process";
-import { failure, FailureOrSuccess, success } from "src/core/logic";
+import { failure, success } from "src/core/logic";
 import { UnexpectedError } from "src/core/logic/errors";
 import { Language } from "#project/domain";
 import { config } from "src/app/config";
+import { deleteDir, FileSystemResponse } from "src/core/services/FileSystem";
 
 const execFile = util.promisify(child_process.execFile);
 
-type FileSystemResponse = FailureOrSuccess<UnexpectedError, null>;
-
-export const writeCorpusFiles = async (
+const writeCorpusFiles = async (
     files: Express.Multer.File[],
     userId: string,
     projectId: string
@@ -57,7 +56,7 @@ export const writeCorpusFiles = async (
 
 type LangCode = "EN" | "ES" | "FR";
 
-export const executeParseAndIndex = async (
+const executeParseAndIndex = async (
     language: Language,
     userId: string,
     projectId: string
@@ -93,31 +92,6 @@ export const executeParseAndIndex = async (
     }
 };
 
-export const getFilesFromDir = async (
-    dir: string
-): Promise<string | string[]> => {
-    const dirents = await fs.readdir(dir, { withFileTypes: true });
-    const files = await Promise.all(
-        dirents.map((dirent) => {
-            const res = path.resolve(dir, dirent.name);
-            return dirent.isDirectory() ? getFilesFromDir(res) : res;
-        })
-    );
-
-    return Array.prototype.concat(...files);
-};
-
-const deleteDir = async (dir: string): Promise<FileSystemResponse> => {
-    try {
-        await fs.rm(dir, { recursive: true, force: true });
-
-        return success(null);
-    } catch (error) {
-        console.log(error);
-        return failure(new UnexpectedError(error));
-    }
-};
-
 const deleteProcessedCorpusDir = async (
     userId: string
 ): Promise<FileSystemResponse> => {
@@ -128,10 +102,10 @@ const deleteProcessedCorpusDir = async (
     );
 };
 
-export const FileSystemService = {
+export const FileSystemProjectService = {
     writeCorpusFiles,
     executeParseAndIndex,
-    getFilesFromDir,
-    deleteDir,
     deleteProcessedCorpusDir
 };
+
+export type IFileSystemProjectService = typeof FileSystemProjectService;

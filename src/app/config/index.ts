@@ -42,7 +42,12 @@ export const config = {
         secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || "",
 
         S3: {
-            processedCorpusBucket: process.env.AWS_PROCESSED_CORPUS_BUCKET || ""
+            processedCorpusBucket:
+                process.env.AWS_PROCESSED_CORPUS_BUCKET || "",
+            searchParameterFilesBucket:
+                process.env.AWS_SEARCH_PARAMETER_FILES_BUCKET || "",
+            tmpSearchResultsBucket:
+                process.env.AWS_TMP_SEARCH_RESULTS_BUCKET || ""
         }
     }
 };
