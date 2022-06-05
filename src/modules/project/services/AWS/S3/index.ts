@@ -26,3 +26,5 @@ const uploadProcessedCorpus = async (
 export const S3ProjectService = {
     uploadProcessedCorpus
 };
+
+export type IS3ProjectService = typeof S3ProjectService;

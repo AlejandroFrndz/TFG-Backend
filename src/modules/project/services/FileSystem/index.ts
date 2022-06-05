@@ -107,3 +107,5 @@ export const FileSystemProjectService = {
     executeParseAndIndex,
     deleteProcessedCorpusDir
 };
+
+export type IFileSystemProjectService = typeof FileSystemProjectService;

@@ -1,7 +1,7 @@
 import { Language } from "#project/domain";
 import { IProjectRepository } from "#project/domain/repo";
-import { S3ProjectService } from "#project/services/AWS/S3";
-import { FileSystemProjectService } from "#project/services/FileSystem";
+import { IS3ProjectService } from "#project/services/AWS/S3";
+import { IFileSystemProjectService } from "#project/services/FileSystem";
 import { ISearchRepository } from "#search/domain";
 import { IS3SearchService } from "#search/services/AWS/S3";
 import { IFileSystemSearchService } from "#search/services/FileSystem";
@@ -84,7 +84,11 @@ const _updateDetails =
     };
 
 const _handleCorpusUpload =
-    (projectRepo: IProjectRepository) =>
+    (
+        projectRepo: IProjectRepository,
+        s3ProjectService: IS3ProjectService,
+        fileSystemProjectService: IFileSystemProjectService
+    ) =>
     async (
         req: ExpressUploadCorpusRequest,
         res: Response,
@@ -104,7 +108,7 @@ const _handleCorpusUpload =
         const files = req.files as Express.Multer.File[];
 
         const writeCorpusResponse =
-            await FileSystemProjectService.writeCorpusFiles(
+            await fileSystemProjectService.writeCorpusFiles(
                 files,
                 userId,
                 projectId
@@ -115,7 +119,7 @@ const _handleCorpusUpload =
         }
 
         const parseAndIndexResponse =
-            await FileSystemProjectService.executeParseAndIndex(
+            await fileSystemProjectService.executeParseAndIndex(
                 project.language as Language,
                 userId,
                 project.id
@@ -125,7 +129,7 @@ const _handleCorpusUpload =
             return next(parseAndIndexResponse.error);
         }
 
-        const s3UploadResponse = await S3ProjectService.uploadProcessedCorpus(
+        const s3UploadResponse = await s3ProjectService.uploadProcessedCorpus(
             userId,
             project.id
         );
@@ -142,7 +146,7 @@ const _handleCorpusUpload =
             return next(updateProjectResponse.error);
         }
 
-        await FileSystemProjectService.deleteProcessedCorpusDir(userId);
+        await fileSystemProjectService.deleteProcessedCorpusDir(userId);
 
         res.status(StatusCodes.OK).json({
             success: true,
@@ -154,8 +158,8 @@ const _runSearches =
     (
         searchRepo: ISearchRepository,
         projectRepo: IProjectRepository,
-        S3SearchService: IS3SearchService,
-        FileSystemSearchService: IFileSystemSearchService
+        s3SearchService: IS3SearchService,
+        fileSystemSearchService: IFileSystemSearchService
     ) =>
     async (
         req: ExpressRunSearchesRequest,
@@ -187,7 +191,7 @@ const _runSearches =
         const project = projectResponse.value;
         const searches = searchesResponse.value;
 
-        const corpusResponse = await S3SearchService.getProcessedCorpus({
+        const corpusResponse = await s3SearchService.getProcessedCorpus({
             userId: project.owner,
             projectId: project.id
         });
@@ -202,7 +206,7 @@ const _runSearches =
             // If any of the parameters is a file, we must access S3 and retrieve the file before running the search script
             if (noun1.type === "file") {
                 const noun1FileS3Response =
-                    await S3SearchService.getParameterFile(
+                    await s3SearchService.getParameterFile(
                         search.id,
                         "noun1",
                         noun1.value
@@ -213,7 +217,7 @@ const _runSearches =
                 }
 
                 const noun1FileFileSystemResponse =
-                    await FileSystemSearchService.writeParameterFile(
+                    await fileSystemSearchService.writeParameterFile(
                         project.id,
                         search.id,
                         "noun1",
@@ -227,7 +231,7 @@ const _runSearches =
 
             if (verb.type === "file") {
                 const verbFileS3Response =
-                    await S3SearchService.getParameterFile(
+                    await s3SearchService.getParameterFile(
                         search.id,
                         "verb",
                         verb.value
@@ -238,7 +242,7 @@ const _runSearches =
                 }
 
                 const verbFileFileSystemResponse =
-                    await FileSystemSearchService.writeParameterFile(
+                    await fileSystemSearchService.writeParameterFile(
                         project.id,
                         search.id,
                         "verb",
@@ -252,7 +256,7 @@ const _runSearches =
 
             if (noun2.type === "file") {
                 const noun2FileS3Response =
-                    await S3SearchService.getParameterFile(
+                    await s3SearchService.getParameterFile(
                         search.id,
                         "noun2",
                         noun2.value
@@ -263,7 +267,7 @@ const _runSearches =
                 }
 
                 const noun2FileFileSystemResponse =
-                    await FileSystemSearchService.writeParameterFile(
+                    await fileSystemSearchService.writeParameterFile(
                         project.id,
                         search.id,
                         "noun2",
@@ -276,7 +280,7 @@ const _runSearches =
             }
 
             const execSearchResponse =
-                await FileSystemSearchService.executeSearchTriples(search);
+                await fileSystemSearchService.executeSearchTriples(search);
 
             if (execSearchResponse.isFailure()) {
                 return next(execSearchResponse.error);
@@ -285,7 +289,7 @@ const _runSearches =
 
         // After all searches have been executed, group them up in a single tsv file
         const groupSearchesResponse =
-            await FileSystemSearchService.executeGroupTriples(projectId);
+            await fileSystemSearchService.executeGroupTriples(projectId);
 
         if (groupSearchesResponse.isFailure()) {
             return next(groupSearchesResponse.error);
@@ -296,13 +300,13 @@ const _runSearches =
          */
 
         const uploadResultResponse =
-            await S3SearchService.uploadSearchResultFile(projectId);
+            await s3SearchService.uploadSearchResultFile(projectId);
 
         if (uploadResultResponse.isFailure()) {
             return next(uploadResultResponse.error);
         }
 
-        void FileSystemSearchService.deleteSearchesDir(projectId);
+        void fileSystemSearchService.deleteSearchesDir(projectId);
 
         const updateProjectResponse = await projectRepo.finishCreation(
             projectId
@@ -322,16 +326,22 @@ const _runSearches =
 export const ProjectController = (
     projectRepo: IProjectRepository,
     searchRepo: ISearchRepository,
-    S3SearchService: IS3SearchService,
-    FileSystemSearchService: IFileSystemSearchService
+    s3SearchService: IS3SearchService,
+    fileSystemSearchService: IFileSystemSearchService,
+    s3ProjectService: IS3ProjectService,
+    fileSystemProjectService: IFileSystemProjectService
 ) => ({
     findById: _findById(projectRepo),
     updateDetails: _updateDetails(projectRepo),
-    handleCorpusUpload: _handleCorpusUpload(projectRepo),
+    handleCorpusUpload: _handleCorpusUpload(
+        projectRepo,
+        s3ProjectService,
+        fileSystemProjectService
+    ),
     runSearches: _runSearches(
         searchRepo,
         projectRepo,
-        S3SearchService,
-        FileSystemSearchService
+        s3SearchService,
+        fileSystemSearchService
     )
 });
