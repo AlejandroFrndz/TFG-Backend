@@ -199,7 +199,7 @@ export class TypeORMFileRepository implements IFileRepository {
         try {
             const file = await this.repo.findOne({
                 where: { id: fileId },
-                relations: { owner: true, parent: true, project: true }
+                relations: ["owner", "parent", "project", "project.owner"]
             });
 
             if (!file) {
@@ -208,7 +208,20 @@ export class TypeORMFileRepository implements IFileRepository {
                 );
             }
 
-            await this.repo.remove(file);
+            // If the project owner deletes the associated file, promote the deletion to removing the project
+            // It will then cascade to other (shared) files as well as this file
+            if (file.project.owner.id === file.owner.id) {
+                const project = await this.projectRepo.findOne({
+                    where: { id: file.project.id }
+                });
+
+                if (project) {
+                    await this.projectRepo.remove(project);
+                }
+            } else {
+                // If it is a shared file, just delete the file and continue
+                await this.repo.remove(file);
+            }
 
             return success(null);
         } catch (error) {
