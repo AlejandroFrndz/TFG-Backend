@@ -167,3 +167,5 @@ export const S3SearchService = {
     getProcessedCorpus,
     uploadSearchResultFile
 };
+
+export type IS3SearchService = typeof S3SearchService;

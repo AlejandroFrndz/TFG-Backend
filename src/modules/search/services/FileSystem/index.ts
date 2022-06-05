@@ -119,3 +119,5 @@ export const FileSystemSearchService = {
     executeGroupTriples,
     deleteSearchesDir
 };
+
+export type IFileSystemSearchService = typeof FileSystemSearchService;
