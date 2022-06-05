@@ -375,9 +375,17 @@ const _runSearches =
 
         void FileSystemSearchService.deleteSearchesDir(projectId);
 
+        const updateProjectResponse = await projectRepo.finishCreation(
+            projectId
+        );
+
+        if (updateProjectResponse.isFailure()) {
+            return next(updateProjectResponse.error);
+        }
+
         return res.status(StatusCodes.OK).json({
             success: true,
-            search: {},
+            project: updateProjectResponse.value,
             url: uploadResultResponse.value
         });
     };

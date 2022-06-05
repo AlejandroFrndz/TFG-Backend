@@ -85,4 +85,27 @@ export class TypeORMProjectRepository implements IProjectRepository {
             return failure(new UnexpectedError(error));
         }
     }
+
+    async finishAnalysis(id: string): Promise<ProjectResponse> {
+        try {
+            const project = await this.repo.findOne({
+                where: { id },
+                relations: { owner: true }
+            });
+
+            if (!project) {
+                return failure(
+                    new NotFoundError(`Project with id ${id} not found`)
+                );
+            }
+
+            project.phase = ProjectPhase.Tagging;
+
+            const savedProject = await this.repo.save(project);
+
+            return success(this.mapper.toDomain(savedProject));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
 }
