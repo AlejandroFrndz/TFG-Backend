@@ -1,7 +1,6 @@
 import { IProjectRepository } from "#project/domain/repo";
 import { ISearchRepository } from "#search/domain";
-import { S3SearchService } from "#search/services/AWS/S3";
-import { FileSystemSearchService } from "#search/services/FileSystem";
+import { IS3SearchService } from "#search/services/AWS/S3";
 import { User } from "#user/domain";
 import { Response, NextFunction } from "express";
 import { StatusCodes } from "http-status-codes";
@@ -16,7 +15,11 @@ import {
 } from "./types";
 
 const _create =
-    (searchRepo: ISearchRepository, projectRepo: IProjectRepository) =>
+    (
+        searchRepo: ISearchRepository,
+        projectRepo: IProjectRepository,
+        s3SearchService: IS3SearchService
+    ) =>
     async (
         req: ExpressCreateSearchRequest,
         res: Response,
@@ -113,7 +116,7 @@ const _create =
 
         if (noun1.type === "file" && noun1File) {
             promises.push(
-                S3SearchService.uploadParameterFile(
+                s3SearchService.uploadParameterFile(
                     search.id,
                     "noun1",
                     noun1File
@@ -123,13 +126,13 @@ const _create =
 
         if (verb.type === "file" && verbFile) {
             promises.push(
-                S3SearchService.uploadParameterFile(search.id, "verb", verbFile)
+                s3SearchService.uploadParameterFile(search.id, "verb", verbFile)
             );
         }
 
         if (noun2.type === "file" && noun2File) {
             promises.push(
-                S3SearchService.uploadParameterFile(
+                s3SearchService.uploadParameterFile(
                     search.id,
                     "noun2",
                     noun2File
@@ -227,9 +230,10 @@ const _getAllForProject =
 
 export const SearchController = (
     searchRepo: ISearchRepository,
-    projectRepo: IProjectRepository
+    projectRepo: IProjectRepository,
+    s3SearchService: IS3SearchService
 ) => ({
-    create: _create(searchRepo, projectRepo),
+    create: _create(searchRepo, projectRepo, s3SearchService),
     delete: _delete(searchRepo, projectRepo),
     getAllForProject: _getAllForProject(searchRepo, projectRepo)
 });
