@@ -308,7 +308,7 @@ const _runSearches =
 
         void fileSystemSearchService.deleteSearchesDir(projectId);
 
-        const updateProjectResponse = await projectRepo.finishCreation(
+        const updateProjectResponse = await projectRepo.finishAnalysis(
             projectId
         );
 
