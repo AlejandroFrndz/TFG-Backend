@@ -9,6 +9,7 @@ import parseToken from "src/core/surfaces/express/middleware/parseToken";
 import cors from "cors";
 import logger from "morgan";
 import { errorHandler } from "src/core/surfaces/express/middleware/errorHandler";
+import { corsOptions } from "./corsOptions";
 
 const PREFIX = "/api/v1";
 
@@ -18,7 +19,7 @@ const setUpApp = (app: Application) => {
     app.use(express.urlencoded({ extended: true }));
 
     // Cors
-    app.use(cors());
+    app.use(cors(corsOptions));
 
     // Logger
     app.use(logger("dev"));
