@@ -10,7 +10,7 @@ corpusindex=$2/index/corpus.info
 outfile=$3
 isProd=$4
 
-if [ "$isProd" == "false"]; then
+if [ "$isProd" == "false" ]; then
   MWETOOLKIT="./src/tools/mwetoolkit/"
 else
   MWETOOLKIT="./dist/src/tools/mwetoolkit/"
