@@ -297,17 +297,6 @@ const _runSearches =
             return next(groupSearchesResponse.error);
         }
 
-        /**
-         * Temporal solution to upload the raw .tsv file to s3
-         */
-
-        const uploadResultResponse =
-            await s3SearchService.uploadSearchResultFile(projectId);
-
-        if (uploadResultResponse.isFailure()) {
-            return next(uploadResultResponse.error);
-        }
-
         // Read .tsv file
         const parseResultsResponse =
             await fileSystemSearchService.parseResultsFile(projectId);
@@ -337,8 +326,7 @@ const _runSearches =
 
         return res.status(StatusCodes.OK).json({
             success: true,
-            project: updateProjectResponse.value,
-            url: uploadResultResponse.value
+            project: updateProjectResponse.value
         });
     };
 
