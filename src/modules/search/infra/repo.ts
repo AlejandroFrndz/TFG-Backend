@@ -8,11 +8,7 @@ import {
 } from "#search/domain";
 import { Mapper } from "src/core/domain/mapper";
 import { EmptyResponse, failure, success } from "src/core/logic";
-import {
-    BadRequestError,
-    NotFoundError,
-    UnexpectedError
-} from "src/core/logic/errors";
+import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
 import { Repository } from "typeorm";
 import { SearchEntity } from "./search.model";
 

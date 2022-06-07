@@ -4,6 +4,7 @@ import { FileSystemProjectService } from "#project/services/FileSystem";
 import { typeORMSearchRepository } from "#search/infra";
 import { S3SearchService } from "#search/services/AWS/S3";
 import { FileSystemSearchService } from "#search/services/FileSystem";
+import { typeORMTripleRepository } from "#triple/infra";
 import { Router } from "express";
 import { requireUser } from "src/core/surfaces/express/middleware/auth";
 import { ProjectController } from "./controller";
@@ -17,7 +18,8 @@ const controller = ProjectController(
     S3SearchService,
     FileSystemSearchService,
     S3ProjectService,
-    FileSystemProjectService
+    FileSystemProjectService,
+    typeORMTripleRepository
 );
 
 router.get("/:projectId", requireUser, controller.findById);

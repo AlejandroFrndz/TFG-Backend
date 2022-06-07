@@ -5,6 +5,7 @@ import { IFileSystemProjectService } from "#project/services/FileSystem";
 import { ISearchRepository } from "#search/domain";
 import { IS3SearchService } from "#search/services/AWS/S3";
 import { IFileSystemSearchService } from "#search/services/FileSystem";
+import { ITripleRepository } from "#triple/domain/repo";
 import { User } from "#user/domain";
 import { NextFunction, Response } from "express";
 import { StatusCodes } from "http-status-codes";
@@ -159,7 +160,8 @@ const _runSearches =
         searchRepo: ISearchRepository,
         projectRepo: IProjectRepository,
         s3SearchService: IS3SearchService,
-        fileSystemSearchService: IFileSystemSearchService
+        fileSystemSearchService: IFileSystemSearchService,
+        tripleRepo: ITripleRepository
     ) =>
     async (
         req: ExpressRunSearchesRequest,
@@ -306,6 +308,23 @@ const _runSearches =
             return next(uploadResultResponse.error);
         }
 
+        // Read .tsv file
+        const parseResultsResponse =
+            await fileSystemSearchService.parseResultsFile(projectId);
+
+        if (parseResultsResponse.isFailure()) {
+            return next(parseResultsResponse.error);
+        }
+
+        const saveTriplesResponse = await tripleRepo.createMultiple(
+            parseResultsResponse.value,
+            projectId
+        );
+
+        if (saveTriplesResponse.isFailure()) {
+            return next(saveTriplesResponse.error);
+        }
+
         void fileSystemSearchService.deleteSearchesDir(projectId);
 
         const updateProjectResponse = await projectRepo.finishAnalysis(
@@ -329,7 +348,8 @@ export const ProjectController = (
     s3SearchService: IS3SearchService,
     fileSystemSearchService: IFileSystemSearchService,
     s3ProjectService: IS3ProjectService,
-    fileSystemProjectService: IFileSystemProjectService
+    fileSystemProjectService: IFileSystemProjectService,
+    tripleRepo: ITripleRepository
 ) => ({
     findById: _findById(projectRepo),
     updateDetails: _updateDetails(projectRepo),
@@ -342,6 +362,7 @@ export const ProjectController = (
         searchRepo,
         projectRepo,
         s3SearchService,
-        fileSystemSearchService
+        fileSystemSearchService,
+        tripleRepo
     )
 });

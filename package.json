@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.ts",
+    "engines": {
+        "node": "^16"
+    },
     "scripts": {
         "start": "node dist/src/index.js",
         "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json && cp -r ./src/scripts/ ./dist/src/scripts && cp -r ./src/tools/ ./dist/src/tools",
@@ -40,6 +43,8 @@
         "@aws-sdk/s3-request-presigner": "^3.100.0",
         "bcrypt": "^5.0.1",
         "cors": "^2.8.5",
+        "csv-parse": "^5.1.0",
+        "csv-stringify": "^6.1.0",
         "dotenv": "^16.0.0",
         "express": "^4.17.3",
         "http-status-codes": "^2.2.0",
