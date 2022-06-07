@@ -9,7 +9,7 @@ import { ITripleRepository } from "#triple/domain/repo";
 import { User } from "#user/domain";
 import { NextFunction, Response } from "express";
 import { StatusCodes } from "http-status-codes";
-import { ForbiddenError } from "src/core/logic/errors";
+import { BadRequestError, ForbiddenError } from "src/core/logic/errors";
 import {
     ExpressGetProjectRequest,
     ExpressRunSearchesRequest,
@@ -303,6 +303,10 @@ const _runSearches =
 
         if (parseResultsResponse.isFailure()) {
             return next(parseResultsResponse.error);
+        }
+
+        if (parseResultsResponse.value.length === 0) {
+            return next(new BadRequestError("Empty result files"));
         }
 
         const saveTriplesResponse = await tripleRepo.createMultiple(
