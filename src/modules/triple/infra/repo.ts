@@ -74,7 +74,8 @@ export class TypeORMTripleRepository implements ITripleRepository {
             }
 
             const triples = await this.repo.find({
-                where: { project: { id: projectId } }
+                where: { project: { id: projectId } },
+                relations: ["project"]
             });
 
             return success(
