@@ -294,6 +294,7 @@ const _runSearches =
             await fileSystemSearchService.executeGroupTriples(projectId);
 
         if (groupSearchesResponse.isFailure()) {
+            void fileSystemSearchService.deleteSearchesDir(projectId);
             return next(groupSearchesResponse.error);
         }
 
@@ -302,10 +303,12 @@ const _runSearches =
             await fileSystemSearchService.parseResultsFile(projectId);
 
         if (parseResultsResponse.isFailure()) {
+            void fileSystemSearchService.deleteSearchesDir(projectId);
             return next(parseResultsResponse.error);
         }
 
         if (parseResultsResponse.value.length === 0) {
+            void fileSystemSearchService.deleteSearchesDir(projectId);
             return next(new BadRequestError("Empty result files"));
         }
 
@@ -315,6 +318,7 @@ const _runSearches =
         );
 
         if (saveTriplesResponse.isFailure()) {
+            void fileSystemSearchService.deleteSearchesDir(projectId);
             return next(saveTriplesResponse.error);
         }
 
