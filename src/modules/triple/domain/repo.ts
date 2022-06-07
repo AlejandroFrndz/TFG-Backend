@@ -12,4 +12,5 @@ export interface ITripleRepository {
         fileTriples: FileDomainTriple[],
         projectId: string
     ): Promise<TriplesResponse>;
+    getAllForProject(projectId: string): Promise<TriplesResponse>;
 }

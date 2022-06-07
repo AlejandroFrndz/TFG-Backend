@@ -60,4 +60,28 @@ export class TypeORMTripleRepository implements ITripleRepository {
             return failure(new UnexpectedError(error));
         }
     }
+
+    async getAllForProject(projectId: string): Promise<TriplesResponse> {
+        try {
+            const project = await this.projectRepo.findOne({
+                where: { id: projectId }
+            });
+
+            if (!project) {
+                return failure(
+                    new NotFoundError(`Project with id ${projectId} not found`)
+                );
+            }
+
+            const triples = await this.repo.find({
+                where: { project: { id: projectId } }
+            });
+
+            return success(
+                triples.map((triple) => this.mapper.toDomain(triple))
+            );
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
 }
