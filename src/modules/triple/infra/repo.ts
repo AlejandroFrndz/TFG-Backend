@@ -1,6 +1,11 @@
 import { ProjectEntity } from "#project/infra/postgres/project.model";
 import { FileDomainTriple, Triple } from "#triple/domain";
-import { ITripleRepository, TriplesResponse } from "#triple/domain/repo";
+import {
+    ITripleRepository,
+    TripleResponse,
+    TriplesResponse,
+    UpdateTagsRequest
+} from "#triple/domain/repo";
 import { Mapper } from "src/core/domain/mapper";
 import { failure, success } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
@@ -75,12 +80,43 @@ export class TypeORMTripleRepository implements ITripleRepository {
 
             const triples = await this.repo.find({
                 where: { project: { id: projectId } },
-                relations: ["project"]
+                relations: ["project"],
+                order: { id: "ASC" }
             });
 
             return success(
                 triples.map((triple) => this.mapper.toDomain(triple))
             );
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async updateTags(request: UpdateTagsRequest): Promise<TripleResponse> {
+        const { id, noun1, verb, noun2, problem } = request;
+
+        try {
+            const foundTriple = await this.repo.findOne({
+                where: { id },
+                relations: ["project"]
+            });
+
+            if (!foundTriple) {
+                return failure(
+                    new NotFoundError(`Triple with id ${id} not found`)
+                );
+            }
+
+            foundTriple.tr1 = noun1.tr;
+            foundTriple.sc1 = noun1.sc;
+            foundTriple.verbDomain = verb.domain;
+            foundTriple.tr2 = noun2.tr;
+            foundTriple.sc2 = noun2.sc;
+            foundTriple.problem = problem;
+
+            const savedTriple = await this.repo.save(foundTriple);
+
+            return success(this.mapper.toDomain(savedTriple));
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

@@ -11,6 +11,7 @@ const controller = TripleController(
     typeORMProjectRepository
 );
 
-router.get("/:projectId", requireUser, controller.getAllForProject);
+router.get("/project/:projectId", requireUser, controller.getAllForProject);
+router.patch("/:tripleId", requireUser, controller.updateTags);
 
 export default router;
