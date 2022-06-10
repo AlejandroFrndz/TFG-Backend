@@ -6,7 +6,8 @@ import { Repository } from "typeorm";
 import {
     ILexicalDomainTagRepository,
     LexicalDomainTag,
-    LexicalDomainTagResponse
+    LexicalDomainTagResponse,
+    LexicalDomainTagsResponse
 } from "../../domain";
 import { LexicalDomainTagEntity } from "./lexicalDomainTag.model";
 
@@ -38,6 +39,16 @@ export class TypeORMLexicalDomainTagRepository
             const savedTag = await this.repo.save(newTag);
 
             return success(this.mapper.toDomain(savedTag));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async findAll(): Promise<LexicalDomainTagsResponse> {
+        try {
+            const tags = await this.repo.find();
+
+            return success(tags.map((tag) => this.mapper.toDomain(tag)));
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

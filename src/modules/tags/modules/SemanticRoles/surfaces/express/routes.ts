@@ -8,5 +8,6 @@ const router = Router();
 const controller = SemanticRoleTagController(typeORMSemanticRoleTagRepository);
 
 router.post("/", requireAdmin, controller.create);
+router.get("/", controller.findAll);
 
 export default router;

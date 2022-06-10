@@ -8,6 +8,12 @@ export type LexicalDomainTagResponse = FailureOrSuccess<
     LexicalDomainTag
 >;
 
+export type LexicalDomainTagsResponse = FailureOrSuccess<
+    UnexpectedError | NotFoundError | PrimaryKeyConstraintError,
+    LexicalDomainTag[]
+>;
+
 export interface ILexicalDomainTagRepository {
     create(tag: LexicalDomainTag): Promise<LexicalDomainTagResponse>;
+    findAll(): Promise<LexicalDomainTagsResponse>;
 }

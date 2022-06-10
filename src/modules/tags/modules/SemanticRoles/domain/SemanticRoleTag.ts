@@ -1,4 +1,4 @@
-export type SemanticRolTag = {
+export type SemanticRoleTag = {
     tag: string;
     definition: string | null;
 };

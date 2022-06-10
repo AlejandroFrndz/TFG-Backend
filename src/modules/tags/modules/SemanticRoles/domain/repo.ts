@@ -1,13 +1,19 @@
 import { FailureOrSuccess } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
 import { PrimaryKeyConstraintError } from "src/core/logic/errors/PrimaryKeyConstraintError";
-import { SemanticRolTag } from "./SemanticRoleTag";
+import { SemanticRoleTag } from "./SemanticRoleTag";
 
 export type SemanticRoleTagResponse = FailureOrSuccess<
     UnexpectedError | NotFoundError | PrimaryKeyConstraintError,
-    SemanticRolTag
+    SemanticRoleTag
+>;
+
+export type SemanticRoleTagsResponse = FailureOrSuccess<
+    UnexpectedError | NotFoundError | PrimaryKeyConstraintError,
+    SemanticRoleTag[]
 >;
 
 export interface ISemanticRoleTagRepository {
-    create(tag: SemanticRolTag): Promise<SemanticRoleTagResponse>;
+    create(tag: SemanticRoleTag): Promise<SemanticRoleTagResponse>;
+    findAll(): Promise<SemanticRoleTagsResponse>;
 }

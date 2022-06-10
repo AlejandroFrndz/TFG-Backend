@@ -1,7 +1,8 @@
 import {
     ISemanticCategoryTagRepository,
     SemanticCategoryTag,
-    SemanticCategoryTagResponse
+    SemanticCategoryTagResponse,
+    SemanticCategoryTagsResponse
 } from "#tags/modules/SemanticCategories/domain";
 import { Mapper } from "src/core/domain/mapper";
 import { failure, success } from "src/core/logic";
@@ -10,7 +11,7 @@ import {
     PrimaryKeyConstraintError,
     UnexpectedError
 } from "src/core/logic/errors";
-import { Repository } from "typeorm";
+import { In, Repository } from "typeorm";
 import { SemanticCategoryTagEntity } from "./semanticCategoryTag.model";
 
 export class TypeORMSemanticCategoryTagRepository
@@ -67,6 +68,51 @@ export class TypeORMSemanticCategoryTagRepository
             savedTag.subTags = [];
 
             return success(this.mapper.toDomain(savedTag));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    private async _recursivelyLoadSubTags(tags: SemanticCategoryTagEntity[]) {
+        for (const tag of tags) {
+            const loadedSubTags: SemanticCategoryTagEntity[] = [];
+
+            for (const subTag of tag.subTags) {
+                const savedSubTag = (await this.repo.findOne({
+                    where: { tag: subTag.tag },
+                    relations: { ancestor: true, subTags: true }
+                })) as SemanticCategoryTagEntity;
+
+                loadedSubTags.push(savedSubTag);
+            }
+
+            await this._recursivelyLoadSubTags(loadedSubTags);
+
+            tag.subTags = loadedSubTags;
+        }
+    }
+
+    async findAll(): Promise<SemanticCategoryTagsResponse> {
+        try {
+            // The IsNull find option of TypeORM does not work on relations for some reason
+            // Because of this, we need to get all the tags and manually filter out those without ancestor
+            const firstLevelTagsIds = (
+                await this.repo.find({
+                    select: ["tag", "ancestor"],
+                    relations: ["ancestor"]
+                })
+            )
+                .filter((tag) => tag.ancestor === null)
+                .map((tag) => tag.tag);
+
+            const tags = await this.repo.find({
+                where: { tag: In(firstLevelTagsIds) },
+                relations: ["ancestor", "subTags"]
+            });
+
+            await this._recursivelyLoadSubTags(tags);
+
+            return success(tags.map((tag) => this.mapper.toDomain(tag)));
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

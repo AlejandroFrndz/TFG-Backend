@@ -10,5 +10,6 @@ const controller = SemanticCategoryTagController(
 );
 
 router.post("/", requireAdmin, controller.create);
+router.get("/", controller.findAll);
 
 export default router;

@@ -1,5 +1,5 @@
 import { ILexicalDomainTagRepository } from "#tags/modules/LexicalDomain/domain";
-import { NextFunction, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import { ExpressCreateLexicalDomainTagRequest } from "./types";
 
@@ -26,6 +26,23 @@ const _create =
             .json({ success: true, tag: createResponse.value });
     };
 
+const _findAll =
+    (repo: ILexicalDomainTagRepository) =>
+    async (req: Request, res: Response, next: NextFunction) => {
+        const response = await repo.findAll();
+
+        if (response.isFailure()) {
+            return next(response.error);
+        }
+
+        return res
+            .status(StatusCodes.OK)
+            .json({ success: true, tags: response.value });
+    };
+
 export const LexicalDomainTagController = (
     repo: ILexicalDomainTagRepository
-) => ({ create: _create(repo) });
+) => ({
+    create: _create(repo),
+    findAll: _findAll(repo)
+});

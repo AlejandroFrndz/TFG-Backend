@@ -11,8 +11,14 @@ export type SemanticCategoryTagResponse = FailureOrSuccess<
     SemanticCategoryTag
 >;
 
+export type SemanticCategoryTagsResponse = FailureOrSuccess<
+    UnexpectedError | NotFoundError | PrimaryKeyConstraintError,
+    SemanticCategoryTag[]
+>;
+
 export interface ISemanticCategoryTagRepository {
     create(
         tag: Omit<SemanticCategoryTag, "subTags">
     ): Promise<SemanticCategoryTagResponse>;
+    findAll(): Promise<SemanticCategoryTagsResponse>;
 }
