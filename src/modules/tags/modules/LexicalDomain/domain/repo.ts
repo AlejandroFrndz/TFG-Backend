@@ -1,7 +1,7 @@
 import { FailureOrSuccess } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
 import { PrimaryKeyConstraintError } from "src/core/logic/errors/PrimaryKeyConstraintError";
-import { LexicalDomainTag } from "./LexicalDomain";
+import { LexicalDomainTag } from "./LexicalDomainTag";
 
 export type LexicalDomainTagResponse = FailureOrSuccess<
     UnexpectedError | NotFoundError | PrimaryKeyConstraintError,

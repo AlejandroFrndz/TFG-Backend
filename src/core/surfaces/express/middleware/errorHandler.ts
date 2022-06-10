@@ -41,7 +41,7 @@ export const errorHandler: ErrorRequestHandler = (
         }
     }
 
-    console.error(req, err.message, err);
+    console.error(req.headers, req.user, req.body, err, err.message);
 
     return res.status(status).json({
         success: false,

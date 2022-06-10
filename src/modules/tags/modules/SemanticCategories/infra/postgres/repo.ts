@@ -2,7 +2,7 @@ import {
     ISemanticCategoryTagRepository,
     SemanticCategoryTag,
     SemanticCategoryTagResponse
-} from "#tags/SemanticCategories/domain";
+} from "#tags/modules/SemanticCategories/domain";
 import { Mapper } from "src/core/domain/mapper";
 import { failure, success } from "src/core/logic";
 import {
@@ -41,8 +41,10 @@ export class TypeORMSemanticCategoryTagRepository
             let ancestorTag: SemanticCategoryTagEntity | null = null;
 
             if (tag.ancestor) {
+                const lowerCaseAncestorTag = tag.ancestor.toLowerCase();
+
                 ancestorTag = await this.repo.findOne({
-                    where: { tag: tag.ancestor }
+                    where: { tag: lowerCaseAncestorTag }
                 });
 
                 if (!ancestorTag) {
@@ -60,6 +62,9 @@ export class TypeORMSemanticCategoryTagRepository
             });
 
             const savedTag = await this.repo.save(newTag);
+            // When created, subtags array is empty but TypeORM does not populate it after saving. Instead, it returns it as undefined
+            // thus breaking the mapper. We need to manually set it to an empty array
+            savedTag.subTags = [];
 
             return success(this.mapper.toDomain(savedTag));
         } catch (error) {

@@ -1,4 +1,4 @@
-import { LexicalDomainTag } from "#tags/LexicalDomain/domain";
+import { LexicalDomainTag } from "#tags/modules/LexicalDomain/domain";
 import { Mapper } from "src/core/domain/mapper";
 import { LexicalDomainTagEntity } from "./lexicalDomainTag.model";
 

@@ -6,6 +6,7 @@ import fileRouter from "#file/surfaces/express/routes";
 import projectRouter from "#project/surfaces/express/routes";
 import searchRouter from "#search/surfaces/express/routes";
 import tripleRouter from "#triple/surfaces/express/routes";
+import tagRouter from "#tags/surfaces/express/routes";
 import parseToken from "src/core/surfaces/express/middleware/parseToken";
 import cors from "cors";
 import logger from "morgan";
@@ -39,6 +40,7 @@ const setUpApp = (app: Application) => {
     app.use(`${PREFIX}/project`, projectRouter);
     app.use(`${PREFIX}/search`, searchRouter);
     app.use(`${PREFIX}/triple`, tripleRouter);
+    app.use(`${PREFIX}/tag`, tagRouter);
 
     // Error middleware
     app.use(errorHandler);

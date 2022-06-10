@@ -1,4 +1,4 @@
-import { SemanticRolTag } from "#tags/SemanticRoles/domain";
+import { SemanticRolTag } from "#tags/modules/SemanticRoles/domain";
 import { Mapper } from "src/core/domain/mapper";
 import { SemanticRoleTagEntity } from "./semanticRoleTag.model";
 

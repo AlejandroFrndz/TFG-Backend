@@ -1,8 +1,8 @@
-import { SemanticRolTag } from "#tags/SemanticRoles/domain";
+import { SemanticRolTag } from "#tags/modules/SemanticRoles/domain";
 import {
     ISemanticRoleTagRepository,
     SemanticRoleTagResponse
-} from "#tags/SemanticRoles/domain/repo";
+} from "#tags/modules/SemanticRoles/domain/repo";
 import { Mapper } from "src/core/domain/mapper";
 import { failure, success } from "src/core/logic";
 import {

@@ -1,4 +1,4 @@
-import { SemanticCategoryTag } from "#tags/SemanticCategories/domain";
+import { SemanticCategoryTag } from "#tags/modules/SemanticCategories/domain";
 import { Mapper } from "src/core/domain/mapper";
 import { SemanticCategoryTagEntity } from "./semanticCategoryTag.model";
 

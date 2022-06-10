@@ -5,5 +5,5 @@ import { SemanticCategoryTagEntity } from "./semanticCategoryTag.model";
 
 const repo = dataSource.getRepository(SemanticCategoryTagEntity);
 
-export const typeORMLexicalDomainTagRepository =
+export const typeORMSemanticCategoryTagRepository =
     new TypeORMSemanticCategoryTagRepository(repo, SemanticCategoryTagMapper);

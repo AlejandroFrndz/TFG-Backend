@@ -5,5 +5,5 @@ import { SemanticRoleTagEntity } from "./semanticRoleTag.model";
 
 const repo = dataSource.getRepository(SemanticRoleTagEntity);
 
-export const typeORMLexicalDomainTagRepository =
+export const typeORMSemanticRoleTagRepository =
     new TypeORMSemanticRoleTagRepository(repo, SemanticRoleTagMapper);
