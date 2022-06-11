@@ -6,3 +6,4 @@ src/uploads
 src/scripts/corpus_processed
 src/scripts/corpus_raw
 .vscode
+scripts/.env
