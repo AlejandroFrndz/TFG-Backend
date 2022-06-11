@@ -44,7 +44,7 @@ const _getAllForProject =
             .json({ success: true, triples: triplesResponse.value });
     };
 
-const _updateTags =
+const _update =
     (tripleRepo: ITripleRepository, projectRepo: IProjectRepository) =>
     async (
         req: ExpressUpdateTagsRequest,
@@ -67,7 +67,7 @@ const _updateTags =
             );
         }
 
-        const updateResponse = await tripleRepo.updateTags(fields);
+        const updateResponse = await tripleRepo.update(fields);
 
         if (updateResponse.isFailure()) {
             return next(updateResponse.error);
@@ -83,5 +83,5 @@ export const TripleController = (
     projectRepo: IProjectRepository
 ) => ({
     getAllForProject: _getAllForProject(tripleRepo, projectRepo),
-    updateTags: _updateTags(tripleRepo, projectRepo)
+    update: _update(tripleRepo, projectRepo)
 });

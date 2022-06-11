@@ -12,6 +12,6 @@ const controller = TripleController(
 );
 
 router.get("/project/:projectId", requireUser, controller.getAllForProject);
-router.patch("/:tripleId", requireUser, controller.updateTags);
+router.patch("/:tripleId", requireUser, controller.update);
 
 export default router;

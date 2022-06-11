@@ -4,7 +4,7 @@ import {
     ITripleRepository,
     TripleResponse,
     TriplesResponse,
-    UpdateTagsRequest
+    UpdateTripleRequest
 } from "#triple/domain/repo";
 import { Mapper } from "src/core/domain/mapper";
 import { failure, success } from "src/core/logic";
@@ -92,7 +92,7 @@ export class TypeORMTripleRepository implements ITripleRepository {
         }
     }
 
-    async updateTags(request: UpdateTagsRequest): Promise<TripleResponse> {
+    async update(request: UpdateTripleRequest): Promise<TripleResponse> {
         const { id, noun1, verb, noun2, problem } = request;
 
         try {
@@ -109,7 +109,10 @@ export class TypeORMTripleRepository implements ITripleRepository {
 
             foundTriple.tr1 = noun1.tr;
             foundTriple.sc1 = noun1.sc;
+            foundTriple.noun1 = noun1.noun;
+            foundTriple.verb = verb.verb;
             foundTriple.verbDomain = verb.domain;
+            foundTriple.noun2 = noun2.noun;
             foundTriple.tr2 = noun2.tr;
             foundTriple.sc2 = noun2.sc;
             foundTriple.problem = problem;

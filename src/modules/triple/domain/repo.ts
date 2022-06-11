@@ -12,7 +12,7 @@ export type TripleResponse = FailureOrSuccess<
     Triple
 >;
 
-export type UpdateTagsRequest = Pick<
+export type UpdateTripleRequest = Pick<
     Triple,
     "noun1" | "verb" | "noun2" | "problem" | "id"
 >;
@@ -23,5 +23,5 @@ export interface ITripleRepository {
         projectId: string
     ): Promise<TriplesResponse>;
     getAllForProject(projectId: string): Promise<TriplesResponse>;
-    updateTags(request: UpdateTagsRequest): Promise<TripleResponse>;
+    update(request: UpdateTripleRequest): Promise<TripleResponse>;
 }
