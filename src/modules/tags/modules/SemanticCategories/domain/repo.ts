@@ -1,4 +1,4 @@
-import { FailureOrSuccess } from "src/core/logic";
+import { EmptyResponse, FailureOrSuccess } from "src/core/logic";
 import {
     NotFoundError,
     PrimaryKeyConstraintError,
@@ -21,4 +21,5 @@ export interface ISemanticCategoryTagRepository {
         tag: Omit<SemanticCategoryTag, "subTags">
     ): Promise<SemanticCategoryTagResponse>;
     findAll(): Promise<SemanticCategoryTagsResponse>;
+    delete(tagName: string): Promise<EmptyResponse>;
 }

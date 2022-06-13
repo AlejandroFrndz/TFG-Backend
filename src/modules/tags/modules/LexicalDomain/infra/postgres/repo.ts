@@ -1,6 +1,6 @@
 import { Mapper } from "src/core/domain/mapper";
-import { failure, success } from "src/core/logic";
-import { UnexpectedError } from "src/core/logic/errors";
+import { EmptyResponse, failure, success } from "src/core/logic";
+import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
 import { PrimaryKeyConstraintError } from "src/core/logic/errors/PrimaryKeyConstraintError";
 import { Repository } from "typeorm";
 import {
@@ -49,6 +49,24 @@ export class TypeORMLexicalDomainTagRepository
             const tags = await this.repo.find();
 
             return success(tags.map((tag) => this.mapper.toDomain(tag)));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async delete(tagName: string): Promise<EmptyResponse> {
+        try {
+            const tag = await this.repo.findOne({ where: { tag: tagName } });
+
+            if (!tag) {
+                return failure(
+                    new NotFoundError(`Lexical domain tag ${tagName} not found`)
+                );
+            }
+
+            await this.repo.remove(tag);
+
+            return success(null);
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

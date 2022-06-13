@@ -5,7 +5,7 @@ import {
     SemanticCategoryTagsResponse
 } from "#tags/modules/SemanticCategories/domain";
 import { Mapper } from "src/core/domain/mapper";
-import { failure, success } from "src/core/logic";
+import { EmptyResponse, failure, success } from "src/core/logic";
 import {
     NotFoundError,
     PrimaryKeyConstraintError,
@@ -113,6 +113,24 @@ export class TypeORMSemanticCategoryTagRepository
             await this._recursivelyLoadSubTags(tags);
 
             return success(tags.map((tag) => this.mapper.toDomain(tag)));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async delete(tagName: string): Promise<EmptyResponse> {
+        try {
+            const tag = await this.repo.findOne({ where: { tag: tagName } });
+
+            if (!tag) {
+                return failure(
+                    new NotFoundError(`Semantic Category ${tagName} not found`)
+                );
+            }
+
+            await this.repo.remove(tag);
+
+            return success(null);
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

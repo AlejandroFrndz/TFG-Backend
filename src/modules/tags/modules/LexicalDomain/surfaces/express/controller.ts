@@ -1,7 +1,10 @@
 import { ILexicalDomainTagRepository } from "#tags/modules/LexicalDomain/domain";
 import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
-import { ExpressCreateLexicalDomainTagRequest } from "./types";
+import {
+    ExpressCreateLexicalDomainTagRequest,
+    ExpressDeleteLexicalDomainTagRequest
+} from "./types";
 
 const _create =
     (repo: ILexicalDomainTagRepository) =>
@@ -40,9 +43,28 @@ const _findAll =
             .json({ success: true, tags: response.value });
     };
 
+const _delete =
+    (repo: ILexicalDomainTagRepository) =>
+    async (
+        req: ExpressDeleteLexicalDomainTagRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
+        const { tagName } = req.params;
+
+        const response = await repo.delete(tagName);
+
+        if (response.isFailure()) {
+            return next(response.error);
+        }
+
+        return res.sendStatus(StatusCodes.NO_CONTENT);
+    };
+
 export const LexicalDomainTagController = (
     repo: ILexicalDomainTagRepository
 ) => ({
     create: _create(repo),
-    findAll: _findAll(repo)
+    findAll: _findAll(repo),
+    delete: _delete(repo)
 });

@@ -11,5 +11,6 @@ const controller = LexicalDomainTagController(
 
 router.post("/", requireAdmin, controller.create);
 router.get("/", controller.findAll);
+router.delete("/:tagName", requireAdmin, controller.delete);
 
 export default router;

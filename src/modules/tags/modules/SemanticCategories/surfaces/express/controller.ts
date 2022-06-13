@@ -1,7 +1,10 @@
 import { NextFunction, Response, Request } from "express";
 import { StatusCodes } from "http-status-codes";
 import { ISemanticCategoryTagRepository } from "../../domain";
-import { ExpressCreateSemanticCategoryTagRequest } from "./types";
+import {
+    ExpressCreateSemanticCategoryTagRequest,
+    ExpressDeleteSemanticCategoryTagRequest
+} from "./types";
 
 const _create =
     (repo: ISemanticCategoryTagRepository) =>
@@ -36,9 +39,27 @@ const _findAll =
             .json({ success: true, tags: response.value });
     };
 
+const _delete =
+    (repo: ISemanticCategoryTagRepository) =>
+    async (
+        req: ExpressDeleteSemanticCategoryTagRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
+        const { tagName } = req.params;
+
+        const response = await repo.delete(tagName);
+
+        if (response.isFailure()) {
+            return next(response.error);
+        }
+
+        return res.sendStatus(StatusCodes.NO_CONTENT);
+    };
 export const SemanticCategoryTagController = (
     repo: ISemanticCategoryTagRepository
 ) => ({
     create: _create(repo),
-    findAll: _findAll(repo)
+    findAll: _findAll(repo),
+    delete: _delete(repo)
 });
