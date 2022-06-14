@@ -6,13 +6,15 @@ import { TagsController } from "./controller";
 import { typeORMLexicalDomainTagRepository } from "#tags/modules/LexicalDomain/infra/postgres";
 import { typeORMSemanticCategoryTagRepository } from "#tags/modules/SemanticCategories/infra/postgres";
 import { typeORMSemanticRoleTagRepository } from "#tags/modules/SemanticRoles/infra/postgres";
+import { typeORMErrorTagRepository } from "#tags/modules/Errors/infra";
 
 const router = Router();
 
 const controller = TagsController(
     typeORMLexicalDomainTagRepository,
     typeORMSemanticCategoryTagRepository,
-    typeORMSemanticRoleTagRepository
+    typeORMSemanticRoleTagRepository,
+    typeORMErrorTagRepository
 );
 
 router.get("/", controller.findAll);
