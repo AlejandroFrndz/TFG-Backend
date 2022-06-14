@@ -44,7 +44,7 @@ export class TypeORMErrorTagRepository implements IErrorTagRepository {
 
     async findAll(): Promise<ErrorTagsResponse> {
         try {
-            const tags = await this.repo.find();
+            const tags = await this.repo.find({ order: { errorCode: "ASC" } });
 
             return success(tags.map((tag) => this.mapper.toDomain(tag)));
         } catch (error) {
