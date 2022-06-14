@@ -1,5 +1,7 @@
-// NODE_PATH=./ npx ts-node --transpile-only -r tsconfig-paths/register
+// NODE_PATH=./ npx ts-node --transpile-only -r tsconfig-paths/register ./scripts/backfillTags.ts
 
+import { ErrorTag } from "#tags/modules/Errors/domain";
+import { ErrorTagEntity } from "#tags/modules/Errors/infra/errorTag.model";
 import { LexicalDomainTag } from "#tags/modules/LexicalDomain/domain";
 import { LexicalDomainTagEntity } from "#tags/modules/LexicalDomain/infra/postgres/lexicalDomainTag.model";
 import { SemanticCategoryTagEntity } from "#tags/modules/SemanticCategories/infra/postgres/semanticCategoryTag.model";
@@ -260,6 +262,13 @@ const SEMANTIC_CATEGORY_TAGS: { tag: string; ancestor: string | null }[] = [
     { tag: "optical phenomenon", ancestor: "phenomenon" }
 ];
 
+const ERROR_TAGS: ErrorTag[] = [
+    { errorCode: 0, humanReadable: "Error" },
+    { errorCode: 1, humanReadable: "Useless (now)" },
+    { errorCode: 2, humanReadable: "OK (w/ minor modifications)" },
+    { errorCode: 3, humanReadable: "OK (w/ major modifications)" }
+];
+
 const dataSource = new DataSource(config);
 
 dataSource
@@ -274,6 +283,7 @@ dataSource
         const semanticRolesRepo = dataSource.getRepository(
             SemanticRoleTagEntity
         );
+        const errorsRepo = dataSource.getRepository(ErrorTagEntity);
 
         const lexicalDomainTags = LEXICAL_DOMAIN_TAGS.map((tag) =>
             lexicalDomainRepo.create(tag)
@@ -289,7 +299,16 @@ dataSource
             semanticRoleTags.map((tag) => semanticRolesRepo.save(tag))
         );
 
-        await Promise.all([lexicalDomainPromise, semanticRolePromise]);
+        const errorTags = ERROR_TAGS.map((tag) => errorsRepo.create(tag));
+        const errorPromise = Promise.all(
+            errorTags.map((tag) => errorsRepo.save(tag))
+        );
+
+        await Promise.all([
+            lexicalDomainPromise,
+            semanticRolePromise,
+            errorPromise
+        ]);
 
         //Can't insert semantic categories in parallel as they depend of each other given the self Many-to-One relation
         for (const semTag of SEMANTIC_CATEGORY_TAGS) {
