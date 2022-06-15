@@ -1,5 +1,3 @@
-import { PutObjectCommand } from "@aws-sdk/client-s3";
-import { createReadStream } from "fs";
 import { config } from "src/app/config";
 import { EmptyResponse, failure, success } from "src/core/logic";
 import { UnexpectedError } from "src/core/logic/errors";

@@ -5,6 +5,8 @@ import { typeORMSearchRepository } from "#search/infra";
 import { S3SearchService } from "#search/services/AWS/S3";
 import { FileSystemSearchService } from "#search/services/FileSystem";
 import { typeORMTripleRepository } from "#triple/infra";
+import { TripleFileMapper } from "#triple/infra/mapper";
+import { FileSystemTripleService } from "#triple/services/FileSystem";
 import { Router } from "express";
 import { requireUser } from "src/core/surfaces/express/middleware/auth";
 import { ProjectController } from "./controller";
@@ -19,7 +21,9 @@ const controller = ProjectController(
     FileSystemSearchService,
     S3ProjectService,
     FileSystemProjectService,
-    typeORMTripleRepository
+    typeORMTripleRepository,
+    FileSystemTripleService,
+    TripleFileMapper
 );
 
 router.get("/:projectId", requireUser, controller.findById);
@@ -31,5 +35,6 @@ router.post(
     controller.handleCorpusUpload
 );
 router.get("/:projectId/runSearches", requireUser, controller.runSearches);
+router.get("/:projectId/finishTagging", requireUser, controller.finishTagging);
 
 export default router;

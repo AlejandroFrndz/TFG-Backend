@@ -6,11 +6,14 @@ import { ISearchRepository } from "#search/domain";
 import { IS3SearchService } from "#search/services/AWS/S3";
 import { IFileSystemSearchService } from "#search/services/FileSystem";
 import { ITripleRepository } from "#triple/domain/repo";
+import { ITripleFileMapper } from "#triple/infra/mapper";
+import { IFileSystemTripleService } from "#triple/services/FileSystem";
 import { User } from "#user/domain";
-import { NextFunction, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import { BadRequestError, ForbiddenError } from "src/core/logic/errors";
 import {
+    ExpressFinishTaggingRequest,
     ExpressGetProjectRequest,
     ExpressRunSearchesRequest,
     ExpressUpdateProjectDetailsRequest,
@@ -338,6 +341,58 @@ const _runSearches =
         });
     };
 
+const _finishTagging =
+    (
+        projectRepo: IProjectRepository,
+        tripleRepo: ITripleRepository,
+        fileSystemProjectService: IFileSystemProjectService,
+        fileSystemTripleService: IFileSystemTripleService,
+        tripleFileMapper: ITripleFileMapper
+    ) =>
+    async (
+        req: ExpressFinishTaggingRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
+        const { projectId } = req.params;
+
+        const projectResponse = await projectRepo.findById(projectId);
+
+        if (projectResponse.isFailure()) {
+            return next(projectResponse.error);
+        }
+
+        const project = projectResponse.value;
+
+        if (project.owner !== (req.user as User).id) {
+            return next(
+                new ForbiddenError(
+                    "You cannot edit a project that does not belong to you"
+                )
+            );
+        }
+
+        const triplesResponse = await tripleRepo.getAllForProject(projectId);
+
+        if (triplesResponse.isFailure()) {
+            return next(triplesResponse.error);
+        }
+
+        const triples = triplesResponse.value;
+
+        const writeTriplesResponse =
+            await fileSystemTripleService.writeTriplesToFile(
+                projectId,
+                triples.map((triple) => tripleFileMapper.toFile(triple))
+            );
+
+        if (writeTriplesResponse.isFailure()) {
+            return next(writeTriplesResponse.error);
+        }
+
+        return res.sendStatus(StatusCodes.NO_CONTENT);
+    };
+
 export const ProjectController = (
     projectRepo: IProjectRepository,
     searchRepo: ISearchRepository,
@@ -345,7 +400,9 @@ export const ProjectController = (
     fileSystemSearchService: IFileSystemSearchService,
     s3ProjectService: IS3ProjectService,
     fileSystemProjectService: IFileSystemProjectService,
-    tripleRepo: ITripleRepository
+    tripleRepo: ITripleRepository,
+    fileSystemTripleService: IFileSystemTripleService,
+    tripleFileMapper: ITripleFileMapper
 ) => ({
     findById: _findById(projectRepo),
     updateDetails: _updateDetails(projectRepo),
@@ -360,5 +417,12 @@ export const ProjectController = (
         s3SearchService,
         fileSystemSearchService,
         tripleRepo
+    ),
+    finishTagging: _finishTagging(
+        projectRepo,
+        tripleRepo,
+        fileSystemProjectService,
+        fileSystemTripleService,
+        tripleFileMapper
     )
 });

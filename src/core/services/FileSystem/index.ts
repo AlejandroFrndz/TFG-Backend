@@ -3,6 +3,7 @@ import path from "path";
 import { failure, FailureOrSuccess, success } from "src/core/logic";
 import { UnexpectedError } from "src/core/logic/errors";
 import { parse } from "csv-parse";
+import { format } from "@fast-csv/format";
 import { finished } from "stream/promises";
 
 export type FileSystemResponse = FailureOrSuccess<UnexpectedError, null>;
@@ -51,4 +52,38 @@ export const parseTsvFile = async (fileName: string): Promise<string[][]> => {
 
     await finished(parser);
     return records;
+};
+
+export const writeTsvFile = async ({
+    fileName,
+    data,
+    includeHeaders = false
+}: {
+    fileName: string;
+    data: Record<string, string | number | null>[];
+    includeHeaders?: boolean;
+}): Promise<void> => {
+    return new Promise((resolve, reject) => {
+        if (data.length === 0) {
+            reject("Empty data");
+        }
+
+        const tsvStream = format({ delimiter: "\t" });
+
+        const ws = fs.createWriteStream(fileName);
+
+        tsvStream
+            .pipe(ws)
+            .once("error", (error) => reject(error))
+            .once("finish", () => resolve());
+
+        if (includeHeaders) {
+            const headers = Object.keys(data[0]);
+            tsvStream.write(headers);
+        }
+
+        data.forEach((chunk) => tsvStream.write(chunk));
+
+        tsvStream.end();
+    });
 };

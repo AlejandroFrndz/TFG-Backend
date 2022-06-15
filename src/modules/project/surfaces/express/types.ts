@@ -10,3 +10,4 @@ export type ExpressUpdateProjectDetailsRequest = Request<
 
 export type ExpressUploadCorpusRequest = Request<{ projectId: string }>;
 export type ExpressRunSearchesRequest = Request<{ projectId: string }>;
+export type ExpressFinishTaggingRequest = Request<{ projectId: string }>;
