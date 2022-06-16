@@ -1,15 +1,32 @@
 import { FileTriple } from "#triple/domain";
-import { EmptyResponse, failure, success } from "src/core/logic";
+import { config } from "src/app/config";
+import { failure, success } from "src/core/logic";
 import { UnexpectedError } from "src/core/logic/errors";
-import { writeTsvFile } from "src/core/services/FileSystem";
+import { FileSystemResponse, writeTsvFile } from "src/core/services/FileSystem";
+import { promises as fs } from "fs";
 
 const writeTriplesToFile = async (
     projectId: string,
     triples: FileTriple[]
-): Promise<EmptyResponse> => {
+): Promise<FileSystemResponse> => {
+    try {
+        await fs.mkdir(
+            `${process.cwd()}${
+                config.isProdEnv ? "/dist" : ""
+            }/src/scripts/groupFrames/${projectId}`,
+            { recursive: true }
+        );
+    } catch (error) {
+        if ((error as any).code !== "EEXIST") {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
     try {
         await writeTsvFile({
-            fileName: "testRefactored.csv",
+            fileName: `${process.cwd()}${
+                config.isProdEnv ? "/dist" : ""
+            }/src/scripts/groupFrames/${projectId}/tags.tsv`,
             data: triples,
             includeHeaders: true
         });

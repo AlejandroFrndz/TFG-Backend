@@ -390,6 +390,13 @@ const _finishTagging =
             return next(writeTriplesResponse.error);
         }
 
+        const executeGroupFramesResponse =
+            await fileSystemProjectService.executeGroupFrames(projectId);
+
+        if (executeGroupFramesResponse.isFailure()) {
+            return next(executeGroupFramesResponse.error);
+        }
+
         return res.sendStatus(StatusCodes.NO_CONTENT);
     };
 
