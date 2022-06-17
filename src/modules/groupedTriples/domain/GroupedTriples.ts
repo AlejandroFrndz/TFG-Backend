@@ -44,3 +44,5 @@ export type FileDomainGroupedTriples = {
         sc: string | null;
     };
 };
+
+export type GroupedTriplesFileFormat = "tsv" | "csv" | "txt";

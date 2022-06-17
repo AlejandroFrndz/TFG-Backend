@@ -13,7 +13,7 @@ const writeTriplesToFile = async (
         await fs.mkdir(
             `${process.cwd()}${
                 config.isProdEnv ? "/dist" : ""
-            }/src/scripts/groupFrames/${projectId}`,
+            }/src/scripts/groupFrames/${projectId}/download`,
             { recursive: true }
         );
     } catch (error) {

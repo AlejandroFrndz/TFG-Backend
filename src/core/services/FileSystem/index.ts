@@ -57,18 +57,20 @@ export const parseTsvFile = async (fileName: string): Promise<string[][]> => {
 export const writeTsvFile = async ({
     fileName,
     data,
-    includeHeaders = false
+    includeHeaders = false,
+    csv = false
 }: {
     fileName: string;
     data: Record<string, string | number | null>[];
     includeHeaders?: boolean;
+    csv?: boolean;
 }): Promise<void> => {
     return new Promise((resolve, reject) => {
         if (data.length === 0) {
             reject("Empty data");
         }
 
-        const tsvStream = format({ delimiter: "\t" });
+        const tsvStream = format({ delimiter: `${csv ? "," : "\t"}` });
 
         const ws = fs.createWriteStream(fileName);
 

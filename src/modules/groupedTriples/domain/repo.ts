@@ -14,5 +14,6 @@ export type GroupedTriplesArrayResponse = FailureOrSuccess<
 
 export interface IGroupedTriplesRepository {
     create(params: GroupedTriples): Promise<GroupedTriplesResponse>;
+    getAllForProject(projectId: string): Promise<GroupedTriplesArrayResponse>;
     removeAllForProject(projectId: string): Promise<EmptyResponse>;
 }

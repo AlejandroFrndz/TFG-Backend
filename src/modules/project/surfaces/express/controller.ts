@@ -442,6 +442,10 @@ const _finishTagging =
             return next(finishTaggingResponse.error);
         }
 
+        await fileSystemGroupedTriplesService.deleteGroupedTriplesDir(
+            projectId
+        );
+
         return res
             .status(StatusCodes.OK)
             .json({ success: true, project: finishTaggingResponse.value });
