@@ -1,3 +1,5 @@
+import { IGroupedTriplesRepository } from "#groupedTriples/domain";
+import { IFileSystemGroupedTriplesService } from "#groupedTriples/services/FileSystem";
 import { Language } from "#project/domain";
 import { IProjectRepository } from "#project/domain/repo";
 import { IS3ProjectService } from "#project/services/AWS/S3";
@@ -11,7 +13,11 @@ import { IFileSystemTripleService } from "#triple/services/FileSystem";
 import { User } from "#user/domain";
 import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
-import { BadRequestError, ForbiddenError } from "src/core/logic/errors";
+import {
+    BadRequestError,
+    ForbiddenError,
+    UnexpectedError
+} from "src/core/logic/errors";
 import {
     ExpressFinishTaggingRequest,
     ExpressGetProjectRequest,
@@ -347,7 +353,9 @@ const _finishTagging =
         tripleRepo: ITripleRepository,
         fileSystemProjectService: IFileSystemProjectService,
         fileSystemTripleService: IFileSystemTripleService,
-        tripleFileMapper: ITripleFileMapper
+        tripleFileMapper: ITripleFileMapper,
+        groupedTriplesRepo: IGroupedTriplesRepository,
+        fileSystemGroupedTriplesService: IFileSystemGroupedTriplesService
     ) =>
     async (
         req: ExpressFinishTaggingRequest,
@@ -397,6 +405,33 @@ const _finishTagging =
             return next(executeGroupFramesResponse.error);
         }
 
+        const fileGroupedTriplesResponse =
+            await fileSystemGroupedTriplesService.parseGroupedTriplesFile(
+                projectId
+            );
+
+        if (fileGroupedTriplesResponse.isFailure()) {
+            return next(fileGroupedTriplesResponse.error);
+        }
+
+        const groupedTriplesPromises = fileGroupedTriplesResponse.value.map(
+            (groupedTriples) => groupedTriplesRepo.create(groupedTriples)
+        );
+
+        const groupedTriplesResponses = await Promise.all(
+            groupedTriplesPromises
+        );
+
+        if (
+            groupedTriplesResponses.some((groupedTriplesResponse) =>
+                groupedTriplesResponse.isFailure()
+            )
+        ) {
+            // Remove created triples (in case one or more were successful)
+            await groupedTriplesRepo.removeAllForProject(projectId);
+            return next(new UnexpectedError());
+        }
+
         return res.sendStatus(StatusCodes.NO_CONTENT);
     };
 
@@ -409,7 +444,9 @@ export const ProjectController = (
     fileSystemProjectService: IFileSystemProjectService,
     tripleRepo: ITripleRepository,
     fileSystemTripleService: IFileSystemTripleService,
-    tripleFileMapper: ITripleFileMapper
+    tripleFileMapper: ITripleFileMapper,
+    groupedTriplesRepo: IGroupedTriplesRepository,
+    fileSystemGroupedTriplesService: IFileSystemGroupedTriplesService
 ) => ({
     findById: _findById(projectRepo),
     updateDetails: _updateDetails(projectRepo),
@@ -430,6 +467,8 @@ export const ProjectController = (
         tripleRepo,
         fileSystemProjectService,
         fileSystemTripleService,
-        tripleFileMapper
+        tripleFileMapper,
+        groupedTriplesRepo,
+        fileSystemGroupedTriplesService
     )
 });

@@ -1,3 +1,5 @@
+import { typeORMGroupedTriplesRepository } from "#groupedTriples/infra/postgres";
+import { FileSystemGroupedTriplesService } from "#groupedTriples/services/FileSystem";
 import { typeORMProjectRepository } from "#project/infra/postgres";
 import { S3ProjectService } from "#project/services/AWS/S3";
 import { FileSystemProjectService } from "#project/services/FileSystem";
@@ -23,7 +25,9 @@ const controller = ProjectController(
     FileSystemProjectService,
     typeORMTripleRepository,
     FileSystemTripleService,
-    TripleFileMapper
+    TripleFileMapper,
+    typeORMGroupedTriplesRepository,
+    FileSystemGroupedTriplesService
 );
 
 router.get("/:projectId", requireUser, controller.findById);

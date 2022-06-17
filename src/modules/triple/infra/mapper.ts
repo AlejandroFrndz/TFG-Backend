@@ -51,7 +51,7 @@ export const TripleFileMapper: ITripleFileMapper = {
         TR2: triple.noun2.tr || "",
         SC2: triple.noun2.sc || "",
         Frame: triple.frame || "",
-        Problem: triple.problem || "",
+        Problem: triple.problem ? "?" : "",
         examples: triple.examples,
         pos: triple.pos || "",
         corpus: triple.corpus.toString(),
