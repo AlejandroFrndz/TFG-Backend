@@ -108,4 +108,71 @@ export class TypeORMProjectRepository implements IProjectRepository {
             return failure(new UnexpectedError(error));
         }
     }
+
+    async finishTagging(id: string): Promise<ProjectResponse> {
+        try {
+            const project = await this.repo.findOne({
+                where: { id },
+                relations: { owner: true }
+            });
+
+            if (!project) {
+                return failure(
+                    new NotFoundError(`Project with id ${id} not found`)
+                );
+            }
+
+            project.phase = ProjectPhase.Visualization;
+
+            const savedProject = await this.repo.save(project);
+
+            return success(this.mapper.toDomain(savedProject));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async finishPhase(
+        id: string,
+        phase: ProjectPhase
+    ): Promise<ProjectResponse> {
+        try {
+            const project = await this.repo.findOne({
+                where: { id },
+                relations: ["owner"]
+            });
+
+            if (!project) {
+                return failure(
+                    new NotFoundError(`Project with id ${id} not found`)
+                );
+            }
+
+            if (phase === ProjectPhase.Visualization) {
+                return success(this.mapper.toDomain(project));
+            }
+
+            let nextPhase: ProjectPhase;
+
+            switch (phase) {
+                case ProjectPhase.Creation:
+                    nextPhase = ProjectPhase.Analysis;
+                    break;
+                case ProjectPhase.Analysis:
+                    nextPhase = ProjectPhase.Tagging;
+                    break;
+                case ProjectPhase.Tagging:
+                    nextPhase = ProjectPhase.Visualization;
+                    break;
+            }
+
+            project.phase = nextPhase;
+
+            const savedProject = await this.repo.save(project);
+
+            return success(this.mapper.toDomain(savedProject));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
 }
