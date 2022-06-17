@@ -1,6 +1,6 @@
 import { IGroupedTriplesRepository } from "#groupedTriples/domain";
 import { IFileSystemGroupedTriplesService } from "#groupedTriples/services/FileSystem";
-import { Language } from "#project/domain";
+import { Language, ProjectPhase } from "#project/domain";
 import { IProjectRepository } from "#project/domain/repo";
 import { IS3ProjectService } from "#project/services/AWS/S3";
 import { IFileSystemProjectService } from "#project/services/FileSystem";
@@ -432,7 +432,19 @@ const _finishTagging =
             return next(new UnexpectedError());
         }
 
-        return res.sendStatus(StatusCodes.NO_CONTENT);
+        const finishTaggingResponse = await projectRepo.finishPhase(
+            projectId,
+            ProjectPhase.Tagging
+        );
+
+        if (finishTaggingResponse.isFailure()) {
+            await groupedTriplesRepo.removeAllForProject(projectId);
+            return next(finishTaggingResponse.error);
+        }
+
+        return res
+            .status(StatusCodes.OK)
+            .json({ success: true, project: finishTaggingResponse.value });
     };
 
 export const ProjectController = (
