@@ -15,6 +15,11 @@ const controller = GroupedTriplesController(
     typeORMTripleRepository
 );
 
-router.get("/:projectId/download", requireUser, controller.downloadFile);
+router.get(
+    "/project/:projectId/download",
+    requireUser,
+    controller.downloadFile
+);
+router.get("/project/:projectId", requireUser, controller.getAllForProject);
 
 export default router;

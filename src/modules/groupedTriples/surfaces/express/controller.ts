@@ -4,12 +4,16 @@ import { IProjectRepository } from "#project/domain/repo";
 import { ITripleRepository } from "#triple/domain";
 import { User } from "#user/domain";
 import { NextFunction, Response } from "express";
+import { StatusCodes } from "http-status-codes";
 import {
     BadRequestError,
     ForbiddenError,
     UnexpectedError
 } from "src/core/logic/errors";
-import { ExpressDownloadGroupedTriplesFileRequest } from "./types";
+import {
+    ExpressDownloadGroupedTriplesFileRequest,
+    ExpressGetAllGroupedTriplesForProjectRequest
+} from "./types";
 
 const _downloadFile =
     (
@@ -128,6 +132,45 @@ const _downloadFile =
         });
     };
 
+const _getAllForProject =
+    (
+        groupedTriplesRepo: IGroupedTriplesRepository,
+        projectRepo: IProjectRepository
+    ) =>
+    async (
+        req: ExpressGetAllGroupedTriplesForProjectRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
+        const { projectId } = req.params;
+
+        const projectResponse = await projectRepo.findById(projectId);
+
+        if (projectResponse.isFailure()) {
+            return next(projectResponse.error);
+        }
+
+        if (projectResponse.value.owner !== (req.user as User).id) {
+            return next(
+                new ForbiddenError(
+                    "You cannot access a project that does not belong to you"
+                )
+            );
+        }
+
+        const groupedTriplesResponse =
+            await groupedTriplesRepo.getAllForProject(projectId);
+
+        if (groupedTriplesResponse.isFailure()) {
+            return next(groupedTriplesResponse.error);
+        }
+
+        return res.status(StatusCodes.OK).json({
+            success: true,
+            groupedTriples: groupedTriplesResponse.value
+        });
+    };
+
 export const GroupedTriplesController = (
     projectRepo: IProjectRepository,
     groupedTriplesRepo: IGroupedTriplesRepository,
@@ -139,5 +182,6 @@ export const GroupedTriplesController = (
         groupedTriplesRepo,
         fileSystemGroupedTriplesService,
         tripleRepo
-    )
+    ),
+    getAllForProject: _getAllForProject(groupedTriplesRepo, projectRepo)
 });

@@ -60,7 +60,8 @@ export class TypeORMGroupedTriplesRepository
     ): Promise<GroupedTriplesArrayResponse> {
         try {
             const groupedTriples = await this.repo.find({
-                where: { projectId }
+                where: { projectId },
+                order: { combinationNum: "ASC" }
             });
 
             return success(

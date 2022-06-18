@@ -7,3 +7,7 @@ export type ExpressDownloadGroupedTriplesFileRequest = Request<
     {},
     { fileFormat: GroupedTriplesFileFormat }
 >;
+
+export type ExpressGetAllGroupedTriplesForProjectRequest = Request<{
+    projectId: string;
+}>;
