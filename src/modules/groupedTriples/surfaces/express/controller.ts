@@ -1,13 +1,9 @@
 import { IGroupedTriplesRepository } from "#groupedTriples/domain";
 import { IFileSystemGroupedTriplesService } from "#groupedTriples/services/FileSystem";
 import { IProjectRepository } from "#project/domain/repo";
-import { IFileSystemProjectService } from "#project/services/FileSystem";
 import { ITripleRepository } from "#triple/domain";
-import { ITripleFileMapper } from "#triple/infra/mapper";
-import { IFileSystemTripleService } from "#triple/services/FileSystem";
 import { User } from "#user/domain";
 import { NextFunction, Response } from "express";
-import { config } from "src/app/config";
 import {
     BadRequestError,
     ForbiddenError,
@@ -20,10 +16,7 @@ const _downloadFile =
         projectRepo: IProjectRepository,
         groupedTriplesRepo: IGroupedTriplesRepository,
         fileSystemGroupedTriplesService: IFileSystemGroupedTriplesService,
-        tripleRepo: ITripleRepository,
-        fileSystemTripleService: IFileSystemTripleService,
-        tripleFileMapper: ITripleFileMapper,
-        fileSystemProjectService: IFileSystemProjectService
+        tripleRepo: ITripleRepository
     ) =>
     async (
         req: ExpressDownloadGroupedTriplesFileRequest,
@@ -54,21 +47,29 @@ const _downloadFile =
 
         let fileName: string = "";
 
+        const groupedTriplesResponse =
+            await groupedTriplesRepo.getAllForProject(projectId);
+
+        if (groupedTriplesResponse.isFailure()) {
+            return next(groupedTriplesResponse.error);
+        }
+
+        if (groupedTriplesResponse.value.length === 0) {
+            return next(
+                new BadRequestError(
+                    "This project does not have any grouped triples yet"
+                )
+            );
+        }
+
         switch (fileFormat) {
             case "tsv":
             case "csv":
-                const groupedTriplesResponse =
-                    await groupedTriplesRepo.getAllForProject(projectId);
-
-                if (groupedTriplesResponse.isFailure()) {
-                    return next(groupedTriplesResponse.error);
-                }
-
                 const writeFileResponse =
                     await fileSystemGroupedTriplesService.writeGroupedTriplesFile(
                         {
                             projectId,
-                            triples: groupedTriplesResponse.value,
+                            groupedTriples: groupedTriplesResponse.value,
                             format: fileFormat
                         }
                     );
@@ -80,39 +81,29 @@ const _downloadFile =
                 fileName = writeFileResponse.value;
                 break;
             case "txt":
-                const triplesResponse = await tripleRepo.getAllForProject(
+                const accuracyResponse = await tripleRepo.getAccuracyForProject(
                     projectId
                 );
 
-                if (triplesResponse.isFailure()) {
-                    return next(triplesResponse.error);
+                if (accuracyResponse.isFailure()) {
+                    return next(accuracyResponse.error);
                 }
 
-                const triples = triplesResponse.value;
-
-                const writeTriplesResponse =
-                    await fileSystemTripleService.writeTriplesToFile(
-                        projectId,
-                        triples.map((triple) => tripleFileMapper.toFile(triple))
+                const writeTxtFileResponse =
+                    await fileSystemGroupedTriplesService.writeGroupedTriplesFile(
+                        {
+                            projectId,
+                            format: "txt",
+                            groupedTriples: groupedTriplesResponse.value,
+                            accuracy: accuracyResponse.value
+                        }
                     );
 
-                if (writeTriplesResponse.isFailure()) {
-                    return next(writeTriplesResponse.error);
+                if (writeTxtFileResponse.isFailure()) {
+                    return next(writeTxtFileResponse.error);
                 }
 
-                const executeGroupFramesResponse =
-                    await fileSystemProjectService.executeGroupFrames(
-                        projectId,
-                        true
-                    );
-
-                if (executeGroupFramesResponse.isFailure()) {
-                    return next(executeGroupFramesResponse.error);
-                }
-
-                fileName = `${process.cwd()}${
-                    config.isProdEnv ? "/dist" : ""
-                }/src/scripts/groupFrames/${projectId}/download/results.txt`;
+                fileName = writeTxtFileResponse.value;
                 break;
             default:
                 return next(
@@ -141,18 +132,12 @@ export const GroupedTriplesController = (
     projectRepo: IProjectRepository,
     groupedTriplesRepo: IGroupedTriplesRepository,
     fileSystemGroupedTriplesService: IFileSystemGroupedTriplesService,
-    tripleRepo: ITripleRepository,
-    fileSystemTripleService: IFileSystemTripleService,
-    tripleFileMapper: ITripleFileMapper,
-    fileSystemProjectService: IFileSystemProjectService
+    tripleRepo: ITripleRepository
 ) => ({
     downloadFile: _downloadFile(
         projectRepo,
         groupedTriplesRepo,
         fileSystemGroupedTriplesService,
-        tripleRepo,
-        fileSystemTripleService,
-        tripleFileMapper,
-        fileSystemProjectService
+        tripleRepo
     )
 });

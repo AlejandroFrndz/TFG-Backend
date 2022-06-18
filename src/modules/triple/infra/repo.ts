@@ -1,6 +1,7 @@
 import { ProjectEntity } from "#project/infra/postgres/project.model";
 import { FileDomainTriple, Triple } from "#triple/domain";
 import {
+    AccuracyResponse,
     ITripleRepository,
     TripleResponse,
     TriplesResponse,
@@ -9,7 +10,7 @@ import {
 import { Mapper } from "src/core/domain/mapper";
 import { failure, success } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
-import { Repository } from "typeorm";
+import { IsNull, Repository } from "typeorm";
 import { TripleEntity } from "./triple.model";
 
 export class TypeORMTripleRepository implements ITripleRepository {
@@ -120,6 +121,32 @@ export class TypeORMTripleRepository implements ITripleRepository {
             const savedTriple = await this.repo.save(foundTriple);
 
             return success(this.mapper.toDomain(savedTriple));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async getAccuracyForProject(projectId: string): Promise<AccuracyResponse> {
+        try {
+            const project = await this.projectRepo.findOne({
+                where: { id: projectId }
+            });
+
+            if (!project) {
+                return failure(
+                    new NotFoundError(`Project with id ${projectId} not found`)
+                );
+            }
+
+            const total = await this.repo.count({
+                where: { project: { id: projectId } }
+            });
+            const relevant = await this.repo.count({
+                where: { project: { id: projectId }, problem: IsNull() }
+            });
+            const percentage = (relevant / total) * 100;
+
+            return success({ total, relevant, percentage });
         } catch (error) {
             return failure(new UnexpectedError(error));
         }
