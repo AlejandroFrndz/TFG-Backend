@@ -51,3 +51,5 @@ export type FileTriple = {
 };
 
 export type FileDomainTriple = Omit<Triple, "id" | "project">;
+
+export type TriplesFileFormat = "tsv" | "csv";

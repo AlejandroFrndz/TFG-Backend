@@ -391,7 +391,7 @@ const _finishTagging =
         const writeTriplesResponse =
             await fileSystemTripleService.writeTriplesToFile(
                 projectId,
-                triples.map((triple) => tripleFileMapper.toFile(triple))
+                triples
             );
 
         if (writeTriplesResponse.isFailure()) {
