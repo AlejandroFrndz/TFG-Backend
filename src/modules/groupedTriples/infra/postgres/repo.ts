@@ -1,5 +1,6 @@
 import {
     GroupedTriples,
+    GroupedTriplesArrayResponse,
     GroupedTriplesResponse,
     IGroupedTriplesRepository
 } from "#groupedTriples/domain";
@@ -49,6 +50,23 @@ export class TypeORMGroupedTriplesRepository
             const createdGroupedTriples = await this.repo.save(groupedTriples);
 
             return success(this.mapper.toDomain(createdGroupedTriples));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async getAllForProject(
+        projectId: string
+    ): Promise<GroupedTriplesArrayResponse> {
+        try {
+            const groupedTriples = await this.repo.find({
+                where: { projectId },
+                order: { combinationNum: "ASC" }
+            });
+
+            return success(
+                groupedTriples.map((group) => this.mapper.toDomain(group))
+            );
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

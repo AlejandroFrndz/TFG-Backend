@@ -12,6 +12,11 @@ export type TripleResponse = FailureOrSuccess<
     Triple
 >;
 
+export type AccuracyResponse = FailureOrSuccess<
+    NotFoundError | UnexpectedError,
+    { relevant: number; total: number; percentage: number }
+>;
+
 export type UpdateTripleRequest = Pick<
     Triple,
     "noun1" | "verb" | "noun2" | "problem" | "id"
@@ -24,4 +29,5 @@ export interface ITripleRepository {
     ): Promise<TriplesResponse>;
     getAllForProject(projectId: string): Promise<TriplesResponse>;
     update(request: UpdateTripleRequest): Promise<TripleResponse>;
+    getAccuracyForProject(projectId: string): Promise<AccuracyResponse>;
 }

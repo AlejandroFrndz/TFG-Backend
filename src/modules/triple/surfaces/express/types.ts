@@ -1,4 +1,4 @@
-import { Triple } from "#triple/domain";
+import { Triple, TriplesFileFormat } from "#triple/domain";
 import { Request } from "express";
 
 type UpdateTagsRequest = Pick<
@@ -8,3 +8,9 @@ type UpdateTagsRequest = Pick<
 
 export type ExpressGetAllForProjectRequest = Request<{ projectId: string }>;
 export type ExpressUpdateTagsRequest = Request<{}, {}, UpdateTagsRequest>;
+export type ExpressDownloadTriplesFileRequest = Request<
+    { projectId: string },
+    {},
+    {},
+    { fileFormat: TriplesFileFormat }
+>;

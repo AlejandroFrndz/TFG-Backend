@@ -30,11 +30,13 @@ export class GroupedTriplesEntity {
     @Column({ type: "character varying", nullable: false })
     args1!: string;
 
+    @Column({ type: "character varying", nullable: true })
     @ManyToOne(() => SemanticRoleTagEntity, (tag) => tag.tag, {
         nullable: true
     })
     tr1!: string | null;
 
+    @Column({ type: "character varying", nullable: true })
     @ManyToOne(() => SemanticCategoryTagEntity, (tag) => tag.tag, {
         nullable: true
     })
@@ -43,6 +45,7 @@ export class GroupedTriplesEntity {
     @Column({ type: "character varying", nullable: false })
     verbs!: string;
 
+    @Column({ type: "character varying", nullable: true })
     @ManyToOne(() => LexicalDomainTagEntity, (tag) => tag.tag, {
         nullable: true
     })
@@ -51,11 +54,13 @@ export class GroupedTriplesEntity {
     @Column({ type: "character varying", nullable: false })
     args2!: string;
 
+    @Column({ type: "character varying", nullable: true })
     @ManyToOne(() => SemanticRoleTagEntity, (tag) => tag.tag, {
         nullable: true
     })
     tr2!: string | null;
 
+    @Column({ type: "character varying", nullable: true })
     @ManyToOne(() => SemanticCategoryTagEntity, (tag) => tag.tag, {
         nullable: true
     })

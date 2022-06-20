@@ -1,26 +1,25 @@
+import { typeORMGroupedTriplesRepository } from "#groupedTriples/infra/postgres";
 import { FileSystemGroupedTriplesService } from "#groupedTriples/services/FileSystem";
 import { typeORMProjectRepository } from "#project/infra/postgres";
 import { typeORMTripleRepository } from "#triple/infra";
-import { FileSystemTripleService } from "#triple/services/FileSystem";
 import { Router } from "express";
 import { requireUser } from "src/core/surfaces/express/middleware/auth";
-import { TripleController } from "./controller";
+import { GroupedTriplesController } from "./controller";
 
 const router = Router();
 
-const controller = TripleController(
-    typeORMTripleRepository,
+const controller = GroupedTriplesController(
     typeORMProjectRepository,
-    FileSystemTripleService,
-    FileSystemGroupedTriplesService
+    typeORMGroupedTriplesRepository,
+    FileSystemGroupedTriplesService,
+    typeORMTripleRepository
 );
 
-router.get("/project/:projectId", requireUser, controller.getAllForProject);
 router.get(
     "/project/:projectId/download",
     requireUser,
     controller.downloadFile
 );
-router.patch("/:tripleId", requireUser, controller.update);
+router.get("/project/:projectId", requireUser, controller.getAllForProject);
 
 export default router;

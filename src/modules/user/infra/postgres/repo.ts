@@ -2,7 +2,8 @@ import {
     CreateUserParams,
     IUserRepository,
     User,
-    UserResponse
+    UserResponse,
+    UsersResponse
 } from "#user/domain";
 import { Repository } from "typeorm";
 import { UserEntity } from "./user.model";
@@ -89,7 +90,7 @@ export class TypeORMUserRepository implements IUserRepository {
 
     async update(
         userId: string,
-        params: Partial<Omit<CreateUserParams, "isAdmin">>
+        params: Partial<CreateUserParams>
     ): Promise<UserResponse> {
         try {
             const user = await this.repo.findOne({ where: { id: userId } });
@@ -100,10 +101,11 @@ export class TypeORMUserRepository implements IUserRepository {
                 );
             }
 
-            const { username, email, password } = params;
+            const { username, email, password, isAdmin } = params;
 
             user.username = username ?? user.username;
             user.email = email ?? user.email;
+            user.isAdmin = isAdmin ?? user.isAdmin;
 
             if (password) {
                 const passwordHash = await bcrypt.hash(password, 10);
@@ -132,6 +134,16 @@ export class TypeORMUserRepository implements IUserRepository {
             await this.repo.remove(user);
 
             return success(null);
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async findAll(): Promise<UsersResponse> {
+        try {
+            const users = await this.repo.find();
+
+            return success(users.map((user) => this.mapper.toDomain(user)));
         } catch (error) {
             return failure(new UnexpectedError(error));
         }

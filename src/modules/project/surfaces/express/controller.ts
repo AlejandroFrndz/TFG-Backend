@@ -11,7 +11,7 @@ import { ITripleRepository } from "#triple/domain/repo";
 import { ITripleFileMapper } from "#triple/infra/mapper";
 import { IFileSystemTripleService } from "#triple/services/FileSystem";
 import { User } from "#user/domain";
-import { NextFunction, Request, Response } from "express";
+import { NextFunction, Response } from "express";
 import { StatusCodes } from "http-status-codes";
 import {
     BadRequestError,
@@ -391,7 +391,7 @@ const _finishTagging =
         const writeTriplesResponse =
             await fileSystemTripleService.writeTriplesToFile(
                 projectId,
-                triples.map((triple) => tripleFileMapper.toFile(triple))
+                triples
             );
 
         if (writeTriplesResponse.isFailure()) {
@@ -441,6 +441,10 @@ const _finishTagging =
             await groupedTriplesRepo.removeAllForProject(projectId);
             return next(finishTaggingResponse.error);
         }
+
+        await fileSystemGroupedTriplesService.deleteGroupedTriplesDir(
+            projectId
+        );
 
         return res
             .status(StatusCodes.OK)

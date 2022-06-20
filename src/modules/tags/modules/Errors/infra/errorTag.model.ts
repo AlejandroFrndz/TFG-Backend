@@ -11,7 +11,7 @@ export class ErrorTagEntity {
     @PrimaryColumn({ type: "smallint" })
     errorCode!: number;
 
-    @Column({ type: "character varying" })
+    @Column({ type: "character varying", nullable: false })
     humanReadable!: string;
 
     @CreateDateColumn({ type: "timestamptz" })

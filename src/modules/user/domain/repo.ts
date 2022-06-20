@@ -29,4 +29,5 @@ export interface IUserRepository {
         params: Partial<CreateUserParams>
     ): Promise<UserResponse>;
     delete(userId: string): Promise<EmptyResponse>;
+    findAll(): Promise<UsersResponse>;
 }
