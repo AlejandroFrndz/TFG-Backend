@@ -103,8 +103,7 @@ const deleteProcessedCorpusDir = async (
 };
 
 const executeGroupFrames = async (
-    projectId: string,
-    txt = false
+    projectId: string
 ): Promise<FileSystemResponse> => {
     const isProd = config.isProdEnv ? "true" : "false";
 
@@ -112,7 +111,7 @@ const executeGroupFrames = async (
         const { stderr, stdout } = await execFile(
             `${process.cwd()}${
                 config.isProdEnv ? "/dist" : ""
-            }/src/scripts/groupFrames/group-frames${txt ? "-download" : ""}.sh`,
+            }/src/scripts/groupFrames/group-frames.sh`,
             [projectId, isProd]
         );
 
