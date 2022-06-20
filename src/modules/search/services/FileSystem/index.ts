@@ -1,11 +1,18 @@
 import { Search } from "#search/domain";
 import { promises as fs } from "fs";
 import { config } from "src/app/config";
-import { EmptyResponse, failure, success } from "src/core/logic";
+import {
+    EmptyResponse,
+    failure,
+    FailureOrSuccess,
+    success
+} from "src/core/logic";
 import { UnexpectedError } from "src/core/logic/errors";
 import child_process from "child_process";
 import util from "util";
-import { deleteDir } from "src/core/services/FileSystem";
+import { deleteDir, parseTsvFile } from "src/core/services/FileSystem";
+import { FileDomainTriple } from "#triple/domain";
+import { TripleFileMapper } from "#triple/infra/mapper";
 
 const execFile = util.promisify(child_process.execFile);
 
@@ -109,6 +116,34 @@ const executeGroupTriples = async (
     }
 };
 
+const parseResultsFile = async (
+    projectId: string
+): Promise<FailureOrSuccess<UnexpectedError, FileDomainTriple[]>> => {
+    const fileName = `${_getSearchesProjectFolder(
+        projectId
+    )}/combined-searches.tsv`;
+
+    try {
+        const records = (await parseTsvFile(fileName)).slice(1);
+
+        if (!records) {
+            return success([]);
+        }
+
+        const formattedRecords: FileDomainTriple[] = [];
+
+        for (const record of records) {
+            const formattedRecord = TripleFileMapper.fromFile(record);
+
+            formattedRecords.push(formattedRecord);
+        }
+
+        return success(formattedRecords);
+    } catch (error) {
+        return failure(new UnexpectedError(error));
+    }
+};
+
 const deleteSearchesDir = async (projectId: string): Promise<EmptyResponse> => {
     return await deleteDir(`${_getSearchesProjectFolder(projectId)}`);
 };
@@ -117,7 +152,8 @@ export const FileSystemSearchService = {
     writeParameterFile,
     executeSearchTriples,
     executeGroupTriples,
-    deleteSearchesDir
+    deleteSearchesDir,
+    parseResultsFile
 };
 
 export type IFileSystemSearchService = typeof FileSystemSearchService;

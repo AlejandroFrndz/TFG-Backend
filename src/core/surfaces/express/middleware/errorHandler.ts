@@ -11,14 +11,17 @@ export const errorHandler: ErrorRequestHandler = (
 ) => {
     let status: number;
     let message: string | null = null;
+    let type: string | null = null;
 
     if (err instanceof MulterError) {
         status = StatusCodes.INTERNAL_SERVER_ERROR;
         message =
             "Something went wrong uploading your files. Please, refresh the page and try again later";
+        type = "MulterError";
     } else if (!err.type) {
         status = StatusCodes.INTERNAL_SERVER_ERROR;
         message = "An unexpected error ocurred";
+        type = "UnexpectedError";
     } else {
         switch (err.type) {
             case "NotFoundError":
@@ -30,15 +33,19 @@ export const errorHandler: ErrorRequestHandler = (
             case "BadRequestError":
                 status = StatusCodes.BAD_REQUEST;
                 break;
+            case "PrimaryKeyConstraintError":
+                status = StatusCodes.BAD_REQUEST;
+                break;
             default:
                 status = StatusCodes.INTERNAL_SERVER_ERROR;
         }
     }
 
-    console.error(req, err.message, err);
+    console.error(req.headers, req.user, req.body, err, err.message);
 
     return res.status(status).json({
         success: false,
-        error: message !== null ? message : err.message
+        error: message !== null ? message : err.message,
+        type: (err as AnyError).type ? (err as AnyError).type : type
     });
 };

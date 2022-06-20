@@ -127,6 +127,7 @@ const getProcessedCorpus = async (params: {
 
 /**
  * Temporal function to upload search results .tsv to s3 and get a signed url to access it
+ * @deprecated Do not use anymore. Results are stored in the database now
  * @param projectId
  * @returns The signed url to access the file
  */

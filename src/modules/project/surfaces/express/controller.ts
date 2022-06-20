@@ -1,15 +1,25 @@
-import { Language } from "#project/domain";
+import { IGroupedTriplesRepository } from "#groupedTriples/domain";
+import { IFileSystemGroupedTriplesService } from "#groupedTriples/services/FileSystem";
+import { Language, ProjectPhase } from "#project/domain";
 import { IProjectRepository } from "#project/domain/repo";
 import { IS3ProjectService } from "#project/services/AWS/S3";
 import { IFileSystemProjectService } from "#project/services/FileSystem";
 import { ISearchRepository } from "#search/domain";
 import { IS3SearchService } from "#search/services/AWS/S3";
 import { IFileSystemSearchService } from "#search/services/FileSystem";
+import { ITripleRepository } from "#triple/domain/repo";
+import { ITripleFileMapper } from "#triple/infra/mapper";
+import { IFileSystemTripleService } from "#triple/services/FileSystem";
 import { User } from "#user/domain";
-import { NextFunction, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import { StatusCodes } from "http-status-codes";
-import { ForbiddenError } from "src/core/logic/errors";
 import {
+    BadRequestError,
+    ForbiddenError,
+    UnexpectedError
+} from "src/core/logic/errors";
+import {
+    ExpressFinishTaggingRequest,
     ExpressGetProjectRequest,
     ExpressRunSearchesRequest,
     ExpressUpdateProjectDetailsRequest,
@@ -159,7 +169,8 @@ const _runSearches =
         searchRepo: ISearchRepository,
         projectRepo: IProjectRepository,
         s3SearchService: IS3SearchService,
-        fileSystemSearchService: IFileSystemSearchService
+        fileSystemSearchService: IFileSystemSearchService,
+        tripleRepo: ITripleRepository
     ) =>
     async (
         req: ExpressRunSearchesRequest,
@@ -292,18 +303,32 @@ const _runSearches =
             await fileSystemSearchService.executeGroupTriples(projectId);
 
         if (groupSearchesResponse.isFailure()) {
+            void fileSystemSearchService.deleteSearchesDir(projectId);
             return next(groupSearchesResponse.error);
         }
 
-        /**
-         * Temporal solution to upload the raw .tsv file to s3
-         */
+        // Read .tsv file
+        const parseResultsResponse =
+            await fileSystemSearchService.parseResultsFile(projectId);
 
-        const uploadResultResponse =
-            await s3SearchService.uploadSearchResultFile(projectId);
+        if (parseResultsResponse.isFailure()) {
+            void fileSystemSearchService.deleteSearchesDir(projectId);
+            return next(parseResultsResponse.error);
+        }
 
-        if (uploadResultResponse.isFailure()) {
-            return next(uploadResultResponse.error);
+        if (parseResultsResponse.value.length === 0) {
+            void fileSystemSearchService.deleteSearchesDir(projectId);
+            return next(new BadRequestError("Empty result files"));
+        }
+
+        const saveTriplesResponse = await tripleRepo.createMultiple(
+            parseResultsResponse.value,
+            projectId
+        );
+
+        if (saveTriplesResponse.isFailure()) {
+            void fileSystemSearchService.deleteSearchesDir(projectId);
+            return next(saveTriplesResponse.error);
         }
 
         void fileSystemSearchService.deleteSearchesDir(projectId);
@@ -318,9 +343,108 @@ const _runSearches =
 
         return res.status(StatusCodes.OK).json({
             success: true,
-            project: updateProjectResponse.value,
-            url: uploadResultResponse.value
+            project: updateProjectResponse.value
         });
+    };
+
+const _finishTagging =
+    (
+        projectRepo: IProjectRepository,
+        tripleRepo: ITripleRepository,
+        fileSystemProjectService: IFileSystemProjectService,
+        fileSystemTripleService: IFileSystemTripleService,
+        tripleFileMapper: ITripleFileMapper,
+        groupedTriplesRepo: IGroupedTriplesRepository,
+        fileSystemGroupedTriplesService: IFileSystemGroupedTriplesService
+    ) =>
+    async (
+        req: ExpressFinishTaggingRequest,
+        res: Response,
+        next: NextFunction
+    ) => {
+        const { projectId } = req.params;
+
+        const projectResponse = await projectRepo.findById(projectId);
+
+        if (projectResponse.isFailure()) {
+            return next(projectResponse.error);
+        }
+
+        const project = projectResponse.value;
+
+        if (project.owner !== (req.user as User).id) {
+            return next(
+                new ForbiddenError(
+                    "You cannot edit a project that does not belong to you"
+                )
+            );
+        }
+
+        const triplesResponse = await tripleRepo.getAllForProject(projectId);
+
+        if (triplesResponse.isFailure()) {
+            return next(triplesResponse.error);
+        }
+
+        const triples = triplesResponse.value;
+
+        const writeTriplesResponse =
+            await fileSystemTripleService.writeTriplesToFile(
+                projectId,
+                triples.map((triple) => tripleFileMapper.toFile(triple))
+            );
+
+        if (writeTriplesResponse.isFailure()) {
+            return next(writeTriplesResponse.error);
+        }
+
+        const executeGroupFramesResponse =
+            await fileSystemProjectService.executeGroupFrames(projectId);
+
+        if (executeGroupFramesResponse.isFailure()) {
+            return next(executeGroupFramesResponse.error);
+        }
+
+        const fileGroupedTriplesResponse =
+            await fileSystemGroupedTriplesService.parseGroupedTriplesFile(
+                projectId
+            );
+
+        if (fileGroupedTriplesResponse.isFailure()) {
+            return next(fileGroupedTriplesResponse.error);
+        }
+
+        const groupedTriplesPromises = fileGroupedTriplesResponse.value.map(
+            (groupedTriples) => groupedTriplesRepo.create(groupedTriples)
+        );
+
+        const groupedTriplesResponses = await Promise.all(
+            groupedTriplesPromises
+        );
+
+        if (
+            groupedTriplesResponses.some((groupedTriplesResponse) =>
+                groupedTriplesResponse.isFailure()
+            )
+        ) {
+            // Remove created triples (in case one or more were successful)
+            await groupedTriplesRepo.removeAllForProject(projectId);
+            return next(new UnexpectedError());
+        }
+
+        const finishTaggingResponse = await projectRepo.finishPhase(
+            projectId,
+            ProjectPhase.Tagging
+        );
+
+        if (finishTaggingResponse.isFailure()) {
+            await groupedTriplesRepo.removeAllForProject(projectId);
+            return next(finishTaggingResponse.error);
+        }
+
+        return res
+            .status(StatusCodes.OK)
+            .json({ success: true, project: finishTaggingResponse.value });
     };
 
 export const ProjectController = (
@@ -329,7 +453,12 @@ export const ProjectController = (
     s3SearchService: IS3SearchService,
     fileSystemSearchService: IFileSystemSearchService,
     s3ProjectService: IS3ProjectService,
-    fileSystemProjectService: IFileSystemProjectService
+    fileSystemProjectService: IFileSystemProjectService,
+    tripleRepo: ITripleRepository,
+    fileSystemTripleService: IFileSystemTripleService,
+    tripleFileMapper: ITripleFileMapper,
+    groupedTriplesRepo: IGroupedTriplesRepository,
+    fileSystemGroupedTriplesService: IFileSystemGroupedTriplesService
 ) => ({
     findById: _findById(projectRepo),
     updateDetails: _updateDetails(projectRepo),
@@ -342,6 +471,16 @@ export const ProjectController = (
         searchRepo,
         projectRepo,
         s3SearchService,
-        fileSystemSearchService
+        fileSystemSearchService,
+        tripleRepo
+    ),
+    finishTagging: _finishTagging(
+        projectRepo,
+        tripleRepo,
+        fileSystemProjectService,
+        fileSystemTripleService,
+        tripleFileMapper,
+        groupedTriplesRepo,
+        fileSystemGroupedTriplesService
     )
 });

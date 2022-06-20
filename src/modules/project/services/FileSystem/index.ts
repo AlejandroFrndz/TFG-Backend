@@ -102,10 +102,32 @@ const deleteProcessedCorpusDir = async (
     );
 };
 
+const executeGroupFrames = async (
+    projectId: string
+): Promise<FileSystemResponse> => {
+    const isProd = config.isProdEnv ? "true" : "false";
+
+    try {
+        const { stderr, stdout } = await execFile(
+            `${process.cwd()}${
+                config.isProdEnv ? "/dist" : ""
+            }/src/scripts/groupFrames/group-frames.sh`,
+            [projectId, isProd]
+        );
+
+        console.log(stdout, stderr);
+
+        return success(null);
+    } catch (error) {
+        return failure(new UnexpectedError(error));
+    }
+};
+
 export const FileSystemProjectService = {
     writeCorpusFiles,
     executeParseAndIndex,
-    deleteProcessedCorpusDir
+    deleteProcessedCorpusDir,
+    executeGroupFrames
 };
 
 export type IFileSystemProjectService = typeof FileSystemProjectService;
