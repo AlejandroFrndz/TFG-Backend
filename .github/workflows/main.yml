@@ -18,7 +18,7 @@ jobs:
               run: npm run build
 
             - name: Generate deployment package
-              run: zip -r deploy.zip dist package.json .ebextensions
+              run: zip -r deploy.zip dist package.json .ebextensions .platform
 
             - name: Get timestamp
               uses: gerred/actions/current-time@master
