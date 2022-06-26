@@ -25,3 +25,20 @@ export const expectFailure = (
 
     if (errorMessage) expect(response.error.message).toEqual(errorMessage);
 };
+
+export const expectControllerError = (
+    locals: Record<string, any> & {
+        success: boolean | null;
+        errorType: string;
+    },
+    errorType: AnyErrorType
+) => {
+    expect(locals).toMatchObject({ success: false, errorType });
+};
+
+export const expectControllerSuccess = (
+    locals: Record<string, any> & { success: boolean | null },
+    value: Record<string, any>
+) => {
+    expect(locals).toMatchObject({ success: true, ...value });
+};

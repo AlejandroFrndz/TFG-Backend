@@ -6,6 +6,7 @@ import { StatusCodes } from "http-status-codes";
 import _ from "lodash";
 import { BadRequestError } from "src/core/logic/errors";
 import {
+    ExpressAdminDeleteRequest,
     ExpressAdminUpdateUserRequest,
     ExpressFindUserByIdRequest,
     ExpressUpdateUserRequest
@@ -206,7 +207,7 @@ const _adminUpdate =
 const _adminDelete =
     (userRepo: IUserRepository) =>
     async (
-        req: ExpressAdminUpdateUserRequest,
+        req: ExpressAdminDeleteRequest,
         res: Response,
         next: NextFunction
     ) => {
