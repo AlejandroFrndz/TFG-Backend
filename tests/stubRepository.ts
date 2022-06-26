@@ -84,8 +84,8 @@ export class StubRepository<Entity extends ObjectLiteral> {
         return newEntity;
     }
 
-    async findOne(options: FindOneOptions<Entity>): Promise<Entity | null> {
-        const where = options.where;
+    async findOne(options?: FindOneOptions<Entity>): Promise<Entity | null> {
+        const where = options?.where;
 
         if (!where) {
             return this.data[0] ?? null;
@@ -106,8 +106,8 @@ export class StubRepository<Entity extends ObjectLiteral> {
         return foundEntity ?? null;
     }
 
-    async find(options: FindManyOptions<Entity>): Promise<Entity[]> {
-        const where = options.where;
+    async find(options?: FindManyOptions<Entity>): Promise<Entity[]> {
+        const where = options?.where;
 
         if (!where) {
             return this.data;
