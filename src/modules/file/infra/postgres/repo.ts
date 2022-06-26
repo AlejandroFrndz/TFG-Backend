@@ -75,7 +75,7 @@ export class TypeORMFileRepository implements IFileRepository {
 
                 project = foundProject;
             } else {
-                const createdProject = await this.projectRepo.create({ owner });
+                const createdProject = this.projectRepo.create({ owner });
 
                 project = await this.projectRepo.save(createdProject);
             }
