@@ -1,10 +1,9 @@
 import { CreateUserParams, User } from "#user/domain";
-import { v4 as uuidv4 } from "uuid";
 import { faker } from "@faker-js/faker";
 import { randomAlphaNumericString } from "src/lib/utils/helpers";
 
 const create = (params?: Partial<User>): User => ({
-    id: uuidv4(),
+    id: faker.datatype.uuid(),
     username: faker.internet.userName(),
     passwordHash: faker.git.commitSha(),
     email: faker.internet.email(),
