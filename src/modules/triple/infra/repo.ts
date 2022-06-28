@@ -82,7 +82,8 @@ export class TypeORMTripleRepository implements ITripleRepository {
             const triples = await this.repo.find({
                 where: { project: { id: projectId } },
                 relations: ["project"],
-                order: { id: "ASC" }
+                order: { id: "ASC" },
+                take: 1000
             });
 
             return success(
@@ -139,10 +140,12 @@ export class TypeORMTripleRepository implements ITripleRepository {
             }
 
             const total = await this.repo.count({
-                where: { project: { id: projectId } }
+                where: { project: { id: projectId } },
+                take: 1000
             });
             const relevant = await this.repo.count({
-                where: { project: { id: projectId }, problem: IsNull() }
+                where: { project: { id: projectId }, problem: IsNull() },
+                take: 1000
             });
             const percentage = (relevant / total) * 100;
 
