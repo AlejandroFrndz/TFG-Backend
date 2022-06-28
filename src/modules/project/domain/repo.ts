@@ -19,17 +19,5 @@ export interface IProjectRepository {
         id: string,
         projectDetails: ProjectDetails
     ): Promise<ProjectResponse>;
-    /**
-     * @deprecated Use generic finishPhase instead
-     */
-    finishCreation(id: string): Promise<ProjectResponse>;
-    /**
-     * @deprecated Use generic finishPhase instead
-     */
-    finishAnalysis(id: string): Promise<ProjectResponse>;
-    /**
-     * @deprecated Use generic finishPhase instead
-     */
-    finishTagging(id: string): Promise<ProjectResponse>;
-    finishPhase(id: string, phase: ProjectPhase): Promise<ProjectResponse>;
+    finishPhase(id: string): Promise<ProjectResponse>;
 }

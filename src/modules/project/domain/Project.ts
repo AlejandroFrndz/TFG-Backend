@@ -6,8 +6,11 @@ export enum Language {
 
 export enum ProjectPhase {
     Creation = "Creation",
+    ExecutingParse = "ExecutingParse",
     Analysis = "Analysis",
+    ExecutingSearch = "ExecutingSearch",
     Tagging = "Tagging",
+    ExecutingGroup = "ExecutingGroup",
     Visualization = "Visualization"
 }
 

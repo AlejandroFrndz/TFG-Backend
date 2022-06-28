@@ -63,79 +63,7 @@ export class TypeORMProjectRepository implements IProjectRepository {
         }
     }
 
-    async finishCreation(id: string): Promise<ProjectResponse> {
-        try {
-            const project = await this.repo.findOne({
-                where: { id },
-                relations: { owner: true }
-            });
-
-            if (!project) {
-                return failure(
-                    new NotFoundError(`Project with id ${id} not found`)
-                );
-            }
-
-            project.phase = ProjectPhase.Analysis;
-
-            const savedProject = await this.repo.save(project);
-
-            return success(this.mapper.toDomain(savedProject));
-        } catch (error) {
-            return failure(new UnexpectedError(error));
-        }
-    }
-
-    async finishAnalysis(id: string): Promise<ProjectResponse> {
-        try {
-            const project = await this.repo.findOne({
-                where: { id },
-                relations: { owner: true }
-            });
-
-            if (!project) {
-                return failure(
-                    new NotFoundError(`Project with id ${id} not found`)
-                );
-            }
-
-            project.phase = ProjectPhase.Tagging;
-
-            const savedProject = await this.repo.save(project);
-
-            return success(this.mapper.toDomain(savedProject));
-        } catch (error) {
-            return failure(new UnexpectedError(error));
-        }
-    }
-
-    async finishTagging(id: string): Promise<ProjectResponse> {
-        try {
-            const project = await this.repo.findOne({
-                where: { id },
-                relations: { owner: true }
-            });
-
-            if (!project) {
-                return failure(
-                    new NotFoundError(`Project with id ${id} not found`)
-                );
-            }
-
-            project.phase = ProjectPhase.Visualization;
-
-            const savedProject = await this.repo.save(project);
-
-            return success(this.mapper.toDomain(savedProject));
-        } catch (error) {
-            return failure(new UnexpectedError(error));
-        }
-    }
-
-    async finishPhase(
-        id: string,
-        phase: ProjectPhase
-    ): Promise<ProjectResponse> {
+    async finishPhase(id: string): Promise<ProjectResponse> {
         try {
             const project = await this.repo.findOne({
                 where: { id },
@@ -148,20 +76,29 @@ export class TypeORMProjectRepository implements IProjectRepository {
                 );
             }
 
-            if (phase === ProjectPhase.Visualization) {
+            if (project.phase === ProjectPhase.Visualization) {
                 return success(this.mapper.toDomain(project));
             }
 
             let nextPhase: ProjectPhase;
 
-            switch (phase) {
+            switch (project.phase) {
                 case ProjectPhase.Creation:
+                    nextPhase = ProjectPhase.ExecutingParse;
+                    break;
+                case ProjectPhase.ExecutingParse:
                     nextPhase = ProjectPhase.Analysis;
                     break;
                 case ProjectPhase.Analysis:
+                    nextPhase = ProjectPhase.ExecutingSearch;
+                    break;
+                case ProjectPhase.ExecutingSearch:
                     nextPhase = ProjectPhase.Tagging;
                     break;
                 case ProjectPhase.Tagging:
+                    nextPhase = ProjectPhase.ExecutingGroup;
+                    break;
+                case ProjectPhase.ExecutingGroup:
                     nextPhase = ProjectPhase.Visualization;
                     break;
             }
