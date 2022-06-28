@@ -7,7 +7,6 @@ import { typeORMSearchRepository } from "#search/infra";
 import { S3SearchService } from "#search/services/AWS/S3";
 import { FileSystemSearchService } from "#search/services/FileSystem";
 import { typeORMTripleRepository } from "#triple/infra";
-import { TripleFileMapper } from "#triple/infra/mapper";
 import { FileSystemTripleService } from "#triple/services/FileSystem";
 import { Router } from "express";
 import { requireUser } from "src/core/surfaces/express/middleware/auth";
@@ -25,7 +24,6 @@ const controller = ProjectController(
     FileSystemProjectService,
     typeORMTripleRepository,
     FileSystemTripleService,
-    TripleFileMapper,
     typeORMGroupedTriplesRepository,
     FileSystemGroupedTriplesService
 );

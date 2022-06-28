@@ -38,7 +38,7 @@ export const parseTsvFile = async (fileName: string): Promise<string[][]> => {
 
     const parser = fs
         .createReadStream(fileName)
-        .pipe(parse({ delimiter: "\t" }));
+        .pipe(parse({ delimiter: "\t", escape: false, quote: false }));
 
     parser.on("readable", () => {
         let record;
