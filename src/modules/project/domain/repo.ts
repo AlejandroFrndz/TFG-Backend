@@ -1,10 +1,15 @@
 import { FailureOrSuccess } from "src/core/logic";
 import { NotFoundError, UnexpectedError } from "src/core/logic/errors";
-import { Language, Project, ProjectPhase } from "./Project";
+import { Language, Project } from "./Project";
 
 export type ProjectResponse = FailureOrSuccess<
     NotFoundError | UnexpectedError,
     Project
+>;
+
+export type ProjectsResponse = FailureOrSuccess<
+    NotFoundError | UnexpectedError,
+    Project[]
 >;
 
 export type ProjectDetails = {
@@ -20,4 +25,5 @@ export interface IProjectRepository {
         projectDetails: ProjectDetails
     ): Promise<ProjectResponse>;
     finishPhase(id: string): Promise<ProjectResponse>;
+    findFinishedForUser(userId: string): Promise<ProjectsResponse>;
 }
