@@ -10,7 +10,7 @@ import { IFileSystemSearchService } from "#search/services/FileSystem";
 import { ITripleRepository } from "#triple/domain/repo";
 import { IFileSystemTripleService } from "#triple/services/FileSystem";
 import { User } from "#user/domain";
-import { NextFunction, Response } from "express";
+import { NextFunction, Response, Request } from "express";
 import { StatusCodes } from "http-status-codes";
 import { ForbiddenError } from "src/core/logic/errors";
 import {
@@ -482,6 +482,22 @@ const _finishTagging =
         );
     };
 
+const _findFinishedForUser =
+    (projectRepo: IProjectRepository) =>
+    async (req: Request, res: Response, next: NextFunction) => {
+        const user = req.user as User;
+
+        const projectsResponse = await projectRepo.findFinishedForUser(user.id);
+
+        if (projectsResponse.isFailure()) {
+            return next(projectsResponse.error);
+        }
+
+        return res
+            .status(StatusCodes.OK)
+            .json({ success: true, projects: projectsResponse.value });
+    };
+
 export const ProjectController = (
     projectRepo: IProjectRepository,
     searchRepo: ISearchRepository,
@@ -515,5 +531,6 @@ export const ProjectController = (
         fileSystemTripleService,
         groupedTriplesRepo,
         fileSystemGroupedTriplesService
-    )
+    ),
+    findFinishedForUser: _findFinishedForUser(projectRepo)
 });

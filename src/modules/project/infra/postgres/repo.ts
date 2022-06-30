@@ -2,7 +2,8 @@ import { Project, ProjectPhase } from "#project/domain";
 import {
     IProjectRepository,
     ProjectDetails,
-    ProjectResponse
+    ProjectResponse,
+    ProjectsResponse
 } from "#project/domain/repo";
 import { Mapper } from "src/core/domain/mapper";
 import { failure, success } from "src/core/logic";
@@ -108,6 +109,24 @@ export class TypeORMProjectRepository implements IProjectRepository {
             const savedProject = await this.repo.save(project);
 
             return success(this.mapper.toDomain(savedProject));
+        } catch (error) {
+            return failure(new UnexpectedError(error));
+        }
+    }
+
+    async findFinishedForUser(userId: string): Promise<ProjectsResponse> {
+        try {
+            const projects = await this.repo.find({
+                where: {
+                    owner: { id: userId },
+                    phase: ProjectPhase.Visualization
+                },
+                relations: ["owner"]
+            });
+
+            return success(
+                projects.map((project) => this.mapper.toDomain(project))
+            );
         } catch (error) {
             return failure(new UnexpectedError(error));
         }
