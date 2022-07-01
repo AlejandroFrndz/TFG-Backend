@@ -222,7 +222,7 @@ describe("TypeORM User Repository", () => {
                 updateResponse.value.passwordHash
             );
 
-            expect(checkPassword).toBe("Fail ");
+            expect(checkPassword).toBe(true);
         });
 
         it("Returns NotFoundError if user is not found", async () => {
