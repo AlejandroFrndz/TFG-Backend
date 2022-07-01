@@ -21,3 +21,11 @@ export type AnyError =
     | BadRequestError
     | UnauthorizedError
     | PrimaryKeyConstraintError;
+
+export type AnyErrorType =
+    | "NotFoundError"
+    | "UnexpectedError"
+    | "ForbiddenError"
+    | "BadRequestError"
+    | "UnauthorizedError"
+    | "PrimaryKeyConstraintError";
