@@ -1,6 +1,6 @@
 import { IGroupedTriplesRepository } from "#groupedTriples/domain";
 import { IFileSystemGroupedTriplesService } from "#groupedTriples/services/FileSystem";
-import { Language, ProjectPhase } from "#project/domain";
+import { Language } from "#project/domain";
 import { IProjectRepository } from "#project/domain/repo";
 import { IS3ProjectService } from "#project/services/AWS/S3";
 import { IFileSystemProjectService } from "#project/services/FileSystem";
@@ -8,16 +8,11 @@ import { ISearchRepository } from "#search/domain";
 import { IS3SearchService } from "#search/services/AWS/S3";
 import { IFileSystemSearchService } from "#search/services/FileSystem";
 import { ITripleRepository } from "#triple/domain/repo";
-import { ITripleFileMapper } from "#triple/infra/mapper";
 import { IFileSystemTripleService } from "#triple/services/FileSystem";
 import { User } from "#user/domain";
-import { NextFunction, Response } from "express";
+import { NextFunction, Response, Request } from "express";
 import { StatusCodes } from "http-status-codes";
-import {
-    BadRequestError,
-    ForbiddenError,
-    UnexpectedError
-} from "src/core/logic/errors";
+import { ForbiddenError } from "src/core/logic/errors";
 import {
     ExpressFinishTaggingRequest,
     ExpressGetProjectRequest,
@@ -117,6 +112,17 @@ const _handleCorpusUpload =
 
         const files = req.files as Express.Multer.File[];
 
+        const updatedProjectResponse = await projectRepo.finishPhase(projectId);
+
+        if (updatedProjectResponse.isFailure()) {
+            return next(updatedProjectResponse.error);
+        }
+
+        res.status(StatusCodes.ACCEPTED).json({
+            success: true,
+            project: updatedProjectResponse.value
+        });
+
         const writeCorpusResponse =
             await fileSystemProjectService.writeCorpusFiles(
                 files,
@@ -125,7 +131,8 @@ const _handleCorpusUpload =
             );
 
         if (writeCorpusResponse.isFailure()) {
-            return next(writeCorpusResponse.error);
+            console.log(writeCorpusResponse.error);
+            return;
         }
 
         const parseAndIndexResponse =
@@ -136,7 +143,8 @@ const _handleCorpusUpload =
             );
 
         if (parseAndIndexResponse.isFailure()) {
-            return next(parseAndIndexResponse.error);
+            console.log(parseAndIndexResponse.error);
+            return;
         }
 
         const s3UploadResponse = await s3ProjectService.uploadProcessedCorpus(
@@ -145,23 +153,20 @@ const _handleCorpusUpload =
         );
 
         if (s3UploadResponse.isFailure()) {
-            return next(s3UploadResponse.error);
+            console.log(s3UploadResponse.error);
+            return;
         }
 
-        const updateProjectResponse = await projectRepo.finishCreation(
+        const updatedProjectResponse2 = await projectRepo.finishPhase(
             project.id
         );
 
-        if (updateProjectResponse.isFailure()) {
-            return next(updateProjectResponse.error);
+        if (updatedProjectResponse2.isFailure()) {
+            console.log(updatedProjectResponse2.error);
+            return;
         }
 
         await fileSystemProjectService.deleteProcessedCorpusDir(userId);
-
-        res.status(StatusCodes.OK).json({
-            success: true,
-            project: updateProjectResponse.value
-        });
     };
 
 const _runSearches =
@@ -193,10 +198,24 @@ const _runSearches =
             );
         }
 
+        const updatedProjectResponse = await projectRepo.finishPhase(
+            projectResponse.value.id
+        );
+
+        if (updatedProjectResponse.isFailure()) {
+            return next(updatedProjectResponse.error);
+        }
+
+        res.status(StatusCodes.ACCEPTED).json({
+            success: true,
+            project: updatedProjectResponse.value
+        });
+
         const searchesResponse = await searchRepo.getAllForProject(projectId);
 
         if (searchesResponse.isFailure()) {
-            return next(searchesResponse.error);
+            console.log(searchesResponse.error);
+            return;
         }
 
         const project = projectResponse.value;
@@ -208,7 +227,8 @@ const _runSearches =
         });
 
         if (corpusResponse.isFailure()) {
-            return next(corpusResponse.error);
+            console.log(corpusResponse.error);
+            return;
         }
 
         for (const search of searches) {
@@ -224,7 +244,8 @@ const _runSearches =
                     );
 
                 if (noun1FileS3Response.isFailure()) {
-                    return next(noun1FileS3Response.error);
+                    console.log(noun1FileS3Response.error);
+                    return;
                 }
 
                 const noun1FileFileSystemResponse =
@@ -236,7 +257,8 @@ const _runSearches =
                     );
 
                 if (noun1FileFileSystemResponse.isFailure()) {
-                    return next(noun1FileFileSystemResponse.error);
+                    console.log(noun1FileFileSystemResponse.error);
+                    return;
                 }
             }
 
@@ -249,7 +271,8 @@ const _runSearches =
                     );
 
                 if (verbFileS3Response.isFailure()) {
-                    return next(verbFileS3Response.error);
+                    console.log(verbFileS3Response.error);
+                    return;
                 }
 
                 const verbFileFileSystemResponse =
@@ -261,7 +284,8 @@ const _runSearches =
                     );
 
                 if (verbFileFileSystemResponse.isFailure()) {
-                    return next(verbFileFileSystemResponse.error);
+                    console.log(verbFileFileSystemResponse.error);
+                    return;
                 }
             }
 
@@ -274,7 +298,8 @@ const _runSearches =
                     );
 
                 if (noun2FileS3Response.isFailure()) {
-                    return next(noun2FileS3Response.error);
+                    console.log(noun2FileS3Response.error);
+                    return;
                 }
 
                 const noun2FileFileSystemResponse =
@@ -286,7 +311,8 @@ const _runSearches =
                     );
 
                 if (noun2FileFileSystemResponse.isFailure()) {
-                    return next(noun2FileFileSystemResponse.error);
+                    console.log(noun2FileFileSystemResponse.error);
+                    return;
                 }
             }
 
@@ -294,7 +320,8 @@ const _runSearches =
                 await fileSystemSearchService.executeSearchTriples(search);
 
             if (execSearchResponse.isFailure()) {
-                return next(execSearchResponse.error);
+                console.log(execSearchResponse.error);
+                return;
             }
         }
 
@@ -304,7 +331,8 @@ const _runSearches =
 
         if (groupSearchesResponse.isFailure()) {
             void fileSystemSearchService.deleteSearchesDir(projectId);
-            return next(groupSearchesResponse.error);
+            console.log(groupSearchesResponse.error);
+            return;
         }
 
         // Read .tsv file
@@ -313,12 +341,8 @@ const _runSearches =
 
         if (parseResultsResponse.isFailure()) {
             void fileSystemSearchService.deleteSearchesDir(projectId);
-            return next(parseResultsResponse.error);
-        }
-
-        if (parseResultsResponse.value.length === 0) {
-            void fileSystemSearchService.deleteSearchesDir(projectId);
-            return next(new BadRequestError("Empty result files"));
+            console.log(parseResultsResponse.error);
+            return;
         }
 
         const saveTriplesResponse = await tripleRepo.createMultiple(
@@ -328,23 +352,20 @@ const _runSearches =
 
         if (saveTriplesResponse.isFailure()) {
             void fileSystemSearchService.deleteSearchesDir(projectId);
-            return next(saveTriplesResponse.error);
+            console.log(saveTriplesResponse.error);
+            return;
         }
 
         void fileSystemSearchService.deleteSearchesDir(projectId);
 
-        const updateProjectResponse = await projectRepo.finishAnalysis(
+        const updatedProjectResponse2 = await projectRepo.finishPhase(
             projectId
         );
 
-        if (updateProjectResponse.isFailure()) {
-            return next(updateProjectResponse.error);
+        if (updatedProjectResponse2.isFailure()) {
+            console.log(updatedProjectResponse2.error);
+            return;
         }
-
-        return res.status(StatusCodes.OK).json({
-            success: true,
-            project: updateProjectResponse.value
-        });
     };
 
 const _finishTagging =
@@ -353,7 +374,6 @@ const _finishTagging =
         tripleRepo: ITripleRepository,
         fileSystemProjectService: IFileSystemProjectService,
         fileSystemTripleService: IFileSystemTripleService,
-        tripleFileMapper: ITripleFileMapper,
         groupedTriplesRepo: IGroupedTriplesRepository,
         fileSystemGroupedTriplesService: IFileSystemGroupedTriplesService
     ) =>
@@ -380,10 +400,24 @@ const _finishTagging =
             );
         }
 
+        const updatedProjectResponse = await projectRepo.finishPhase(
+            project.id
+        );
+
+        if (updatedProjectResponse.isFailure()) {
+            return next(updatedProjectResponse.error);
+        }
+
+        res.status(StatusCodes.ACCEPTED).json({
+            success: true,
+            project: updatedProjectResponse.value
+        });
+
         const triplesResponse = await tripleRepo.getAllForProject(projectId);
 
         if (triplesResponse.isFailure()) {
-            return next(triplesResponse.error);
+            console.log(triplesResponse.error);
+            return;
         }
 
         const triples = triplesResponse.value;
@@ -395,14 +429,16 @@ const _finishTagging =
             );
 
         if (writeTriplesResponse.isFailure()) {
-            return next(writeTriplesResponse.error);
+            console.log(writeTriplesResponse.error);
+            return;
         }
 
         const executeGroupFramesResponse =
             await fileSystemProjectService.executeGroupFrames(projectId);
 
         if (executeGroupFramesResponse.isFailure()) {
-            return next(executeGroupFramesResponse.error);
+            console.log(executeGroupFramesResponse.error);
+            return;
         }
 
         const fileGroupedTriplesResponse =
@@ -411,7 +447,8 @@ const _finishTagging =
             );
 
         if (fileGroupedTriplesResponse.isFailure()) {
-            return next(fileGroupedTriplesResponse.error);
+            console.log(fileGroupedTriplesResponse.error);
+            return;
         }
 
         const groupedTriplesPromises = fileGroupedTriplesResponse.value.map(
@@ -429,26 +466,36 @@ const _finishTagging =
         ) {
             // Remove created triples (in case one or more were successful)
             await groupedTriplesRepo.removeAllForProject(projectId);
-            return next(new UnexpectedError());
+            return;
         }
 
-        const finishTaggingResponse = await projectRepo.finishPhase(
-            projectId,
-            ProjectPhase.Tagging
-        );
+        const finishTaggingResponse = await projectRepo.finishPhase(projectId);
 
         if (finishTaggingResponse.isFailure()) {
             await groupedTriplesRepo.removeAllForProject(projectId);
-            return next(finishTaggingResponse.error);
+            console.log(finishTaggingResponse.error);
+            return;
         }
 
         await fileSystemGroupedTriplesService.deleteGroupedTriplesDir(
             projectId
         );
+    };
+
+const _findFinishedForUser =
+    (projectRepo: IProjectRepository) =>
+    async (req: Request, res: Response, next: NextFunction) => {
+        const user = req.user as User;
+
+        const projectsResponse = await projectRepo.findFinishedForUser(user.id);
+
+        if (projectsResponse.isFailure()) {
+            return next(projectsResponse.error);
+        }
 
         return res
             .status(StatusCodes.OK)
-            .json({ success: true, project: finishTaggingResponse.value });
+            .json({ success: true, projects: projectsResponse.value });
     };
 
 export const ProjectController = (
@@ -460,7 +507,6 @@ export const ProjectController = (
     fileSystemProjectService: IFileSystemProjectService,
     tripleRepo: ITripleRepository,
     fileSystemTripleService: IFileSystemTripleService,
-    tripleFileMapper: ITripleFileMapper,
     groupedTriplesRepo: IGroupedTriplesRepository,
     fileSystemGroupedTriplesService: IFileSystemGroupedTriplesService
 ) => ({
@@ -483,8 +529,8 @@ export const ProjectController = (
         tripleRepo,
         fileSystemProjectService,
         fileSystemTripleService,
-        tripleFileMapper,
         groupedTriplesRepo,
         fileSystemGroupedTriplesService
-    )
+    ),
+    findFinishedForUser: _findFinishedForUser(projectRepo)
 });
