@@ -28,7 +28,7 @@ const controller = ProjectController(
     FileSystemGroupedTriplesService
 );
 
-router.get("/finished", requireUser, controller.findFinishedForUser); //Must be declared first to avoid matching "finished" as :projectId
+router.get("/finished", requireUser, controller.findFinishedForUser); //Must be declared first to avoid matching "finished" as :projectId.
 
 router.get("/:projectId", requireUser, controller.findById);
 router.patch("/:projectId", requireUser, controller.updateDetails);
