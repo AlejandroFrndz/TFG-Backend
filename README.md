@@ -15,3 +15,9 @@ npm run dev:watch
 ```
 npm run docker:up
 ```
+
+# Run tests
+
+```
+npm run test
+```
