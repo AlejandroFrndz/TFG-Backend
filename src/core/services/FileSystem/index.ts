@@ -66,10 +66,6 @@ export const writeTsvFile = async ({
     csv?: boolean;
 }): Promise<void> => {
     return new Promise((resolve, reject) => {
-        if (data.length === 0) {
-            reject("Empty data");
-        }
-
         const tsvStream = format({ delimiter: `${csv ? "," : "\t"}` });
 
         const ws = fs.createWriteStream(fileName);
@@ -79,7 +75,7 @@ export const writeTsvFile = async ({
             .once("error", (error) => reject(error))
             .once("finish", () => resolve());
 
-        if (includeHeaders) {
+        if (includeHeaders && data[0]) {
             const headers = Object.keys(data[0]);
             tsvStream.write(headers);
         }

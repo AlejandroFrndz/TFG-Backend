@@ -38,6 +38,9 @@ export class SearchEntity {
     @Column({ type: "boolean", nullable: false })
     isUsingSynt!: boolean;
 
+    @Column({ type: "character varying", nullable: true })
+    description!: string | null;
+
     @CreateDateColumn({ type: "timestamptz" })
     createdAt!: Date;
 

@@ -18,6 +18,7 @@ export type CreateSearchParams = {
     noun2: SearchParameter;
     isUsingSynt: boolean;
     project: string;
+    description: string | null;
 };
 
 export interface ISearchRepository {

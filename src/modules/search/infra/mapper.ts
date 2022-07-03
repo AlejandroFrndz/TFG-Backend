@@ -18,6 +18,8 @@ export const SearchMapper: Mapper<Search, SearchEntity> = {
             type: search.noun2Type,
             value: search.noun2Value
         },
-        isUsingSynt: search.isUsingSynt
+        isUsingSynt: search.isUsingSynt,
+        description: search.description,
+        createdAt: search.createdAt
     })
 };
