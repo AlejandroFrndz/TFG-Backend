@@ -12,6 +12,7 @@ export type CreateSearchBody = {
     noun2: CreateSearchRequestParameter;
     isUsingSynt: boolean;
     project: string;
+    description: string | null;
 };
 
 type CreateSearchRequest = {

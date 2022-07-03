@@ -32,7 +32,8 @@ const _create =
             noun1,
             verb,
             noun2,
-            isUsingSynt
+            isUsingSynt,
+            description
         } = parsedBody;
 
         const projectResponse = await projectRepo.findById(projectId);
@@ -103,7 +104,8 @@ const _create =
                     : (noun2.value as string)
             },
             isUsingSynt,
-            project: projectId
+            project: projectId,
+            description
         });
 
         if (searchResponse.isFailure()) {

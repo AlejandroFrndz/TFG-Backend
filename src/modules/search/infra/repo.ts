@@ -26,7 +26,8 @@ export class TypeORMSearchRepository implements ISearchRepository {
                 verb,
                 noun2,
                 isUsingSynt,
-                project: projectId
+                project: projectId,
+                description
             } = params;
 
             const project = await this.projectRepo.findOne({
@@ -47,7 +48,8 @@ export class TypeORMSearchRepository implements ISearchRepository {
                 verbValue: verb.value,
                 noun2Type: noun2.type,
                 noun2Value: noun2.value,
-                isUsingSynt
+                isUsingSynt,
+                description
             });
 
             const createdSearch = await this.repo.save(search);

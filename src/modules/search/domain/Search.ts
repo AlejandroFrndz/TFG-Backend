@@ -16,4 +16,6 @@ export type Search = {
     verb: SearchParameter;
     noun2: SearchParameter;
     isUsingSynt: boolean;
+    description: string | null;
+    createdAt: Date;
 };
